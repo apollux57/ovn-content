@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-11-21-new-letter",
+    "title": "New Letter to me",
+    "author": "me",
+    "location": "Eden",
+    "date": "November 21, 2026",
+    "paragraphs": [
+      "To the Editor,"
+    ]
+  },
+  {
     "id": "2026-11-20-new",
     "title": "A Mistake Has Been Made",
     "author": "John Packer",
