@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-21T22:26:20.962829+00:00",
+  "updated_utc": "2026-11-21T22:48:49.174301+00:00",
   "udot": {
     "cameras": [
       {
@@ -788,131 +788,131 @@
     "rwis": [
       {
         "station": "I-84 @ MP 14 Chaulk Hill",
-        "air_temp": "33.89",
-        "surface_temp": "39.4",
+        "air_temp": "34.24",
+        "surface_temp": "38.5",
         "surface_status": "Dry",
-        "wind_speed": "2.26",
-        "wind_gust": "4.60"
+        "wind_speed": "0.84",
+        "wind_gust": "2.63"
       },
       {
         "station": "I-84 @ Weber Canyon",
-        "air_temp": "34.47",
-        "surface_temp": "39.4",
+        "air_temp": "34.57",
+        "surface_temp": "39.7",
         "surface_status": "Damp",
-        "wind_speed": "4.28",
+        "wind_speed": "4.08",
         "wind_gust": "7.45"
       },
       {
         "station": "I-84 @ MP 112 Devils Slide",
-        "air_temp": "36.00",
-        "surface_temp": "40.1",
+        "air_temp": "35.84",
+        "surface_temp": "39.6",
         "surface_status": "Dry",
-        "wind_speed": "1.52",
-        "wind_gust": "3.73"
+        "wind_speed": "1.46",
+        "wind_gust": "2.85"
       },
       {
         "station": "Riverdale Rd",
-        "air_temp": "40.87",
-        "surface_temp": "44.6",
+        "air_temp": "40.04",
+        "surface_temp": "44.1",
         "surface_status": "Dry",
-        "wind_speed": "2.15",
-        "wind_gust": "6.14"
+        "wind_speed": "5.47",
+        "wind_gust": "7.67"
       },
       {
         "station": "I-84 @ MP 108 Taggarts WB",
-        "air_temp": "36.52",
+        "air_temp": "36.19",
         "surface_temp": "42.6",
         "surface_status": "Dry",
-        "wind_speed": "3.82",
-        "wind_gust": "6.80"
-      },
-      {
-        "station": "SR-39 @ MP 14 Pineview Dam",
-        "air_temp": "35.45",
-        "surface_temp": "37.8",
-        "surface_status": "Dry",
-        "wind_speed": "1.29",
-        "wind_gust": "3.29"
-      },
-      {
-        "station": "SR-167 @ Trappers Loop",
-        "air_temp": "30.67",
-        "surface_temp": "35.4",
-        "surface_status": "Wet",
-        "wind_speed": "2.04",
-        "wind_gust": "3.51"
-      },
-      {
-        "station": "I-84 @ MP 108 Taggarts EB",
-        "air_temp": "36.52",
-        "surface_temp": "39.7",
-        "surface_status": "Dry",
-        "wind_speed": "3.82",
-        "wind_gust": "6.80"
-      },
-      {
-        "station": "US-89 @ MP 406 Weber River",
-        "air_temp": "38.43",
-        "surface_temp": "42.4",
-        "surface_status": "Dry",
-        "wind_speed": "2.23",
-        "wind_gust": "6.14"
-      },
-      {
-        "station": "SR-39 @ MP 17.5 Huntsville",
-        "air_temp": "37.44",
-        "surface_temp": "40.3",
-        "surface_status": "Dry",
-        "wind_speed": "1.55",
-        "wind_gust": "2.41"
-      },
-      {
-        "station": "North Ogden Divide",
-        "air_temp": "27.76",
-        "surface_temp": "28",
-        "surface_status": null,
-        "wind_speed": "6.27",
+        "wind_speed": "5.27",
         "wind_gust": "9.21"
       },
       {
-        "station": "I-84 @ MP 30.5 Whites Valley",
-        "air_temp": "31.04",
-        "surface_temp": "42.4",
+        "station": "SR-39 @ MP 14 Pineview Dam",
+        "air_temp": "35.28",
+        "surface_temp": "37.6",
         "surface_status": "Dry",
-        "wind_speed": "3.03",
-        "wind_gust": "5.92"
+        "wind_speed": "0.00",
+        "wind_gust": "2.19"
+      },
+      {
+        "station": "SR-167 @ Trappers Loop",
+        "air_temp": "30.20",
+        "surface_temp": "34.5",
+        "surface_status": "Damp",
+        "wind_speed": "0.00",
+        "wind_gust": "1.75"
+      },
+      {
+        "station": "I-84 @ MP 108 Taggarts EB",
+        "air_temp": "36.19",
+        "surface_temp": "39.9",
+        "surface_status": "Dry",
+        "wind_speed": "5.27",
+        "wind_gust": "9.21"
+      },
+      {
+        "station": "US-89 @ MP 406 Weber River",
+        "air_temp": "38.27",
+        "surface_temp": "41.9",
+        "surface_status": "Dry",
+        "wind_speed": "2.04",
+        "wind_gust": "4.38"
+      },
+      {
+        "station": "SR-39 @ MP 17.5 Huntsville",
+        "air_temp": "37.07",
+        "surface_temp": "39.9",
+        "surface_status": "Dry",
+        "wind_speed": "1.24",
+        "wind_gust": "3.07"
+      },
+      {
+        "station": "North Ogden Divide",
+        "air_temp": "27.99",
+        "surface_temp": "28.1",
+        "surface_status": null,
+        "wind_speed": "4.11",
+        "wind_gust": "6.36"
+      },
+      {
+        "station": "I-84 @ MP 30.5 Whites Valley",
+        "air_temp": "31.22",
+        "surface_temp": "41.2",
+        "surface_status": "Dry",
+        "wind_speed": "3.49",
+        "wind_gust": "6.58"
       },
       {
         "station": "I-84 @ MP 91 Devils Gate",
         "air_temp": null,
-        "surface_temp": "38.5",
+        "surface_temp": "38.7",
         "surface_status": "Dry",
         "wind_speed": null,
         "wind_gust": null
       },
       {
         "station": "SR-39 @ MP 46 Monte Cristo",
-        "air_temp": "19.02",
+        "air_temp": "18.95",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "13.87",
-        "wind_gust": "21.98"
+        "wind_speed": "15.42",
+        "wind_gust": "21.61"
       },
       {
         "station": "SR-158 @ MP 11.5 Powder Mountain",
-        "air_temp": "21.71",
-        "surface_temp": "24.3",
+        "air_temp": "21.45",
+        "surface_temp": "23.9",
         "surface_status": "Wet",
-        "wind_speed": "5.31",
-        "wind_gust": "9.31"
+        "wind_speed": "5.93",
+        "wind_gust": "8.57"
       },
       {
         "station": "I-84 @ MP 97 Peterson",
-        "air_temp": "35.90",
-        "surface_temp": "41.9",
+        "air_temp": "35.86",
+        "surface_temp": "41.4",
         "surface_status": "Dry",
-        "wind_speed": "2.12",
-        "wind_gust": "3.51"
+        "wind_speed": "2.25",
+        "wind_gust": "3.07"
       }
     ],
     "roads": [
@@ -1180,5 +1180,29 @@
       }
     },
     "alerts": []
+  },
+  "snotel": {
+    "ben_lomond_peak": {
+      "name": "Ben Lomond Peak",
+      "triplet": "332:UT:SNTL",
+      "elevation_ft": 7690,
+      "reference_for": "Snowbasin / Nordic Valley",
+      "snow_depth_in": 14,
+      "snow_24h_in": 3,
+      "swe_in": 3.2,
+      "temp_f": 21.7,
+      "observed_at": "2026-11-21 00:00"
+    },
+    "monte_cristo": {
+      "name": "Monte Cristo",
+      "triplet": "634:UT:SNTL",
+      "elevation_ft": 8960,
+      "reference_for": "Powder Mountain / Upper Valley",
+      "snow_depth_in": 17,
+      "snow_24h_in": 4,
+      "swe_in": 3.0,
+      "temp_f": 20.3,
+      "observed_at": "2026-11-21 00:00"
+    }
   }
 }
