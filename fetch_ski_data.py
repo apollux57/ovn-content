@@ -1,11 +1,12 @@
 import json
 import os
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 import requests
 
 UDOT_API_KEY = os.environ.get("UDOT_API_KEY", "").strip()
 UDOT_BASE = "https://www.udottraffic.utah.gov/api/v2/get"
+SNOTEL_BASE = "https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data"
 NWS_HEADERS = {
     "User-Agent": "(ogdenvalleynews.com, contact@ogdenvalleynews.com)",
     "Accept": "application/geo+json",
@@ -25,6 +26,21 @@ RESORTS = {
     "snowbasin": {"name": "Snowbasin", "lat": 41.2160, "lon": -111.8569},
     "powder_mountain": {"name": "Powder Mountain", "lat": 41.3790, "lon": -111.7803},
     "nordic_valley": {"name": "Nordic Valley", "lat": 41.3106, "lon": -111.8648},
+}
+
+SNOTEL_STATIONS = {
+    "ben_lomond_peak": {
+        "triplet": "332:UT:SNTL",
+        "name": "Ben Lomond Peak",
+        "elevation_ft": 7690,
+        "reference_for": "Snowbasin / Nordic Valley",
+    },
+    "monte_cristo": {
+        "triplet": "634:UT:SNTL",
+        "name": "Monte Cristo",
+        "elevation_ft": 8960,
+        "reference_for": "Powder Mountain / Upper Valley",
+    },
 }
 
 
@@ -57,7 +73,6 @@ def fetch_udot(endpoint):
 
 
 def get_udot_data():
-    # 1. Cameras
     raw_cams = fetch_udot("cameras")
     cameras = []
     for c in raw_cams:
@@ -75,7 +90,6 @@ def get_udot_data():
                     "lon": c.get("Longitude"),
                 })
 
-    # 2. Overhead Digital Signs (VMS)
     raw_signs = fetch_udot("messagesigns")
     signs = []
     for s in raw_signs:
@@ -89,7 +103,6 @@ def get_udot_data():
                     "messages": messages,
                 })
 
-    # 3. Road Weather Stations (RWIS)
     raw_rwis = fetch_udot("weatherstations")
     rwis = []
     for w in raw_rwis:
@@ -104,7 +117,6 @@ def get_udot_data():
                 "wind_gust": w.get("WindSpeedGust"),
             })
 
-    # 4. Current Road Conditions
     raw_roads = fetch_udot("roadconditions")
     roads = []
     for r in raw_roads:
@@ -124,13 +136,11 @@ def get_nws_resort_weather():
     weather = {}
     for key, info in RESORTS.items():
         try:
-            # Step 1: Resolve NWS grid point
             pt_url = f"https://api.weather.gov/points/{info['lat']},{info['lon']}"
             pt_resp = requests.get(pt_url, headers=NWS_HEADERS, timeout=15)
             pt_resp.raise_for_status()
             forecast_url = pt_resp.json()["properties"]["forecast"]
 
-            # Step 2: Fetch 12-hour forecast periods
             fc_resp = requests.get(forecast_url, headers=NWS_HEADERS, timeout=15)
             fc_resp.raise_for_status()
             periods = fc_resp.json()["properties"]["periods"][:4]
@@ -154,7 +164,6 @@ def get_nws_resort_weather():
             print(f"NWS error for {key}: {e}")
             weather[key] = {"name": info["name"], "error": str(e)}
 
-    # Active NWS alerts for Ogden Valley (centered on Eden)
     alerts = []
     try:
         al_resp = requests.get(
@@ -178,11 +187,76 @@ def get_nws_resort_weather():
     return {"resorts": weather, "alerts": alerts}
 
 
+def get_snotel_data():
+    """Fetch hourly Snow Depth (SNWD), SWE (WTEQ), and Temp (TOBS) from NRCS AWDB REST API."""
+    now_utc = datetime.now(timezone.utc)
+    begin_date = (now_utc - timedelta(hours=36)).strftime("%Y-%m-%d")
+    end_date = (now_utc + timedelta(days=1)).strftime("%Y-%m-%d")
+
+    triplets = ",".join(s["triplet"] for s in SNOTEL_STATIONS.values())
+    params = {
+        "stationTriplets": triplets,
+        "elements": "SNWD,WTEQ,TOBS",
+        "duration": "HOURLY",
+        "beginDate": begin_date,
+        "endDate": end_date,
+    }
+
+    results = {}
+    try:
+        resp = requests.get(SNOTEL_BASE, params=params, timeout=25)
+        resp.raise_for_status()
+        raw_stations = resp.json()
+
+        by_triplet = {item.get("stationTriplet"): item.get("data", []) for item in raw_stations}
+
+        for key, meta in SNOTEL_STATIONS.items():
+            series_list = by_triplet.get(meta["triplet"], [])
+            parsed = {}
+            for s in series_list:
+                code = s.get("stationElement", {}).get("elementCode")
+                # Keep only valid numeric readings
+                vals = [v for v in s.get("values", []) if v.get("value") is not None]
+                parsed[code] = vals
+
+            snwd_vals = parsed.get("SNWD", [])
+            wteq_vals = parsed.get("WTEQ", [])
+            tobs_vals = parsed.get("TOBS", [])
+
+            latest_depth = snwd_vals[-1]["value"] if snwd_vals else None
+            latest_time = snwd_vals[-1]["date"] if snwd_vals else None
+
+            # Compare latest reading against reading ~24 hours prior
+            snow_24h = None
+            if len(snwd_vals) >= 2:
+                idx_24h = max(0, len(snwd_vals) - 25)
+                prior_depth = snwd_vals[idx_24h]["value"]
+                snow_24h = max(0, round(latest_depth - prior_depth, 1))
+
+            results[key] = {
+                "name": meta["name"],
+                "triplet": meta["triplet"],
+                "elevation_ft": meta["elevation_ft"],
+                "reference_for": meta["reference_for"],
+                "snow_depth_in": latest_depth,
+                "snow_24h_in": snow_24h,
+                "swe_in": wteq_vals[-1]["value"] if wteq_vals else None,
+                "temp_f": tobs_vals[-1]["value"] if tobs_vals else None,
+                "observed_at": latest_time,
+            }
+    except Exception as e:
+        print(f"SNOTEL fetch error: {e}")
+        results["error"] = str(e)
+
+    return results
+
+
 def main():
     payload = {
         "updated_utc": datetime.now(timezone.utc).isoformat(),
         "udot": get_udot_data(),
         "nws": get_nws_resort_weather(),
+        "snotel": get_snotel_data(),
     }
     with open("ovn-ski-data.json", "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
