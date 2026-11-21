@@ -1,0 +1,193 @@
+import json
+import os
+import time
+from datetime import datetime, timezone
+import requests
+
+UDOT_API_KEY = os.environ.get("UDOT_API_KEY", "").strip()
+UDOT_BASE = "https://www.udottraffic.utah.gov/api/v2/get"
+NWS_HEADERS = {
+    "User-Agent": "(ogdenvalleynews.com, contact@ogdenvalleynews.com)",
+    "Accept": "application/geo+json",
+}
+
+# Bounding box covering Ogden Valley, Ogden Canyon, Weber Canyon, and North Ogden Divide
+BBOX = {"min_lat": 41.12, "max_lat": 41.45, "min_lon": -112.02, "max_lon": -111.60}
+
+# Target corridors and keywords
+CORRIDOR_KEYWORDS = [
+    "SR-39", "SR-158", "SR-226", "SR-167", "I-84",
+    "OGDEN CANYON", "POWDER MOUNTAIN", "SNOWBASIN",
+    "TRAPPERS LOOP", "NORTH OGDEN", "HUNTSVILLE", "EDEN", "WEBER CANYON"
+]
+
+RESORTS = {
+    "snowbasin": {"name": "Snowbasin", "lat": 41.2160, "lon": -111.8569},
+    "powder_mountain": {"name": "Powder Mountain", "lat": 41.3790, "lon": -111.7803},
+    "nordic_valley": {"name": "Nordic Valley", "lat": 41.3106, "lon": -111.8648},
+}
+
+
+def in_valley_bbox(lat, lon):
+    try:
+        lat, lon = float(lat), float(lon)
+        return BBOX["min_lat"] <= lat <= BBOX["max_lat"] and BBOX["min_lon"] <= lon <= BBOX["max_lon"]
+    except (TypeError, ValueError):
+        return False
+
+
+def matches_corridor(text):
+    upper = (text or "").upper()
+    return any(kw in upper for kw in CORRIDOR_KEYWORDS)
+
+
+def fetch_udot(endpoint):
+    if not UDOT_API_KEY:
+        print(f"Skipping UDOT {endpoint}: UDOT_API_KEY not set.")
+        return []
+    url = f"{UDOT_BASE}/{endpoint}"
+    try:
+        resp = requests.get(url, params={"key": UDOT_API_KEY, "format": "json"}, timeout=20)
+        resp.raise_for_status()
+        time.sleep(1)  # Respect UDOT 10 calls / 60s throttle
+        return resp.json()
+    except Exception as e:
+        print(f"UDOT {endpoint} error: {e}")
+        return []
+
+
+def get_udot_data():
+    # 1. Cameras
+    raw_cams = fetch_udot("cameras")
+    cameras = []
+    for c in raw_cams:
+        loc = f"{c.get('Location', '')} {c.get('Roadway', '')}"
+        if in_valley_bbox(c.get("Latitude"), c.get("Longitude")) or matches_corridor(loc):
+            views = c.get("Views") or []
+            img_url = views[0].get("Url") if views else c.get("Url", "")
+            if img_url:
+                cameras.append({
+                    "id": c.get("Id"),
+                    "name": c.get("Location") or c.get("Roadway"),
+                    "roadway": c.get("Roadway", ""),
+                    "url": img_url,
+                    "lat": c.get("Latitude"),
+                    "lon": c.get("Longitude"),
+                })
+
+    # 2. Overhead Digital Signs (VMS)
+    raw_signs = fetch_udot("messagesigns")
+    signs = []
+    for s in raw_signs:
+        loc = f"{s.get('Name', '')} {s.get('Roadway', '')}"
+        if in_valley_bbox(s.get("Latitude"), s.get("Longitude")) or matches_corridor(loc):
+            messages = s.get("Messages") or []
+            if messages:
+                signs.append({
+                    "name": s.get("Name"),
+                    "roadway": s.get("Roadway", ""),
+                    "messages": messages,
+                })
+
+    # 3. Road Weather Stations (RWIS)
+    raw_rwis = fetch_udot("weatherstations")
+    rwis = []
+    for w in raw_rwis:
+        loc = f"{w.get('StationName', '')} {w.get('Roadway', '')}"
+        if in_valley_bbox(w.get("Latitude"), w.get("Longitude")) or matches_corridor(loc):
+            rwis.append({
+                "station": w.get("StationName"),
+                "air_temp": w.get("AirTemperature"),
+                "surface_temp": w.get("SurfaceTemp"),
+                "surface_status": w.get("SurfaceStatus"),
+                "wind_speed": w.get("WindSpeedAvg"),
+                "wind_gust": w.get("WindSpeedGust"),
+            })
+
+    # 4. Current Road Conditions
+    raw_roads = fetch_udot("roadconditions")
+    roads = []
+    for r in raw_roads:
+        name = r.get("RoadwayName", "")
+        if matches_corridor(name):
+            roads.append({
+                "roadway": name,
+                "condition": r.get("RoadCondition"),
+                "weather": r.get("WeatherCondition"),
+                "restriction": r.get("Restriction"),
+            })
+
+    return {"cameras": cameras, "signs": signs, "rwis": rwis, "roads": roads}
+
+
+def get_nws_resort_weather():
+    weather = {}
+    for key, info in RESORTS.items():
+        try:
+            # Step 1: Resolve NWS grid point
+            pt_url = f"https://api.weather.gov/points/{info['lat']},{info['lon']}"
+            pt_resp = requests.get(pt_url, headers=NWS_HEADERS, timeout=15)
+            pt_resp.raise_for_status()
+            forecast_url = pt_resp.json()["properties"]["forecast"]
+
+            # Step 2: Fetch 12-hour forecast periods
+            fc_resp = requests.get(forecast_url, headers=NWS_HEADERS, timeout=15)
+            fc_resp.raise_for_status()
+            periods = fc_resp.json()["properties"]["periods"][:4]
+
+            weather[key] = {
+                "name": info["name"],
+                "current_period": periods[0] if periods else None,
+                "upcoming": [
+                    {
+                        "name": p["name"],
+                        "temp": p["temperature"],
+                        "unit": p["temperatureUnit"],
+                        "wind": p["windSpeed"],
+                        "short": p["shortForecast"],
+                        "detail": p["detailedForecast"],
+                    }
+                    for p in periods
+                ],
+            }
+        except Exception as e:
+            print(f"NWS error for {key}: {e}")
+            weather[key] = {"name": info["name"], "error": str(e)}
+
+    # Active NWS alerts for Ogden Valley (centered on Eden)
+    alerts = []
+    try:
+        al_resp = requests.get(
+            "https://api.weather.gov/alerts/active",
+            params={"point": "41.3005,-111.8124"},
+            headers=NWS_HEADERS,
+            timeout=15,
+        )
+        al_resp.raise_for_status()
+        for f in al_resp.json().get("features", []):
+            props = f.get("properties", {})
+            alerts.append({
+                "event": props.get("event"),
+                "headline": props.get("headline"),
+                "severity": props.get("severity"),
+                "expires": props.get("expires"),
+            })
+    except Exception as e:
+        print(f"NWS alerts error: {e}")
+
+    return {"resorts": weather, "alerts": alerts}
+
+
+def main():
+    payload = {
+        "updated_utc": datetime.now(timezone.utc).isoformat(),
+        "udot": get_udot_data(),
+        "nws": get_nws_resort_weather(),
+    }
+    with open("ovn-ski-data.json", "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2)
+    print("Saved ovn-ski-data.json successfully.")
+
+
+if __name__ == "__main__":
+    main()
