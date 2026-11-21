@@ -188,25 +188,30 @@ def get_nws_resort_weather():
 
 
 def get_snotel_data():
-    """Fetch hourly Snow Depth (SNWD), SWE (WTEQ), and Temp (TOBS) from NRCS AWDB REST API."""
+    """Fetch hourly (with daily fallback) Snow Depth (SNWD), SWE (WTEQ), and Temp (TOBS)."""
     now_utc = datetime.now(timezone.utc)
-    begin_date = (now_utc - timedelta(hours=36)).strftime("%Y-%m-%d")
-    end_date = (now_utc + timedelta(days=1)).strftime("%Y-%m-%d")
+    begin_date = (now_utc - timedelta(days=2)).strftime("%Y-%m-%d")
+    end_date = now_utc.strftime("%Y-%m-%d")
 
     triplets = ",".join(s["triplet"] for s in SNOTEL_STATIONS.values())
-    params = {
-        "stationTriplets": triplets,
-        "elements": "SNWD,WTEQ,TOBS",
-        "duration": "HOURLY",
-        "beginDate": begin_date,
-        "endDate": end_date,
-    }
+
+    def fetch_duration(duration):
+        params = {
+            "stationTriplets": triplets,
+            "elements": "SNWD,WTEQ,TOBS",
+            "duration": duration,
+            "beginDate": begin_date,
+            "endDate": end_date,
+        }
+        resp = requests.get(SNOTEL_BASE, params=params, timeout=25)
+        resp.raise_for_status()
+        return resp.json()
 
     results = {}
     try:
-        resp = requests.get(SNOTEL_BASE, params=params, timeout=25)
-        resp.raise_for_status()
-        raw_stations = resp.json()
+        raw_stations = fetch_duration("HOURLY")
+        if not raw_stations:
+            raw_stations = fetch_duration("DAILY")
 
         by_triplet = {item.get("stationTriplet"): item.get("data", []) for item in raw_stations}
 
@@ -215,7 +220,6 @@ def get_snotel_data():
             parsed = {}
             for s in series_list:
                 code = s.get("stationElement", {}).get("elementCode")
-                # Keep only valid numeric readings
                 vals = [v for v in s.get("values", []) if v.get("value") is not None]
                 parsed[code] = vals
 
@@ -226,7 +230,6 @@ def get_snotel_data():
             latest_depth = snwd_vals[-1]["value"] if snwd_vals else None
             latest_time = snwd_vals[-1]["date"] if snwd_vals else None
 
-            # Compare latest reading against reading ~24 hours prior
             snow_24h = None
             if len(snwd_vals) >= 2:
                 idx_24h = max(0, len(snwd_vals) - 25)
