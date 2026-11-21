@@ -1,0 +1,37 @@
+name: Update Ogden Valley Ski Data
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run UDOT & NWS fetcher
+        env:
+          UDOT_API_KEY: ${{ secrets.UDOT_API_KEY }}
+        run: python fetch_ski_data.py
+
+      - name: Commit updated JSON
+        run: |
+          git config user.name "OVN Ski Bot"
+          git config user.email "actions@github.com"
+          git add ovn-ski-data.json
+          git diff --staged --quiet || git commit -m "Update live UDOT & NWS ski data"
+          git push
