@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-11-20-new-letter",
+    "title": "New Letter",
+    "author": "bob",
+    "location": "Eden",
+    "date": "November 20, 2026",
+    "paragraphs": [
+      "To the Editor,",
+      "let's see if this works."
+    ],
+    "image": "https://raw.githubusercontent.com/apollux57/ovn-content/main/images/20261120-ovn-app-facebook-and-instagram.jpg"
+  },
+  {
     "id": "2026-11-20-new",
     "title": "A Mistake Has Been Made",
     "author": "John Packer",
