@@ -1,17 +1,5 @@
 [
   {
-    "id": "2026-11-21-new-letter",
-    "title": "Embedded image test",
-    "author": "crw",
-    "location": "Eden",
-    "date": "November 21, 2026",
-    "paragraphs": [
-      "The quick brown fox..."
-    ],
-    "image": "https://raw.githubusercontent.com/apollux57/ovn-content/main/images/20261121-bull-moose-by-dennis-maher.jpg",
-    "caption": "Moose on the loose"
-  },
-  {
     "id": "2026-11-20-new",
     "title": "A Mistake Has Been Made",
     "author": "John Packer",
