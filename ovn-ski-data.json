@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-22T17:50:26.725067+00:00",
+  "updated_utc": "2026-11-22T20:35:49.087306+00:00",
   "udot": {
     "cameras": [
       {
@@ -788,131 +788,131 @@
     "rwis": [
       {
         "station": "I-84 @ MP 14 Chaulk Hill",
-        "air_temp": "34.00",
-        "surface_temp": "38.1",
+        "air_temp": "35.53",
+        "surface_temp": "43.5",
         "surface_status": "Dry",
-        "wind_speed": "6.95",
-        "wind_gust": "7.89"
+        "wind_speed": "5.41",
+        "wind_gust": "7.01"
       },
       {
         "station": "I-84 @ Weber Canyon",
-        "air_temp": "26.81",
-        "surface_temp": "31.3",
+        "air_temp": "30.90",
+        "surface_temp": "34.3",
         "surface_status": "Damp",
-        "wind_speed": "13.77",
-        "wind_gust": "19.73"
-      },
-      {
-        "station": "I-84 @ MP 112 Devils Slide",
-        "air_temp": "30.32",
-        "surface_temp": "37",
-        "surface_status": "Dry",
-        "wind_speed": "4.10",
-        "wind_gust": "5.70"
-      },
-      {
-        "station": "Riverdale Rd",
-        "air_temp": "38.39",
-        "surface_temp": "39.9",
-        "surface_status": "Dry",
-        "wind_speed": "7.82",
-        "wind_gust": "10.96"
-      },
-      {
-        "station": "I-84 @ MP 108 Taggarts WB",
-        "air_temp": "29.44",
-        "surface_temp": "35.4",
-        "surface_status": "Dry",
-        "wind_speed": "9.60",
-        "wind_gust": "16.00"
-      },
-      {
-        "station": "SR-39 @ MP 14 Pineview Dam",
-        "air_temp": "26.79",
-        "surface_temp": "31.5",
-        "surface_status": "Dry",
-        "wind_speed": "10.85",
-        "wind_gust": "12.71"
-      },
-      {
-        "station": "SR-167 @ Trappers Loop",
-        "air_temp": "26.90",
-        "surface_temp": "32.4",
-        "surface_status": "Dry",
-        "wind_speed": "3.32",
-        "wind_gust": "7.23"
-      },
-      {
-        "station": "I-84 @ MP 108 Taggarts EB",
-        "air_temp": "29.44",
-        "surface_temp": "31.8",
-        "surface_status": "Dry",
-        "wind_speed": "9.60",
-        "wind_gust": "16.00"
-      },
-      {
-        "station": "US-89 @ MP 406 Weber River",
-        "air_temp": "31.73",
-        "surface_temp": "37.6",
-        "surface_status": "Dry",
-        "wind_speed": "29.39",
-        "wind_gust": "35.95"
-      },
-      {
-        "station": "SR-39 @ MP 17.5 Huntsville",
-        "air_temp": "29.66",
-        "surface_temp": "32.4",
-        "surface_status": "Dry",
-        "wind_speed": "1.19",
-        "wind_gust": "3.51"
-      },
-      {
-        "station": "North Ogden Divide",
-        "air_temp": "23.16",
-        "surface_temp": "25.4",
-        "surface_status": null,
-        "wind_speed": "11.61",
+        "wind_speed": "9.08",
         "wind_gust": "14.69"
       },
       {
-        "station": "I-84 @ MP 30.5 Whites Valley",
-        "air_temp": "30.56",
-        "surface_temp": "36.9",
+        "station": "I-84 @ MP 112 Devils Slide",
+        "air_temp": "37.16",
+        "surface_temp": "41.5",
         "surface_status": "Dry",
-        "wind_speed": "0.12",
+        "wind_speed": "0.51",
+        "wind_gust": "2.41"
+      },
+      {
+        "station": "Riverdale Rd",
+        "air_temp": "45.16",
+        "surface_temp": "48.7",
+        "surface_status": "Dry",
+        "wind_speed": "3.33",
+        "wind_gust": "6.58"
+      },
+      {
+        "station": "I-84 @ MP 108 Taggarts WB",
+        "air_temp": "38.32",
+        "surface_temp": "44.8",
+        "surface_status": "Dry",
+        "wind_speed": "1.50",
+        "wind_gust": "5.04"
+      },
+      {
+        "station": "SR-39 @ MP 14 Pineview Dam",
+        "air_temp": "30.89",
+        "surface_temp": "34.5",
+        "surface_status": "Dry",
+        "wind_speed": "5.63",
+        "wind_gust": "9.43"
+      },
+      {
+        "station": "SR-167 @ Trappers Loop",
+        "air_temp": "32.45",
+        "surface_temp": "38.7",
+        "surface_status": "Dry",
+        "wind_speed": "1.90",
         "wind_gust": "3.73"
+      },
+      {
+        "station": "I-84 @ MP 108 Taggarts EB",
+        "air_temp": "38.32",
+        "surface_temp": "41",
+        "surface_status": "Dry",
+        "wind_speed": "1.50",
+        "wind_gust": "5.04"
+      },
+      {
+        "station": "US-89 @ MP 406 Weber River",
+        "air_temp": "36.75",
+        "surface_temp": "46.2",
+        "surface_status": "Dry",
+        "wind_speed": "19.59",
+        "wind_gust": "26.96"
+      },
+      {
+        "station": "SR-39 @ MP 17.5 Huntsville",
+        "air_temp": "34.84",
+        "surface_temp": "41.7",
+        "surface_status": "Dry",
+        "wind_speed": "2.56",
+        "wind_gust": "3.95"
+      },
+      {
+        "station": "North Ogden Divide",
+        "air_temp": "27.61",
+        "surface_temp": "31.8",
+        "surface_status": null,
+        "wind_speed": "6.76",
+        "wind_gust": "8.11"
+      },
+      {
+        "station": "I-84 @ MP 30.5 Whites Valley",
+        "air_temp": "32.11",
+        "surface_temp": "42.1",
+        "surface_status": "Dry",
+        "wind_speed": "0.92",
+        "wind_gust": "3.95"
       },
       {
         "station": "I-84 @ MP 91 Devils Gate",
         "air_temp": null,
-        "surface_temp": "31.6",
+        "surface_temp": "41.5",
         "surface_status": "Dry",
         "wind_speed": null,
         "wind_gust": null
       },
       {
         "station": "SR-39 @ MP 46 Monte Cristo",
-        "air_temp": "21.68",
+        "air_temp": "25.84",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "7.01",
-        "wind_gust": "13.04"
+        "wind_speed": "7.11",
+        "wind_gust": "11.55"
       },
       {
         "station": "SR-158 @ MP 11.5 Powder Mountain",
-        "air_temp": "25.90",
-        "surface_temp": "31.8",
+        "air_temp": "28.71",
+        "surface_temp": "46.9",
         "surface_status": "Dry",
-        "wind_speed": "6.77",
-        "wind_gust": "9.69"
+        "wind_speed": "8.03",
+        "wind_gust": "13.04"
       },
       {
         "station": "I-84 @ MP 97 Peterson",
-        "air_temp": "28.78",
-        "surface_temp": "34.5",
+        "air_temp": "34.12",
+        "surface_temp": "42.3",
         "surface_status": "Dry",
-        "wind_speed": "0.38",
-        "wind_gust": "2.63"
+        "wind_speed": "4.28",
+        "wind_gust": "6.80"
       }
     ],
     "roads": [
@@ -1014,8 +1014,8 @@
         "name": "Snowbasin",
         "current_period": {
           "number": 1,
-          "name": "Today",
-          "startTime": "2026-11-22T07:00:00-07:00",
+          "name": "This Afternoon",
+          "startTime": "2026-11-22T12:00:00-07:00",
           "endTime": "2026-11-22T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 35,
@@ -1025,44 +1025,44 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "1 to 5 mph",
+          "windSpeed": "3 mph",
           "windDirection": "SSE",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. High near 35, with temperatures falling to around 30 in the afternoon. South southeast wind 1 to 5 mph."
+          "detailedForecast": "Mostly cloudy. High near 35, with temperatures falling to around 33 in the afternoon. South southeast wind around 3 mph."
         },
         "upcoming": [
           {
-            "name": "Today",
+            "name": "This Afternoon",
             "temp": 35,
             "unit": "F",
-            "wind": "1 to 5 mph",
+            "wind": "3 mph",
             "short": "Mostly Cloudy",
-            "detail": "Mostly cloudy. High near 35, with temperatures falling to around 30 in the afternoon. South southeast wind 1 to 5 mph."
+            "detail": "Mostly cloudy. High near 35, with temperatures falling to around 33 in the afternoon. South southeast wind around 3 mph."
           },
           {
             "name": "Tonight",
             "temp": 24,
             "unit": "F",
             "wind": "3 mph",
-            "short": "Cloudy",
-            "detail": "Cloudy. Low around 24, with temperatures rising to around 26 overnight. South wind around 3 mph."
+            "short": "Mostly Cloudy",
+            "detail": "Mostly cloudy. Low around 24, with temperatures rising to around 26 overnight. Southeast wind around 3 mph."
           },
           {
             "name": "Monday",
-            "temp": 33,
+            "temp": 34,
             "unit": "F",
             "wind": "2 mph",
             "short": "Mostly Sunny",
-            "detail": "Mostly sunny. High near 33, with temperatures falling to around 29 in the afternoon. West wind around 2 mph."
+            "detail": "Mostly sunny. High near 34, with temperatures falling to around 31 in the afternoon. West wind around 2 mph."
           },
           {
             "name": "Monday Night",
-            "temp": 18,
+            "temp": 19,
             "unit": "F",
             "wind": "1 to 5 mph",
-            "short": "Partly Cloudy",
-            "detail": "Partly cloudy, with a low around 18. Northeast wind 1 to 5 mph."
+            "short": "Mostly Clear",
+            "detail": "Mostly clear, with a low around 19. East northeast wind 1 to 5 mph."
           }
         ]
       },
@@ -1070,8 +1070,8 @@
         "name": "Powder Mountain",
         "current_period": {
           "number": 1,
-          "name": "Today",
-          "startTime": "2026-11-22T07:00:00-07:00",
+          "name": "This Afternoon",
+          "startTime": "2026-11-22T12:00:00-07:00",
           "endTime": "2026-11-22T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 24,
@@ -1081,44 +1081,44 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "3 to 9 mph",
+          "windSpeed": "3 to 7 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. High near 24, with temperatures falling to around 21 in the afternoon. Wind chill values as low as 6. South wind 3 to 9 mph."
+          "detailedForecast": "Mostly cloudy, with a high near 24. South wind 3 to 7 mph."
         },
         "upcoming": [
           {
-            "name": "Today",
+            "name": "This Afternoon",
             "temp": 24,
-            "unit": "F",
-            "wind": "3 to 9 mph",
-            "short": "Mostly Cloudy",
-            "detail": "Mostly cloudy. High near 24, with temperatures falling to around 21 in the afternoon. Wind chill values as low as 6. South wind 3 to 9 mph."
-          },
-          {
-            "name": "Tonight",
-            "temp": 17,
             "unit": "F",
             "wind": "3 to 7 mph",
             "short": "Mostly Cloudy",
-            "detail": "Mostly cloudy. Low around 17, with temperatures rising to around 20 overnight. South wind 3 to 7 mph."
+            "detail": "Mostly cloudy, with a high near 24. South wind 3 to 7 mph."
+          },
+          {
+            "name": "Tonight",
+            "temp": 20,
+            "unit": "F",
+            "wind": "5 to 8 mph",
+            "short": "Mostly Cloudy",
+            "detail": "Mostly cloudy, with a low around 20. South southwest wind 5 to 8 mph."
           },
           {
             "name": "Monday",
-            "temp": 22,
+            "temp": 23,
             "unit": "F",
             "wind": "5 mph",
-            "short": "Partly Sunny",
-            "detail": "Partly sunny. High near 22, with temperatures falling to around 19 in the afternoon. Southwest wind around 5 mph."
+            "short": "Mostly Sunny",
+            "detail": "Mostly sunny. High near 23, with temperatures falling to around 21 in the afternoon. West wind around 5 mph."
           },
           {
             "name": "Monday Night",
-            "temp": 12,
+            "temp": 13,
             "unit": "F",
-            "wind": "2 to 7 mph",
-            "short": "Partly Cloudy",
-            "detail": "Partly cloudy, with a low around 12. Wind chill values as low as 5. East northeast wind 2 to 7 mph."
+            "wind": "3 to 7 mph",
+            "short": "Mostly Clear",
+            "detail": "Mostly clear, with a low around 13. Wind chill values as low as 5. East northeast wind 3 to 7 mph."
           }
         ]
       },
@@ -1126,8 +1126,8 @@
         "name": "Nordic Valley",
         "current_period": {
           "number": 1,
-          "name": "Today",
-          "startTime": "2026-11-22T06:00:00-07:00",
+          "name": "This Afternoon",
+          "startTime": "2026-11-22T12:00:00-07:00",
           "endTime": "2026-11-22T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 40,
@@ -1137,44 +1137,44 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "0 to 5 mph",
-          "windDirection": "SSE",
+          "windSpeed": "2 mph",
+          "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. High near 40, with temperatures falling to around 35 in the afternoon. South southeast wind 0 to 5 mph."
+          "detailedForecast": "Mostly cloudy. High near 40, with temperatures falling to around 36 in the afternoon. South wind around 2 mph."
         },
         "upcoming": [
           {
-            "name": "Today",
+            "name": "This Afternoon",
             "temp": 40,
             "unit": "F",
-            "wind": "0 to 5 mph",
+            "wind": "2 mph",
             "short": "Mostly Cloudy",
-            "detail": "Mostly cloudy. High near 40, with temperatures falling to around 35 in the afternoon. South southeast wind 0 to 5 mph."
+            "detail": "Mostly cloudy. High near 40, with temperatures falling to around 36 in the afternoon. South wind around 2 mph."
           },
           {
             "name": "Tonight",
-            "temp": 26,
+            "temp": 27,
             "unit": "F",
             "wind": "3 mph",
             "short": "Cloudy",
-            "detail": "Cloudy, with a low around 26. South southeast wind around 3 mph."
+            "detail": "Cloudy, with a low around 27. South wind around 3 mph."
           },
           {
             "name": "Monday",
             "temp": 39,
             "unit": "F",
             "wind": "2 mph",
-            "short": "Partly Sunny",
-            "detail": "Partly sunny. High near 39, with temperatures falling to around 34 in the afternoon. West southwest wind around 2 mph."
+            "short": "Mostly Sunny",
+            "detail": "Mostly sunny. High near 39, with temperatures falling to around 35 in the afternoon. West southwest wind around 2 mph."
           },
           {
             "name": "Monday Night",
-            "temp": 19,
+            "temp": 21,
             "unit": "F",
-            "wind": "3 mph",
-            "short": "Partly Cloudy",
-            "detail": "Partly cloudy, with a low around 19. East northeast wind around 3 mph."
+            "wind": "1 to 5 mph",
+            "short": "Mostly Clear",
+            "detail": "Mostly clear, with a low around 21. Northeast wind 1 to 5 mph."
           }
         ]
       }
