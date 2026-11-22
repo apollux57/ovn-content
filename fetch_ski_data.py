@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import time
 from datetime import datetime, timedelta, timezone
 import requests
@@ -41,6 +42,12 @@ SNOTEL_STATIONS = {
         "elevation_ft": 8960,
         "reference_for": "Powder Mountain / Upper Valley",
     },
+}
+
+SKI_UTAH_URLS = {
+    "snowbasin": "https://www.skiutah.com/members/snowbasin/snowreport",
+    "powder_mountain": "https://www.skiutah.com/members/powder-mountain/snowreport",
+    "nordic_valley": "https://www.skiutah.com/members/nordic-valley/snowreport",
 }
 
 
@@ -254,12 +261,44 @@ def get_snotel_data():
     return results
 
 
+def get_resort_snow_reports():
+    """Parse 24h snow, base depth, season total, and lifts open from Ski Utah."""
+    reports = {}
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; OgdenValleyNewsBot/1.0)"}
+
+    for key, url in SKI_UTAH_URLS.items():
+        try:
+            resp = requests.get(url, headers=headers, timeout=20)
+            resp.raise_for_status()
+            text = re.sub(r"<[^>]+>", " ", resp.text)
+            text = re.sub(r"\s+", " ", text)
+
+            def grab(pattern):
+                m = re.search(pattern, text, re.IGNORECASE)
+                return m.group(1) if m else None
+
+            reports[key] = {
+                "snow_24h": grab(r"Past 24 HR\s+(\d+)\s*[\"”']?"),
+                "base_depth": grab(r"base depth\s+(\d+)\s*[\"”']?"),
+                "season_total": grab(r"year to date\s+(\d+)\s*[\"”']?"),
+                "lifts_open": grab(r"(\d+\s*/\s*\d+)\s+lifts open"),
+                "runs_open": grab(r"(\d+\s*/\s*\d+)\s+runs"),
+                "source_url": url,
+            }
+        except Exception as e:
+            print(f"Ski Utah report error for {key}: {e}")
+            reports[key] = {"error": str(e), "source_url": url}
+
+    return reports
+
+
 def main():
     payload = {
         "updated_utc": datetime.now(timezone.utc).isoformat(),
         "udot": get_udot_data(),
         "nws": get_nws_resort_weather(),
         "snotel": get_snotel_data(),
+        "snow_reports": get_resort_snow_reports(),
     }
     with open("ovn-ski-data.json", "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
