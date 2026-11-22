@@ -44,10 +44,10 @@ SNOTEL_STATIONS = {
     },
 }
 
-SKI_UTAH_URLS = {
-    "snowbasin": "https://www.skiutah.com/members/snowbasin/snowreport",
-    "powder_mountain": "https://www.skiutah.com/members/powder-mountain/snowreport",
-    "nordic_valley": "https://www.skiutah.com/members/nordic-valley/snowreport",
+SKI_UTAH_SLUGS = {
+    "snowbasin": "snowbasin",
+    "powder_mountain": "powder-mountain",
+    "nordic_valley": "nordic-valley",
 }
 
 
@@ -262,20 +262,21 @@ def get_snotel_data():
 
 
 def get_resort_snow_reports():
-    """Parse 24h snow, base depth, season total, lifts open, and open/closed status from Ski Utah."""
+    """Fetch snow stats, open/closed status, and projected opening dates from Ski Utah."""
     reports = {}
     headers = {"User-Agent": "Mozilla/5.0 (compatible; OgdenValleyNewsBot/1.0)"}
 
-    for key, url in SKI_UTAH_URLS.items():
+    for key, slug in SKI_UTAH_SLUGS.items():
+        report_url = f"https://www.skiutah.com/members/{slug}/snowreport"
+        info_url = f"https://www.skiutah.com/members/{slug}/"
         try:
-            resp = requests.get(url, headers=headers, timeout=20)
+            resp = requests.get(report_url, headers=headers, timeout=20)
             resp.raise_for_status()
-            text = re.sub(r"<[^>]+>", " ", resp.text)
-            text = re.sub(r"\s+", " ", text)
+            text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", resp.text))
 
-            def grab(pattern):
-                m = re.search(pattern, text, re.IGNORECASE)
-                return m.group(1) if m else None
+            def grab(pattern, src=text):
+                m = re.search(pattern, src, re.IGNORECASE)
+                return m.group(1).strip() if m else None
 
             lifts = (
                 grab(r"(\d+\s*/\s*\d+)\s+lifts\s*open")
@@ -283,28 +284,40 @@ def get_resort_snow_reports():
                 or grab(r"(\d+\s*of\s*\d+)\s+lifts")
             )
 
-            # Determine Open vs. Closed status
-            status = None
+            # Fetch projected opening date from the resort's Ski Utah member info page
+            projected_opening = None
+            try:
+                info_resp = requests.get(info_url, headers=headers, timeout=15)
+                if info_resp.ok:
+                    info_text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", info_resp.text))
+                    projected_opening = (
+                        grab(r"Winter\s+open\s+([A-Za-z]+\s+\d{1,2},\s*\d{4})", info_text)
+                        or grab(r"Anticipated\s+Winter\s+Opening\s+Date\s*:\s*([A-Za-z]+\s+\d{1,2},\s*\d{4})", info_text)
+                    )
+            except Exception:
+                pass
+
+            # Determine Open vs. Pre-Season / Closed status
+            status = "Closed"
             if lifts:
                 first_num = int(re.split(r"[/a-zA-Z]+", lifts)[0].strip())
                 status = "Open" if first_num > 0 else "Closed"
-            elif re.search(r"\b(resort\s+is\s+closed|currently\s+closed|closed\s+for\s+the\s+season|opening\s+soon)\b", text, re.IGNORECASE):
-                status = "Closed"
             elif re.search(r"\b(resort\s+is\s+open|open\s+daily|now\s+open)\b", text, re.IGNORECASE):
                 status = "Open"
 
             reports[key] = {
                 "status": status,
+                "projected_opening": projected_opening,
                 "snow_24h": grab(r"Past 24 HR\s+(\d+)\s*[\"”']?"),
                 "base_depth": grab(r"base depth\s+(\d+)\s*[\"”']?"),
                 "season_total": grab(r"year to date\s+(\d+)\s*[\"”']?"),
                 "lifts_open": lifts,
                 "runs_open": grab(r"(\d+\s*/\s*\d+)\s+runs"),
-                "source_url": url,
+                "source_url": report_url,
             }
         except Exception as e:
             print(f"Ski Utah report error for {key}: {e}")
-            reports[key] = {"error": str(e), "source_url": url}
+            reports[key] = {"status": "Closed", "error": str(e), "source_url": report_url}
 
     return reports
 
