@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "title": "Ski & Board Rentals",
+      "items": [
+        {
+          "name": "Diamond Peak Mountain Sports",
+          "url": "https://www.diamondpeak.biz/",
+          "town": "Eden",
+          "featured": true,
+          "badge": "Featured",
+          "description": "Full ski, snowboard & backcountry rentals, tuning, and boot fitting right on the way to Powder Mountain."
+        },
+        {
+          "name": "Alpine Sports",
+          "url": "https://alpinesportsutah.com/",
+          "town": "Eden / Ogden",
+          "featured": false,
+          "description": "Demo skis, daily rentals, and overnight wax/edge tunes near Ogden Canyon and Eden."
+        },
+        {
+          "name": "Detours / Local Gear Shops",
+          "url": "https://www.detoursutah.com/",
+          "town": "Huntsville",
+          "featured": false,
+          "description": "Convenient valley stop for winter accessories, rentals, and Snowbasin/Nordic Valley gear."
+        }
+      ]
+    },
+    {
+      "title": "Coffee & Morning Fuel",
+      "items": [
+        {
+          "name": "Featured Coffee Sponsor Slot",
+          "url": "https://www.ogdenvalleynews.com/",
+          "town": "Eden / Huntsville",
+          "featured": true,
+          "badge": "Featured",
+          "description": "Highlight your morning espresso, breakfast burritos, or pastries for early-bird skiers."
+        },
+        {
+          "name": "Eden Coffee & Bakery Stops",
+          "url": "",
+          "town": "Eden",
+          "featured": false,
+          "description": "Grab hot drinks and quick breakfast right near the SR-158 / Powder Mountain junction."
+        },
+        {
+          "name": "Huntsville Square Morning Stops",
+          "url": "",
+          "town": "Huntsville",
+          "featured": false,
+          "description": "Fuel up on the south side of Pineview before heading up SR-226 to Snowbasin."
+        }
+      ]
+    },
+    {
+      "title": "Après-Ski & Dining",
+      "items": [
+        {
+          "name": "Shooting Star Saloon",
+          "url": "https://www.ogdenvalleynews.com/",
+          "town": "Huntsville",
+          "featured": true,
+          "badge": "Valley Icon",
+          "description": "Utah's oldest continuously operating saloon—classic Star Burgers after a day on the slopes (21+)."
+        },
+        {
+          "name": "Carlos & Harley's",
+          "url": "",
+          "town": "Eden",
+          "featured": false,
+          "description": "Lively Tex-Mex and après-ski hangout right at the base of Powder Mountain Road."
+        },
+        {
+          "name": "Mad Moose Cafe & Huntsville BBQ",
+          "url": "",
+          "town": "Eden / Huntsville",
+          "featured": false,
+          "description": "Family-friendly warm-up spots for sandwiches, soups, and smoked meats after skiing."
+        }
+      ]
+    }
+  ]
+}
