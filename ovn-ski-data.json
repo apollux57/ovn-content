@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-21T22:48:49.174301+00:00",
+  "updated_utc": "2026-11-22T02:29:55.493375+00:00",
   "udot": {
     "cameras": [
       {
@@ -788,160 +788,148 @@
     "rwis": [
       {
         "station": "I-84 @ MP 14 Chaulk Hill",
-        "air_temp": "34.24",
-        "surface_temp": "38.5",
+        "air_temp": "26.85",
+        "surface_temp": "29.3",
         "surface_status": "Dry",
-        "wind_speed": "0.84",
-        "wind_gust": "2.63"
+        "wind_speed": "4.92",
+        "wind_gust": "7.01"
       },
       {
         "station": "I-84 @ Weber Canyon",
-        "air_temp": "34.57",
-        "surface_temp": "39.7",
+        "air_temp": "28.61",
+        "surface_temp": "32.7",
         "surface_status": "Damp",
-        "wind_speed": "4.08",
-        "wind_gust": "7.45"
+        "wind_speed": "6.64",
+        "wind_gust": "8.99"
       },
       {
         "station": "I-84 @ MP 112 Devils Slide",
-        "air_temp": "35.84",
-        "surface_temp": "39.6",
+        "air_temp": "28.88",
+        "surface_temp": "32.5",
         "surface_status": "Dry",
-        "wind_speed": "1.46",
-        "wind_gust": "2.85"
+        "wind_speed": "0.00",
+        "wind_gust": "0.88"
       },
       {
         "station": "Riverdale Rd",
-        "air_temp": "40.04",
-        "surface_temp": "44.1",
-        "surface_status": "Dry",
-        "wind_speed": "5.47",
-        "wind_gust": "7.67"
-      },
-      {
-        "station": "I-84 @ MP 108 Taggarts WB",
-        "air_temp": "36.19",
-        "surface_temp": "42.6",
-        "surface_status": "Dry",
-        "wind_speed": "5.27",
-        "wind_gust": "9.21"
-      },
-      {
-        "station": "SR-39 @ MP 14 Pineview Dam",
-        "air_temp": "35.28",
-        "surface_temp": "37.6",
-        "surface_status": "Dry",
-        "wind_speed": "0.00",
-        "wind_gust": "2.19"
-      },
-      {
-        "station": "SR-167 @ Trappers Loop",
-        "air_temp": "30.20",
-        "surface_temp": "34.5",
-        "surface_status": "Damp",
-        "wind_speed": "0.00",
-        "wind_gust": "1.75"
-      },
-      {
-        "station": "I-84 @ MP 108 Taggarts EB",
-        "air_temp": "36.19",
-        "surface_temp": "39.9",
-        "surface_status": "Dry",
-        "wind_speed": "5.27",
-        "wind_gust": "9.21"
-      },
-      {
-        "station": "US-89 @ MP 406 Weber River",
-        "air_temp": "38.27",
-        "surface_temp": "41.9",
-        "surface_status": "Dry",
-        "wind_speed": "2.04",
-        "wind_gust": "4.38"
-      },
-      {
-        "station": "SR-39 @ MP 17.5 Huntsville",
-        "air_temp": "37.07",
-        "surface_temp": "39.9",
-        "surface_status": "Dry",
-        "wind_speed": "1.24",
+        "air_temp": "32.56",
+        "surface_temp": null,
+        "surface_status": null,
+        "wind_speed": "1.84",
         "wind_gust": "3.07"
       },
       {
+        "station": "I-84 @ MP 108 Taggarts WB",
+        "air_temp": "30.51",
+        "surface_temp": "33.1",
+        "surface_status": "Dry",
+        "wind_speed": "7.02",
+        "wind_gust": "11.18"
+      },
+      {
+        "station": "SR-39 @ MP 14 Pineview Dam",
+        "air_temp": "30.13",
+        "surface_temp": "31.6",
+        "surface_status": "Dry",
+        "wind_speed": "3.21",
+        "wind_gust": "5.48"
+      },
+      {
+        "station": "SR-167 @ Trappers Loop",
+        "air_temp": "26.07",
+        "surface_temp": "28.2",
+        "surface_status": "Dry",
+        "wind_speed": "2.26",
+        "wind_gust": "3.73"
+      },
+      {
+        "station": "I-84 @ MP 108 Taggarts EB",
+        "air_temp": "30.51",
+        "surface_temp": "31.3",
+        "surface_status": "Dry",
+        "wind_speed": "7.02",
+        "wind_gust": "11.18"
+      },
+      {
+        "station": "US-89 @ MP 406 Weber River",
+        "air_temp": "34.75",
+        "surface_temp": "35.1",
+        "surface_status": "Dry",
+        "wind_speed": "15.47",
+        "wind_gust": "19.07"
+      },
+      {
+        "station": "SR-39 @ MP 17.5 Huntsville",
+        "air_temp": "28.91",
+        "surface_temp": "32.7",
+        "surface_status": "Dry",
+        "wind_speed": "1.05",
+        "wind_gust": "3.95"
+      },
+      {
         "station": "North Ogden Divide",
-        "air_temp": "27.99",
-        "surface_temp": "28.1",
+        "air_temp": "23.49",
+        "surface_temp": "22.8",
         "surface_status": null,
-        "wind_speed": "4.11",
-        "wind_gust": "6.36"
+        "wind_speed": "0.00",
+        "wind_gust": "0.00"
       },
       {
         "station": "I-84 @ MP 30.5 Whites Valley",
-        "air_temp": "31.22",
-        "surface_temp": "41.2",
+        "air_temp": "19.96",
+        "surface_temp": "29.8",
         "surface_status": "Dry",
-        "wind_speed": "3.49",
-        "wind_gust": "6.58"
+        "wind_speed": "0.20",
+        "wind_gust": "1.75"
       },
       {
         "station": "I-84 @ MP 91 Devils Gate",
         "air_temp": null,
-        "surface_temp": "38.7",
+        "surface_temp": "32.4",
         "surface_status": "Dry",
         "wind_speed": null,
         "wind_gust": null
       },
       {
         "station": "SR-39 @ MP 46 Monte Cristo",
-        "air_temp": "18.95",
+        "air_temp": "16.85",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "15.42",
-        "wind_gust": "21.61"
+        "wind_speed": "9.51",
+        "wind_gust": "14.16"
       },
       {
         "station": "SR-158 @ MP 11.5 Powder Mountain",
-        "air_temp": "21.45",
-        "surface_temp": "23.9",
-        "surface_status": "Wet",
-        "wind_speed": "5.93",
-        "wind_gust": "8.57"
+        "air_temp": "21.34",
+        "surface_temp": "22.6",
+        "surface_status": "Damp",
+        "wind_speed": "4.94",
+        "wind_gust": "8.94"
       },
       {
         "station": "I-84 @ MP 97 Peterson",
-        "air_temp": "35.86",
-        "surface_temp": "41.4",
+        "air_temp": "29.62",
+        "surface_temp": "33.1",
         "surface_status": "Dry",
-        "wind_speed": "2.25",
-        "wind_gust": "3.07"
+        "wind_speed": "0.53",
+        "wind_gust": "1.75"
       }
     ],
     "roads": [
       {
-        "roadway": "US-89 I-84 Jct Ogden to Box Elder/Weber Co Ln",
-        "condition": "wet",
+        "roadway": "SR-39 Jct. SR-167 Trappers Loop to Monte Cristo Gate",
+        "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
       },
       {
         "roadway": "US-89 From Jct. SR-193 to I-84",
-        "condition": "wet",
-        "weather": "Fair",
-        "restriction": "none"
-      },
-      {
-        "roadway": "SR-39 Ogden to Jct. SR-167 Trappers Loop",
-        "condition": "wet",
+        "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
       },
       {
         "roadway": "SR-158 to Powder Mountain",
-        "condition": "wet",
-        "weather": "Fair",
-        "restriction": "none"
-      },
-      {
-        "roadway": "SR-167 Trappers Loop I-84 to Huntsville",
         "condition": "wet",
         "weather": "Fair",
         "restriction": "none"
@@ -954,18 +942,48 @@
       },
       {
         "roadway": "I-84 Uintah Jct to Jct SR-167 at Mountain Green",
-        "condition": "wet",
-        "weather": "Fair",
-        "restriction": "none"
-      },
-      {
-        "roadway": "I-84 Morgan to Henefer",
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
       },
       {
         "roadway": "I-84 Idaho Stateline to Blue Creek Summit",
+        "condition": "Dry",
+        "weather": "Fair",
+        "restriction": "none"
+      },
+      {
+        "roadway": "I-84 I-15 Jct at Riverdale to SR-89",
+        "condition": "Dry",
+        "weather": "Fair",
+        "restriction": "none"
+      },
+      {
+        "roadway": "US-89 I-84 Jct Ogden to Box Elder/Weber Co Ln",
+        "condition": "Dry",
+        "weather": "Fair",
+        "restriction": "none"
+      },
+      {
+        "roadway": "SR-39 Ogden to Jct. SR-167 Trappers Loop",
+        "condition": "Dry",
+        "weather": "Fair",
+        "restriction": "none"
+      },
+      {
+        "roadway": "SR-167 Trappers Loop I-84 to Huntsville",
+        "condition": "Dry",
+        "weather": "Fair",
+        "restriction": "none"
+      },
+      {
+        "roadway": "I-84 SR-167 at Mountain Green to Morgan",
+        "condition": "Dry",
+        "weather": "Fair",
+        "restriction": "none"
+      },
+      {
+        "roadway": "I-84 Morgan to Henefer",
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
@@ -987,24 +1005,6 @@
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
-      },
-      {
-        "roadway": "I-84 I-15 Jct at Riverdale to SR-89",
-        "condition": "Dry",
-        "weather": "Fair",
-        "restriction": "none"
-      },
-      {
-        "roadway": "SR-39 Jct. SR-167 Trappers Loop to Monte Cristo Gate",
-        "condition": "Dry",
-        "weather": "Fair",
-        "restriction": "none"
-      },
-      {
-        "roadway": "I-84 SR-167 at Mountain Green to Morgan",
-        "condition": "wet",
-        "weather": "Fair",
-        "restriction": "none"
       }
     ]
   },
@@ -1014,32 +1014,24 @@
         "name": "Snowbasin",
         "current_period": {
           "number": 1,
-          "name": "This Afternoon",
-          "startTime": "2026-11-21T12:00:00-07:00",
-          "endTime": "2026-11-21T18:00:00-07:00",
-          "isDaytime": true,
-          "temperature": 31,
+          "name": "Tonight",
+          "startTime": "2026-11-21T19:00:00-07:00",
+          "endTime": "2026-11-22T06:00:00-07:00",
+          "isDaytime": false,
+          "temperature": 20,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 7
+            "value": 1
           },
           "windSpeed": "5 mph",
-          "windDirection": "SW",
-          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-          "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 31, with temperatures falling to around 26 in the afternoon. Southwest wind around 5 mph."
+          "windDirection": "SSE",
+          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+          "shortForecast": "Mostly Cloudy",
+          "detailedForecast": "Mostly cloudy, with a low around 20. South southeast wind around 5 mph."
         },
         "upcoming": [
-          {
-            "name": "This Afternoon",
-            "temp": 31,
-            "unit": "F",
-            "wind": "5 mph",
-            "short": "Mostly Sunny",
-            "detail": "Mostly sunny. High near 31, with temperatures falling to around 26 in the afternoon. Southwest wind around 5 mph."
-          },
           {
             "name": "Tonight",
             "temp": 20,
@@ -1063,6 +1055,14 @@
             "wind": "5 mph",
             "short": "Mostly Cloudy then Slight Chance Light Snow",
             "detail": "A slight chance of snow after 5am. Mostly cloudy, with a low around 24. East wind around 5 mph. Chance of precipitation is 20%."
+          },
+          {
+            "name": "Monday",
+            "temp": 32,
+            "unit": "F",
+            "wind": "2 mph",
+            "short": "Chance Light Snow",
+            "detail": "A chance of snow before 5pm. Mostly cloudy, with a high near 32. West southwest wind around 2 mph. Chance of precipitation is 30%."
           }
         ]
       },
@@ -1070,32 +1070,24 @@
         "name": "Powder Mountain",
         "current_period": {
           "number": 1,
-          "name": "This Afternoon",
-          "startTime": "2026-11-21T12:00:00-07:00",
-          "endTime": "2026-11-21T18:00:00-07:00",
-          "isDaytime": true,
-          "temperature": 20,
+          "name": "Tonight",
+          "startTime": "2026-11-21T19:00:00-07:00",
+          "endTime": "2026-11-22T06:00:00-07:00",
+          "isDaytime": false,
+          "temperature": 15,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 11
+            "value": 1
           },
           "windSpeed": "9 mph",
-          "windDirection": "SW",
-          "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-          "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny. High near 20, with temperatures falling to around 16 in the afternoon. Wind chill values as low as 6. Southwest wind around 9 mph."
+          "windDirection": "SSW",
+          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+          "shortForecast": "Mostly Cloudy",
+          "detailedForecast": "Mostly cloudy. Low around 15, with temperatures rising to around 17 overnight. Wind chill values as low as 3. South southwest wind around 9 mph."
         },
         "upcoming": [
-          {
-            "name": "This Afternoon",
-            "temp": 20,
-            "unit": "F",
-            "wind": "9 mph",
-            "short": "Partly Sunny",
-            "detail": "Partly sunny. High near 20, with temperatures falling to around 16 in the afternoon. Wind chill values as low as 6. Southwest wind around 9 mph."
-          },
           {
             "name": "Tonight",
             "temp": 15,
@@ -1119,6 +1111,14 @@
             "wind": "5 to 8 mph",
             "short": "Mostly Cloudy then Slight Chance Light Snow",
             "detail": "A slight chance of snow after 5am. Mostly cloudy, with a low around 20. Wind chill values as low as 10. East southeast wind 5 to 8 mph. Chance of precipitation is 20%."
+          },
+          {
+            "name": "Monday",
+            "temp": 22,
+            "unit": "F",
+            "wind": "5 mph",
+            "short": "Chance Light Snow",
+            "detail": "A chance of snow before 5pm. Mostly cloudy, with a high near 22. Southwest wind around 5 mph. Chance of precipitation is 30%."
           }
         ]
       },
@@ -1126,11 +1126,11 @@
         "name": "Nordic Valley",
         "current_period": {
           "number": 1,
-          "name": "This Afternoon",
-          "startTime": "2026-11-21T15:00:00-07:00",
-          "endTime": "2026-11-21T18:00:00-07:00",
-          "isDaytime": true,
-          "temperature": 35,
+          "name": "Tonight",
+          "startTime": "2026-11-21T19:00:00-07:00",
+          "endTime": "2026-11-22T06:00:00-07:00",
+          "isDaytime": false,
+          "temperature": 20,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
@@ -1138,20 +1138,12 @@
             "value": 1
           },
           "windSpeed": "5 mph",
-          "windDirection": "SW",
-          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-          "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 35, with temperatures falling to around 31 in the afternoon. Southwest wind around 5 mph."
+          "windDirection": "S",
+          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+          "shortForecast": "Mostly Cloudy",
+          "detailedForecast": "Mostly cloudy. Low around 20, with temperatures rising to around 22 overnight. South wind around 5 mph."
         },
         "upcoming": [
-          {
-            "name": "This Afternoon",
-            "temp": 35,
-            "unit": "F",
-            "wind": "5 mph",
-            "short": "Mostly Sunny",
-            "detail": "Mostly sunny. High near 35, with temperatures falling to around 31 in the afternoon. Southwest wind around 5 mph."
-          },
           {
             "name": "Tonight",
             "temp": 20,
@@ -1175,6 +1167,14 @@
             "wind": "3 mph",
             "short": "Mostly Cloudy then Slight Chance Light Snow",
             "detail": "A slight chance of snow after 5am. Mostly cloudy, with a low around 26. East southeast wind around 3 mph. Chance of precipitation is 20%."
+          },
+          {
+            "name": "Monday",
+            "temp": 38,
+            "unit": "F",
+            "wind": "2 mph",
+            "short": "Chance Light Snow",
+            "detail": "A chance of snow before 5pm. Mostly cloudy, with a high near 38. Southwest wind around 2 mph. Chance of precipitation is 30%."
           }
         ]
       }
@@ -1187,22 +1187,22 @@
       "triplet": "332:UT:SNTL",
       "elevation_ft": 7690,
       "reference_for": "Snowbasin / Nordic Valley",
-      "snow_depth_in": 14,
-      "snow_24h_in": 3,
-      "swe_in": 3.2,
-      "temp_f": 21.7,
-      "observed_at": "2026-11-21 00:00"
+      "snow_depth_in": 15,
+      "snow_24h_in": 1,
+      "swe_in": 3.4,
+      "temp_f": 22.3,
+      "observed_at": "2026-11-21 18:00"
     },
     "monte_cristo": {
       "name": "Monte Cristo",
       "triplet": "634:UT:SNTL",
       "elevation_ft": 8960,
       "reference_for": "Powder Mountain / Upper Valley",
-      "snow_depth_in": 17,
-      "snow_24h_in": 4,
-      "swe_in": 3.0,
-      "temp_f": 20.3,
-      "observed_at": "2026-11-21 00:00"
+      "snow_depth_in": 19,
+      "snow_24h_in": 1,
+      "swe_in": 3.4,
+      "temp_f": 19.8,
+      "observed_at": "2026-11-21 18:00"
     }
   }
 }
