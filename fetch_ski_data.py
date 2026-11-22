@@ -262,7 +262,7 @@ def get_snotel_data():
 
 
 def get_resort_snow_reports():
-    """Parse 24h snow, base depth, season total, and lifts open from Ski Utah."""
+    """Parse 24h snow, base depth, season total, lifts open, and open/closed status from Ski Utah."""
     reports = {}
     headers = {"User-Agent": "Mozilla/5.0 (compatible; OgdenValleyNewsBot/1.0)"}
 
@@ -277,11 +277,28 @@ def get_resort_snow_reports():
                 m = re.search(pattern, text, re.IGNORECASE)
                 return m.group(1) if m else None
 
+            lifts = (
+                grab(r"(\d+\s*/\s*\d+)\s+lifts\s*open")
+                or grab(r"lifts\s*open\s*[:\-]?\s*(\d+\s*/\s*\d+)")
+                or grab(r"(\d+\s*of\s*\d+)\s+lifts")
+            )
+
+            # Determine Open vs. Closed status
+            status = None
+            if lifts:
+                first_num = int(re.split(r"[/a-zA-Z]+", lifts)[0].strip())
+                status = "Open" if first_num > 0 else "Closed"
+            elif re.search(r"\b(resort\s+is\s+closed|currently\s+closed|closed\s+for\s+the\s+season|opening\s+soon)\b", text, re.IGNORECASE):
+                status = "Closed"
+            elif re.search(r"\b(resort\s+is\s+open|open\s+daily|now\s+open)\b", text, re.IGNORECASE):
+                status = "Open"
+
             reports[key] = {
+                "status": status,
                 "snow_24h": grab(r"Past 24 HR\s+(\d+)\s*[\"”']?"),
                 "base_depth": grab(r"base depth\s+(\d+)\s*[\"”']?"),
                 "season_total": grab(r"year to date\s+(\d+)\s*[\"”']?"),
-                "lifts_open": grab(r"(\d+\s*/\s*\d+)\s+lifts open"),
+                "lifts_open": lifts,
                 "runs_open": grab(r"(\d+\s*/\s*\d+)\s+runs"),
                 "source_url": url,
             }
