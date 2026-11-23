@@ -331,7 +331,12 @@ def _find_first_key(obj, target_keys):
     if isinstance(obj, dict):
         for k, v in obj.items():
             if k.lower() in target_keys and v not in (None, "", "--"):
-                if not isinstance(v, (dict, list)) and "powered by" not in str(v).lower():
+                val_str = str(v).strip().lower()
+                if (
+                    not isinstance(v, (dict, list))
+                    and "powered by" not in val_str
+                    and not val_str.startswith(("http://", "https://"))
+                ):
                     return v
         for v in obj.values():
             found = _find_first_key(v, target_keys)
@@ -379,7 +384,7 @@ def get_resort_current_weather():
                 "condition", "conditions", "weather", "weather_condition",
                 "weather_text", "weathertext", "current_condition", "currentcondition",
                 "sky", "sky_condition", "sky_text", "short_forecast", "shortforecast",
-                "phrase", "forecast", "description", "summary", "text", "icon"
+                "phrase", "forecast", "description", "summary", "text"
             })
             if condition:
                 cond_str = str(condition).strip()
