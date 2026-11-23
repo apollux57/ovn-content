@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-23T19:26:06.436436+00:00",
+  "updated_utc": "2026-11-23T21:20:32.465037+00:00",
   "udot": {
     "cameras": [
       {
@@ -758,7 +758,7 @@
         "name": "I-84 / Weber Canyon WB @ Milepost 91.35, MN",
         "roadway": "I-84",
         "messages": [
-          "OGDEN 12 ST\nVIA I-84\t13min\nVIA US-89\t22min"
+          "OGDEN 12 ST\nVIA I-84\t16min\nVIA US-89\t21min"
         ]
       },
       {
@@ -788,131 +788,131 @@
     "rwis": [
       {
         "station": "I-84 @ MP 14 Chaulk Hill",
-        "air_temp": "36.70",
-        "surface_temp": "45.3",
+        "air_temp": "39.05",
+        "surface_temp": "47.5",
         "surface_status": "Dry",
-        "wind_speed": "10.67",
-        "wind_gust": "13.81"
+        "wind_speed": "9.13",
+        "wind_gust": "11.18"
       },
       {
         "station": "I-84 @ Weber Canyon",
-        "air_temp": "31.72",
-        "surface_temp": "32.5",
+        "air_temp": "38.95",
+        "surface_temp": "38.1",
         "surface_status": "Damp",
-        "wind_speed": "4.36",
-        "wind_gust": "7.23"
+        "wind_speed": "6.20",
+        "wind_gust": "10.08"
       },
       {
         "station": "I-84 @ MP 112 Devils Slide",
-        "air_temp": "37.87",
-        "surface_temp": "44.1",
+        "air_temp": "42.76",
+        "surface_temp": "41.9",
         "surface_status": "Dry",
-        "wind_speed": "2.40",
-        "wind_gust": "4.38"
+        "wind_speed": "3.23",
+        "wind_gust": "9.64"
       },
       {
         "station": "Riverdale Rd",
-        "air_temp": "46.67",
-        "surface_temp": null,
-        "surface_status": null,
-        "wind_speed": "4.27",
-        "wind_gust": "7.01"
-      },
-      {
-        "station": "I-84 @ MP 108 Taggarts WB",
-        "air_temp": "36.70",
-        "surface_temp": "43.3",
+        "air_temp": "48.13",
+        "surface_temp": "52.3",
         "surface_status": "Dry",
-        "wind_speed": "5.45",
-        "wind_gust": "10.08"
-      },
-      {
-        "station": "SR-39 @ MP 14 Pineview Dam",
-        "air_temp": "31.73",
-        "surface_temp": "29.3",
-        "surface_status": "Dry",
-        "wind_speed": "2.74",
-        "wind_gust": "7.23"
-      },
-      {
-        "station": "SR-167 @ Trappers Loop",
-        "air_temp": "36.11",
-        "surface_temp": "43",
-        "surface_status": "Dry",
-        "wind_speed": "1.97",
-        "wind_gust": "4.38"
-      },
-      {
-        "station": "I-84 @ MP 108 Taggarts EB",
-        "air_temp": "36.70",
-        "surface_temp": "39.9",
-        "surface_status": "Dry",
-        "wind_speed": "5.45",
-        "wind_gust": "10.08"
-      },
-      {
-        "station": "US-89 @ MP 406 Weber River",
-        "air_temp": "39.03",
-        "surface_temp": "48.7",
-        "surface_status": "Dry",
-        "wind_speed": "13.56",
-        "wind_gust": "20.60"
-      },
-      {
-        "station": "SR-39 @ MP 17.5 Huntsville",
-        "air_temp": "34.95",
-        "surface_temp": "40.3",
-        "surface_status": "Dry",
-        "wind_speed": "3.13",
-        "wind_gust": "4.60"
-      },
-      {
-        "station": "North Ogden Divide",
-        "air_temp": "29.82",
-        "surface_temp": "37.3",
-        "surface_status": null,
-        "wind_speed": "3.46",
+        "wind_speed": "2.96",
         "wind_gust": "5.92"
       },
       {
-        "station": "I-84 @ MP 30.5 Whites Valley",
-        "air_temp": "38.04",
-        "surface_temp": "45.3",
+        "station": "I-84 @ MP 108 Taggarts WB",
+        "air_temp": "42.10",
+        "surface_temp": "49.8",
         "surface_status": "Dry",
-        "wind_speed": "2.91",
-        "wind_gust": "4.60"
+        "wind_speed": "3.29",
+        "wind_gust": "7.45"
+      },
+      {
+        "station": "SR-39 @ MP 14 Pineview Dam",
+        "air_temp": "33.98",
+        "surface_temp": "32.4",
+        "surface_status": "Dry",
+        "wind_speed": "0.00",
+        "wind_gust": "0.00"
+      },
+      {
+        "station": "SR-167 @ Trappers Loop",
+        "air_temp": "37.23",
+        "surface_temp": "42.3",
+        "surface_status": "Dry",
+        "wind_speed": "1.42",
+        "wind_gust": "2.41"
+      },
+      {
+        "station": "I-84 @ MP 108 Taggarts EB",
+        "air_temp": "42.10",
+        "surface_temp": "46.6",
+        "surface_status": "Dry",
+        "wind_speed": "3.29",
+        "wind_gust": "7.45"
+      },
+      {
+        "station": "US-89 @ MP 406 Weber River",
+        "air_temp": "45.24",
+        "surface_temp": "48.7",
+        "surface_status": "Dry",
+        "wind_speed": "1.93",
+        "wind_gust": "5.92"
+      },
+      {
+        "station": "SR-39 @ MP 17.5 Huntsville",
+        "air_temp": "39.18",
+        "surface_temp": "43.5",
+        "surface_status": "Dry",
+        "wind_speed": "1.56",
+        "wind_gust": "2.41"
+      },
+      {
+        "station": "North Ogden Divide",
+        "air_temp": "33.03",
+        "surface_temp": "40.3",
+        "surface_status": null,
+        "wind_speed": "10.15",
+        "wind_gust": "15.12"
+      },
+      {
+        "station": "I-84 @ MP 30.5 Whites Valley",
+        "air_temp": "41.75",
+        "surface_temp": "47.3",
+        "surface_status": "Dry",
+        "wind_speed": "4.15",
+        "wind_gust": "6.14"
       },
       {
         "station": "I-84 @ MP 91 Devils Gate",
         "air_temp": null,
-        "surface_temp": "37.8",
+        "surface_temp": "43",
         "surface_status": "Dry",
         "wind_speed": null,
         "wind_gust": null
       },
       {
         "station": "SR-39 @ MP 46 Monte Cristo",
-        "air_temp": "27.72",
+        "air_temp": "26.20",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "6.21",
-        "wind_gust": "10.06"
+        "wind_speed": "7.91",
+        "wind_gust": "10.81"
       },
       {
         "station": "SR-158 @ MP 11.5 Powder Mountain",
-        "air_temp": "30.99",
-        "surface_temp": "43",
+        "air_temp": "31.61",
+        "surface_temp": "47.1",
         "surface_status": "Dry",
-        "wind_speed": "4.03",
-        "wind_gust": "9.69"
+        "wind_speed": "1.94",
+        "wind_gust": "6.33"
       },
       {
         "station": "I-84 @ MP 97 Peterson",
-        "air_temp": "37.16",
-        "surface_temp": "44.2",
+        "air_temp": "42.61",
+        "surface_temp": "48",
         "surface_status": "Dry",
-        "wind_speed": "4.96",
-        "wind_gust": "6.80"
+        "wind_speed": "4.44",
+        "wind_gust": "7.45"
       }
     ],
     "roads": [
@@ -1151,7 +1151,7 @@
         "current_period": {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-23T12:00:00-07:00",
+          "startTime": "2026-11-23T14:00:00-07:00",
           "endTime": "2026-11-23T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 25,
@@ -1159,13 +1159,13 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 3
+            "value": 1
           },
           "windSpeed": "5 mph",
           "windDirection": "W",
-          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-          "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 25, with temperatures falling to around 20 in the afternoon. West wind around 5 mph."
+          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+          "shortForecast": "Sunny",
+          "detailedForecast": "Sunny. High near 25, with temperatures falling to around 20 in the afternoon. West wind around 5 mph."
         },
         "upcoming": [
           {
@@ -1173,8 +1173,8 @@
             "temp": 25,
             "unit": "F",
             "wind": "5 mph",
-            "short": "Mostly Sunny",
-            "detail": "Mostly sunny. High near 25, with temperatures falling to around 20 in the afternoon. West wind around 5 mph."
+            "short": "Sunny",
+            "detail": "Sunny. High near 25, with temperatures falling to around 20 in the afternoon. West wind around 5 mph."
           },
           {
             "name": "Tonight",
@@ -1423,7 +1423,7 @@
         "current_period": {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-23T12:00:00-07:00",
+          "startTime": "2026-11-23T14:00:00-07:00",
           "endTime": "2026-11-23T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 40,
@@ -1431,7 +1431,7 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 3
+            "value": 1
           },
           "windSpeed": "2 mph",
           "windDirection": "W",
@@ -1625,26 +1625,26 @@
   },
   "resort_weather": {
     "powder_mountain": {
-      "temp_f": 27,
+      "temp_f": 26,
       "condition": null,
-      "wind": "5.33",
+      "wind": "5.22",
       "source_url": "https://powdermountain.com/api/header-conditions"
     },
     "nordic_valley": {
-      "temp_f": 34,
+      "temp_f": 35,
       "condition": null,
-      "wind": "WSW 2 MPH",
+      "wind": "W 3 MPH",
       "source_url": "https://www.nordicvalley.ski/wp-content/uploads/sites/10/m-json/weather.json"
     }
   },
   "pws": {
     "KUTLIBER14": {
       "station_id": "KUTLIBER14",
-      "temp_f": 40,
-      "wind_mph": 2,
-      "wind_gust_mph": 4,
-      "humidity": 58,
-      "obs_time_local": "2026-11-23 12:26:03"
+      "temp_f": 42,
+      "wind_mph": 3,
+      "wind_gust_mph": 3,
+      "humidity": 54,
+      "obs_time_local": "2026-11-23 14:20:25"
     }
   }
 }
