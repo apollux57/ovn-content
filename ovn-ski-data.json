@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-23T14:36:43.649439+00:00",
+  "updated_utc": "2026-11-23T14:42:13.031962+00:00",
   "udot": {
     "cameras": [
       {
@@ -744,7 +744,7 @@
         "name": "I-15 NB @ 4000 S / MP 340.76, RDL",
         "roadway": "I-15",
         "messages": [
-          "NO_MESSAGE"
+          "TIME TO\n12TH ST\t4min\n2700 N\t8min"
         ]
       },
       {
@@ -773,8 +773,7 @@
         "name": "I-15 SB @ River Valley Dr / 3650 S / MP 341.17, RDL",
         "roadway": "I-15",
         "messages": [
-          "SB I-15 TO CLOSE\nAT EXIT 328\nMON 10 PM - TUE 6 AM",
-          "SB I-15 TO CLOSE\nAT 200 N KAYSVILLE\nMON 10 PM - TUE 6 AM"
+          "ANTELOPE DR\nVIA I-15\t8min\nVIA I84 / US89\t10min"
         ]
       },
       {
@@ -788,99 +787,99 @@
     "rwis": [
       {
         "station": "I-84 @ MP 14 Chaulk Hill",
-        "air_temp": "29.66",
-        "surface_temp": "32",
+        "air_temp": "31.78",
+        "surface_temp": "32.5",
         "surface_status": "Dry",
-        "wind_speed": "7.03",
-        "wind_gust": "7.89"
+        "wind_speed": "4.44",
+        "wind_gust": "6.14"
       },
       {
         "station": "I-84 @ Weber Canyon",
-        "air_temp": "24.05",
-        "surface_temp": "27.3",
+        "air_temp": "24.37",
+        "surface_temp": "27.5",
         "surface_status": "Damp",
-        "wind_speed": "12.77",
-        "wind_gust": "17.97"
+        "wind_speed": "11.91",
+        "wind_gust": "16.88"
       },
       {
         "station": "I-84 @ MP 112 Devils Slide",
-        "air_temp": "26.73",
-        "surface_temp": "29.3",
+        "air_temp": "26.43",
+        "surface_temp": "28.9",
         "surface_status": "Dry",
-        "wind_speed": "1.26",
-        "wind_gust": "3.29"
+        "wind_speed": "1.15",
+        "wind_gust": "2.63"
       },
       {
         "station": "Riverdale Rd",
-        "air_temp": "32.52",
+        "air_temp": "32.40",
         "surface_temp": "31.6",
         "surface_status": "Dry",
-        "wind_speed": "2.10",
-        "wind_gust": "4.82"
+        "wind_speed": "2.41",
+        "wind_gust": "4.60"
       },
       {
         "station": "I-84 @ MP 108 Taggarts WB",
-        "air_temp": "29.72",
+        "air_temp": "29.40",
         "surface_temp": "30.7",
         "surface_status": "Dry",
-        "wind_speed": "7.77",
-        "wind_gust": "10.52"
+        "wind_speed": "5.92",
+        "wind_gust": "9.43"
       },
       {
         "station": "SR-39 @ MP 14 Pineview Dam",
-        "air_temp": "26.53",
-        "surface_temp": "26.6",
+        "air_temp": "26.45",
+        "surface_temp": "26.8",
         "surface_status": "Dry",
-        "wind_speed": "5.50",
-        "wind_gust": "7.89"
+        "wind_speed": "4.73",
+        "wind_gust": "6.36"
       },
       {
         "station": "SR-167 @ Trappers Loop",
-        "air_temp": "23.66",
-        "surface_temp": "27.5",
+        "air_temp": "23.94",
+        "surface_temp": "27.1",
         "surface_status": "Dry",
-        "wind_speed": "5.67",
-        "wind_gust": "7.01"
+        "wind_speed": "4.07",
+        "wind_gust": "5.70"
       },
       {
         "station": "I-84 @ MP 108 Taggarts EB",
-        "air_temp": "29.72",
-        "surface_temp": "28.9",
+        "air_temp": "29.40",
+        "surface_temp": "28.8",
         "surface_status": "Dry",
-        "wind_speed": "7.77",
-        "wind_gust": "10.52"
+        "wind_speed": "5.92",
+        "wind_gust": "9.43"
       },
       {
         "station": "US-89 @ MP 406 Weber River",
-        "air_temp": "31.18",
-        "surface_temp": "31.5",
+        "air_temp": "29.94",
+        "surface_temp": "31.1",
         "surface_status": "Dry",
-        "wind_speed": "23.73",
-        "wind_gust": "29.81"
+        "wind_speed": "26.53",
+        "wind_gust": "31.78"
       },
       {
         "station": "SR-39 @ MP 17.5 Huntsville",
-        "air_temp": "21.37",
+        "air_temp": "21.68",
         "surface_temp": "25.2",
         "surface_status": "Dry",
-        "wind_speed": "2.03",
-        "wind_gust": "3.07"
+        "wind_speed": "0.30",
+        "wind_gust": "1.75"
       },
       {
         "station": "North Ogden Divide",
-        "air_temp": "24.51",
-        "surface_temp": "23.8",
+        "air_temp": "24.61",
+        "surface_temp": "24.3",
         "surface_status": null,
-        "wind_speed": "7.75",
-        "wind_gust": "11.18"
+        "wind_speed": "7.34",
+        "wind_gust": "10.74"
       },
       {
         "station": "I-84 @ MP 30.5 Whites Valley",
-        "air_temp": "28.30",
-        "surface_temp": "31.8",
+        "air_temp": "28.07",
+        "surface_temp": "30.9",
         "surface_status": "Dry",
-        "wind_speed": "3.29",
-        "wind_gust": "4.60"
+        "wind_speed": "1.27",
+        "wind_gust": "5.04"
       },
       {
         "station": "I-84 @ MP 91 Devils Gate",
@@ -892,27 +891,27 @@
       },
       {
         "station": "SR-39 @ MP 46 Monte Cristo",
-        "air_temp": "19.89",
+        "air_temp": "19.96",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "0.00",
-        "wind_gust": "2.24"
-      },
-      {
-        "station": "SR-158 @ MP 11.5 Powder Mountain",
-        "air_temp": "24.65",
-        "surface_temp": "24.1",
-        "surface_status": "Dry",
-        "wind_speed": "1.37",
+        "wind_speed": "0.78",
         "wind_gust": "2.61"
       },
       {
-        "station": "I-84 @ MP 97 Peterson",
-        "air_temp": "22.83",
-        "surface_temp": "26.6",
+        "station": "SR-158 @ MP 11.5 Powder Mountain",
+        "air_temp": "25.05",
+        "surface_temp": "24.3",
         "surface_status": "Dry",
-        "wind_speed": "0.73",
-        "wind_gust": "4.38"
+        "wind_speed": "2.07",
+        "wind_gust": "3.73"
+      },
+      {
+        "station": "I-84 @ MP 97 Peterson",
+        "air_temp": "23.41",
+        "surface_temp": "26.8",
+        "surface_status": "Dry",
+        "wind_speed": "0.77",
+        "wind_gust": "3.29"
       }
     ],
     "roads": [
@@ -1617,11 +1616,11 @@
   "pws": {
     "KUTLIBER14": {
       "station_id": "KUTLIBER14",
-      "temp_f": 24,
+      "temp_f": 23,
       "wind_mph": 0,
       "wind_gust_mph": 0,
       "humidity": 90,
-      "obs_time_local": "2026-11-23 07:36:37"
+      "obs_time_local": "2026-11-23 07:42:07"
     }
   }
 }
