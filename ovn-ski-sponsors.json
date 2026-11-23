@@ -6,21 +6,27 @@
         {
           "name": "Diamond Peak Mountain Sports",
           "url": "https://www.diamondpeak.biz/",
-          "town": "Eden",
+          "address": "2429 N Hwy 158, Eden, UT 84310",
+          "phone": "(801) 745-0101",
+          "email": "info@diamondpeak.biz",
           "logo": "https://raw.githubusercontent.com/apollux57/ovn-content/main/logos/diamond-peak.png",
           "description": "Full ski, snowboard & backcountry sales, rentals, tuning, and boot fitting."
         },
         {
           "name": "Skyline Cycle",
           "url": "https://www.skylinecyclery.com/",
-          "town": "Ogden",
+          "address": "834 Washington Blvd, Ogden, UT 84404",
+          "phone": "(801) 394-7700",
+          "email": "info@skylinecyclery.com",
           "logo": "https://raw.githubusercontent.com/apollux57/ovn-content/main/logos/skyline-cycle.png",
           "description": "Ski and Snowboard Tuning."
         },
         {
           "name": "PowderPups Pet Salon",
           "url": "https://www.powderpups.com/",
-          "town": "Eden",
+          "address": "Eden, UT 84310",
+          "phone": "(801) 555-0199",
+          "email": "",
           "logo": "https://raw.githubusercontent.com/apollux57/ovn-content/main/logos/powderpups.png",
           "description": "Premium dog grooming and spa care while you ski."
         }
