@@ -321,6 +321,36 @@ def get_resort_snow_reports():
 
     return reports
 
+def fetch_pws_station(station_id: str) -> dict | None:
+    """Fetch current observations for a Weather Underground PWS station."""
+    api_key = os.environ.get("WU_API_KEY", "").strip()
+    if not api_key:
+        print(f"Skipping PWS {station_id}: WU_API_KEY not set.")
+        return None
+
+    url = (
+        "https://api.weather.com/v2/pws/observations/current"
+        f"?stationId={station_id}&format=json&units=e&apiKey={api_key}"
+    )
+    try:
+        resp = requests.get(url, timeout=15)
+        resp.raise_for_status()
+        obs_list = resp.json().get("observations") or []
+        if not obs_list:
+            return None
+        obs = obs_list[0]
+        imp = obs.get("imperial") or {}
+        return {
+            "station_id": station_id,
+            "temp_f": imp.get("temp"),
+            "wind_mph": imp.get("windSpeed"),
+            "wind_gust_mph": imp.get("windGust"),
+            "humidity": obs.get("humidity"),
+            "obs_time_local": obs.get("obsTimeLocal"),
+        }
+    except Exception as e:
+        print(f"PWS fetch error ({station_id}): {e}")
+        return None
 
 def main():
     payload = {
@@ -333,6 +363,18 @@ def main():
     with open("ovn-ski-data.json", "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
     print("Saved ovn-ski-data.json successfully.")
+    
+    pws_kutliber14 = fetch_pws_station("KUTLIBER14")
+    pws_data = {"KUTLIBER14": pws_kutliber14} if pws_kutliber14 else {}
+
+    output = {
+        "updated_utc": datetime.now(timezone.utc).isoformat(),
+        "udot": udot_data,
+        "nws": nws_data,
+        "snotel": snotel_data,
+        "snow_reports": snow_reports,
+        "pws": pws_data,
+    }
 
 
 if __name__ == "__main__":
