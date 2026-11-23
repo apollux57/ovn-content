@@ -51,6 +51,12 @@ SKI_UTAH_SLUGS = {
     "nordic_valley": "nordic-valley",
 }
 
+RESORT_WEATHER_URLS = {
+    "snowbasin": "https://www.snowbasin.com/the-mountain/mountain-report/",
+    "powder_mountain": "https://powdermountain.com/conditions",
+    "nordic_valley": "https://www.nordicvalley.ski/nordic-valley-weather-conditions-webcams/",
+}
+
 
 def in_valley_bbox(lat, lon):
     try:
@@ -285,7 +291,6 @@ def get_resort_snow_reports():
                 or grab(r"(\d+\s*of\s*\d+)\s+lifts")
             )
 
-            # Fetch projected opening date from the resort's Ski Utah member info page
             projected_opening = None
             try:
                 info_resp = requests.get(info_url, headers=headers, timeout=15)
@@ -298,7 +303,6 @@ def get_resort_snow_reports():
             except Exception:
                 pass
 
-            # Determine Open vs. Pre-Season / Closed status
             status = "Closed"
             if lifts:
                 first_num = int(re.split(r"[/a-zA-Z]+", lifts)[0].strip())
@@ -321,6 +325,83 @@ def get_resort_snow_reports():
             reports[key] = {"status": "Closed", "error": str(e), "source_url": report_url}
 
     return reports
+
+
+def get_resort_current_weather():
+    """Scrape current temp, condition, and wind directly from resort report pages."""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+    }
+    results = {}
+
+    for key, url in RESORT_WEATHER_URLS.items():
+        try:
+            resp = requests.get(url, headers=headers, timeout=20)
+            resp.raise_for_status()
+            html = resp.text
+            text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html))
+
+            temp_f = None
+            condition = None
+            wind = None
+
+            if key == "snowbasin":
+                m = re.search(
+                    r"Conditions.*?Base\s+(-?\d+)\s*°\s*F?\s+([A-Za-z0-9 /\-]+?)\s+Wind\s+([0-9]+\s*mph(?:\s+[NSEW]{1,3})?)",
+                    text,
+                    re.IGNORECASE,
+                )
+                if m:
+                    temp_f = int(m.group(1))
+                    condition = m.group(2).strip(" .•-")
+                    wind = m.group(3).strip()
+
+            elif key == "nordic_valley":
+                m_temp = re.search(
+                    r"(?:OpenSnow|Current Conditions).*?([A-Za-z][A-Za-z /\-]{2,30}?)\s+(-?\d+)\s*°\s*F?\s+Current\s+Temperature",
+                    text,
+                    re.IGNORECASE,
+                )
+                if m_temp:
+                    condition = m_temp.group(1).strip(" .•-")
+                    temp_f = int(m_temp.group(2))
+                else:
+                    m_alt = re.search(r"(-?\d+)\s*°\s*F?\s+Current\s+Temperature", text, re.IGNORECASE)
+                    if m_alt:
+                        temp_f = int(m_alt.group(1))
+
+                m_wind = re.search(r"\b([NSEW]{1,3}\s+\d+\s*MPH|\d+\s*MPH\s+[NSEW]{1,3})\b", text, re.IGNORECASE)
+                if m_wind:
+                    wind = m_wind.group(1).strip()
+
+            elif key == "powder_mountain":
+                m_temp = re.search(r"(?:Current|Base|Temp(?:erature)?)[^0-9\-]{0,20}(-?\d{1,2})\s*°\s*F?", text, re.IGNORECASE)
+                if m_temp:
+                    temp_f = int(m_temp.group(1))
+                else:
+                    m_json = re.search(r'"(?:currentTemp|temp_f|temperature)"\s*:\s*"?(-?\d{1,2})"?', html, re.IGNORECASE)
+                    if m_json:
+                        temp_f = int(m_json.group(1))
+
+                m_wind = re.search(r"(?:Wind)[^0-9]{0,15}(\d+\s*mph(?:\s+[NSEW]{1,3})?)", text, re.IGNORECASE)
+                if m_wind:
+                    wind = m_wind.group(1).strip()
+
+                m_cond = re.search(r'"(?:weatherCondition|skyCondition|shortForecast)"\s*:\s*"([^"]{3,40})"', html, re.IGNORECASE)
+                if m_cond:
+                    condition = m_cond.group(1).strip()
+
+            if temp_f is not None:
+                results[key] = {
+                    "temp_f": temp_f,
+                    "condition": condition,
+                    "wind": wind,
+                    "source_url": url,
+                }
+        except Exception as e:
+            print(f"Resort weather scrape error ({key}): {e}")
+
+    return results
 
 
 def fetch_pws_station(station_id):
@@ -365,6 +446,7 @@ def main():
         "nws": get_nws_resort_weather(),
         "snotel": get_snotel_data(),
         "snow_reports": get_resort_snow_reports(),
+        "resort_weather": get_resort_current_weather(),
         "pws": pws_data,
     }
     with open("ovn-ski-data.json", "w", encoding="utf-8") as f:
