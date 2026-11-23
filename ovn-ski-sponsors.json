@@ -7,7 +7,7 @@
           "name": "Diamond Peak Mountain Sports",
           "url": "https://www.diamondpeak.biz/",
           "town": "Eden",
-          "featured": true,
+          "featured": false,
           "badge": "Featured",
           "logo": "https://raw.githubusercontent.com/apollux57/ovn-content/main/logos/diamond-peak.png",
           "description": "Full ski, snowboard & backcountry sales, rentals, tuning, and boot fitting."
@@ -16,7 +16,7 @@
           "name": "Skyline Cycle",
           "url": "https://www.skylinecyclery.com/",
           "town": "Ogden",
-          "featured": true,
+          "featured": false,
           "badge": "Featured",
           "logo": "https://raw.githubusercontent.com/apollux57/ovn-content/main/logos/skyline-cycle.png",
           "description": "Ski and Snowboard Tuning."
@@ -25,7 +25,7 @@
           "name": "PowderPups Pet Salon",
           "url": "https://www.powderpups.com/",
           "town": "Eden",
-          "featured": true,
+          "featured": false,
           "badge": "Featured",
           "logo": "https://raw.githubusercontent.com/apollux57/ovn-content/main/logos/powderpups.png",
           "description": "Premium dog grooming and spa care while you ski."
