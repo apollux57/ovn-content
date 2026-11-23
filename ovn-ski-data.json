@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-23T16:22:08.603223+00:00",
+  "updated_utc": "2026-11-23T16:25:49.279813+00:00",
   "udot": {
     "cameras": [
       {
@@ -1151,7 +1151,7 @@
         "current_period": {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-23T08:00:00-07:00",
+          "startTime": "2026-11-23T09:00:00-07:00",
           "endTime": "2026-11-23T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 25,
@@ -1423,7 +1423,7 @@
         "current_period": {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-23T09:00:00-07:00",
+          "startTime": "2026-11-23T06:00:00-07:00",
           "endTime": "2026-11-23T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 40,
@@ -1620,8 +1620,8 @@
       "temp_f": 38,
       "wind_mph": 0,
       "wind_gust_mph": 0,
-      "humidity": 70,
-      "obs_time_local": "2026-11-23 09:21:59"
+      "humidity": 65,
+      "obs_time_local": "2026-11-23 09:25:40"
     }
   }
 }
