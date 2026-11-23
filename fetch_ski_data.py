@@ -331,7 +331,7 @@ def _find_first_key(obj, target_keys):
     if isinstance(obj, dict):
         for k, v in obj.items():
             if k.lower() in target_keys and v not in (None, "", "--"):
-                if not isinstance(v, (dict, list)):
+                if not isinstance(v, (dict, list)) and "powered by" not in str(v).lower():
                     return v
         for v in obj.values():
             found = _find_first_key(v, target_keys)
