@@ -56,6 +56,48 @@ RESORT_WEATHER_URLS = {
     "nordic_valley": "https://www.nordicvalley.ski/wp-content/uploads/sites/10/m-json/weather.json",
 }
 
+# Manual overrides for all 4 resorts.
+# Leave any field as None to use the automatic live feed.
+# Examples:
+#   "status": "Open" or "Closed"
+#   "projected_opening": "December 5, 2026"
+#   "snow_24h": "6", "base_depth": "28", "season_total": "54"
+#   "lifts_open": "5/12" (displays under "Trails" for ogden_nordic, e.g. "18 km" or "12/15")
+MANUAL_RESORT_OVERRIDES = {
+    "snowbasin": {
+        "status": None,
+        "projected_opening": None,
+        "snow_24h": None,
+        "base_depth": None,
+        "season_total": None,
+        "lifts_open": None,
+    },
+    "powder_mountain": {
+        "status": None,
+        "projected_opening": None,
+        "snow_24h": None,
+        "base_depth": None,
+        "season_total": None,
+        "lifts_open": None,
+    },
+    "nordic_valley": {
+        "status": None,
+        "projected_opening": None,
+        "snow_24h": None,
+        "base_depth": None,
+        "season_total": None,
+        "lifts_open": None,
+    },
+    "ogden_nordic": {
+        "status": None,
+        "projected_opening": None,
+        "snow_24h": None,
+        "base_depth": None,
+        "season_total": None,
+        "lifts_open": None,
+    },
+}
+
 
 def in_valley_bbox(lat, lon):
     try:
@@ -268,7 +310,7 @@ def get_snotel_data():
 
 
 def get_resort_snow_reports():
-    """Fetch snow stats, open/closed status, and projected opening dates from Ski Utah."""
+    """Fetch snow stats, open/closed status, and projected opening dates from Ski Utah, then apply manual overrides."""
     reports = {}
     headers = {"User-Agent": "Mozilla/5.0 (compatible; OgdenValleyNewsBot/1.0)"}
 
@@ -322,6 +364,25 @@ def get_resort_snow_reports():
         except Exception as e:
             print(f"Ski Utah report error for {key}: {e}")
             reports[key] = {"status": "Closed", "error": str(e), "source_url": report_url}
+
+    # Apply manual overrides for all 4 resorts
+    for key, overrides in MANUAL_RESORT_OVERRIDES.items():
+        base = reports.get(key, {
+            "status": "Closed",
+            "projected_opening": None,
+            "snow_24h": None,
+            "base_depth": None,
+            "season_total": None,
+            "lifts_open": None,
+            "runs_open": None,
+            "source_url": "https://www.ogdennordic.com/" if key == "ogden_nordic" else None,
+        })
+        for field, val in overrides.items():
+            if val is not None:
+                base[field] = val
+        if overrides.get("status") == "Closed" and overrides.get("lifts_open") is None:
+            base["lifts_open"] = None
+        reports[key] = base
 
     return reports
 
