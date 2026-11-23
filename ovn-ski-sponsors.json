@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "title": "Ski/Board Rentals & Service",
+      "title": "Ski/Board Sales, Rentals & Services",
       "items": [
         {
           "name": "Diamond Peak Mountain Sports",
@@ -10,7 +10,7 @@
           "featured": true,
           "badge": "Featured",
           "logo": "https://raw.githubusercontent.com/apollux57/ovn-content/main/logos/diamond-peak.png",
-          "description": "Full ski, snowboard & backcountry rentals, tuning, and boot fitting."
+          "description": "Full ski, snowboard & backcountry sales, rentals, tuning, and boot fitting."
         },
         {
           "name": "Skyline Cycle",
@@ -21,6 +21,15 @@
           "logo": "https://raw.githubusercontent.com/apollux57/ovn-content/main/logos/skyline-cycle.png",
           "description": "Ski and Snowboard Tuning."
         }
+        {
+          "name": "PowderPups Pet Salon",
+          "url": "https://www.powderpups.com/",
+          "town": "Eden",
+          "featured": true,
+          "badge": "Featured",
+          "logo": "https://raw.githubusercontent.com/apollux57/ovn-content/main/logos/powderpups.png",
+          "description": "Premium dog grooming and spa care."
+        },
       ]
     },
     {
