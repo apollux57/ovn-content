@@ -27,6 +27,7 @@ RESORTS = {
     "snowbasin": {"name": "Snowbasin", "lat": 41.2160, "lon": -111.8569},
     "powder_mountain": {"name": "Powder Mountain", "lat": 41.3790, "lon": -111.7803},
     "nordic_valley": {"name": "Nordic Valley", "lat": 41.3106, "lon": -111.8648},
+    "ogden_nordic": {"name": "Ogden Nordic", "lat": 41.3660, "lon": -111.9110},
 }
 
 SNOTEL_STATIONS = {
@@ -321,7 +322,8 @@ def get_resort_snow_reports():
 
     return reports
 
-def fetch_pws_station(station_id: str) -> dict | None:
+
+def fetch_pws_station(station_id):
     """Fetch current observations for a Weather Underground PWS station."""
     api_key = os.environ.get("WU_API_KEY", "").strip()
     if not api_key:
@@ -352,29 +354,22 @@ def fetch_pws_station(station_id: str) -> dict | None:
         print(f"PWS fetch error ({station_id}): {e}")
         return None
 
+
 def main():
+    pws_kutliber14 = fetch_pws_station("KUTLIBER14")
+    pws_data = {"KUTLIBER14": pws_kutliber14} if pws_kutliber14 else {}
+
     payload = {
         "updated_utc": datetime.now(timezone.utc).isoformat(),
         "udot": get_udot_data(),
         "nws": get_nws_resort_weather(),
         "snotel": get_snotel_data(),
         "snow_reports": get_resort_snow_reports(),
+        "pws": pws_data,
     }
     with open("ovn-ski-data.json", "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
     print("Saved ovn-ski-data.json successfully.")
-    
-    pws_kutliber14 = fetch_pws_station("KUTLIBER14")
-    pws_data = {"KUTLIBER14": pws_kutliber14} if pws_kutliber14 else {}
-
-    output = {
-        "updated_utc": datetime.now(timezone.utc).isoformat(),
-        "udot": udot_data,
-        "nws": nws_data,
-        "snotel": snotel_data,
-        "snow_reports": snow_reports,
-        "pws": pws_data,
-    }
 
 
 if __name__ == "__main__":
