@@ -20,7 +20,7 @@
           "badge": "Featured",
           "logo": "https://raw.githubusercontent.com/apollux57/ovn-content/main/logos/skyline-cycle.png",
           "description": "Ski and Snowboard Tuning."
-        }
+        },
         {
           "name": "PowderPups Pet Salon",
           "url": "https://www.powderpups.com/",
@@ -28,7 +28,7 @@
           "featured": true,
           "badge": "Featured",
           "logo": "https://raw.githubusercontent.com/apollux57/ovn-content/main/logos/powderpups.png",
-          "description": "Premium dog grooming and spa care."
+          "description": "Premium dog grooming and spa care while you ski."
         },
       ]
     },
