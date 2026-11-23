@@ -377,8 +377,17 @@ def get_resort_current_weather():
 
             condition = _find_first_key(data, {
                 "condition", "conditions", "weather", "weather_condition",
-                "sky", "sky_condition", "short_forecast", "description", "summary"
+                "weather_text", "weathertext", "current_condition", "currentcondition",
+                "sky", "sky_condition", "sky_text", "short_forecast", "shortforecast",
+                "phrase", "forecast", "description", "summary", "text", "icon"
             })
+            if condition:
+                cond_str = str(condition).strip()
+                if "-" in cond_str or "_" in cond_str:
+                    cond_str = cond_str.replace("-", " ").replace("_", " ").title()
+            else:
+                cond_str = None
+
             wind = _find_first_key(data, {
                 "wind", "wind_speed", "windspeed", "wind_mph", "wind_desc", "wind_text"
             })
@@ -386,10 +395,12 @@ def get_resort_current_weather():
             if temp_f is not None:
                 results[key] = {
                     "temp_f": temp_f,
-                    "condition": str(condition).strip() if condition else None,
+                    "condition": cond_str,
                     "wind": str(wind).strip() if wind else None,
                     "source_url": url,
                 }
+                if not cond_str:
+                    print(f"Resort JSON ({key}) has no matched condition. Sample: {str(data)[:400]}")
             else:
                 top_keys = list(data.keys()) if isinstance(data, dict) else type(data).__name__
                 print(f"Resort JSON ({key}) parsed but no temp key matched. Top keys: {top_keys}")
