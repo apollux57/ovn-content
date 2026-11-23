@@ -151,7 +151,7 @@ def get_nws_resort_weather():
 
             fc_resp = requests.get(forecast_url, headers=NWS_HEADERS, timeout=15)
             fc_resp.raise_for_status()
-            periods = fc_resp.json()["properties"]["periods"][:4]
+            periods = fc_resp.json()["properties"]["periods"][:14]
 
             weather[key] = {
                 "name": info["name"],
