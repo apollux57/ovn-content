@@ -26,6 +26,7 @@ jobs:
       - name: Run UDOT & NWS fetcher
         env:
           UDOT_API_KEY: ${{ secrets.UDOT_API_KEY }}
+          WU_API_KEY: ${{ secrets.WU_API_KEY }}
         run: python fetch_ski_data.py
 
       - name: Commit updated JSON
