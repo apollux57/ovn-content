@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-23T21:20:32.465037+00:00",
+  "updated_utc": "2026-11-23T21:23:17.268585+00:00",
   "udot": {
     "cameras": [
       {
@@ -758,7 +758,7 @@
         "name": "I-84 / Weber Canyon WB @ Milepost 91.35, MN",
         "roadway": "I-84",
         "messages": [
-          "OGDEN 12 ST\nVIA I-84\t16min\nVIA US-89\t21min"
+          "OGDEN 12 ST\nVIA I-84\t16min\nVIA US-89\t23min"
         ]
       },
       {
@@ -1150,8 +1150,8 @@
         "name": "Powder Mountain",
         "current_period": {
           "number": 1,
-          "name": "This Afternoon",
-          "startTime": "2026-11-23T14:00:00-07:00",
+          "name": "Today",
+          "startTime": "2026-11-23T11:00:00-07:00",
           "endTime": "2026-11-23T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 25,
@@ -1159,22 +1159,22 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 1
+            "value": 3
           },
           "windSpeed": "5 mph",
           "windDirection": "W",
-          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-          "shortForecast": "Sunny",
-          "detailedForecast": "Sunny. High near 25, with temperatures falling to around 20 in the afternoon. West wind around 5 mph."
+          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+          "shortForecast": "Mostly Sunny",
+          "detailedForecast": "Mostly sunny. High near 25, with temperatures falling to around 20 in the afternoon. West wind around 5 mph."
         },
         "upcoming": [
           {
-            "name": "This Afternoon",
+            "name": "Today",
             "temp": 25,
             "unit": "F",
             "wind": "5 mph",
-            "short": "Sunny",
-            "detail": "Sunny. High near 25, with temperatures falling to around 20 in the afternoon. West wind around 5 mph."
+            "short": "Mostly Sunny",
+            "detail": "Mostly sunny. High near 25, with temperatures falling to around 20 in the afternoon. West wind around 5 mph."
           },
           {
             "name": "Tonight",
@@ -1287,7 +1287,7 @@
         "current_period": {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-23T12:00:00-07:00",
+          "startTime": "2026-11-23T14:00:00-07:00",
           "endTime": "2026-11-23T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 40,
@@ -1295,13 +1295,13 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 2
+            "value": 1
           },
           "windSpeed": "1 mph",
-          "windDirection": "WSW",
-          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-          "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 40, with temperatures falling to around 34 in the afternoon. West southwest wind around 1 mph."
+          "windDirection": "W",
+          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+          "shortForecast": "Sunny",
+          "detailedForecast": "Sunny. High near 40, with temperatures falling to around 34 in the afternoon. West wind around 1 mph."
         },
         "upcoming": [
           {
@@ -1309,8 +1309,8 @@
             "temp": 40,
             "unit": "F",
             "wind": "1 mph",
-            "short": "Mostly Sunny",
-            "detail": "Mostly sunny. High near 40, with temperatures falling to around 34 in the afternoon. West southwest wind around 1 mph."
+            "short": "Sunny",
+            "detail": "Sunny. High near 40, with temperatures falling to around 34 in the afternoon. West wind around 1 mph."
           },
           {
             "name": "Tonight",
@@ -1633,18 +1633,18 @@
     "nordic_valley": {
       "temp_f": 35,
       "condition": null,
-      "wind": "W 3 MPH",
+      "wind": "W 4 MPH",
       "source_url": "https://www.nordicvalley.ski/wp-content/uploads/sites/10/m-json/weather.json"
     }
   },
   "pws": {
     "KUTLIBER14": {
       "station_id": "KUTLIBER14",
-      "temp_f": 42,
-      "wind_mph": 3,
-      "wind_gust_mph": 3,
+      "temp_f": 41,
+      "wind_mph": 4,
+      "wind_gust_mph": 5,
       "humidity": 54,
-      "obs_time_local": "2026-11-23 14:20:25"
+      "obs_time_local": "2026-11-23 14:23:05"
     }
   }
 }
