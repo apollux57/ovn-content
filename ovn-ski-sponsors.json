@@ -9,6 +9,7 @@
           "town": "Eden",
           "featured": true,
           "badge": "Featured",
+          "logo": "https://raw.githubusercontent.com/apollux57/ovn-content/main/logos/diamond-peak.png",
           "description": "Full ski, snowboard & backcountry rentals, tuning, and boot fitting."
         },
         {
@@ -17,6 +18,7 @@
           "town": "Ogden",
           "featured": true,
           "badge": "Featured",
+          "logo": "https://raw.githubusercontent.com/apollux57/ovn-content/main/logos/skyline-cycle.png",
           "description": "Ski and Snowboard Tuning."
         }
       ]
@@ -30,6 +32,7 @@
           "town": "",
           "featured": false,
           "badge": "",
+          "logo": "",
           "description": ""
         }
       ]
@@ -43,6 +46,7 @@
           "town": "",
           "featured": false,
           "badge": "",
+          "logo": "",
           "description": ""
         }
       ]
