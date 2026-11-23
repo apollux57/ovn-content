@@ -24,13 +24,27 @@
     {
       "title": "Coffee & Morning Fuel",
       "items": [
-        {}
+        {
+          "name": "",
+          "url": "",
+          "town": "",
+          "featured": false,
+          "badge": "",
+          "description": ""
+        }
       ]
     },
     {
       "title": "Après-Ski & Dining",
       "items": [
-        {}
+        {
+          "name": "",
+          "url": "",
+          "town": "",
+          "featured": false,
+          "badge": "",
+          "description": ""
+        }
       ]
     }
   ]
