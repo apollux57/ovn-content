@@ -148,23 +148,41 @@ def fetch_udot(endpoint):
         return []
 
 
-def get_udot_data():
-    raw_cams = fetch_udot("cameras")
+raw_cams = fetch_udot("cameras")
     cameras = []
     for c in raw_cams:
         loc = f"{c.get('Location', '')} {c.get('Roadway', '')}"
-        if in_valley_bbox(c.get("Latitude"), c.get("Longitude")) or matches_corridor(loc):
-            views = c.get("Views") or []
+        views = c.get("Views") or []
+
+        # Match any view whose URL contains one of our required CCTV IDs, otherwise take the first view
+        matched_view = None
+        cctv_id = None
+        for v in views:
+            v_url = v.get("Url", "")
+            m = re.search(r"/Cctv/(\d+)", v_url, re.IGNORECASE)
+            if m and m.group(1) in REQUIRED_CCTV_IDS:
+                matched_view = v
+                cctv_id = m.group(1)
+                break
+
+        if not matched_view:
             img_url = views[0].get("Url") if views else c.get("Url", "")
-            if img_url:
-                cameras.append({
-                    "id": c.get("Id"),
-                    "name": c.get("Location") or c.get("Roadway"),
-                    "roadway": c.get("Roadway", ""),
-                    "url": img_url,
-                    "lat": c.get("Latitude"),
-                    "lon": c.get("Longitude"),
-                })
+            m = re.search(r"/Cctv/(\d+)", img_url or "", re.IGNORECASE)
+            cctv_id = m.group(1) if m else None
+        else:
+            img_url = matched_view.get("Url", "")
+
+        is_required = cctv_id in REQUIRED_CCTV_IDS
+        if img_url and (is_required or in_valley_bbox(c.get("Latitude"), c.get("Longitude")) or matches_corridor(loc)):
+            cameras.append({
+                "id": c.get("Id"),
+                "cctv_id": cctv_id,
+                "name": c.get("Location") or c.get("Roadway"),
+                "roadway": c.get("Roadway", ""),
+                "url": img_url,
+                "lat": c.get("Latitude"),
+                "lon": c.get("Longitude"),
+            })
 
     raw_signs = fetch_udot("messagesigns")
     signs = []
