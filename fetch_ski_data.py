@@ -205,6 +205,9 @@ def get_udot_data():
         if in_valley_bbox(w.get("Latitude"), w.get("Longitude")) or matches_corridor(loc):
             rwis.append({
                 "station": w.get("StationName"),
+                "roadway": w.get("Roadway", ""),
+                "lat": w.get("Latitude"),
+                "lon": w.get("Longitude"),
                 "air_temp": w.get("AirTemperature"),
                 "surface_temp": w.get("SurfaceTemp"),
                 "surface_status": w.get("SurfaceStatus"),
