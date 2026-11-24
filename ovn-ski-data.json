@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-24T20:48:30.817188+00:00",
+  "updated_utc": "2026-11-24T20:50:27.213684+00:00",
   "udot": {
     "cameras": [
       {
@@ -4165,7 +4165,7 @@
         "name": "I-15 NB @ Milepost 90.05, RN",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nBEAVER\t17min\nRICHFIELD\t1hr 7min"
+          "TIME TO\nBEAVER\t17min\nRICHFIELD\t1hr 6min"
         ]
       },
       {
@@ -4355,7 +4355,7 @@
         "name": "I-15 SB @ 2000 N / MP 61.27, CDC",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nST GEORGE\t45min\nLAS VEGAS\t2hr 13min"
+          "TIME TO\nST GEORGE\t43min\nLAS VEGAS\t2hr 12min"
         ]
       },
       {
@@ -5362,8 +5362,8 @@
         "name": "Snowbasin",
         "current_period": {
           "number": 1,
-          "name": "This Afternoon",
-          "startTime": "2026-11-24T13:00:00-07:00",
+          "name": "Today",
+          "startTime": "2026-11-24T11:00:00-07:00",
           "endTime": "2026-11-24T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 36,
@@ -5381,7 +5381,7 @@
         },
         "upcoming": [
           {
-            "name": "This Afternoon",
+            "name": "Today",
             "temp": 36,
             "unit": "F",
             "wind": "3 mph",
@@ -5973,9 +5973,9 @@
   },
   "resort_weather": {
     "powder_mountain": {
-      "temp_f": 30,
+      "temp_f": 31,
       "condition": null,
-      "wind": "7.12",
+      "wind": "7.27",
       "source_url": "https://powdermountain.com/api/header-conditions"
     },
     "nordic_valley": {
@@ -5996,9 +5996,9 @@
       "station_id": "KUTLIBER14",
       "temp_f": 44,
       "wind_mph": 0,
-      "wind_gust_mph": 2,
+      "wind_gust_mph": 0,
       "humidity": 54,
-      "obs_time_local": "2026-11-24 13:48:21"
+      "obs_time_local": "2026-11-24 13:50:21"
     }
   }
 }
