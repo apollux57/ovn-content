@@ -1,9 +1,10 @@
 {
-  "updated_utc": "2026-11-24T21:31:54.133381+00:00",
+  "updated_utc": "2026-11-24T22:03:05.731911+00:00",
   "udot": {
     "cameras": [
       {
         "id": 172054,
+        "cctv_id": "172054",
         "name": "I-15 NB @ Milepost 115.42, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/172054",
@@ -12,6 +13,7 @@
       },
       {
         "id": 172099,
+        "cctv_id": "172099",
         "name": "State St / US-89 @ Main St / SR-114, PLG",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/172099",
@@ -20,6 +22,7 @@
       },
       {
         "id": 172357,
+        "cctv_id": "172357",
         "name": "I-15 NB @ Shepard Ln / MP 325.43, FRM",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/172357",
@@ -28,6 +31,7 @@
       },
       {
         "id": 172468,
+        "cctv_id": "172468",
         "name": "I-15 NB @ 4400 S / MP 340.1, RDL",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/172468",
@@ -36,6 +40,7 @@
       },
       {
         "id": 172469,
+        "cctv_id": "172469",
         "name": "I-15 SB @ University Ave / 2260 S / MP 263, PVO",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/172469",
@@ -44,6 +49,7 @@
       },
       {
         "id": 172471,
+        "cctv_id": "172471",
         "name": "I-15 NB @ 1800 S / MP 326.23, KAY",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/172471",
@@ -52,6 +58,7 @@
       },
       {
         "id": 172474,
+        "cctv_id": "172474",
         "name": "I-15 NB @ Milepost 44.12, RN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/172474",
@@ -60,6 +67,7 @@
       },
       {
         "id": 173451,
+        "cctv_id": "173451",
         "name": "I-15 SB @ 15800 S / MP 286.64, BLF",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/173451",
@@ -68,6 +76,7 @@
       },
       {
         "id": 174192,
+        "cctv_id": "174192",
         "name": "SR-126 / State St @ 200 S, CFD",
         "roadway": "SR-126",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/174192",
@@ -76,6 +85,7 @@
       },
       {
         "id": 177130,
+        "cctv_id": "177130",
         "name": "I-15 SB @ 11000 S / MP 293, SJO",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177130",
@@ -84,6 +94,7 @@
       },
       {
         "id": 177131,
+        "cctv_id": "177131",
         "name": "I-15 SB @ Brigham Rd / MP 4.65, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177131",
@@ -92,6 +103,7 @@
       },
       {
         "id": 177135,
+        "cctv_id": "177135",
         "name": "Wall Ave / SR-204 @ 12th St / SR-39, OGD",
         "roadway": "SR 204",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177135",
@@ -100,6 +112,7 @@
       },
       {
         "id": 177146,
+        "cctv_id": "177146",
         "name": "200 N / Freedom Blvd / SR-56 @ 1225 W / I-15 NB Ramps, CDC",
         "roadway": "SR 56",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177146",
@@ -108,6 +121,7 @@
       },
       {
         "id": 177149,
+        "cctv_id": "177149",
         "name": "I-15 NB @ 1600 S / MP 258.96, SPF",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177149",
@@ -116,6 +130,7 @@
       },
       {
         "id": 177155,
+        "cctv_id": "177155",
         "name": "State St / US-89 @ Rio Tinto Stadium / 9210 S, SND",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177155",
@@ -124,6 +139,7 @@
       },
       {
         "id": 177156,
+        "cctv_id": "177156",
         "name": "I-15 NB @ Cedar City / MP 54.1, RN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177156",
@@ -132,6 +148,7 @@
       },
       {
         "id": 177163,
+        "cctv_id": "177163",
         "name": "I-15 NB @ Milepost 14.02, WAS",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177163",
@@ -140,6 +157,7 @@
       },
       {
         "id": 177177,
+        "cctv_id": "177177",
         "name": "State St / SR-9 @ 5300 W / SR-318, HRC",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177177",
@@ -148,6 +166,7 @@
       },
       {
         "id": 177178,
+        "cctv_id": "177178",
         "name": "I-15 NB @ 12250 S / MP 291.48, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177178",
@@ -156,6 +175,7 @@
       },
       {
         "id": 177182,
+        "cctv_id": "177182",
         "name": "SR-204 / Wall Ave @ 17th St, OGD",
         "roadway": "SR-204",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177182",
@@ -164,6 +184,7 @@
       },
       {
         "id": 177270,
+        "cctv_id": "177270",
         "name": "I-15 NB @ 1200 S / MP 355.15, WIL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177270",
@@ -172,6 +193,7 @@
       },
       {
         "id": 177296,
+        "cctv_id": "177296",
         "name": "I-15 NB @ 200 S / MP 356.35, WIL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177296",
@@ -180,6 +202,7 @@
       },
       {
         "id": 177304,
+        "cctv_id": "177304",
         "name": "I-15 SB @ Pioneer Crossing / Main St / SR-145 / MP 278.6, AFK",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177304",
@@ -188,6 +211,7 @@
       },
       {
         "id": 177305,
+        "cctv_id": "177305",
         "name": "Main St / US-89 / SR-145 @ State St / US-89, AFK",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177305",
@@ -196,6 +220,7 @@
       },
       {
         "id": 177307,
+        "cctv_id": "177307",
         "name": "I-15 NB @ 4200 N / MP 284.65, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177307",
@@ -204,6 +229,7 @@
       },
       {
         "id": 177308,
+        "cctv_id": "177308",
         "name": "I-15 NB @ 15400 S / MP 287.23, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177308",
@@ -212,6 +238,7 @@
       },
       {
         "id": 177309,
+        "cctv_id": "177309",
         "name": "State St / SR-9 @ 6300 W / Telegraph Rd / Old Hwy 91, HRC",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177309",
@@ -220,6 +247,7 @@
       },
       {
         "id": 177312,
+        "cctv_id": "177312",
         "name": "I-15 SB @ MP 336.97, SUN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177312",
@@ -228,6 +256,7 @@
       },
       {
         "id": 177327,
+        "cctv_id": "177327",
         "name": "I-15 NB @ 400 N / MP 250.33, PSN",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177327",
@@ -236,6 +265,7 @@
       },
       {
         "id": 177330,
+        "cctv_id": "177330",
         "name": "I-15 SB @ 300 N / MP 274.61, LDN",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177330",
@@ -244,6 +274,7 @@
       },
       {
         "id": 177332,
+        "cctv_id": "177332",
         "name": "I-15 NB @ Pioneer Crossing / Main St / SR-145 / MP 278.58, AFK",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177332",
@@ -252,6 +283,7 @@
       },
       {
         "id": 177333,
+        "cctv_id": "177333",
         "name": "I-15 NB @ Center St / SR-114 / MP 265.62, PVO",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177333",
@@ -260,6 +292,7 @@
       },
       {
         "id": 177343,
+        "cctv_id": "177343",
         "name": "I-15 NB @ 2650 S / 24th St Exit / MP 342.9, OGD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177343",
@@ -268,6 +301,7 @@
       },
       {
         "id": 177344,
+        "cctv_id": "177344",
         "name": "I-15 NB @ 1200 N / MP 281.15, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177344",
@@ -276,6 +310,7 @@
       },
       {
         "id": 177345,
+        "cctv_id": "177345",
         "name": "I-15 NB @ 1160 S / MP 6.77, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177345",
@@ -284,6 +319,7 @@
       },
       {
         "id": 177351,
+        "cctv_id": "177351",
         "name": "I-15 NB @ SR-126 / MP 351.9, BE",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177351",
@@ -292,6 +328,7 @@
       },
       {
         "id": 177352,
+        "cctv_id": "177352",
         "name": "I-15 SB @ Mona / SR-54 / MP 233.17, MNA",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177352",
@@ -300,6 +337,7 @@
       },
       {
         "id": 177353,
+        "cctv_id": "177353",
         "name": "I-15 SB @ Blackridge / Exit 36 / MP 36.77, WN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177353",
@@ -308,6 +346,7 @@
       },
       {
         "id": 177355,
+        "cctv_id": "177355",
         "name": "I-15 SB @ Scipio / MP 187.03, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177355",
@@ -316,6 +355,7 @@
       },
       {
         "id": 177374,
+        "cctv_id": "177374",
         "name": "I-15 NB @ MP 337.66, SUN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177374",
@@ -324,6 +364,7 @@
       },
       {
         "id": 177383,
+        "cctv_id": "177383",
         "name": "I-84 / Weber Canyon EB @ MP 86.68, SWE",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177383",
@@ -332,6 +373,7 @@
       },
       {
         "id": 177384,
+        "cctv_id": "177384",
         "name": "I-84 Off-ramp EB @ 300 N / SR-66 / MP 103.5, MGN",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177384",
@@ -340,6 +382,7 @@
       },
       {
         "id": 177388,
+        "cctv_id": "177388",
         "name": "I-15 SB @ US-6 / MP 257.68, SPF",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177388",
@@ -348,6 +391,7 @@
       },
       {
         "id": 177390,
+        "cctv_id": "177390",
         "name": "I-15 NB @ 7850 S / MP 353.73, BE",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177390",
@@ -356,6 +400,7 @@
       },
       {
         "id": 177394,
+        "cctv_id": "177394",
         "name": "I-15 NB @ Layton Pkwy / SR-126 / MP 330.12, LTN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177394",
@@ -364,6 +409,7 @@
       },
       {
         "id": 177409,
+        "cctv_id": "177409",
         "name": "12th St / SR-39 @ Depot Dr / 700 W, OGD",
         "roadway": "SR 39",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177409",
@@ -372,6 +418,7 @@
       },
       {
         "id": 177415,
+        "cctv_id": "177415",
         "name": "I-15 SB @ 12500 S / MP 291.17, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177415",
@@ -380,6 +427,7 @@
       },
       {
         "id": 177421,
+        "cctv_id": "177421",
         "name": "State St / SR-9 @ 300 W, HRC",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177421",
@@ -388,6 +436,7 @@
       },
       {
         "id": 177429,
+        "cctv_id": "177429",
         "name": "State St / US-89 @ 4800 S, MUR",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177429",
@@ -396,6 +445,7 @@
       },
       {
         "id": 177430,
+        "cctv_id": "177430",
         "name": "I-15 NB @ Southern Pkwy / SR-7 / MP 2.12, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177430",
@@ -404,6 +454,7 @@
       },
       {
         "id": 177439,
+        "cctv_id": "177439",
         "name": "I-15 NB @ 1680 E / MP 9.47, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177439",
@@ -412,6 +463,7 @@
       },
       {
         "id": 177441,
+        "cctv_id": "177441",
         "name": "State St / SR-198 @ 1400 S, PSN",
         "roadway": "SR 198",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177441",
@@ -420,6 +472,7 @@
       },
       {
         "id": 177442,
+        "cctv_id": "177442",
         "name": "State St / SR-9 / SR-17 @ 500 N / SR-9, LVR",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177442",
@@ -428,6 +481,7 @@
       },
       {
         "id": 177448,
+        "cctv_id": "177448",
         "name": "I-15 NB @ 3200 N / MP 283.62, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177448",
@@ -436,6 +490,7 @@
       },
       {
         "id": 177450,
+        "cctv_id": "177450",
         "name": "I-15 SB @ 15000 S / MP 287.91, BLF",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177450",
@@ -444,6 +499,7 @@
       },
       {
         "id": 177452,
+        "cctv_id": "177452",
         "name": "I-15 NB @ SR-17 / MP 27.5, TOQ",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177452",
@@ -452,6 +508,7 @@
       },
       {
         "id": 177462,
+        "cctv_id": "177462",
         "name": "I-15 NB @ 8650 S / MP 352.8, BE",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177462",
@@ -460,6 +517,7 @@
       },
       {
         "id": 177464,
+        "cctv_id": "177464",
         "name": "I-15 SB @ 13000 S / MP 290.6, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177464",
@@ -468,6 +526,7 @@
       },
       {
         "id": 177465,
+        "cctv_id": "177465",
         "name": "I-15 SB @ 14200 S / MP 289.09, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177465",
@@ -476,6 +535,7 @@
       },
       {
         "id": 177474,
+        "cctv_id": "177474",
         "name": "I-84 WB @ Milepost 109.39, MN",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177474",
@@ -484,6 +544,7 @@
       },
       {
         "id": 177481,
+        "cctv_id": "177481",
         "name": "I-15 NB @ Milepost 125, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177481",
@@ -492,6 +553,7 @@
       },
       {
         "id": 177488,
+        "cctv_id": "177488",
         "name": "Riverdale Rd / SR-26 @ Wall Ave / 40th St / SR-204, RDL",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177488",
@@ -500,6 +562,7 @@
       },
       {
         "id": 177499,
+        "cctv_id": "177499",
         "name": "I-15 @ 10000 N / MP 377.93, TRE",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177499",
@@ -508,6 +571,7 @@
       },
       {
         "id": 177500,
+        "cctv_id": "177500",
         "name": "State St / US-89 @ 1200 N, ORM",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177500",
@@ -516,6 +580,7 @@
       },
       {
         "id": 177502,
+        "cctv_id": "177502",
         "name": "I-15 SB @ Milepost 29.45, TOQ",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177502",
@@ -524,6 +589,7 @@
       },
       {
         "id": 177509,
+        "cctv_id": "177509",
         "name": "I-15 SB @ 1600 N / SR-241 / MP 272.82, ORM",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177509",
@@ -532,6 +598,7 @@
       },
       {
         "id": 177514,
+        "cctv_id": "177514",
         "name": "I-15 SB @ Milepost 343.4, OGD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177514",
@@ -540,6 +607,7 @@
       },
       {
         "id": 177515,
+        "cctv_id": "177515",
         "name": "I-15 NB @ Milepost 14.5, WAS",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177515",
@@ -548,6 +616,7 @@
       },
       {
         "id": 177517,
+        "cctv_id": "177517",
         "name": "I-84 EB @ Stoddard Ln / MP 101.11, MN",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177517",
@@ -556,6 +625,7 @@
       },
       {
         "id": 177532,
+        "cctv_id": "177532",
         "name": "I-15 NB @ Eastridge Dr / MP 9.08, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177532",
@@ -564,6 +634,7 @@
       },
       {
         "id": 177546,
+        "cctv_id": "177546",
         "name": "I-15 SB @ Bangerter Hwy / SR-154 / MP 289.83, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177546",
@@ -572,6 +643,7 @@
       },
       {
         "id": 177548,
+        "cctv_id": "177548",
         "name": "I-15 NB @ 900 S / MP 327.34, KAY",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177548",
@@ -580,6 +652,7 @@
       },
       {
         "id": 177549,
+        "cctv_id": "177549",
         "name": "I-15 SB @ Scipio Summit / Exit 184 / MP 183.65, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177549",
@@ -588,6 +661,7 @@
       },
       {
         "id": 177554,
+        "cctv_id": "177554",
         "name": "I-15 SB @ 8000 S / SR-164 / MP 253.56, UT",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177554",
@@ -596,6 +670,7 @@
       },
       {
         "id": 177560,
+        "cctv_id": "177560",
         "name": "US-89 @ I-84 EB Exit Ramp, SWE",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177560",
@@ -604,6 +679,7 @@
       },
       {
         "id": 177562,
+        "cctv_id": "177562",
         "name": "I-15 NB @ 600 E / MP 280.3, LHI",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177562",
@@ -612,6 +688,7 @@
       },
       {
         "id": 177564,
+        "cctv_id": "177564",
         "name": "I-15 SB @ 800 S / SR-178 / MP 248.81, PSN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177564",
@@ -620,6 +697,7 @@
       },
       {
         "id": 177565,
+        "cctv_id": "177565",
         "name": "Telegraph St / State St @ 300 E / Washington Fields Rd, WAS",
         "roadway": "Telegraph St",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177565",
@@ -628,6 +706,7 @@
       },
       {
         "id": 177569,
+        "cctv_id": "177569",
         "name": "500 W / State St / US-89 @ Cougar Blvd / Columbia Ln / 1230 N, PVO",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177569",
@@ -636,6 +715,7 @@
       },
       {
         "id": 177573,
+        "cctv_id": "177573",
         "name": "I-15 NB @ 500 E / SR-180 / MP 276.5, AFK",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177573",
@@ -644,6 +724,7 @@
       },
       {
         "id": 177575,
+        "cctv_id": "177575",
         "name": "I-15 NB @ North of POE / MP 1.17, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177575",
@@ -652,6 +733,7 @@
       },
       {
         "id": 177576,
+        "cctv_id": "177576",
         "name": "I-15 SB @ 500 E / MP 12.53, WAS",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177576",
@@ -660,6 +742,7 @@
       },
       {
         "id": 177583,
+        "cctv_id": "177583",
         "name": "I-15 NB @ 2700 N / SR-134 / MP 349.42, FRW",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177583",
@@ -668,6 +751,7 @@
       },
       {
         "id": 177584,
+        "cctv_id": "177584",
         "name": "I-15 SB @ River Valley Dr / 3650 S / MP 341.2, RDL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177584",
@@ -676,6 +760,7 @@
       },
       {
         "id": 177586,
+        "cctv_id": "177586",
         "name": "I-15 NB @ 1700 S / River Canal / MP 344.5, WHV",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177586",
@@ -684,6 +769,7 @@
       },
       {
         "id": 177587,
+        "cctv_id": "177587",
         "name": "I-15 SB @ Center St / MP 334.93, CFD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177587",
@@ -692,6 +778,7 @@
       },
       {
         "id": 177589,
+        "cctv_id": "177589",
         "name": "I-15 NB @ Church St / MP 330.75, LTN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177589",
@@ -700,6 +787,7 @@
       },
       {
         "id": 177590,
+        "cctv_id": "177590",
         "name": "I-15 NB @ 29th St / MP 342.5, OGD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177590",
@@ -708,6 +796,7 @@
       },
       {
         "id": 177594,
+        "cctv_id": "177594",
         "name": "I-15 NB @ 200 W / MP 277.71, AFK",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177594",
@@ -716,6 +805,7 @@
       },
       {
         "id": 177596,
+        "cctv_id": "177596",
         "name": "I-15 SB @ Center St / MP 270.67, ORM",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177596",
@@ -724,6 +814,7 @@
       },
       {
         "id": 177603,
+        "cctv_id": "177603",
         "name": "I-15 SB @ Bluff St / SR-18 / MP 6.37, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177603",
@@ -732,6 +823,7 @@
       },
       {
         "id": 177608,
+        "cctv_id": "177608",
         "name": "I-15 NB @ Virgin River / MP 5.3, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177608",
@@ -740,6 +832,7 @@
       },
       {
         "id": 177609,
+        "cctv_id": "177609",
         "name": "I-15 NB @ Man O War Rd / MP 3.96, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177609",
@@ -748,6 +841,7 @@
       },
       {
         "id": 177610,
+        "cctv_id": "177610",
         "name": "State St / US-89 @ 700 S / 300 E, PLG",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177610",
@@ -756,6 +850,7 @@
       },
       {
         "id": 177613,
+        "cctv_id": "177613",
         "name": "I-15 NB @ Milepost 144.03, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177613",
@@ -764,6 +859,7 @@
       },
       {
         "id": 177618,
+        "cctv_id": "177618",
         "name": "I-15 SB @ 21st St / SR-104 / MP 343.86, WHV",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177618",
@@ -772,6 +868,7 @@
       },
       {
         "id": 177620,
+        "cctv_id": "177620",
         "name": "State St / US-89 @ 12200 S, DPR",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177620",
@@ -780,6 +877,7 @@
       },
       {
         "id": 177622,
+        "cctv_id": "177622",
         "name": "I-15 NB @ Main St / SR-73 / MP 279.77, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177622",
@@ -788,6 +886,7 @@
       },
       {
         "id": 177624,
+        "cctv_id": "177624",
         "name": "I-15 NB @ Fillmore / MP 161.43, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177624",
@@ -796,6 +895,7 @@
       },
       {
         "id": 177630,
+        "cctv_id": "177630",
         "name": "I-84 EB @ Milepost 98.85, MN",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177630",
@@ -804,6 +904,7 @@
       },
       {
         "id": 177636,
+        "cctv_id": "177636",
         "name": "I-15 RWIS @ Sevier River / MP 200.11, JU",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177636",
@@ -812,6 +913,7 @@
       },
       {
         "id": 177649,
+        "cctv_id": "177649",
         "name": "I-15 SB @ 600 S / MP 319.1, CVL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177649",
@@ -820,6 +922,7 @@
       },
       {
         "id": 177651,
+        "cctv_id": "177651",
         "name": "I-84 EB @ Rattlesnake Pass / MP 17.64, BE",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177651",
@@ -828,6 +931,7 @@
       },
       {
         "id": 177653,
+        "cctv_id": "177653",
         "name": "I-15 NB @ 1650 S / MP 268.37, ORM",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177653",
@@ -836,6 +940,7 @@
       },
       {
         "id": 177662,
+        "cctv_id": "177662",
         "name": "I-15 NB @ East Bay / MP 262.55, PVO",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177662",
@@ -844,6 +949,7 @@
       },
       {
         "id": 177669,
+        "cctv_id": "177669",
         "name": "State St / US-89 @ 1300 W, PLG",
         "roadway": "US-89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177669",
@@ -852,6 +958,7 @@
       },
       {
         "id": 177688,
+        "cctv_id": "177688",
         "name": "I-15 NB @ 700 S / MP 7.65, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177688",
@@ -860,6 +967,7 @@
       },
       {
         "id": 177695,
+        "cctv_id": "177695",
         "name": "I-15 NB @ Bluegrass Way / MP 2.39, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177695",
@@ -868,6 +976,7 @@
       },
       {
         "id": 177698,
+        "cctv_id": "177698",
         "name": "US-89 @ W Harrisville Rd / Independence Blvd, HRV",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177698",
@@ -876,6 +985,7 @@
       },
       {
         "id": 177727,
+        "cctv_id": "177727",
         "name": "I-15 NB @ 14500 S / MP 288.54, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177727",
@@ -884,6 +994,7 @@
       },
       {
         "id": 177729,
+        "cctv_id": "177729",
         "name": "I-15 SB @ 4800 N / MP 285.37, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177729",
@@ -892,6 +1003,7 @@
       },
       {
         "id": 177732,
+        "cctv_id": "177732",
         "name": "State St / SR-9 @ 700 W / Airport Rd, HRC",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177732",
@@ -900,6 +1012,7 @@
       },
       {
         "id": 177736,
+        "cctv_id": "177736",
         "name": "State St / US-89 @ 300 E, AFK",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177736",
@@ -908,6 +1021,7 @@
       },
       {
         "id": 177747,
+        "cctv_id": "177747",
         "name": "I-15 NB @ 10600 S / SR-151 / MP 293.65, SND (Tunnel)",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177747",
@@ -916,6 +1030,7 @@
       },
       {
         "id": 177764,
+        "cctv_id": "177764",
         "name": "I-15 Off-ramp SB @ 800 S / SR-178 / MP 248.82, PSN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177764",
@@ -924,6 +1039,7 @@
       },
       {
         "id": 177769,
+        "cctv_id": "177769",
         "name": "I-15 NB @ Brigham Rd / MP 4.65, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177769",
@@ -932,6 +1048,7 @@
       },
       {
         "id": 177771,
+        "cctv_id": "177771",
         "name": "I-15 SB @ Dixie Dr / MP 5.72, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177771",
@@ -940,6 +1057,7 @@
       },
       {
         "id": 177786,
+        "cctv_id": "177786",
         "name": "State St / SR-186 @ 100 S, SLC",
         "roadway": "SR 186",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177786",
@@ -948,6 +1066,7 @@
       },
       {
         "id": 177791,
+        "cctv_id": "177791",
         "name": "State St / SR-9 @ Main St / SR-59, HRC",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177791",
@@ -956,6 +1075,7 @@
       },
       {
         "id": 177800,
+        "cctv_id": "177800",
         "name": "State St / US-89 @ 400 N, ORM",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177800",
@@ -964,6 +1084,7 @@
       },
       {
         "id": 177803,
+        "cctv_id": "177803",
         "name": "I-15 @ Main St / US-6 / MP 244.8, STQ",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177803",
@@ -972,6 +1093,7 @@
       },
       {
         "id": 177808,
+        "cctv_id": "177808",
         "name": "I-15 SB @ I-70 Interchange / MP 132.18, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177808",
@@ -980,6 +1102,7 @@
       },
       {
         "id": 177810,
+        "cctv_id": "177810",
         "name": "I-15 SB @ Hill Field Rd / 1150 N / SR-232 / MP 331.86, LTN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177810",
@@ -988,6 +1111,7 @@
       },
       {
         "id": 177814,
+        "cctv_id": "177814",
         "name": "I-15 SB @ Milepost 98.94, RN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177814",
@@ -996,6 +1120,7 @@
       },
       {
         "id": 177859,
+        "cctv_id": "177859",
         "name": "I-15 SB @ 400 S / MP 345.93, MSV",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177859",
@@ -1004,6 +1129,7 @@
       },
       {
         "id": 177861,
+        "cctv_id": "177861",
         "name": "I-15 SB @ 500 N / MP 260.89, SPV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177861",
@@ -1012,6 +1138,7 @@
       },
       {
         "id": 177886,
+        "cctv_id": "177886",
         "name": "I-15 RWIS NB @ Portage / MP 398.06, BE",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177886",
@@ -1020,6 +1147,7 @@
       },
       {
         "id": 177892,
+        "cctv_id": "177892",
         "name": "State St / US-89 @ 200 S / 220 S, PLG",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177892",
@@ -1028,6 +1156,7 @@
       },
       {
         "id": 177894,
+        "cctv_id": "177894",
         "name": "I-15 NB @ Silver Reef Rd / MP 23.6, LED",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177894",
@@ -1036,6 +1165,7 @@
       },
       {
         "id": 177896,
+        "cctv_id": "177896",
         "name": "I-15 On-ramp NB @ 9000 S / SR-209 / MP 295.6, SND",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177896",
@@ -1044,6 +1174,7 @@
       },
       {
         "id": 177904,
+        "cctv_id": "177904",
         "name": "I-15 SB @ 1550 N / MP 281.65, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177904",
@@ -1052,6 +1183,7 @@
       },
       {
         "id": 177906,
+        "cctv_id": "177906",
         "name": "State St / US-89 @ 3900 S, SSL",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177906",
@@ -1060,6 +1192,7 @@
       },
       {
         "id": 177907,
+        "cctv_id": "177907",
         "name": "State St / US-89 @ 7200 S / Fort Union Blvd / SR-48, MDV",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177907",
@@ -1068,6 +1201,7 @@
       },
       {
         "id": 177919,
+        "cctv_id": "177919",
         "name": "I-15 SB @ Milepost 121.04, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177919",
@@ -1076,6 +1210,7 @@
       },
       {
         "id": 177927,
+        "cctv_id": "177927",
         "name": "I-15 NB @ 6950 S / MP 298.25, MDV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177927",
@@ -1084,6 +1219,7 @@
       },
       {
         "id": 177933,
+        "cctv_id": "177933",
         "name": "I-15 SB @ 4600 N / MP 285.12, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177933",
@@ -1092,6 +1228,7 @@
       },
       {
         "id": 177937,
+        "cctv_id": "177937",
         "name": "I-15 NB @ 31st St / Hinckley Dr / SR-79 / MP 341.93, OGD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177937",
@@ -1100,6 +1237,7 @@
       },
       {
         "id": 177957,
+        "cctv_id": "177957",
         "name": "State St / US-89 @ 2820 S, SSL",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177957",
@@ -1108,6 +1246,7 @@
       },
       {
         "id": 177962,
+        "cctv_id": "177962",
         "name": "State St / US-89 @ Pleasant Grove Blvd / Center St, PLG",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177962",
@@ -1116,6 +1255,7 @@
       },
       {
         "id": 177966,
+        "cctv_id": "177966",
         "name": "Wall Ave / SR-204 @ 7th Street, OGD",
         "roadway": "SR 204",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177966",
@@ -1124,6 +1264,7 @@
       },
       {
         "id": 177974,
+        "cctv_id": "177974",
         "name": "I-15 NB @ UT/AZ State Line / MP 0.14, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177974",
@@ -1132,6 +1273,7 @@
       },
       {
         "id": 177975,
+        "cctv_id": "177975",
         "name": "State St / US-89 @ 1600 S, ORM",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177975",
@@ -1140,6 +1282,7 @@
       },
       {
         "id": 177984,
+        "cctv_id": "177984",
         "name": "Washington Blvd / US-89 @ 24th St / SR-53, OGD",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177984",
@@ -1148,6 +1291,7 @@
       },
       {
         "id": 177988,
+        "cctv_id": "177988",
         "name": "I-15 NB @ 450 S / MP 8, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177988",
@@ -1156,6 +1300,7 @@
       },
       {
         "id": 177996,
+        "cctv_id": "177996",
         "name": "I-15 NB @ Plymouth / SR-13 / MP 392.7, BE",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/177996",
@@ -1164,6 +1309,7 @@
       },
       {
         "id": 178004,
+        "cctv_id": "178004",
         "name": "I-15 NB @ 600 S / MP 255, SPF",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178004",
@@ -1172,6 +1318,7 @@
       },
       {
         "id": 178006,
+        "cctv_id": "178006",
         "name": "I-84 EB @ Blue Creek / MP 20.36, BE",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178006",
@@ -1180,6 +1327,7 @@
       },
       {
         "id": 178014,
+        "cctv_id": "178014",
         "name": "I-15 NB @ Washington Pkwy / MP 13.39, WAS",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178014",
@@ -1188,6 +1336,7 @@
       },
       {
         "id": 178018,
+        "cctv_id": "178018",
         "name": "I-15 RWIS SB @ Pine Creek Hill / MP 125.5, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178018",
@@ -1196,6 +1345,7 @@
       },
       {
         "id": 178027,
+        "cctv_id": "178027",
         "name": "SR-167 / Trappers Loop RWIS SB @ SR-226 / Snow Basin Rd / MP 6.92, WB",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178027",
@@ -1204,6 +1354,7 @@
       },
       {
         "id": 178028,
+        "cctv_id": "178028",
         "name": "I-84 RWIS WB @ Whites Valley / MP 30.45, BE",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178028",
@@ -1212,6 +1363,7 @@
       },
       {
         "id": 178038,
+        "cctv_id": "178038",
         "name": "State St / US-89 @ 9000 S / SR-209, SND",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178038",
@@ -1220,6 +1372,7 @@
       },
       {
         "id": 178049,
+        "cctv_id": "178049",
         "name": "Harrison Blvd / 1200 E / SR-203 @ 30th St / SR-79, OGD",
         "roadway": "SR 203",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178049",
@@ -1228,6 +1381,7 @@
       },
       {
         "id": 178058,
+        "cctv_id": "178058",
         "name": "I-15 SB @ Milepost 117.42, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178058",
@@ -1236,6 +1390,7 @@
       },
       {
         "id": 178059,
+        "cctv_id": "178059",
         "name": "I-15 NB @ 300 N / MP 256.15, SPF",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178059",
@@ -1244,6 +1399,7 @@
       },
       {
         "id": 178089,
+        "cctv_id": "178089",
         "name": "State St / SR-9 @ 2600 W, HRC",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178089",
@@ -1252,6 +1408,7 @@
       },
       {
         "id": 178100,
+        "cctv_id": "178100",
         "name": "State St / US-89 @ 900 E, PVO",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178100",
@@ -1260,6 +1417,7 @@
       },
       {
         "id": 178107,
+        "cctv_id": "178107",
         "name": "I-15 SB @ 11400 S / SR-175 / MP 292.62, SJO",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178107",
@@ -1268,6 +1426,7 @@
       },
       {
         "id": 178115,
+        "cctv_id": "178115",
         "name": "I-15 SB @ SR-130 / Minersville Hwy / MP 62.5, CDC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178115",
@@ -1276,6 +1435,7 @@
       },
       {
         "id": 178131,
+        "cctv_id": "178131",
         "name": "I-15 SB @ Milepost 217.7, JU",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178131",
@@ -1284,6 +1444,7 @@
       },
       {
         "id": 178141,
+        "cctv_id": "178141",
         "name": "I-15 SB @ Milepost 134.27, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178141",
@@ -1292,6 +1453,7 @@
       },
       {
         "id": 178145,
+        "cctv_id": "178145",
         "name": "I-15 Off-ramp SB @ 8000 S / SR-164 / MP 253.55, UT",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178145",
@@ -1300,6 +1462,7 @@
       },
       {
         "id": 178147,
+        "cctv_id": "178147",
         "name": "I-15 RWIS NB @ Rocky Ridge / MP 241.4, JU",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178147",
@@ -1308,6 +1471,7 @@
       },
       {
         "id": 178160,
+        "cctv_id": "178160",
         "name": "I-84 WB @ I-15 SB / MP 41.66, TRE",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178160",
@@ -1316,6 +1480,7 @@
       },
       {
         "id": 178171,
+        "cctv_id": "178171",
         "name": "I-15 SB @ 550 S / MP 329.9, LTN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178171",
@@ -1324,6 +1489,7 @@
       },
       {
         "id": 178172,
+        "cctv_id": "178172",
         "name": "I-15 SB @ St George Blvd / SR-34 / MP 8.41, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178172",
@@ -1332,6 +1498,7 @@
       },
       {
         "id": 178183,
+        "cctv_id": "178183",
         "name": "I-15 NB @ 4600 S / MP 339.68, RDL",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178183",
@@ -1340,6 +1507,7 @@
       },
       {
         "id": 178187,
+        "cctv_id": "178187",
         "name": "I-15 NB @ Milepost 15.38, WAS",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178187",
@@ -1348,6 +1516,7 @@
       },
       {
         "id": 178190,
+        "cctv_id": "178190",
         "name": "I-15 @ Milepost 246.42, STQ",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178190",
@@ -1356,6 +1525,7 @@
       },
       {
         "id": 178202,
+        "cctv_id": "178202",
         "name": "I-15 NB @ 12th St / 1200 S / SR-39 / MP 344.96, MSV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178202",
@@ -1364,6 +1534,7 @@
       },
       {
         "id": 178205,
+        "cctv_id": "178205",
         "name": "I-15 NB @ Main St / SR-156 / MP 257.35, SPF",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178205",
@@ -1372,6 +1543,7 @@
       },
       {
         "id": 178207,
+        "cctv_id": "178207",
         "name": "I-15 NB @ 2000 N / MP 282.17, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178207",
@@ -1380,6 +1552,7 @@
       },
       {
         "id": 178208,
+        "cctv_id": "178208",
         "name": "I-84 / Weber Canyon @ Power Plant / MP 89.25, WB",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178208",
@@ -1388,6 +1561,7 @@
       },
       {
         "id": 178209,
+        "cctv_id": "178209",
         "name": "I-15 NB @ 100 N / MP 274.15, LDN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178209",
@@ -1396,6 +1570,7 @@
       },
       {
         "id": 178213,
+        "cctv_id": "178213",
         "name": "I-15 SB @ 400 N / Pioneer Rd / MP 346.72, MSV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178213",
@@ -1404,6 +1579,7 @@
       },
       {
         "id": 178214,
+        "cctv_id": "178214",
         "name": "I-15 SB @ Sugar Leo Rd / MP 3.04, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178214",
@@ -1412,6 +1588,7 @@
       },
       {
         "id": 178216,
+        "cctv_id": "178216",
         "name": "I-15 NB @ SR-30 / MP 385.3, BE",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178216",
@@ -1420,6 +1597,7 @@
       },
       {
         "id": 178217,
+        "cctv_id": "178217",
         "name": "I-15 SB @ Milepost 105.7, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178217",
@@ -1428,6 +1606,7 @@
       },
       {
         "id": 178222,
+        "cctv_id": "178222",
         "name": "I-15 SB Ramps @ 2700 N, SPF / 1600 S, SPV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178222",
@@ -1436,6 +1615,7 @@
       },
       {
         "id": 178231,
+        "cctv_id": "178231",
         "name": "I-15 NB @ 400 S / SR-77 / MP 260, SPV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178231",
@@ -1444,6 +1624,7 @@
       },
       {
         "id": 178235,
+        "cctv_id": "178235",
         "name": "I-15 NB @ Main St /  MP 12.07, WAS",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178235",
@@ -1452,6 +1633,7 @@
       },
       {
         "id": 178236,
+        "cctv_id": "178236",
         "name": "I-15 NB Ramps @ 1600 S,SPV / 2700 N,SPF",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178236",
@@ -1460,6 +1642,7 @@
       },
       {
         "id": 178237,
+        "cctv_id": "178237",
         "name": "I-15 SB @ 1800 N / Harrisville Rd / MP 348.23, FRW",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178237",
@@ -1468,6 +1651,7 @@
       },
       {
         "id": 178262,
+        "cctv_id": "178262",
         "name": "SR-39 RWIS WB @ Monte Cristo / MP 46.2, RI",
         "roadway": "SR 39",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178262",
@@ -1476,6 +1660,7 @@
       },
       {
         "id": 178284,
+        "cctv_id": "178284",
         "name": "I-15 SB @ 650 S / MP 269.87, ORM",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178284",
@@ -1484,6 +1669,7 @@
       },
       {
         "id": 178286,
+        "cctv_id": "178286",
         "name": "I-15 SB @ US-6 / MP 257.65, SPF",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178286",
@@ -1492,6 +1678,7 @@
       },
       {
         "id": 178287,
+        "cctv_id": "178287",
         "name": "I-15 NB @ Beck St / US-89 / MP 312.06, SLC",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178287",
@@ -1500,6 +1687,7 @@
       },
       {
         "id": 178288,
+        "cctv_id": "178288",
         "name": "State St / US-89 @ 500 E / SR-180, AFK",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178288",
@@ -1508,6 +1696,7 @@
       },
       {
         "id": 178289,
+        "cctv_id": "178289",
         "name": "I-15 NB @ 500 W / MP 11.38, WAS",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178289",
@@ -1516,6 +1705,7 @@
       },
       {
         "id": 178290,
+        "cctv_id": "178290",
         "name": "State St / US-89 @ 11400 S / SR-175, SND",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178290",
@@ -1524,6 +1714,7 @@
       },
       {
         "id": 178295,
+        "cctv_id": "178295",
         "name": "I-15 NB @ 2100 E / MP 9.97, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178295",
@@ -1532,6 +1723,7 @@
       },
       {
         "id": 178297,
+        "cctv_id": "178297",
         "name": "I-15 NB @ 11500 S / MP 292.35, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178297",
@@ -1540,6 +1732,7 @@
       },
       {
         "id": 178300,
+        "cctv_id": "178300",
         "name": "State St / SR-9 @ 1400 W, HRC",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178300",
@@ -1548,6 +1741,7 @@
       },
       {
         "id": 178312,
+        "cctv_id": "178312",
         "name": "I-15 NB @ 500 S / MP 273.04, LDN",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178312",
@@ -1556,6 +1750,7 @@
       },
       {
         "id": 178317,
+        "cctv_id": "178317",
         "name": "I-15 NB @ 100 S / MP 8.41, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178317",
@@ -1564,6 +1759,7 @@
       },
       {
         "id": 178328,
+        "cctv_id": "178328",
         "name": "State St / US-89 @ 9400 S, SND",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178328",
@@ -1572,6 +1768,7 @@
       },
       {
         "id": 178345,
+        "cctv_id": "178345",
         "name": "I-15 NB @ South of POE / MP 0.67, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178345",
@@ -1580,6 +1777,7 @@
       },
       {
         "id": 178351,
+        "cctv_id": "178351",
         "name": "North Ogden Canyon Rd @ Ben Lomond Trailhead, WB",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178351",
@@ -1588,6 +1786,7 @@
       },
       {
         "id": 178356,
+        "cctv_id": "178356",
         "name": "I-15 NB @ 2450 E / MP 10.43, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178356",
@@ -1596,6 +1795,7 @@
       },
       {
         "id": 178357,
+        "cctv_id": "178357",
         "name": "200 N / Freedom Blvd / SR-56 @ 1400 W / I-15 SB Ramps, CDC",
         "roadway": "SR 56",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178357",
@@ -1604,6 +1804,7 @@
       },
       {
         "id": 178362,
+        "cctv_id": "178362",
         "name": "I-15 SB @ Milepost 122.87, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178362",
@@ -1612,6 +1813,7 @@
       },
       {
         "id": 178367,
+        "cctv_id": "178367",
         "name": "I-84 / Weber Canyon WB  @ Milepost 92.02, MN",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178367",
@@ -1620,6 +1822,7 @@
       },
       {
         "id": 178378,
+        "cctv_id": "178378",
         "name": "I-84 / Weber Canyon WB @ Milepost 91.35, MN",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178378",
@@ -1628,6 +1831,7 @@
       },
       {
         "id": 178399,
+        "cctv_id": "178399",
         "name": "I-15 NB @ Milepost 40.06, WN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178399",
@@ -1636,6 +1840,7 @@
       },
       {
         "id": 178400,
+        "cctv_id": "178400",
         "name": "State St / SR-9 @ 3700 W / Sand Hollow Rd, HRC (Local)",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178400",
@@ -1644,6 +1849,7 @@
       },
       {
         "id": 178414,
+        "cctv_id": "178414",
         "name": "I-15 SB @ 16200 S / MP 286.3, BLF",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178414",
@@ -1652,6 +1858,7 @@
       },
       {
         "id": 178420,
+        "cctv_id": "178420",
         "name": "I-215 W SB @ 1000 S / MP 21.14, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178420",
@@ -1660,6 +1867,7 @@
       },
       {
         "id": 178424,
+        "cctv_id": "178424",
         "name": "State St / US-89 @ 11235 S / Auto Mall Dr, SND",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178424",
@@ -1668,6 +1876,7 @@
       },
       {
         "id": 178426,
+        "cctv_id": "178426",
         "name": "I-15 SB @ Freemont Rd / MP 99.7, RN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178426",
@@ -1676,6 +1885,7 @@
       },
       {
         "id": 178431,
+        "cctv_id": "178431",
         "name": "I-70 EB @ State St / US-89 / MP 56.73, SLA",
         "roadway": "I-70",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178431",
@@ -1684,6 +1894,7 @@
       },
       {
         "id": 178438,
+        "cctv_id": "178438",
         "name": "I-15 SB @ 14300 S / MP 288.84, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178438",
@@ -1692,6 +1903,7 @@
       },
       {
         "id": 178439,
+        "cctv_id": "178439",
         "name": "I-15 NB @ Center St / MP 116.4, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178439",
@@ -1700,6 +1912,7 @@
       },
       {
         "id": 178449,
+        "cctv_id": "178449",
         "name": "I-15 NB @ 3800 N / Adobe Way / MP 284.3, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178449",
@@ -1708,6 +1921,7 @@
       },
       {
         "id": 178451,
+        "cctv_id": "178451",
         "name": "I-15 SB @ Cross Hollow Rd / MP 57, CDC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178451",
@@ -1716,6 +1930,7 @@
       },
       {
         "id": 178460,
+        "cctv_id": "178460",
         "name": "I-15 NB @ Beaver Ridge / MP 101.33, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178460",
@@ -1724,6 +1939,7 @@
       },
       {
         "id": 178461,
+        "cctv_id": "178461",
         "name": "I-15 SB @ Milepost 127.86, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178461",
@@ -1732,6 +1948,7 @@
       },
       {
         "id": 178464,
+        "cctv_id": "178464",
         "name": "I-15 SB @ 14600 S / Highland Dr / SR-140 / MP 288.3, BLF",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178464",
@@ -1740,6 +1957,7 @@
       },
       {
         "id": 178466,
+        "cctv_id": "178466",
         "name": "I-15 SB @ 1100 S / US-91 / MP 362, BRC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178466",
@@ -1748,6 +1966,7 @@
       },
       {
         "id": 178476,
+        "cctv_id": "178476",
         "name": "I-15 RWIS @ Milepost 83.8, RN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178476",
@@ -1756,6 +1975,7 @@
       },
       {
         "id": 178478,
+        "cctv_id": "178478",
         "name": "I-15 RWIS NB @ Lampson Canyon / MP 215.06, JU",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178478",
@@ -1764,6 +1984,7 @@
       },
       {
         "id": 178486,
+        "cctv_id": "178486",
         "name": "I-15 SB @ Point of the Mountain / MP 285.78, UT",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178486",
@@ -1772,6 +1993,7 @@
       },
       {
         "id": 178497,
+        "cctv_id": "178497",
         "name": "I-15 SB @ Milepost 118.42, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178497",
@@ -1780,6 +2002,7 @@
       },
       {
         "id": 178507,
+        "cctv_id": "178507",
         "name": "Washington Blvd / SR-235 @ Larsen Ln, OGD",
         "roadway": "SR 235",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178507",
@@ -1788,6 +2011,7 @@
       },
       {
         "id": 178508,
+        "cctv_id": "178508",
         "name": "I-15 RWIS NB @ Ash Creek / MP 37.3, WN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178508",
@@ -1796,6 +2020,7 @@
       },
       {
         "id": 178513,
+        "cctv_id": "178513",
         "name": "7200 S / SR-48 @ I-15 Off-ramp SB, MDV",
         "roadway": "SR-48",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178513",
@@ -1804,6 +2029,7 @@
       },
       {
         "id": 178514,
+        "cctv_id": "178514",
         "name": "I-15 NB @ State St / SR-9 / MP 15.91, WAS",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178514",
@@ -1812,6 +2038,7 @@
       },
       {
         "id": 178516,
+        "cctv_id": "178516",
         "name": "I-15 NB @ Milepost 103.25, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178516",
@@ -1820,6 +2047,7 @@
       },
       {
         "id": 178528,
+        "cctv_id": "178528",
         "name": "I-15 SB @ Summit Exit / MP 70.76, RN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178528",
@@ -1828,6 +2056,7 @@
       },
       {
         "id": 178532,
+        "cctv_id": "178532",
         "name": "I-15 SB @ 800 N / MP 364.92, BRC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178532",
@@ -1836,6 +2065,7 @@
       },
       {
         "id": 178533,
+        "cctv_id": "178533",
         "name": "I-15 RWIS SB @ Milepost 169, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178533",
@@ -1844,6 +2074,7 @@
       },
       {
         "id": 178536,
+        "cctv_id": "178536",
         "name": "State St / SR-9 @ 4400 W, HRC",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178536",
@@ -1852,6 +2083,7 @@
       },
       {
         "id": 178544,
+        "cctv_id": "178544",
         "name": "I-84 EB @ I-80 / Echo Jct / MP 119.6, SU",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178544",
@@ -1860,6 +2092,7 @@
       },
       {
         "id": 178547,
+        "cctv_id": "178547",
         "name": "I-15 RWIS NB @ 4000 N / MP 368.83, BE",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178547",
@@ -1868,6 +2101,7 @@
       },
       {
         "id": 178559,
+        "cctv_id": "178559",
         "name": "I-84 EB @ I-80 / Echo Jct / MP 119.36, SU (Local)",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178559",
@@ -1876,6 +2110,7 @@
       },
       {
         "id": 178564,
+        "cctv_id": "178564",
         "name": "I-15 NB @ 1300 S / MP 333.41, CFD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178564",
@@ -1884,6 +2119,7 @@
       },
       {
         "id": 178577,
+        "cctv_id": "178577",
         "name": "I-15 NB @ 200 S / MP 273.67, LDN",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178577",
@@ -1892,6 +2128,7 @@
       },
       {
         "id": 178584,
+        "cctv_id": "178584",
         "name": "I-84 EB @ Milepost 96.63, MN",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178584",
@@ -1900,6 +2137,7 @@
       },
       {
         "id": 178597,
+        "cctv_id": "178597",
         "name": "I-70 WB @ I-15 / Cove Fort / MP 2.4, MD",
         "roadway": "I-70",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178597",
@@ -1908,6 +2146,7 @@
       },
       {
         "id": 178600,
+        "cctv_id": "178600",
         "name": "I-15 NB @ Milepost 350.3, PLV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178600",
@@ -1916,6 +2155,7 @@
       },
       {
         "id": 178619,
+        "cctv_id": "178619",
         "name": "Harrison Blvd / 1200 E / SR-203 @ 32nd St, OGD",
         "roadway": "SR-203",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178619",
@@ -1924,6 +2164,7 @@
       },
       {
         "id": 178620,
+        "cctv_id": "178620",
         "name": "I-15 NB @ 1100 S / US-91 / MP 362, BRC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178620",
@@ -1932,6 +2173,7 @@
       },
       {
         "id": 178623,
+        "cctv_id": "178623",
         "name": "I-15 NB @ Milepost 122.1, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178623",
@@ -1940,6 +2182,7 @@
       },
       {
         "id": 178624,
+        "cctv_id": "178624",
         "name": "I-15 NB @ 15200 S / MP 287.6, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178624",
@@ -1948,6 +2191,7 @@
       },
       {
         "id": 178633,
+        "cctv_id": "178633",
         "name": "I-15 SB @ Center St / Milepost 244.09, STQ",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178633",
@@ -1956,6 +2200,7 @@
       },
       {
         "id": 178635,
+        "cctv_id": "178635",
         "name": "I-15 NB @ Promontory Rd / 900 N / SR-13 / MP 365.57, BRC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178635",
@@ -1964,6 +2209,7 @@
       },
       {
         "id": 178648,
+        "cctv_id": "178648",
         "name": "I-15 NB @ 14000 S / MP 289.34, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178648",
@@ -1972,6 +2218,7 @@
       },
       {
         "id": 178656,
+        "cctv_id": "178656",
         "name": "I-15 SB @ Beck St / US-89 / MP 312.8, NSL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178656",
@@ -1980,6 +2227,7 @@
       },
       {
         "id": 178666,
+        "cctv_id": "178666",
         "name": "US-89 @ Skyline Dr, SOG",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178666",
@@ -1988,6 +2236,7 @@
       },
       {
         "id": 178685,
+        "cctv_id": "178685",
         "name": "I-15 NB Ramps @ North Station Ln / MP 325.86, FRM",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178685",
@@ -1996,6 +2245,7 @@
       },
       {
         "id": 178690,
+        "cctv_id": "178690",
         "name": "US-89 / State St @ 900 S, PVO",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178690",
@@ -2004,6 +2254,7 @@
       },
       {
         "id": 178693,
+        "cctv_id": "178693",
         "name": "I-84 SB @ 13600 N / MP 36.64, BE",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178693",
@@ -2012,6 +2263,7 @@
       },
       {
         "id": 178713,
+        "cctv_id": "178713",
         "name": "I-15 SB @ 2300 S / MP 304.9, SSL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178713",
@@ -2020,6 +2272,7 @@
       },
       {
         "id": 178738,
+        "cctv_id": "178738",
         "name": "I-15 NB @ MP 338.28 / 5600 S, ROY",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178738",
@@ -2028,6 +2281,7 @@
       },
       {
         "id": 178779,
+        "cctv_id": "178779",
         "name": "I-84 RWIS WB @ Chaulk Hill / MP 13.79, BE",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178779",
@@ -2036,6 +2290,7 @@
       },
       {
         "id": 178783,
+        "cctv_id": "178783",
         "name": "I-15 SB @ Main St / SR-115 / MP 251, PSN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178783",
@@ -2044,6 +2299,7 @@
       },
       {
         "id": 178786,
+        "cctv_id": "178786",
         "name": "I-15 SB @ 200 S / MP 265.36, PVO",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178786",
@@ -2052,6 +2308,7 @@
       },
       {
         "id": 178796,
+        "cctv_id": "178796",
         "name": "I-15 SB @ Scipio / MP 190.66, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178796",
@@ -2060,6 +2317,7 @@
       },
       {
         "id": 178808,
+        "cctv_id": "178808",
         "name": "Washington Blvd / US-89 @ 12th St / SR-39, OGD",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178808",
@@ -2068,6 +2326,7 @@
       },
       {
         "id": 178810,
+        "cctv_id": "178810",
         "name": "I-15 SB @ 2300 N / MP 337.48, SUN",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178810",
@@ -2076,6 +2335,7 @@
       },
       {
         "id": 178811,
+        "cctv_id": "178811",
         "name": "I-15 SB @ 1400 N / MP 320.77, CVL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178811",
@@ -2084,6 +2344,7 @@
       },
       {
         "id": 178812,
+        "cctv_id": "178812",
         "name": "I-15 SB @ JU/MD Co Line / MP 194.55, JU",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178812",
@@ -2092,6 +2353,7 @@
       },
       {
         "id": 178813,
+        "cctv_id": "178813",
         "name": "I-15 NB @ 2000 S / MP 267.86, ORM",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178813",
@@ -2100,6 +2362,7 @@
       },
       {
         "id": 178815,
+        "cctv_id": "178815",
         "name": "I-15 SB @ 820 N / MP 266.54, PVO",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178815",
@@ -2108,6 +2371,7 @@
       },
       {
         "id": 178816,
+        "cctv_id": "178816",
         "name": "I-15 SB @ 2000 N / MP 61.27, CDC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178816",
@@ -2116,6 +2380,7 @@
       },
       {
         "id": 178817,
+        "cctv_id": "178817",
         "name": "I-15 SB @ 2650 S / MP 360.62, PRY",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178817",
@@ -2124,6 +2389,7 @@
       },
       {
         "id": 178821,
+        "cctv_id": "178821",
         "name": "I-15 NB @ UT/ID State Line / MP 400.59, BE",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178821",
@@ -2132,6 +2398,7 @@
       },
       {
         "id": 178822,
+        "cctv_id": "178822",
         "name": "I-15 NB @ 920 S / MP 264.54, PVO",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178822",
@@ -2140,6 +2407,7 @@
       },
       {
         "id": 178833,
+        "cctv_id": "178833",
         "name": "I-15 NB @ 6900 N / SR-240 / MP 372.83, HYV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178833",
@@ -2148,6 +2416,7 @@
       },
       {
         "id": 178841,
+        "cctv_id": "178841",
         "name": "I-15 NB @ 1460 N / MP 267.19, PVO",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178841",
@@ -2156,6 +2425,7 @@
       },
       {
         "id": 178843,
+        "cctv_id": "178843",
         "name": "State St / US-89 @ 10600 S, SND",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178843",
@@ -2164,6 +2434,7 @@
       },
       {
         "id": 178844,
+        "cctv_id": "178844",
         "name": "State St / US-89 @ Main St / 1200 E / SR-73, LHI",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178844",
@@ -2172,6 +2443,7 @@
       },
       {
         "id": 178845,
+        "cctv_id": "178845",
         "name": "I-15 SB @ 400 N / SR-106 / MP 317.55, WBN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178845",
@@ -2180,6 +2452,7 @@
       },
       {
         "id": 178854,
+        "cctv_id": "178854",
         "name": "I-15 NB @ 9400 S / MP 295.18, SND",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178854",
@@ -2188,6 +2461,7 @@
       },
       {
         "id": 178859,
+        "cctv_id": "178859",
         "name": "State St / 300 W / SR-198 @ 800 S / SR-178, PSN",
         "roadway": "SR 198",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178859",
@@ -2196,6 +2470,7 @@
       },
       {
         "id": 178876,
+        "cctv_id": "178876",
         "name": "I-15 NB @ 1500 S / MP 316.58, WXS",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178876",
@@ -2204,6 +2479,7 @@
       },
       {
         "id": 178886,
+        "cctv_id": "178886",
         "name": "I-15 NB @ Riverdale Rd / SR-26 / MP 339.15, RDL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178886",
@@ -2212,6 +2488,7 @@
       },
       {
         "id": 178891,
+        "cctv_id": "178891",
         "name": "I-15 SB @ 12600 S / MP 291.1, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178891",
@@ -2220,6 +2497,7 @@
       },
       {
         "id": 178893,
+        "cctv_id": "178893",
         "name": "I-15 SB @ 1400 N / SR-75 / MP 261.79, SPV",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178893",
@@ -2228,6 +2506,7 @@
       },
       {
         "id": 178905,
+        "cctv_id": "178905",
         "name": "Main St / SR 102 @ I-84 SB Ramp TRE",
         "roadway": "SR 102",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178905",
@@ -2236,6 +2515,7 @@
       },
       {
         "id": 178920,
+        "cctv_id": "178920",
         "name": "SR-39 RWIS WB @ SR-167 / Trappers Loop / MP 17.53, WB",
         "roadway": "SR 39",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178920",
@@ -2244,6 +2524,7 @@
       },
       {
         "id": 178933,
+        "cctv_id": "178933",
         "name": "State St / SR-126 @ Center St, CFD",
         "roadway": "SR 126",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178933",
@@ -2252,6 +2533,7 @@
       },
       {
         "id": 178948,
+        "cctv_id": "178948",
         "name": "SR-39 / 1150 S @ SR-134 / 4700 W, WB",
         "roadway": "SR 39",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178948",
@@ -2260,6 +2542,7 @@
       },
       {
         "id": 178951,
+        "cctv_id": "178951",
         "name": "State St / US-89 @ 700 E, AFK",
         "roadway": "US-89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178951",
@@ -2268,6 +2551,7 @@
       },
       {
         "id": 178954,
+        "cctv_id": "178954",
         "name": "SR-39 / Ogden Canyon @ SR-158 / MP 13.8, EB",
         "roadway": "SR 39",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178954",
@@ -2276,6 +2560,7 @@
       },
       {
         "id": 178985,
+        "cctv_id": "178985",
         "name": "I-15 NB @ Milepost 130.15, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/178985",
@@ -2284,6 +2569,7 @@
       },
       {
         "id": 179148,
+        "cctv_id": "179148",
         "name": "State St / US-89 @ 400 S / University Blvd / SR-186, SLC",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179148",
@@ -2292,6 +2578,7 @@
       },
       {
         "id": 179151,
+        "cctv_id": "179151",
         "name": "I-84 EB @ Milepost 106.44, MN",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179151",
@@ -2300,6 +2587,7 @@
       },
       {
         "id": 179154,
+        "cctv_id": "179154",
         "name": "I-15 NB @ 500 N / MP 331.04, LTN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179154",
@@ -2308,6 +2596,7 @@
       },
       {
         "id": 179156,
+        "cctv_id": "179156",
         "name": "I-15 NB @ Milepost 140.6, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179156",
@@ -2316,6 +2605,7 @@
       },
       {
         "id": 179163,
+        "cctv_id": "179163",
         "name": "Washington Blvd / US-89 @ 31st ST / SR-79, OGD",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179163",
@@ -2324,6 +2614,7 @@
       },
       {
         "id": 179164,
+        "cctv_id": "179164",
         "name": "State St / US-89 @ Winchester St / 6400 S, MUR",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179164",
@@ -2332,6 +2623,7 @@
       },
       {
         "id": 179175,
+        "cctv_id": "179175",
         "name": "State St / US-89 @ University Pkwy / SR-265, ORM",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179175",
@@ -2340,6 +2632,7 @@
       },
       {
         "id": 179180,
+        "cctv_id": "179180",
         "name": "Riverdale Rd / SR-26 @ 900 W, RDL",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179180",
@@ -2348,6 +2641,7 @@
       },
       {
         "id": 179181,
+        "cctv_id": "179181",
         "name": "I-84 SB @ Riverdale Rd / SR-26 / MP 81.8, RDL",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179181",
@@ -2356,6 +2650,7 @@
       },
       {
         "id": 179183,
+        "cctv_id": "179183",
         "name": "I-15 NB @ University Pkwy / SR-265 / MP 269.1, ORM",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179183",
@@ -2364,6 +2659,7 @@
       },
       {
         "id": 179185,
+        "cctv_id": "179185",
         "name": "I-15 SB @ 2300 N / Warm Springs Rd / MP 311.34, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179185",
@@ -2372,6 +2668,7 @@
       },
       {
         "id": 179186,
+        "cctv_id": "179186",
         "name": "I-15 SB @ Center St / MP 313.73, NSL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179186",
@@ -2380,6 +2677,7 @@
       },
       {
         "id": 179188,
+        "cctv_id": "179188",
         "name": "I-15 NB @ University Ave / US-189 / 1860 S / MP 263.4, PVO",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179188",
@@ -2388,6 +2686,7 @@
       },
       {
         "id": 179191,
+        "cctv_id": "179191",
         "name": "I-15 SB @ 200 N / SR-273 / MP 328.65, KAY",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179191",
@@ -2396,6 +2695,7 @@
       },
       {
         "id": 179192,
+        "cctv_id": "179192",
         "name": "I-15 SB @ 700 S / MP 307.29, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179192",
@@ -2404,6 +2704,7 @@
       },
       {
         "id": 179193,
+        "cctv_id": "179193",
         "name": "State St / US-89 @ 1600 N, ORM",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179193",
@@ -2412,6 +2713,7 @@
       },
       {
         "id": 179200,
+        "cctv_id": "179200",
         "name": "I-15 NB @ 2800 N / MP 283.26, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179200",
@@ -2420,6 +2722,7 @@
       },
       {
         "id": 179201,
+        "cctv_id": "179201",
         "name": "I-15 NB @ North Temple St / MP 308.59, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179201",
@@ -2428,6 +2731,7 @@
       },
       {
         "id": 179202,
+        "cctv_id": "179202",
         "name": "I-15 SB @ 400 S / MP 307.74, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179202",
@@ -2436,6 +2740,7 @@
       },
       {
         "id": 179206,
+        "cctv_id": "179206",
         "name": "Washington Blvd / Harrisville Rd / US-89 @ 2nd St / Washington Blvd / SR-235, OGD",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179206",
@@ -2444,6 +2749,7 @@
       },
       {
         "id": 179208,
+        "cctv_id": "179208",
         "name": "I-15 NB @ 10600 S / SR-151 / MP 293.65, SND",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179208",
@@ -2452,6 +2758,7 @@
       },
       {
         "id": 179209,
+        "cctv_id": "179209",
         "name": "I-15 NB @ Milepost 22.19, LED",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179209",
@@ -2460,6 +2767,7 @@
       },
       {
         "id": 179212,
+        "cctv_id": "179212",
         "name": "I-15 @ Mills Rd / SR-78 / MP 206.55, JU",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179212",
@@ -2468,6 +2776,7 @@
       },
       {
         "id": 179216,
+        "cctv_id": "179216",
         "name": "I-15 NB @ 7250 S / MP 297.86, MDV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179216",
@@ -2476,6 +2785,7 @@
       },
       {
         "id": 179218,
+        "cctv_id": "179218",
         "name": "I-15 NB @ 10400 S / MP 293.88, SND",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179218",
@@ -2484,6 +2794,7 @@
       },
       {
         "id": 179219,
+        "cctv_id": "179219",
         "name": "Harrison Blvd / 1200 E / SR-203 @ 20th St, OGD",
         "roadway": "SR 203",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179219",
@@ -2492,6 +2803,7 @@
       },
       {
         "id": 179221,
+        "cctv_id": "179221",
         "name": "I-15 @ 100 N / SR-132 / MP 225.26, NPH",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179221",
@@ -2500,6 +2812,7 @@
       },
       {
         "id": 179232,
+        "cctv_id": "179232",
         "name": "I-15 SB @ Milepost 142.1, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179232",
@@ -2508,6 +2821,7 @@
       },
       {
         "id": 179234,
+        "cctv_id": "179234",
         "name": "US-89 @ 6300 S / 150 E / MP 407.72, UIN",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179234",
@@ -2516,6 +2830,7 @@
       },
       {
         "id": 179243,
+        "cctv_id": "179243",
         "name": "I-15 NB @ 7850 S / MP 297.06, MDV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179243",
@@ -2524,6 +2839,7 @@
       },
       {
         "id": 179246,
+        "cctv_id": "179246",
         "name": "I-15 NB @ 3300 S / SR-171 / MP 303.49, SSL",
         "roadway": "SR 171",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179246",
@@ -2532,6 +2848,7 @@
       },
       {
         "id": 179250,
+        "cctv_id": "179250",
         "name": "SR-226 @ Snow Basin / MP 0.7, WB",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179250",
@@ -2540,6 +2857,7 @@
       },
       {
         "id": 179252,
+        "cctv_id": "179252",
         "name": "Harrison Blvd / SR-203 @ 12th St / Ogden Canyon Rd / SR-39, OGD",
         "roadway": "SR 203",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179252",
@@ -2548,6 +2866,7 @@
       },
       {
         "id": 179259,
+        "cctv_id": "179259",
         "name": "I-15 NB @ 2600 S / SR-93 / MP 315.26, WXS",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179259",
@@ -2556,6 +2875,7 @@
       },
       {
         "id": 179261,
+        "cctv_id": "179261",
         "name": "Washington Blvd / US-89 @ 28th St, OGD",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179261",
@@ -2564,6 +2884,7 @@
       },
       {
         "id": 179264,
+        "cctv_id": "179264",
         "name": "I-15 SB @ University Pkwy / SR-265 / MP 269.12, ORM",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179264",
@@ -2572,6 +2893,7 @@
       },
       {
         "id": 179265,
+        "cctv_id": "179265",
         "name": "Washington Blvd / US-89 @ 30th St / SR-79, OGD",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179265",
@@ -2580,6 +2902,7 @@
       },
       {
         "id": 179268,
+        "cctv_id": "179268",
         "name": "300 S / State St / US-89 @ 700 E, PVO",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179268",
@@ -2588,6 +2911,7 @@
       },
       {
         "id": 179276,
+        "cctv_id": "179276",
         "name": "State St / US-89 @ 850 E, LHI",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179276",
@@ -2596,6 +2920,7 @@
       },
       {
         "id": 179279,
+        "cctv_id": "179279",
         "name": "I-15 SB @ Milepost 139.6, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179279",
@@ -2604,6 +2929,7 @@
       },
       {
         "id": 179284,
+        "cctv_id": "179284",
         "name": "I-15 NB @ Milepost 24.32, LED",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179284",
@@ -2612,6 +2938,7 @@
       },
       {
         "id": 179286,
+        "cctv_id": "179286",
         "name": "I-15 SB @ Milepost 141.1, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179286",
@@ -2620,6 +2947,7 @@
       },
       {
         "id": 179291,
+        "cctv_id": "179291",
         "name": "I-15 SB @ Milepost 39.1, WN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179291",
@@ -2628,6 +2956,7 @@
       },
       {
         "id": 179292,
+        "cctv_id": "179292",
         "name": "I-84 RWIS WB @ Devils Slide / MP 111.74, MN",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179292",
@@ -2636,6 +2965,7 @@
       },
       {
         "id": 179293,
+        "cctv_id": "179293",
         "name": "I-15 NB @ 7500 S / MP 297.58, MDV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179293",
@@ -2644,6 +2974,7 @@
       },
       {
         "id": 179296,
+        "cctv_id": "179296",
         "name": "State St / US-89 @ 4500 S / SR-266, MUR",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179296",
@@ -2652,6 +2983,7 @@
       },
       {
         "id": 179300,
+        "cctv_id": "179300",
         "name": "I-15 NB @ Milepost 114.35, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179300",
@@ -2660,6 +2992,7 @@
       },
       {
         "id": 179304,
+        "cctv_id": "179304",
         "name": "Hinckley Dr / 31st St / SR-79 @ Pennsylvania Ave, OGD",
         "roadway": "SR 79",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179304",
@@ -2668,6 +3001,7 @@
       },
       {
         "id": 179309,
+        "cctv_id": "179309",
         "name": "I-15 NB @ 1400 N / SR-75 / MP 261.83, SPV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179309",
@@ -2676,6 +3010,7 @@
       },
       {
         "id": 179310,
+        "cctv_id": "179310",
         "name": "State St / US-89 @ North County Blvd / 1100 E / SR-129, AFK",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179310",
@@ -2684,6 +3019,7 @@
       },
       {
         "id": 179318,
+        "cctv_id": "179318",
         "name": "I-84 EB @ SR-83 / MP 26.57, HWL",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179318",
@@ -2692,6 +3028,7 @@
       },
       {
         "id": 179321,
+        "cctv_id": "179321",
         "name": "I-15 NB @ Milepost 26.37, TOQ",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179321",
@@ -2700,6 +3037,7 @@
       },
       {
         "id": 179327,
+        "cctv_id": "179327",
         "name": "1900 W / SR-126 @ 12th St / SR-39, MSV",
         "roadway": "SR 126",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179327",
@@ -2708,6 +3046,7 @@
       },
       {
         "id": 179331,
+        "cctv_id": "179331",
         "name": "State St / US-89 @ Columbia Ln, ORM",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179331",
@@ -2716,6 +3055,7 @@
       },
       {
         "id": 179332,
+        "cctv_id": "179332",
         "name": "State St / SR-9 @ Rlington Pkwy / 2260 W, HRC",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179332",
@@ -2724,6 +3064,7 @@
       },
       {
         "id": 179338,
+        "cctv_id": "179338",
         "name": "State St / US-89 @ 1650 W, PLG",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179338",
@@ -2732,6 +3073,7 @@
       },
       {
         "id": 179341,
+        "cctv_id": "179341",
         "name": "I-15 NB @ 8250 S / MP 296.6, MDV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179341",
@@ -2740,6 +3082,7 @@
       },
       {
         "id": 179342,
+        "cctv_id": "179342",
         "name": "I-15 NB @ 400 S / MP 307.79, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179342",
@@ -2748,6 +3091,7 @@
       },
       {
         "id": 179343,
+        "cctv_id": "179343",
         "name": "I-15 SB @ 2900 S / MP 304, SSL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179343",
@@ -2756,6 +3100,7 @@
       },
       {
         "id": 179344,
+        "cctv_id": "179344",
         "name": "I-15 NB @ 600 S Exit / MP 307.36, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179344",
@@ -2764,6 +3109,7 @@
       },
       {
         "id": 179348,
+        "cctv_id": "179348",
         "name": "I-15 NB @ 9050 S / MP 295.55, SND",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179348",
@@ -2772,6 +3118,7 @@
       },
       {
         "id": 179349,
+        "cctv_id": "179349",
         "name": "I-15 SB @ Beaver / MP 113.3, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179349",
@@ -2780,6 +3127,7 @@
       },
       {
         "id": 179351,
+        "cctv_id": "179351",
         "name": "I-15 SB @ 1000 N / MP 310.2, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179351",
@@ -2788,6 +3136,7 @@
       },
       {
         "id": 179355,
+        "cctv_id": "179355",
         "name": "I-15 NB @ 350 S / MP 334.52, CFD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179355",
@@ -2796,6 +3145,7 @@
       },
       {
         "id": 179356,
+        "cctv_id": "179356",
         "name": "State St / US-89 @ Main St / US-50, SLA",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179356",
@@ -2804,6 +3154,7 @@
       },
       {
         "id": 179367,
+        "cctv_id": "179367",
         "name": "US-40 @ State St / MP 114.1, RSV",
         "roadway": "US 40",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179367",
@@ -2812,6 +3163,7 @@
       },
       {
         "id": 179373,
+        "cctv_id": "179373",
         "name": "State St / SR-9 @ 500 N, HRC",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179373",
@@ -2820,6 +3172,7 @@
       },
       {
         "id": 179381,
+        "cctv_id": "179381",
         "name": "I-84 EB @ Adams Ave Pkwy / 475 E / MP 84.6, SWE",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179381",
@@ -2828,6 +3181,7 @@
       },
       {
         "id": 179383,
+        "cctv_id": "179383",
         "name": "State St / US-89 @ 2700 S, SSL",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179383",
@@ -2836,6 +3190,7 @@
       },
       {
         "id": 179386,
+        "cctv_id": "179386",
         "name": "Wall Ave / SR-204 @ 25th St, OGD",
         "roadway": "SR 204",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179386",
@@ -2844,6 +3199,7 @@
       },
       {
         "id": 179388,
+        "cctv_id": "179388",
         "name": "I-15 NB @ 1500 N / MP 332.22, LTN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179388",
@@ -2852,6 +3208,7 @@
       },
       {
         "id": 179398,
+        "cctv_id": "179398",
         "name": "I-15 SB @ 13400 S / MP 290.08, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179398",
@@ -2860,6 +3217,7 @@
       },
       {
         "id": 179402,
+        "cctv_id": "179402",
         "name": "State St / US-89 @ 2100 N / SR-194, LHI",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179402",
@@ -2868,6 +3226,7 @@
       },
       {
         "id": 179406,
+        "cctv_id": "179406",
         "name": "I-15 SB @ Dog Valley Pass/MP 136.17, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179406",
@@ -2876,6 +3235,7 @@
       },
       {
         "id": 179407,
+        "cctv_id": "179407",
         "name": "I-15 NB @ Milepost 135.83, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179407",
@@ -2884,6 +3244,7 @@
       },
       {
         "id": 179412,
+        "cctv_id": "179412",
         "name": "I-15 SB @ Milepost 140.1, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179412",
@@ -2892,6 +3253,7 @@
       },
       {
         "id": 179418,
+        "cctv_id": "179418",
         "name": "I-15 SB @ 2400 S / MP 222.03, NPH",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179418",
@@ -2900,6 +3262,7 @@
       },
       {
         "id": 179443,
+        "cctv_id": "179443",
         "name": "I-15 SB @ Milepost 134.96, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179443",
@@ -2908,6 +3271,7 @@
       },
       {
         "id": 179447,
+        "cctv_id": "179447",
         "name": "State St / SR-186 @ 200 S, SLC",
         "roadway": "SR 186",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179447",
@@ -2916,6 +3280,7 @@
       },
       {
         "id": 179448,
+        "cctv_id": "179448",
         "name": "State St / SR-9 @ Southern Pkwy / SR-7, HRC",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179448",
@@ -2924,6 +3289,7 @@
       },
       {
         "id": 179451,
+        "cctv_id": "179451",
         "name": "State St / SR-9 @ Center St, LVR",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179451",
@@ -2932,6 +3298,7 @@
       },
       {
         "id": 179457,
+        "cctv_id": "179457",
         "name": "State St / US-89 @ 600 S / Martin Luther King Jr Blvd / SR-269, SLC",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179457",
@@ -2940,6 +3307,7 @@
       },
       {
         "id": 179459,
+        "cctv_id": "179459",
         "name": "I-15 NB @ Milepost 133.8, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179459",
@@ -2948,6 +3316,7 @@
       },
       {
         "id": 179461,
+        "cctv_id": "179461",
         "name": "I-15 SB @ 1400 S / MP 321.98, FRM",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179461",
@@ -2956,6 +3325,7 @@
       },
       {
         "id": 179467,
+        "cctv_id": "179467",
         "name": "I-15 SB @ Milepost 113.65, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179467",
@@ -2964,6 +3334,7 @@
       },
       {
         "id": 179470,
+        "cctv_id": "179470",
         "name": "I-15 NB @ 900 S / MP 333.79, CFD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179470",
@@ -2972,6 +3343,7 @@
       },
       {
         "id": 179472,
+        "cctv_id": "179472",
         "name": "I-15 NB @ Milepost 138.6, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179472",
@@ -2980,6 +3352,7 @@
       },
       {
         "id": 179478,
+        "cctv_id": "179478",
         "name": "State St / US-89 @ 860 E, AFK",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179478",
@@ -2988,6 +3361,7 @@
       },
       {
         "id": 179479,
+        "cctv_id": "179479",
         "name": "SR-39 / Ogden Canyon @ Milepost 13.24, WB",
         "roadway": "SR 39",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179479",
@@ -2996,6 +3370,7 @@
       },
       {
         "id": 179483,
+        "cctv_id": "179483",
         "name": "State St / US-89 @ 100 E, LHI",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179483",
@@ -3004,6 +3379,7 @@
       },
       {
         "id": 179487,
+        "cctv_id": "179487",
         "name": "State St / US-89 @ 400 N, LDN",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179487",
@@ -3012,6 +3388,7 @@
       },
       {
         "id": 179496,
+        "cctv_id": "179496",
         "name": "State St / US-89 @ Center St, LDN",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179496",
@@ -3020,6 +3397,7 @@
       },
       {
         "id": 179504,
+        "cctv_id": "179504",
         "name": "I-15 NB @ 9800 S / MP 294.6, SND",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179504",
@@ -3028,6 +3406,7 @@
       },
       {
         "id": 179505,
+        "cctv_id": "179505",
         "name": "I-15 SB @ 7400 S / MP 297.6, MDV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179505",
@@ -3036,6 +3415,7 @@
       },
       {
         "id": 179509,
+        "cctv_id": "179509",
         "name": "I-15 SB @ 1500 S / MP 306.11, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179509",
@@ -3044,6 +3424,7 @@
       },
       {
         "id": 179510,
+        "cctv_id": "179510",
         "name": "State St / US-89 @ 5300 S / SR-173, MUR",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179510",
@@ -3052,6 +3433,7 @@
       },
       {
         "id": 179511,
+        "cctv_id": "179511",
         "name": "I-80 WB @ State St / US-89 / MP 123.28, SSL",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179511",
@@ -3060,6 +3442,7 @@
       },
       {
         "id": 179513,
+        "cctv_id": "179513",
         "name": "I-15 NB @ 9000 S / SR-209 / MP 295.66, SND",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179513",
@@ -3068,6 +3451,7 @@
       },
       {
         "id": 179514,
+        "cctv_id": "179514",
         "name": "I-15 SB @ 8400 S / MP 296.4, MDV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179514",
@@ -3076,6 +3460,7 @@
       },
       {
         "id": 179518,
+        "cctv_id": "179518",
         "name": "I-15 SB @ 400 N / MP 309.03, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179518",
@@ -3084,6 +3469,7 @@
       },
       {
         "id": 179528,
+        "cctv_id": "179528",
         "name": "I-15 NB @ 5550 S / MP 300, MUR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179528",
@@ -3092,6 +3478,7 @@
       },
       {
         "id": 179534,
+        "cctv_id": "179534",
         "name": "State St / US-89 @ 800 S, ORM",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179534",
@@ -3100,6 +3487,7 @@
       },
       {
         "id": 179535,
+        "cctv_id": "179535",
         "name": "I-15 NB @ Hill Field Rd / 750 N / SR-232 / MP 331.36, LTN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179535",
@@ -3108,6 +3496,7 @@
       },
       {
         "id": 179537,
+        "cctv_id": "179537",
         "name": "State St / US-89 @ 2100 S / SR-201, SSL",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179537",
@@ -3116,6 +3505,7 @@
       },
       {
         "id": 179538,
+        "cctv_id": "179538",
         "name": "I-15 NB @ 800 N / SR-52 / MP 271.7, ORM",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179538",
@@ -3124,6 +3514,7 @@
       },
       {
         "id": 179551,
+        "cctv_id": "179551",
         "name": "Washington Blvd / US-89 @ Riverdale Rd / SR-26, OGD",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179551",
@@ -3132,6 +3523,7 @@
       },
       {
         "id": 179554,
+        "cctv_id": "179554",
         "name": "Wall Ave / SR-204 @ 31st St / SR-79, OGD",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179554",
@@ -3140,6 +3532,7 @@
       },
       {
         "id": 179557,
+        "cctv_id": "179557",
         "name": "State St / US-89 @ Center St, ORM",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179557",
@@ -3148,6 +3541,7 @@
       },
       {
         "id": 179564,
+        "cctv_id": "179564",
         "name": "I-15 SB @ Parrish Ln / 400 N / SR-105 / MP 319.51, CVL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179564",
@@ -3156,6 +3550,7 @@
       },
       {
         "id": 179568,
+        "cctv_id": "179568",
         "name": "I-15 SB @ 600 N / MP 271.44, ORM",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179568",
@@ -3164,6 +3559,7 @@
       },
       {
         "id": 179569,
+        "cctv_id": "179569",
         "name": "State St / US-89 @ 500 W, LHI",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179569",
@@ -3172,6 +3568,7 @@
       },
       {
         "id": 179571,
+        "cctv_id": "179571",
         "name": "I-15 NB @ 500 S / MP 307.61, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179571",
@@ -3180,6 +3577,7 @@
       },
       {
         "id": 179576,
+        "cctv_id": "179576",
         "name": "State St / US-89 @ 1720 N / Grandview Ln, PVO",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179576",
@@ -3188,6 +3586,7 @@
       },
       {
         "id": 179579,
+        "cctv_id": "179579",
         "name": "State St / SR-9 @ 1150 W, HRC",
         "roadway": "SR 9",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179579",
@@ -3196,6 +3595,7 @@
       },
       {
         "id": 179581,
+        "cctv_id": "179581",
         "name": "State St / US-89 @ 1860 S / Slate Canyon Dr, PVO",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179581",
@@ -3204,6 +3604,7 @@
       },
       {
         "id": 179582,
+        "cctv_id": "179582",
         "name": "I-15 SB @ 2100 S / SR-201 / MP 305.25, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179582",
@@ -3212,6 +3613,7 @@
       },
       {
         "id": 179590,
+        "cctv_id": "179590",
         "name": "2100 S / SR-201 @ 400 W / I-15 NB / MP 17.46, SLC",
         "roadway": "SR 201",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179590",
@@ -3220,6 +3622,7 @@
       },
       {
         "id": 179595,
+        "cctv_id": "179595",
         "name": "I-15 NB @ Antelope Dr / 2000 N / SR-108 / MP 332.87, LTN",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179595",
@@ -3228,6 +3631,7 @@
       },
       {
         "id": 179596,
+        "cctv_id": "179596",
         "name": "State St / US-89 / Minuteman Dr @ 12300 S / SR-71, DPR",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179596",
@@ -3236,6 +3640,7 @@
       },
       {
         "id": 179605,
+        "cctv_id": "179605",
         "name": "I-15 NB @ 11900 S / MP 291.98, DPR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179605",
@@ -3244,6 +3649,7 @@
       },
       {
         "id": 179607,
+        "cctv_id": "179607",
         "name": "I-15 NB @ 500 W / US-89 / MP 318.1, BTF",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179607",
@@ -3252,6 +3658,7 @@
       },
       {
         "id": 179611,
+        "cctv_id": "179611",
         "name": "I-15 NB @ 3750 S / MP 302.75, SSL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179611",
@@ -3260,6 +3667,7 @@
       },
       {
         "id": 179613,
+        "cctv_id": "179613",
         "name": "I-15 NB @ 1100 S / MP 306.53, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179613",
@@ -3268,6 +3676,7 @@
       },
       {
         "id": 179614,
+        "cctv_id": "179614",
         "name": "I-15 SB @ Main St / MP 314.31, NSL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179614",
@@ -3276,6 +3685,7 @@
       },
       {
         "id": 179616,
+        "cctv_id": "179616",
         "name": "I-15 SB @ 1700 N / MP 310.93, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179616",
@@ -3284,6 +3694,7 @@
       },
       {
         "id": 179620,
+        "cctv_id": "179620",
         "name": "Riverdale Rd / SR-26 @ 300 W, RDL",
         "roadway": "SR 26",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179620",
@@ -3292,6 +3703,7 @@
       },
       {
         "id": 179622,
+        "cctv_id": "179622",
         "name": "I-84 WB @ SR-167 / MP 92.42, MN",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179622",
@@ -3300,6 +3712,7 @@
       },
       {
         "id": 179625,
+        "cctv_id": "179625",
         "name": "Washington Blvd / SR-235 @ 2600 N / SR-134, NOG",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179625",
@@ -3308,6 +3721,7 @@
       },
       {
         "id": 179629,
+        "cctv_id": "179629",
         "name": "I-15 SB @ Main St / SR-160 / MP 111.77, BVR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179629",
@@ -3316,6 +3730,7 @@
       },
       {
         "id": 179631,
+        "cctv_id": "179631",
         "name": "I-15 NB @ Pleasant Grove Blvd / MP 275.35, PLG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179631",
@@ -3324,6 +3739,7 @@
       },
       {
         "id": 179632,
+        "cctv_id": "179632",
         "name": "Harrison Blvd / 1200 E / SR-203 @ 4800 S / Edgewood Dr, OGD",
         "roadway": "SR 203",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179632",
@@ -3332,6 +3748,7 @@
       },
       {
         "id": 179633,
+        "cctv_id": "179633",
         "name": "Harrison Blvd / 1200 E / SR-203 @ 24th St, OGD",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179633",
@@ -3340,6 +3757,7 @@
       },
       {
         "id": 179636,
+        "cctv_id": "179636",
         "name": "I-15 SB @ 2100 N / MP 321.7, CVL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179636",
@@ -3348,6 +3766,7 @@
       },
       {
         "id": 179637,
+        "cctv_id": "179637",
         "name": "I-15 SB @ 2600 S  / SR-93 / MP 315.24, WXS",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179637",
@@ -3356,6 +3775,7 @@
       },
       {
         "id": 179639,
+        "cctv_id": "179639",
         "name": "Washington Blvd / US-89 @ 40th St / Chimes View Dr, SOG",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179639",
@@ -3364,6 +3784,7 @@
       },
       {
         "id": 179640,
+        "cctv_id": "179640",
         "name": "I-15 NB @ 24th St / SR-53 / MP 343.1, OGD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179640",
@@ -3372,6 +3793,7 @@
       },
       {
         "id": 179645,
+        "cctv_id": "179645",
         "name": "I-15 Off-ramp NB @ 10600 S / SR-151 / MP 293.62, SND",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179645",
@@ -3380,6 +3802,7 @@
       },
       {
         "id": 179649,
+        "cctv_id": "179649",
         "name": "I-15 SB @ 5300 S / SR-173 / MP 300.35, MUR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179649",
@@ -3388,6 +3811,7 @@
       },
       {
         "id": 179650,
+        "cctv_id": "179650",
         "name": "State St / US-89 @ 900 S, SLC",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179650",
@@ -3396,6 +3820,7 @@
       },
       {
         "id": 179661,
+        "cctv_id": "179661",
         "name": "I-15 NB @ 3400 S / MP 359.5, PRY",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179661",
@@ -3404,6 +3829,7 @@
       },
       {
         "id": 179669,
+        "cctv_id": "179669",
         "name": "I-15 RWIS NB @ Willard/Perry POE / MP 358.88, PRY",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179669",
@@ -3412,6 +3838,7 @@
       },
       {
         "id": 179675,
+        "cctv_id": "179675",
         "name": "SR-39 @ Monte Cristo / MP 36.84, WB",
         "roadway": "SR 39",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179675",
@@ -3420,6 +3847,7 @@
       },
       {
         "id": 179677,
+        "cctv_id": "179677",
         "name": "SR-158 @ Powder Mountain / MP 11.62, WB",
         "roadway": "SR 158",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179677",
@@ -3428,6 +3856,7 @@
       },
       {
         "id": 179689,
+        "cctv_id": "179689",
         "name": "I-15 NB @ Milepost 90.05, RN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179689",
@@ -3436,6 +3865,7 @@
       },
       {
         "id": 179692,
+        "cctv_id": "179692",
         "name": "US-89 @ Harrison Blvd / 1550 E / SR-203, SOG",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179692",
@@ -3444,6 +3874,7 @@
       },
       {
         "id": 179695,
+        "cctv_id": "179695",
         "name": "State St / SR-186 @ North Temple St / 2nd Ave, SLC",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179695",
@@ -3452,6 +3883,7 @@
       },
       {
         "id": 179696,
+        "cctv_id": "179696",
         "name": "I-15 SB @ 400 S / MP 279.32, LHI",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179696",
@@ -3460,6 +3892,7 @@
       },
       {
         "id": 179697,
+        "cctv_id": "179697",
         "name": "I-15 NB @ SR-20 / MP 94.7, RN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179697",
@@ -3468,6 +3901,7 @@
       },
       {
         "id": 179705,
+        "cctv_id": "179705",
         "name": "2100 N / SR-194 EB @ 1400 W / I-15 SB Exit, LHI",
         "roadway": "SR 194",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179705",
@@ -3476,6 +3910,7 @@
       },
       {
         "id": 179709,
+        "cctv_id": "179709",
         "name": "I-15 NB @ St George Blvd / SR-34 / MP 8.41, STG",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179709",
@@ -3484,6 +3919,7 @@
       },
       {
         "id": 179712,
+        "cctv_id": "179712",
         "name": "Washington Blvd / US-89 @ 4400 S, SOG",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179712",
@@ -3492,6 +3928,7 @@
       },
       {
         "id": 179721,
+        "cctv_id": "179721",
         "name": "I-84 EB @ Milepost 34, BE",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179721",
@@ -3500,6 +3937,7 @@
       },
       {
         "id": 179732,
+        "cctv_id": "179732",
         "name": "State St / SR-126 @ 700 S / SR-193, CFD",
         "roadway": "SR 126",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179732",
@@ -3508,6 +3946,7 @@
       },
       {
         "id": 179743,
+        "cctv_id": "179743",
         "name": "I-15 SB @ Manderfield Rd / MP 120.15, BV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179743",
@@ -3516,6 +3955,7 @@
       },
       {
         "id": 179745,
+        "cctv_id": "179745",
         "name": "State St / US-89 @ 8375 S / Princeton Dr, SND",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179745",
@@ -3524,6 +3964,7 @@
       },
       {
         "id": 179746,
+        "cctv_id": "179746",
         "name": "Wall Ave / SR-204 @ 30th St / SR-79, OGD",
         "roadway": "SR 204",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179746",
@@ -3532,6 +3973,7 @@
       },
       {
         "id": 179750,
+        "cctv_id": "179750",
         "name": "State St / US-89 @ 1300 S, SLC",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179750",
@@ -3540,6 +3982,7 @@
       },
       {
         "id": 179753,
+        "cctv_id": "179753",
         "name": "Washington Blvd / US-89 @ Adams Ave Pkwy, OGD",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179753",
@@ -3548,6 +3991,7 @@
       },
       {
         "id": 179759,
+        "cctv_id": "179759",
         "name": "SR-158 @ Milepost 8.33, WB",
         "roadway": "SR-158",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179759",
@@ -3556,6 +4000,7 @@
       },
       {
         "id": 179763,
+        "cctv_id": "179763",
         "name": "I-215 S EB @ State St / US-89 / MP 10.66, MUR",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179763",
@@ -3564,6 +4009,7 @@
       },
       {
         "id": 179765,
+        "cctv_id": "179765",
         "name": "I-15 SB @ Glover Ln / MP 322.54, FRM",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179765",
@@ -3572,6 +4018,7 @@
       },
       {
         "id": 179766,
+        "cctv_id": "179766",
         "name": "I-15 NB @ I-215 North Interchange / MP 313.28, NSL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179766",
@@ -3580,6 +4027,7 @@
       },
       {
         "id": 179768,
+        "cctv_id": "179768",
         "name": "I-15 SB @ 500 S / SR-68 / MP 316.84, WBN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179768",
@@ -3588,6 +4036,7 @@
       },
       {
         "id": 179774,
+        "cctv_id": "179774",
         "name": "Harrison Blvd / Wildcat Way / SR-203 @ 36th St, OGD",
         "roadway": "SR 203",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179774",
@@ -3596,6 +4045,7 @@
       },
       {
         "id": 179778,
+        "cctv_id": "179778",
         "name": "I-15 NB @ State St / MP 323.66, FRM",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179778",
@@ -3604,6 +4054,7 @@
       },
       {
         "id": 179782,
+        "cctv_id": "179782",
         "name": "State St / US-89 @ 800 N / SR-52, ORM",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179782",
@@ -3612,6 +4063,7 @@
       },
       {
         "id": 179785,
+        "cctv_id": "179785",
         "name": "I-15 SB @ Main St / SR-156 / MP 257.35, SPF",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179785",
@@ -3620,6 +4072,7 @@
       },
       {
         "id": 179786,
+        "cctv_id": "179786",
         "name": "I-15 SB @ I-215 South Interchange / MP 299, MUR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179786",
@@ -3628,6 +4081,7 @@
       },
       {
         "id": 179787,
+        "cctv_id": "179787",
         "name": "I-15 SB @ 3300 S / SR-171 / MP 303.45, SSL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179787",
@@ -3636,6 +4090,7 @@
       },
       {
         "id": 179794,
+        "cctv_id": "179794",
         "name": "I-15 SB @ Park Ln / 1100 W / SR-225 / MP 324.44, FRM",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179794",
@@ -3644,6 +4099,7 @@
       },
       {
         "id": 179795,
+        "cctv_id": "179795",
         "name": "Harrison Blvd / Wildcat Way / SR-203 @ 42nd St / Country Hills Dr, OGD",
         "roadway": "SR 203",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179795",
@@ -3652,6 +4108,7 @@
       },
       {
         "id": 179807,
+        "cctv_id": "179807",
         "name": "I-15 NB @ 4500 S / SR-266 / MP 301.71, MUR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179807",
@@ -3660,6 +4117,7 @@
       },
       {
         "id": 179808,
+        "cctv_id": "179808",
         "name": "I-15 SB @ 2550 S / MP 304.53, SSL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179808",
@@ -3668,6 +4126,7 @@
       },
       {
         "id": 179809,
+        "cctv_id": "179809",
         "name": "I-15 SB @ 650 N / SR-103 / MP 335.89, CFD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179809",
@@ -3676,6 +4135,7 @@
       },
       {
         "id": 179811,
+        "cctv_id": "179811",
         "name": "I-15 NB @ 1800 S / MP 305.6, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179811",
@@ -3684,6 +4144,7 @@
       },
       {
         "id": 179814,
+        "cctv_id": "179814",
         "name": "State St / US-89 @ 7800 S, MDV",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179814",
@@ -3692,6 +4153,7 @@
       },
       {
         "id": 179818,
+        "cctv_id": "179818",
         "name": "I-15 SB @ 10600 S / South Jordan Pkwy / SR-151 / MP 293.6, SJO",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179818",
@@ -3700,6 +4162,7 @@
       },
       {
         "id": 179820,
+        "cctv_id": "179820",
         "name": "I-15 NB @ 5200 S / MP 300.63, MUR",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179820",
@@ -3708,6 +4171,7 @@
       },
       {
         "id": 179826,
+        "cctv_id": "179826",
         "name": "I-15 SB @ 700 S / SR-193 / MP 334.08, CFD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179826",
@@ -3716,6 +4180,7 @@
       },
       {
         "id": 179833,
+        "cctv_id": "179833",
         "name": "State St / US-89 @ 1700 S, SLC",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179833",
@@ -3724,6 +4189,7 @@
       },
       {
         "id": 179834,
+        "cctv_id": "179834",
         "name": "State St / US-89 @ 11000 S, SND",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179834",
@@ -3732,6 +4198,7 @@
       },
       {
         "id": 179838,
+        "cctv_id": "179838",
         "name": "State St / US-89 @ 10000 S / Sego Lily Dr, SND",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179838",
@@ -3740,6 +4207,7 @@
       },
       {
         "id": 179846,
+        "cctv_id": "179846",
         "name": "State St / US-89 @ 1320 S, PVO",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179846",
@@ -3748,6 +4216,7 @@
       },
       {
         "id": 179854,
+        "cctv_id": "179854",
         "name": "I-15 NB @ 10800 S / MP 293.4, SND",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179854",
@@ -3756,6 +4225,7 @@
       },
       {
         "id": 179859,
+        "cctv_id": "179859",
         "name": "Telegraph St / State St @ Main St, WAS",
         "roadway": "Telegraph St",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179859",
@@ -3764,6 +4234,7 @@
       },
       {
         "id": 179868,
+        "cctv_id": "179868",
         "name": "I-15 SB @ 350 N / MP 335.38, CFD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179868",
@@ -3772,6 +4243,7 @@
       },
       {
         "id": 179869,
+        "cctv_id": "179869",
         "name": "I-15 SB @ 3400 N / MP 283.9, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179869",
@@ -3780,6 +4252,7 @@
       },
       {
         "id": 179872,
+        "cctv_id": "179872",
         "name": "Wall Ave / SR-204 @ 20th St / SR-104, OGD",
         "roadway": "SR 204",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179872",
@@ -3788,6 +4261,7 @@
       },
       {
         "id": 179879,
+        "cctv_id": "179879",
         "name": "State St / US-89 @ 2700 N / SR-134, PLV",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179879",
@@ -3796,6 +4270,7 @@
       },
       {
         "id": 179881,
+        "cctv_id": "179881",
         "name": "I-15 NB @ 2200 N / MP 282.46, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179881",
@@ -3804,6 +4279,7 @@
       },
       {
         "id": 179885,
+        "cctv_id": "179885",
         "name": "I-15 NB @ 700 S / SR-193 / MP 334.1, CFD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179885",
@@ -3812,6 +4288,7 @@
       },
       {
         "id": 179886,
+        "cctv_id": "179886",
         "name": "State St / US-89 @ 700 N / SR-129, LDN",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179886",
@@ -3820,6 +4297,7 @@
       },
       {
         "id": 179892,
+        "cctv_id": "179892",
         "name": "Washington Blvd / US-89 @ 20th St, OGD",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179892",
@@ -3828,6 +4306,7 @@
       },
       {
         "id": 179894,
+        "cctv_id": "179894",
         "name": "US-89 / Harrisville Rd @ Wall Ave / SR-204 / Larsen Ln, HRV",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179894",
@@ -3836,6 +4315,7 @@
       },
       {
         "id": 179896,
+        "cctv_id": "179896",
         "name": "I-15 SB @ 9100 S / MP 295.48, SND",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179896",
@@ -3844,6 +4324,7 @@
       },
       {
         "id": 179903,
+        "cctv_id": "179903",
         "name": "I-15 NB @ New Harmony / MP 42.15, WN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179903",
@@ -3852,6 +4333,7 @@
       },
       {
         "id": 179906,
+        "cctv_id": "179906",
         "name": "I-15 NB @ 975 N / MP 336.14, SUN",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179906",
@@ -3860,6 +4342,7 @@
       },
       {
         "id": 179909,
+        "cctv_id": "179909",
         "name": "I-15 SB @ Milepost 138.1, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179909",
@@ -3868,6 +4351,7 @@
       },
       {
         "id": 179914,
+        "cctv_id": "179914",
         "name": "I-15 NB @ 5800 S / MP 338.50, ROY",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179914",
@@ -3876,6 +4360,7 @@
       },
       {
         "id": 179915,
+        "cctv_id": "179915",
         "name": "Riverdale Rd / SR-26 @ 700 W, RDL",
         "roadway": "SR 26",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179915",
@@ -3884,6 +4369,7 @@
       },
       {
         "id": 179916,
+        "cctv_id": "179916",
         "name": "I-15 NB @ Milepost 139.1, MD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179916",
@@ -3892,6 +4378,7 @@
       },
       {
         "id": 179924,
+        "cctv_id": "179924",
         "name": "State St / US-89 @ 1500 N, LHI",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179924",
@@ -3900,6 +4387,7 @@
       },
       {
         "id": 179926,
+        "cctv_id": "179926",
         "name": "State St / US-89 @ Valley Vista Way, PVO",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179926",
@@ -3908,6 +4396,7 @@
       },
       {
         "id": 179927,
+        "cctv_id": "179927",
         "name": "State St / US-89 @ 5900 S, MUR",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179927",
@@ -3916,6 +4405,7 @@
       },
       {
         "id": 179932,
+        "cctv_id": "179932",
         "name": "I-15 NB @ Milepost 204.4, JU",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179932",
@@ -3924,6 +4414,7 @@
       },
       {
         "id": 179938,
+        "cctv_id": "179938",
         "name": "I-15 NB @ 900 N / MP 280.73, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179938",
@@ -3932,6 +4423,7 @@
       },
       {
         "id": 179940,
+        "cctv_id": "179940",
         "name": "State St / US-89 @ 2000 N, ORM",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179940",
@@ -3940,6 +4432,7 @@
       },
       {
         "id": 179943,
+        "cctv_id": "179943",
         "name": "State St / US-89 @ Main St / SR-116, MTP",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179943",
@@ -3948,6 +4441,7 @@
       },
       {
         "id": 179957,
+        "cctv_id": "179957",
         "name": "I-15 SB @ 24th St / Pennsylvania Ave / SR-53 / MP 343.12, OGD",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179957",
@@ -3956,6 +4450,7 @@
       },
       {
         "id": 179962,
+        "cctv_id": "179962",
         "name": "State St / US-89 @ 300 W, LHI",
         "roadway": "US 89",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179962",
@@ -3964,6 +4459,7 @@
       },
       {
         "id": 179965,
+        "cctv_id": "179965",
         "name": "I-80 EB @ State St / US-89 / MP 123.32, SSL",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179965",
@@ -3972,6 +4468,7 @@
       },
       {
         "id": 179973,
+        "cctv_id": "179973",
         "name": "I-15 SB @ 5800 S / MP 299.7, MUR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179973",
@@ -3980,6 +4477,7 @@
       },
       {
         "id": 179974,
+        "cctv_id": "179974",
         "name": "I-15 NB @ 5000 S / MP 301, MUR",
         "roadway": "Unknown",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179974",
@@ -3988,6 +4486,7 @@
       },
       {
         "id": 179975,
+        "cctv_id": "179975",
         "name": "I-15 NB @ 4100 S / MP 302.25, MUR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179975",
@@ -3996,6 +4495,7 @@
       },
       {
         "id": 179976,
+        "cctv_id": "179976",
         "name": "I-15 SB @ 1300 S / MP 306.33, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179976",
@@ -4004,6 +4504,7 @@
       },
       {
         "id": 179982,
+        "cctv_id": "179982",
         "name": "I-15 NB @ Timpanogos Hwy / SR-92 / MP 284, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179982",
@@ -4012,6 +4513,7 @@
       },
       {
         "id": 179985,
+        "cctv_id": "179985",
         "name": "I-15 NB @ 10200 S / MP 294.2, SND",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179985",
@@ -4020,6 +4522,7 @@
       },
       {
         "id": 179986,
+        "cctv_id": "179986",
         "name": "I-15 NB @ 6600 S / MP 298.5, MDV",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179986",
@@ -4028,6 +4531,7 @@
       },
       {
         "id": 179992,
+        "cctv_id": "179992",
         "name": "I-15 NB @ 600 N / SR-268 / MP 309.34, SLC",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179992",
@@ -4036,6 +4540,7 @@
       },
       {
         "id": 179993,
+        "cctv_id": "179993",
         "name": "State St / US-89 @ 3300 S / SR-171, SSL",
         "roadway": "State St",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179993",
@@ -4044,6 +4549,7 @@
       },
       {
         "id": 179997,
+        "cctv_id": "179997",
         "name": "I-215 W NB @ 4700 S / SR-266 / MP 15.46, TAY",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179997",
@@ -4052,6 +4558,7 @@
       },
       {
         "id": 179999,
+        "cctv_id": "179999",
         "name": "I-15 SB @ 4500 S / SR-266 / MP 301.65, MUR",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/179999",
@@ -4060,6 +4567,7 @@
       },
       {
         "id": 180002,
+        "cctv_id": "180002",
         "name": "I-15 NB @ 11200 S / MP 292.85, SND",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/180002",
@@ -4068,6 +4576,7 @@
       },
       {
         "id": 180003,
+        "cctv_id": "180003",
         "name": "I-15 NB @ 8600 S / MP 296.16, SND",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/180003",
@@ -4076,6 +4585,7 @@
       },
       {
         "id": 180006,
+        "cctv_id": "180006",
         "name": "I-15 SB @ 1100 N / MP 358.2, WIL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/180006",
@@ -4084,6 +4594,7 @@
       },
       {
         "id": 180008,
+        "cctv_id": "180008",
         "name": "I-15 NB @ 750 N / Willard Bay / SR-315 / MP 357.6, WIL",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/180008",
@@ -4092,6 +4603,7 @@
       },
       {
         "id": 180009,
+        "cctv_id": "180009",
         "name": "I-84 EB @ Mouth of Weber Cyn / MP 88.18, WB",
         "roadway": "I-84",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/180009",
@@ -4100,6 +4612,7 @@
       },
       {
         "id": 180012,
+        "cctv_id": "180012",
         "name": "I-15 @ Milepost 246.53, STQ",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/180012",
@@ -4108,6 +4621,7 @@
       },
       {
         "id": 180014,
+        "cctv_id": "180014",
         "name": "I-15 NB @ 2500 N / MP 282.86, LHI",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/180014",
@@ -4116,6 +4630,7 @@
       },
       {
         "id": 180031,
+        "cctv_id": "180031",
         "name": "I-15 SB @ MP 339.05, ROY",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/180031",
@@ -4124,6 +4639,7 @@
       },
       {
         "id": 180032,
+        "cctv_id": "180032",
         "name": "I-15 NB @ Milepost 374.6, BE",
         "roadway": "I-15",
         "url": "https://www.udottraffic.utah.gov/map/Cctv/180032",
@@ -4143,22 +4659,22 @@
         "name": "I-15 NB @ 5000 S / MP 300.98, MUR",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\n600 S\t6min\nAIRPORT\t10min"
+          "TIME TO\n600 S\t9min\nAIRPORT\t13min"
         ]
       },
       {
         "name": "I-15 NB @ Milepost 14.02, WAS",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nCEDAR CITY\t35min\nZION PARK\t52min"
+          "TIME TO\nCEDAR CITY\t36min\nZION PARK\t53min"
         ]
       },
       {
         "name": "I-15 SB @ Beaver / MP 113.3, BV",
         "roadway": "I-15",
         "messages": [
-          "CEDAR CITY\n44min",
-          "ST GEORGE\n1hr 23min"
+          "CEDAR CITY\n43min",
+          "ST GEORGE\n1hr 22min"
         ]
       },
       {
@@ -4201,35 +4717,35 @@
         "name": "I-15 NB @ I-70 / Cove Fort / MP 130.15, BV",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nRICHFIELD\t32min\nFILLMORE\t28min"
+          "TIME TO\nRICHFIELD\t32min\nFILLMORE\t27min"
         ]
       },
       {
         "name": "I-15 SB @ 8200 S / MP 296.64, MDV",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nBANGERTER\t6min\nTIMP HWY\t11min"
+          "TIME TO\nBANGERTER\t13min\nTIMP HWY\t18min"
         ]
       },
       {
         "name": "I-15 SB @ 600 S / MP 307.49, SLC",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\n9000 S\t10min\nBANGERTER\t16min"
+          "TIME TO\n9000 S\t20min\nBANGERTER\t27min"
         ]
       },
       {
         "name": "I-15 NB @ 200 S / MP 356.43, WIL",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nLOGAN\t38min\nBEAR LAKE\t1hr 29min"
+          "TIME TO\nLOGAN\t37min\nBEAR LAKE\t1hr 29min"
         ]
       },
       {
         "name": "I-15 SB @ 1800 N / Harrisville Rd, \u00a0/ MP 348.23, FRW",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nANTELOPE DR\t13min\nSLC\t30min"
+          "TIME TO\nANTELOPE DR\t14min\nSLC\t30min"
         ]
       },
       {
@@ -4250,7 +4766,7 @@
         "name": "I-15 SB @ Scipio / MP 190.66, MD",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nFILLMORE\t19min\nCEDAR CITY\t1hr 42min"
+          "TIME TO\nFILLMORE\t19min\nCEDAR CITY\t1hr 41min"
         ]
       },
       {
@@ -4285,14 +4801,14 @@
         "name": "I-15 SB @ 3900 S / MP 302.57, SSL",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nBANGERTER HWY\t12min\nTIMP HWY\t16min"
+          "TIME TO\nBANGERTER HWY\t22min\nTIMP HWY\t27min"
         ]
       },
       {
         "name": "I-15 SB @ 4800 S / MP 301.15, MUR",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nBANGERTER HWY\t10min\nTIMP HWY\t15min"
+          "TIME TO\nBANGERTER HWY\t21min\nTIMP HWY\t26min"
         ]
       },
       {
@@ -4306,7 +4822,7 @@
         "name": "I-15 SB @ 300 S / MP 356.28, WIL",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\n12TH ST\t10min\nANTELOPE DR\t20min"
+          "TIME TO\n12TH ST\t10min\nANTELOPE DR\t22min"
         ]
       },
       {
@@ -4334,7 +4850,7 @@
         "name": "I-15 NB @ Beaver / MP 106, BV",
         "roadway": "I-15",
         "messages": [
-          "I-70\n19min"
+          "I-70\n20min"
         ]
       },
       {
@@ -4397,28 +4913,28 @@
         "name": "I-15 NB @ 4000 S / MP 302.45, SL",
         "roadway": "I-15",
         "messages": [
-          "AIRPORT\nVIA I-80\t9min\nVIA SR-201\t11min"
+          "AIRPORT\nVIA I-80\t12min\nVIA SR-201\t12min"
         ]
       },
       {
         "name": "I-15 NB @ 8050 S / MP 296.85, MDV",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nI-80 EAST\t8min\nAIRPORT\t14min"
+          "TIME TO\nI-80 EAST\t8min\nAIRPORT\t16min"
         ]
       },
       {
         "name": "I-70 WB @ I-15 / Cove Fort / MP 2.4, MD",
         "roadway": "I-70",
         "messages": [
-          "TIME TO\nFILLMORE\t28min\nBEAVER\t19min"
+          "TIME TO\nFILLMORE\t27min\nBEAVER\t20min"
         ]
       },
       {
         "name": "I-15 NB @ Milepost 246.48, STQ",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nPROVO\t17min\nSLC\t55min"
+          "TIME TO\nPROVO\t17min\nSLC\t57min"
         ]
       },
       {
@@ -4439,7 +4955,7 @@
         "name": "I-15 NB @ Fillmore / MP 161.43, MD",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nNEPHI\t50min\nPROVO\t1hr 22min"
+          "TIME TO\nNEPHI\t49min\nPROVO\t1hr 22min"
         ]
       },
       {
@@ -4454,14 +4970,14 @@
         "name": "I-15 SB @ Milepost 246.48, STQ",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nNEPHI\t17min\nST GEORGE\t3hr 5min"
+          "TIME TO\nNEPHI\t17min\nST GEORGE\t3hr 7min"
         ]
       },
       {
         "name": "I-15 NB @ Milepos 24.35, LED",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nCEDAR CITY\t25min\nBEAVER\t1hr 5min"
+          "TIME TO\nCEDAR CITY\t26min\nBEAVER\t1hr 6min"
         ]
       },
       {
@@ -4475,7 +4991,7 @@
         "name": "I-15 SB @ I-70 / Cove Fort / MP 135.25, MD",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nCEDAR CITY\t1hr \nST GEORGE\t1hr 39min"
+          "TIME TO\nCEDAR CITY\t59min\nST GEORGE\t1hr 39min"
         ]
       },
       {
@@ -4555,7 +5071,7 @@
         "name": "I-15 NB @ Milepost 0.28, STG",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nZION PARK\t1hr \nCEDAR CITY\t47min"
+          "TIME TO\nZION PARK\t1hr 5min\nCEDAR CITY\t47min"
         ]
       },
       {
@@ -4654,67 +5170,67 @@
     "rwis": [
       {
         "station": "I-15 @ 6200 S",
-        "air_temp": "49.65",
-        "surface_temp": "54",
+        "air_temp": "49.19",
+        "surface_temp": "54.3",
         "surface_status": "Dry",
-        "wind_speed": "4.92",
-        "wind_gust": "9.64"
+        "wind_speed": "3.83",
+        "wind_gust": "7.89"
       },
       {
         "station": "I-15 @ Alpine Pt of Mtn",
-        "air_temp": "44.37",
-        "surface_temp": "49.1",
+        "air_temp": "45.58",
+        "surface_temp": "48.9",
         "surface_status": "Dry",
-        "wind_speed": "8.25",
-        "wind_gust": "11.84"
-      },
-      {
-        "station": "I-15 @ Dog Valley SB",
-        "air_temp": "41.09",
-        "surface_temp": "50.9",
-        "surface_status": "Dry",
-        "wind_speed": "8.48",
-        "wind_gust": "9.86"
-      },
-      {
-        "station": "I-15 @ Centerville",
-        "air_temp": "49.62",
-        "surface_temp": "53.1",
-        "surface_status": "Dry",
-        "wind_speed": "3.31",
-        "wind_gust": "6.36"
-      },
-      {
-        "station": "I-15 @ MP 200 Sevier River",
-        "air_temp": "47.53",
-        "surface_temp": "52.2",
-        "surface_status": "Dry",
-        "wind_speed": "2.89",
-        "wind_gust": "6.14"
-      },
-      {
-        "station": "I-15 @ Plymouth",
-        "air_temp": "45.14",
-        "surface_temp": "48",
-        "surface_status": "Dry",
-        "wind_speed": "5.85",
+        "wind_speed": "6.61",
         "wind_gust": "9.43"
       },
       {
-        "station": "I-15 @ Tremonton",
-        "air_temp": "44.72",
-        "surface_temp": "50.2",
+        "station": "I-15 @ Dog Valley SB",
+        "air_temp": "41.30",
+        "surface_temp": "49.6",
         "surface_status": "Dry",
-        "wind_speed": "4.57",
-        "wind_gust": "9.64"
+        "wind_speed": "7.72",
+        "wind_gust": "9.43"
+      },
+      {
+        "station": "I-15 @ Centerville",
+        "air_temp": "50.35",
+        "surface_temp": "52.7",
+        "surface_status": "Dry",
+        "wind_speed": "2.88",
+        "wind_gust": "5.92"
+      },
+      {
+        "station": "I-15 @ MP 200 Sevier River",
+        "air_temp": "48.24",
+        "surface_temp": "51.6",
+        "surface_status": "Dry",
+        "wind_speed": "0.94",
+        "wind_gust": "3.95"
+      },
+      {
+        "station": "I-15 @ Plymouth",
+        "air_temp": "44.96",
+        "surface_temp": "47.7",
+        "surface_status": "Dry",
+        "wind_speed": "1.93",
+        "wind_gust": "8.11"
+      },
+      {
+        "station": "I-15 @ Tremonton",
+        "air_temp": "45.08",
+        "surface_temp": "48.9",
+        "surface_status": "Dry",
+        "wind_speed": "4.00",
+        "wind_gust": "8.77"
       },
       {
         "station": "I-15 @ Willard POE",
-        "air_temp": "45.53",
-        "surface_temp": "49.5",
+        "air_temp": "45.40",
+        "surface_temp": "48.6",
         "surface_status": "Dry",
-        "wind_speed": "4.03",
-        "wind_gust": "6.36"
+        "wind_speed": "3.73",
+        "wind_gust": "6.14"
       },
       {
         "station": "I-15 @ Bluffdale",
@@ -4726,379 +5242,379 @@
       },
       {
         "station": "I-15 @ Black Ridge",
-        "air_temp": "51.04",
-        "surface_temp": "62.2",
+        "air_temp": "51.80",
+        "surface_temp": "61.7",
         "surface_status": "Dry",
-        "wind_speed": "7.60",
-        "wind_gust": "11.62"
+        "wind_speed": "5.84",
+        "wind_gust": "10.30"
       },
       {
         "station": "I-15 @ Scipio Summit",
-        "air_temp": "43.68",
-        "surface_temp": "52.7",
+        "air_temp": "43.61",
+        "surface_temp": "52",
         "surface_status": "Dry",
-        "wind_speed": "7.38",
-        "wind_gust": "11.62"
+        "wind_speed": "6.51",
+        "wind_gust": "10.96"
       },
       {
         "station": "I-84 @ MP 14 Chaulk Hill",
-        "air_temp": "42.00",
-        "surface_temp": "44.8",
+        "air_temp": "39.29",
+        "surface_temp": "42.8",
         "surface_status": "Dry",
-        "wind_speed": "1.38",
-        "wind_gust": "3.51"
+        "wind_speed": "1.78",
+        "wind_gust": "3.95"
       },
       {
         "station": "I-84 @ Weber Canyon",
-        "air_temp": "33.55",
-        "surface_temp": "34.5",
+        "air_temp": "33.26",
+        "surface_temp": "34.3",
         "surface_status": "Damp",
-        "wind_speed": "4.51",
-        "wind_gust": "7.45"
+        "wind_speed": "5.65",
+        "wind_gust": "7.89"
       },
       {
         "station": "I-84 @ MP 112 Devils Slide",
-        "air_temp": "38.98",
-        "surface_temp": "40.8",
+        "air_temp": "39.51",
+        "surface_temp": "40.5",
         "surface_status": "Dry",
-        "wind_speed": "3.05",
-        "wind_gust": "4.38"
+        "wind_speed": "1.47",
+        "wind_gust": "3.51"
       },
       {
         "station": "I-15 @ Beaver Ridge",
-        "air_temp": "48.90",
-        "surface_temp": "59.2",
+        "air_temp": "48.83",
+        "surface_temp": "56.7",
         "surface_status": "Dry",
-        "wind_speed": "6.61",
-        "wind_gust": "10.08"
+        "wind_speed": "1.56",
+        "wind_gust": "8.33"
       },
       {
         "station": "Riverdale Rd",
-        "air_temp": "47.70",
-        "surface_temp": "50.7",
+        "air_temp": "47.99",
+        "surface_temp": "50.2",
         "surface_status": "Dry",
-        "wind_speed": "2.39",
-        "wind_gust": "5.92"
+        "wind_speed": "1.92",
+        "wind_gust": "4.16"
       },
       {
         "station": "I-15 @ Wildcat Ridge",
-        "air_temp": "48.22",
+        "air_temp": "48.87",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "3.28",
-        "wind_gust": "7.89"
-      },
-      {
-        "station": "I-70 @ I-15",
-        "air_temp": "45.70",
-        "surface_temp": "56.8",
-        "surface_status": "Dry",
-        "wind_speed": "5.89",
-        "wind_gust": "10.96"
-      },
-      {
-        "station": "I-15 @ MP 169",
-        "air_temp": "44.71",
-        "surface_temp": "52",
-        "surface_status": "Dry",
-        "wind_speed": "5.68",
-        "wind_gust": "9.21"
-      },
-      {
-        "station": "I-15 @ Paragonah",
-        "air_temp": "50.90",
-        "surface_temp": "57",
-        "surface_status": "Dry",
-        "wind_speed": "2.23",
-        "wind_gust": "5.92"
-      },
-      {
-        "station": "I-15 @ MP 398 Portage",
-        "air_temp": "43.80",
-        "surface_temp": "46.2",
-        "surface_status": "Dry",
-        "wind_speed": "4.93",
-        "wind_gust": "7.89"
-      },
-      {
-        "station": "I-15 @ MP 62.5 North Cedar City",
-        "air_temp": "46.03",
-        "surface_temp": null,
-        "surface_status": null,
-        "wind_speed": "4.93",
-        "wind_gust": "7.67"
-      },
-      {
-        "station": "I-84 @ MP 108 Taggarts WB",
-        "air_temp": "40.50",
-        "surface_temp": "47.3",
-        "surface_status": "Dry",
-        "wind_speed": "2.26",
-        "wind_gust": "6.14"
-      },
-      {
-        "station": "I-15 @ MP 37 Ash Creek",
-        "air_temp": "53.24",
-        "surface_temp": "59",
-        "surface_status": "Dry",
-        "wind_speed": "7.35",
-        "wind_gust": "10.96"
-      },
-      {
-        "station": "I-15 @ MP 333 Antelope Drive",
-        "air_temp": "45.72",
-        "surface_temp": "45.5",
-        "surface_status": "Dry",
-        "wind_speed": "3.87",
+        "wind_speed": "2.48",
         "wind_gust": "6.80"
       },
       {
-        "station": "I-15 @ MP 140 Baker Canyon NB",
-        "air_temp": "42.48",
-        "surface_temp": "53.6",
+        "station": "I-70 @ I-15",
+        "air_temp": "45.94",
+        "surface_temp": "55.4",
         "surface_status": "Dry",
-        "wind_speed": "5.92",
+        "wind_speed": "4.24",
+        "wind_gust": "7.67"
+      },
+      {
+        "station": "I-15 @ MP 169",
+        "air_temp": "46.09",
+        "surface_temp": "50.5",
+        "surface_status": "Dry",
+        "wind_speed": "2.26",
+        "wind_gust": "5.26"
+      },
+      {
+        "station": "I-15 @ Paragonah",
+        "air_temp": "50.54",
+        "surface_temp": "56.7",
+        "surface_status": "Dry",
+        "wind_speed": "2.86",
+        "wind_gust": "7.01"
+      },
+      {
+        "station": "I-15 @ MP 398 Portage",
+        "air_temp": "44.21",
+        "surface_temp": "46.6",
+        "surface_status": "Dry",
+        "wind_speed": "5.06",
         "wind_gust": "8.99"
       },
       {
-        "station": "SR-39 @ MP 14 Pineview Dam",
-        "air_temp": "35.07",
-        "surface_temp": "32.9",
+        "station": "I-15 @ MP 62.5 North Cedar City",
+        "air_temp": "47.26",
+        "surface_temp": null,
+        "surface_status": null,
+        "wind_speed": "2.00",
+        "wind_gust": "4.60"
+      },
+      {
+        "station": "I-84 @ MP 108 Taggarts WB",
+        "air_temp": "40.65",
+        "surface_temp": "46.9",
         "surface_status": "Dry",
-        "wind_speed": "2.97",
-        "wind_gust": "6.58"
+        "wind_speed": "1.34",
+        "wind_gust": "5.70"
+      },
+      {
+        "station": "I-15 @ MP 37 Ash Creek",
+        "air_temp": "53.68",
+        "surface_temp": "58.5",
+        "surface_status": "Dry",
+        "wind_speed": "5.75",
+        "wind_gust": "10.74"
+      },
+      {
+        "station": "I-15 @ MP 333 Antelope Drive",
+        "air_temp": "45.95",
+        "surface_temp": "45.5",
+        "surface_status": "Dry",
+        "wind_speed": "0.96",
+        "wind_gust": "5.92"
+      },
+      {
+        "station": "I-15 @ MP 140 Baker Canyon NB",
+        "air_temp": "42.89",
+        "surface_temp": "53.4",
+        "surface_status": "Dry",
+        "wind_speed": "5.80",
+        "wind_gust": "8.77"
+      },
+      {
+        "station": "SR-39 @ MP 14 Pineview Dam",
+        "air_temp": "35.18",
+        "surface_temp": "32.5",
+        "surface_status": "Dry",
+        "wind_speed": "0.81",
+        "wind_gust": "4.38"
       },
       {
         "station": "I-15 @ 500 S",
-        "air_temp": "47.86",
-        "surface_temp": "53.8",
+        "air_temp": "47.81",
+        "surface_temp": "53.1",
         "surface_status": "Dry",
-        "wind_speed": "5.63",
-        "wind_gust": "7.23"
+        "wind_speed": "5.44",
+        "wind_gust": "7.89"
       },
       {
         "station": "I-15 @ 2400 S",
-        "air_temp": "51.26",
-        "surface_temp": "53.1",
+        "air_temp": "51.13",
+        "surface_temp": "52.2",
         "surface_status": "Dry",
-        "wind_speed": "2.86",
-        "wind_gust": "7.23"
+        "wind_speed": "1.18",
+        "wind_gust": "6.58"
       },
       {
         "station": "SR-167 @ Trappers Loop",
-        "air_temp": "36.55",
-        "surface_temp": "42.1",
+        "air_temp": "36.94",
+        "surface_temp": "40.6",
         "surface_status": "Dry",
-        "wind_speed": "1.47",
-        "wind_gust": "3.07"
+        "wind_speed": "1.29",
+        "wind_gust": "1.97"
       },
       {
         "station": "I-15 @ MP 252.5 Beer Creek",
-        "air_temp": "51.37",
-        "surface_temp": "53.2",
+        "air_temp": "51.98",
+        "surface_temp": "53.6",
         "surface_status": "Dry",
-        "wind_speed": "2.36",
+        "wind_speed": "3.07",
         "wind_gust": "7.01"
       },
       {
         "station": "I-15 @ Beaver",
-        "air_temp": "47.97",
-        "surface_temp": "57",
+        "air_temp": "48.28",
+        "surface_temp": "56.1",
         "surface_status": "Dry",
-        "wind_speed": "1.18",
-        "wind_gust": "5.92"
+        "wind_speed": "0.00",
+        "wind_gust": "5.70"
       },
       {
         "station": "I-15 @ MP 369 North Brigham City",
-        "air_temp": "45.86",
-        "surface_temp": "51.4",
+        "air_temp": "45.83",
+        "surface_temp": "50.5",
         "surface_status": "Dry",
-        "wind_speed": "1.34",
-        "wind_gust": "4.82"
-      },
-      {
-        "station": "I-15 @ MP 215 Lampson Canyon",
-        "air_temp": "46.04",
-        "surface_temp": "52.5",
-        "surface_status": "Dry",
-        "wind_speed": "5.05",
-        "wind_gust": "7.89"
-      },
-      {
-        "station": "I-84 @ MP 108 Taggarts EB",
-        "air_temp": "40.50",
-        "surface_temp": "43.2",
-        "surface_status": "Dry",
-        "wind_speed": "2.26",
+        "wind_speed": "1.92",
         "wind_gust": "6.14"
       },
       {
-        "station": "I-15 @ MP 29 Browse SB",
-        "air_temp": "57.48",
-        "surface_temp": "64.4",
+        "station": "I-15 @ MP 215 Lampson Canyon",
+        "air_temp": "46.22",
+        "surface_temp": "51.8",
         "surface_status": "Dry",
-        "wind_speed": "5.82",
+        "wind_speed": "5.60",
+        "wind_gust": "7.67"
+      },
+      {
+        "station": "I-84 @ MP 108 Taggarts EB",
+        "air_temp": "40.65",
+        "surface_temp": "43",
+        "surface_status": "Dry",
+        "wind_speed": "1.34",
+        "wind_gust": "5.70"
+      },
+      {
+        "station": "I-15 @ MP 29 Browse SB",
+        "air_temp": "57.46",
+        "surface_temp": "64",
+        "surface_status": "Dry",
+        "wind_speed": "5.81",
         "wind_gust": "9.86"
       },
       {
         "station": "I-15 @ MP 144",
-        "air_temp": "44.21",
+        "air_temp": "43.27",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "1.10",
-        "wind_gust": "7.23"
+        "wind_speed": "5.11",
+        "wind_gust": "6.80"
       },
       {
         "station": "US-89 @ MP 406 Weber River",
-        "air_temp": "42.15",
-        "surface_temp": "49.6",
+        "air_temp": "42.81",
+        "surface_temp": "49.5",
         "surface_status": "Dry",
-        "wind_speed": "4.13",
-        "wind_gust": "9.21"
+        "wind_speed": "5.27",
+        "wind_gust": "7.67"
       },
       {
         "station": "SR-39 @ MP 17.5 Huntsville",
-        "air_temp": "40.16",
-        "surface_temp": "45.9",
+        "air_temp": "41.82",
+        "surface_temp": "45.7",
         "surface_status": "Dry",
-        "wind_speed": "1.91",
-        "wind_gust": "3.29"
+        "wind_speed": "1.57",
+        "wind_gust": "2.85"
       },
       {
         "station": "North Ogden Divide",
-        "air_temp": "33.86",
-        "surface_temp": "38.6",
+        "air_temp": "33.69",
+        "surface_temp": "41.1",
         "surface_status": null,
-        "wind_speed": "3.07",
-        "wind_gust": "8.55"
+        "wind_speed": "2.43",
+        "wind_gust": "4.16"
       },
       {
         "station": "I-15 @ MP 139 Dog Valley Creek",
-        "air_temp": "43.54",
+        "air_temp": "43.40",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "6.43",
-        "wind_gust": "10.52"
+        "wind_speed": "10.47",
+        "wind_gust": "13.81"
       },
       {
         "station": "I-84 @ MP 30.5 Whites Valley",
-        "air_temp": "38.70",
-        "surface_temp": "46.6",
+        "air_temp": "38.45",
+        "surface_temp": "45.5",
         "surface_status": "Dry",
-        "wind_speed": "5.69",
-        "wind_gust": "9.21"
+        "wind_speed": "6.89",
+        "wind_gust": "8.99"
       },
       {
         "station": "I-15 @ MP 241 Rocky Ridge",
-        "air_temp": "46.76",
+        "air_temp": "48.20",
         "surface_temp": "53.2",
         "surface_status": "Dry",
-        "wind_speed": "2.59",
-        "wind_gust": "7.67"
+        "wind_speed": "3.74",
+        "wind_gust": "7.45"
       },
       {
         "station": "I-15 @ Orem",
-        "air_temp": "47.23",
-        "surface_temp": "50.7",
+        "air_temp": "47.37",
+        "surface_temp": "50.5",
         "surface_status": "Dry",
-        "wind_speed": "6.54",
-        "wind_gust": "8.33"
+        "wind_speed": "4.00",
+        "wind_gust": "5.70"
       },
       {
         "station": "I-15 @ Provo",
-        "air_temp": "48.12",
-        "surface_temp": "49.8",
+        "air_temp": "49.65",
+        "surface_temp": "50.9",
         "surface_status": "Dry",
-        "wind_speed": "3.77",
-        "wind_gust": "7.01"
+        "wind_speed": "2.76",
+        "wind_gust": "7.67"
       },
       {
         "station": "I-15 @ MP 125.5 Pine Creek Hill",
-        "air_temp": "47.27",
-        "surface_temp": "57.4",
+        "air_temp": "48.75",
+        "surface_temp": "56.1",
         "surface_status": "Dry",
-        "wind_speed": "4.83",
-        "wind_gust": "8.33"
+        "wind_speed": "1.73",
+        "wind_gust": "6.36"
       },
       {
         "station": "I-15 @ MP 57 Cedar City",
-        "air_temp": "45.41",
-        "surface_temp": "52.2",
+        "air_temp": "46.69",
+        "surface_temp": "52",
         "surface_status": "Dry",
-        "wind_speed": "4.31",
-        "wind_gust": "7.23"
+        "wind_speed": "4.20",
+        "wind_gust": "6.58"
       },
       {
         "station": "I-15 @ MP 350 Farr West",
-        "air_temp": "47.44",
-        "surface_temp": "50.7",
+        "air_temp": "46.53",
+        "surface_temp": "50.2",
         "surface_status": "Dry",
-        "wind_speed": "2.14",
-        "wind_gust": "4.82"
+        "wind_speed": "4.20",
+        "wind_gust": "6.80"
       },
       {
         "station": "I-15 @ MP 54 Hamiltons Fort",
-        "air_temp": "47.30",
+        "air_temp": "48.60",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "3.03",
-        "wind_gust": "7.67"
+        "wind_speed": "2.91",
+        "wind_gust": "5.26"
       },
       {
         "station": "I-84 @ MP 91 Devils Gate",
         "air_temp": null,
-        "surface_temp": "43.2",
+        "surface_temp": "39.7",
         "surface_status": "Dry",
         "wind_speed": null,
         "wind_gust": null
       },
       {
         "station": "I-15 @ Dog Valley NB",
-        "air_temp": "41.09",
-        "surface_temp": "49.8",
+        "air_temp": "41.30",
+        "surface_temp": "48.9",
         "surface_status": "Dry",
-        "wind_speed": "8.48",
-        "wind_gust": "9.86"
+        "wind_speed": "7.72",
+        "wind_gust": "9.43"
       },
       {
         "station": "SR-39 @ MP 46 Monte Cristo",
-        "air_temp": "27.68",
+        "air_temp": "28.69",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "11.81",
-        "wind_gust": "16.39"
+        "wind_speed": "10.21",
+        "wind_gust": "13.41"
       },
       {
         "station": "I-15 @ MP 29 Browse NB",
-        "air_temp": "57.48",
-        "surface_temp": "65.8",
+        "air_temp": "57.46",
+        "surface_temp": "64.2",
         "surface_status": "Dry",
-        "wind_speed": "5.82",
+        "wind_speed": "5.81",
         "wind_gust": "9.86"
       },
       {
         "station": "I-15 @ MP 140 Baker Canyon SB",
-        "air_temp": "42.48",
-        "surface_temp": "55.2",
+        "air_temp": "42.89",
+        "surface_temp": "53.4",
         "surface_status": "Dry",
-        "wind_speed": "5.92",
-        "wind_gust": "8.99"
+        "wind_speed": "5.80",
+        "wind_gust": "8.77"
       },
       {
         "station": "SR-158 @ MP 11.5 Powder Mountain",
-        "air_temp": "30.29",
-        "surface_temp": "45.5",
+        "air_temp": "31.56",
+        "surface_temp": "46.6",
         "surface_status": "Dry",
-        "wind_speed": "8.98",
-        "wind_gust": "14.53"
+        "wind_speed": "7.24",
+        "wind_gust": "11.55"
       },
       {
         "station": "I-84 @ MP 97 Peterson",
-        "air_temp": "39.40",
-        "surface_temp": "46.2",
+        "air_temp": "40.66",
+        "surface_temp": "45.5",
         "surface_status": "Dry",
-        "wind_speed": "4.93",
-        "wind_gust": "6.80"
+        "wind_speed": "3.61",
+        "wind_gust": "5.70"
       }
     ],
     "roads": [
@@ -5363,7 +5879,7 @@
         "current_period": {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-24T13:00:00-07:00",
+          "startTime": "2026-11-24T15:00:00-07:00",
           "endTime": "2026-11-24T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 36,
@@ -5499,7 +6015,7 @@
         "current_period": {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-24T13:00:00-07:00",
+          "startTime": "2026-11-24T15:00:00-07:00",
           "endTime": "2026-11-24T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 27,
@@ -5635,7 +6151,7 @@
         "current_period": {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-24T13:00:00-07:00",
+          "startTime": "2026-11-24T15:00:00-07:00",
           "endTime": "2026-11-24T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 40,
@@ -5771,7 +6287,7 @@
         "current_period": {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-24T13:00:00-07:00",
+          "startTime": "2026-11-24T15:00:00-07:00",
           "endTime": "2026-11-24T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 40,
@@ -5975,7 +6491,7 @@
     "powder_mountain": {
       "temp_f": 31,
       "condition": null,
-      "wind": "7.26",
+      "wind": "7.18",
       "source_url": "https://powdermountain.com/api/header-conditions"
     },
     "nordic_valley": {
@@ -5985,20 +6501,20 @@
       "source_url": "https://www.nordicvalley.ski/wp-content/uploads/sites/10/m-json/weather.json"
     },
     "snowbasin": {
-      "temp_f": 29,
+      "temp_f": 27,
       "condition": "Mostly Sunny",
-      "wind": "2 mph N",
+      "wind": "0 mph",
       "source_url": "https://www.snowbasin.com/the-mountain/mountain-report/"
     }
   },
   "pws": {
     "KUTLIBER14": {
       "station_id": "KUTLIBER14",
-      "temp_f": 42,
-      "wind_mph": 0,
-      "wind_gust_mph": 1,
-      "humidity": 57,
-      "obs_time_local": "2026-11-24 14:31:49"
+      "temp_f": 41,
+      "wind_mph": 3,
+      "wind_gust_mph": 3,
+      "humidity": 58,
+      "obs_time_local": "2026-11-24 15:03:00"
     }
   }
 }
