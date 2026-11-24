@@ -21,7 +21,8 @@ BBOX = {"min_lat": 41.12, "max_lat": 41.45, "min_lon": -112.02, "max_lon": -111.
 CORRIDOR_KEYWORDS = [
     "SR-39", "SR-158", "SR-226", "SR-167", "I-84", "I-15",
     "OGDEN CANYON", "POWDER MOUNTAIN", "SNOWBASIN",
-    "TRAPPERS LOOP", "NORTH OGDEN", "HUNTSVILLE", "EDEN", "WEBER CANYON"
+    "TRAPPERS LOOP", "NORTH OGDEN", "HUNTSVILLE", "EDEN", "WEBER CANYON",
+    "STATE ST"
 ]
 
 RESORTS = {
