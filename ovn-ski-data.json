@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-23T23:39:46.434421+00:00",
+  "updated_utc": "2026-11-24T01:40:35.128875+00:00",
   "udot": {
     "cameras": [
       {
@@ -758,7 +758,7 @@
         "name": "I-84 / Weber Canyon WB @ Milepost 91.35, MN",
         "roadway": "I-84",
         "messages": [
-          "OGDEN 12 ST\nVIA I-84\t16min\nVIA US-89\t27min"
+          "OGDEN 12 ST\nVIA I-84\t13min\nVIA US-89\t21min"
         ]
       },
       {
@@ -788,131 +788,131 @@
     "rwis": [
       {
         "station": "I-84 @ MP 14 Chaulk Hill",
-        "air_temp": "34.59",
-        "surface_temp": "40.6",
+        "air_temp": "32.37",
+        "surface_temp": "36.7",
         "surface_status": "Dry",
-        "wind_speed": "4.80",
-        "wind_gust": "7.23"
+        "wind_speed": "0.77",
+        "wind_gust": "4.16"
       },
       {
         "station": "I-84 @ Weber Canyon",
-        "air_temp": "38.80",
-        "surface_temp": "39.6",
+        "air_temp": "32.26",
+        "surface_temp": "34.7",
         "surface_status": "Damp",
-        "wind_speed": "8.15",
-        "wind_gust": "10.74"
+        "wind_speed": "3.89",
+        "wind_gust": "6.58"
       },
       {
         "station": "I-84 @ MP 112 Devils Slide",
-        "air_temp": "40.56",
-        "surface_temp": "39.4",
+        "air_temp": "33.79",
+        "surface_temp": "35.4",
         "surface_status": "Dry",
-        "wind_speed": "4.20",
-        "wind_gust": "9.64"
+        "wind_speed": "3.75",
+        "wind_gust": "5.92"
       },
       {
         "station": "Riverdale Rd",
-        "air_temp": "44.62",
-        "surface_temp": "45.7",
+        "air_temp": "38.95",
+        "surface_temp": "41.5",
         "surface_status": "Dry",
-        "wind_speed": "3.23",
-        "wind_gust": "6.58"
+        "wind_speed": "1.42",
+        "wind_gust": "3.29"
       },
       {
         "station": "I-84 @ MP 108 Taggarts WB",
-        "air_temp": "41.08",
-        "surface_temp": "44.1",
+        "air_temp": "31.96",
+        "surface_temp": "37",
         "surface_status": "Dry",
-        "wind_speed": "2.13",
-        "wind_gust": "9.64"
+        "wind_speed": "0.21",
+        "wind_gust": "2.41"
       },
       {
         "station": "SR-39 @ MP 14 Pineview Dam",
-        "air_temp": "31.69",
-        "surface_temp": "31.6",
-        "surface_status": "Dry",
-        "wind_speed": "3.53",
-        "wind_gust": "4.82"
+        "air_temp": "31.36",
+        "surface_temp": "29.8",
+        "surface_status": "Damp",
+        "wind_speed": "2.87",
+        "wind_gust": "5.26"
       },
       {
         "station": "SR-167 @ Trappers Loop",
-        "air_temp": "31.50",
-        "surface_temp": "36.7",
+        "air_temp": "29.71",
+        "surface_temp": "32",
         "surface_status": "Dry",
-        "wind_speed": "5.27",
-        "wind_gust": "6.58"
+        "wind_speed": "3.37",
+        "wind_gust": "4.60"
       },
       {
         "station": "I-84 @ MP 108 Taggarts EB",
-        "air_temp": "41.08",
-        "surface_temp": "41.4",
+        "air_temp": "31.96",
+        "surface_temp": "35.4",
         "surface_status": "Dry",
-        "wind_speed": "2.13",
-        "wind_gust": "9.64"
+        "wind_speed": "0.21",
+        "wind_gust": "2.41"
       },
       {
         "station": "US-89 @ MP 406 Weber River",
-        "air_temp": "44.89",
-        "surface_temp": "45.7",
+        "air_temp": "38.88",
+        "surface_temp": "40.6",
         "surface_status": "Dry",
-        "wind_speed": "6.42",
-        "wind_gust": "9.21"
+        "wind_speed": "1.03",
+        "wind_gust": "1.75"
       },
       {
         "station": "SR-39 @ MP 17.5 Huntsville",
-        "air_temp": "36.84",
-        "surface_temp": "38.8",
+        "air_temp": "29.57",
+        "surface_temp": "33.1",
         "surface_status": "Dry",
-        "wind_speed": "2.29",
-        "wind_gust": "3.07"
+        "wind_speed": "1.61",
+        "wind_gust": "3.29"
       },
       {
         "station": "North Ogden Divide",
-        "air_temp": "33.69",
-        "surface_temp": "36",
+        "air_temp": "27.86",
+        "surface_temp": "27.1",
         "surface_status": null,
-        "wind_speed": "5.54",
-        "wind_gust": "8.33"
+        "wind_speed": "0.00",
+        "wind_gust": "1.10"
       },
       {
         "station": "I-84 @ MP 30.5 Whites Valley",
-        "air_temp": "37.07",
-        "surface_temp": "39.9",
+        "air_temp": "27.38",
+        "surface_temp": "34.5",
         "surface_status": "Dry",
-        "wind_speed": "0.23",
-        "wind_gust": "2.63"
+        "wind_speed": "2.47",
+        "wind_gust": "4.38"
       },
       {
         "station": "I-84 @ MP 91 Devils Gate",
         "air_temp": null,
-        "surface_temp": "41",
+        "surface_temp": "36.3",
         "surface_status": "Dry",
         "wind_speed": null,
         "wind_gust": null
       },
       {
         "station": "SR-39 @ MP 46 Monte Cristo",
-        "air_temp": "24.04",
+        "air_temp": "17.98",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "5.58",
-        "wind_gust": "10.06"
+        "wind_speed": "1.42",
+        "wind_gust": "2.98"
       },
       {
         "station": "SR-158 @ MP 11.5 Powder Mountain",
-        "air_temp": "25.84",
-        "surface_temp": "36.7",
+        "air_temp": "23.38",
+        "surface_temp": "29.7",
         "surface_status": "Dry",
-        "wind_speed": "5.29",
-        "wind_gust": "8.20"
+        "wind_speed": "3.00",
+        "wind_gust": "4.47"
       },
       {
         "station": "I-84 @ MP 97 Peterson",
-        "air_temp": "39.43",
-        "surface_temp": "41.4",
+        "air_temp": "33.16",
+        "surface_temp": "35.8",
         "surface_status": "Dry",
-        "wind_speed": "4.40",
-        "wind_gust": "8.77"
+        "wind_speed": "3.65",
+        "wind_gust": "4.60"
       }
     ],
     "roads": [
@@ -1014,32 +1014,24 @@
         "name": "Snowbasin",
         "current_period": {
           "number": 1,
-          "name": "This Afternoon",
-          "startTime": "2026-11-23T12:00:00-07:00",
-          "endTime": "2026-11-23T18:00:00-07:00",
-          "isDaytime": true,
-          "temperature": 36,
+          "name": "Tonight",
+          "startTime": "2026-11-23T18:00:00-07:00",
+          "endTime": "2026-11-24T06:00:00-07:00",
+          "isDaytime": false,
+          "temperature": 20,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 2
+            "value": 1
           },
-          "windSpeed": "2 mph",
-          "windDirection": "W",
-          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-          "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 36, with temperatures falling to around 31 in the afternoon. West wind around 2 mph."
+          "windSpeed": "5 mph",
+          "windDirection": "SSE",
+          "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+          "shortForecast": "Mostly Clear",
+          "detailedForecast": "Mostly clear, with a low around 20. South southeast wind around 5 mph."
         },
         "upcoming": [
-          {
-            "name": "This Afternoon",
-            "temp": 36,
-            "unit": "F",
-            "wind": "2 mph",
-            "short": "Mostly Sunny",
-            "detail": "Mostly sunny. High near 36, with temperatures falling to around 31 in the afternoon. West wind around 2 mph."
-          },
           {
             "name": "Tonight",
             "temp": 20,
@@ -1078,7 +1070,7 @@
             "unit": "F",
             "wind": "1 mph",
             "short": "Partly Cloudy",
-            "detail": "Partly cloudy, with a low around 21."
+            "detail": "Partly cloudy, with a low around 21. East northeast wind around 1 mph."
           },
           {
             "name": "Thanksgiving Day",
@@ -1143,6 +1135,14 @@
             "wind": "2 mph",
             "short": "Rain And Snow Likely",
             "detail": "Rain and snow likely. Mostly cloudy, with a low around 30. New snow accumulation of around one inch possible."
+          },
+          {
+            "name": "Monday",
+            "temp": 36,
+            "unit": "F",
+            "wind": "3 mph",
+            "short": "Rain And Snow Likely",
+            "detail": "Rain and snow likely. Mostly cloudy, with a high near 36. New snow accumulation of less than one inch possible."
           }
         ]
       },
@@ -1150,32 +1150,24 @@
         "name": "Powder Mountain",
         "current_period": {
           "number": 1,
-          "name": "This Afternoon",
-          "startTime": "2026-11-23T12:00:00-07:00",
-          "endTime": "2026-11-23T18:00:00-07:00",
-          "isDaytime": true,
-          "temperature": 25,
+          "name": "Tonight",
+          "startTime": "2026-11-23T18:00:00-07:00",
+          "endTime": "2026-11-24T06:00:00-07:00",
+          "isDaytime": false,
+          "temperature": 14,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 3
+            "value": 1
           },
-          "windSpeed": "5 mph",
-          "windDirection": "W",
-          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-          "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 25, with temperatures falling to around 20 in the afternoon. West wind around 5 mph."
+          "windSpeed": "3 to 7 mph",
+          "windDirection": "WSW",
+          "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+          "shortForecast": "Mostly Clear",
+          "detailedForecast": "Mostly clear, with a low around 14. Wind chill values as low as 4. West southwest wind 3 to 7 mph."
         },
         "upcoming": [
-          {
-            "name": "This Afternoon",
-            "temp": 25,
-            "unit": "F",
-            "wind": "5 mph",
-            "short": "Mostly Sunny",
-            "detail": "Mostly sunny. High near 25, with temperatures falling to around 20 in the afternoon. West wind around 5 mph."
-          },
           {
             "name": "Tonight",
             "temp": 14,
@@ -1198,7 +1190,7 @@
             "unit": "F",
             "wind": "8 mph",
             "short": "Mostly Cloudy",
-            "detail": "Mostly cloudy, with a low around 19. Wind chill values as low as 9. East southeast wind around 8 mph."
+            "detail": "Mostly cloudy. Low around 19, with temperatures rising to around 21 overnight. Wind chill values as low as 9. East southeast wind around 8 mph."
           },
           {
             "name": "Wednesday",
@@ -1214,7 +1206,7 @@
             "unit": "F",
             "wind": "3 mph",
             "short": "Partly Cloudy",
-            "detail": "Partly cloudy, with a low around 19."
+            "detail": "Partly cloudy, with a low around 19. East wind around 3 mph."
           },
           {
             "name": "Thanksgiving Day",
@@ -1279,6 +1271,14 @@
             "wind": "6 mph",
             "short": "Light Snow Likely",
             "detail": "Snow likely. Mostly cloudy, with a low around 25. New snow accumulation of 3 to 5 inches possible."
+          },
+          {
+            "name": "Monday",
+            "temp": 28,
+            "unit": "F",
+            "wind": "6 mph",
+            "short": "Light Snow Likely",
+            "detail": "Snow likely. Mostly cloudy, with a high near 28. New snow accumulation of 2 to 4 inches possible."
           }
         ]
       },
@@ -1286,32 +1286,24 @@
         "name": "Nordic Valley",
         "current_period": {
           "number": 1,
-          "name": "This Afternoon",
-          "startTime": "2026-11-23T12:00:00-07:00",
-          "endTime": "2026-11-23T18:00:00-07:00",
-          "isDaytime": true,
-          "temperature": 40,
+          "name": "Tonight",
+          "startTime": "2026-11-23T18:00:00-07:00",
+          "endTime": "2026-11-24T06:00:00-07:00",
+          "isDaytime": false,
+          "temperature": 21,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 2
+            "value": 1
           },
-          "windSpeed": "1 mph",
-          "windDirection": "WSW",
-          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-          "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 40, with temperatures falling to around 34 in the afternoon. West southwest wind around 1 mph."
+          "windSpeed": "3 mph",
+          "windDirection": "SE",
+          "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+          "shortForecast": "Mostly Clear",
+          "detailedForecast": "Mostly clear, with a low around 21. Southeast wind around 3 mph."
         },
         "upcoming": [
-          {
-            "name": "This Afternoon",
-            "temp": 40,
-            "unit": "F",
-            "wind": "1 mph",
-            "short": "Mostly Sunny",
-            "detail": "Mostly sunny. High near 40, with temperatures falling to around 34 in the afternoon. West southwest wind around 1 mph."
-          },
           {
             "name": "Tonight",
             "temp": 21,
@@ -1350,7 +1342,7 @@
             "unit": "F",
             "wind": "1 mph",
             "short": "Partly Cloudy",
-            "detail": "Partly cloudy, with a low around 24."
+            "detail": "Partly cloudy, with a low around 24. East northeast wind around 1 mph."
           },
           {
             "name": "Thanksgiving Day",
@@ -1415,6 +1407,14 @@
             "wind": "3 mph",
             "short": "Rain And Snow Likely",
             "detail": "Rain and snow likely. Mostly cloudy, with a low around 32. New snow accumulation of less than half an inch possible."
+          },
+          {
+            "name": "Monday",
+            "temp": 40,
+            "unit": "F",
+            "wind": "3 mph",
+            "short": "Rain And Snow Likely",
+            "detail": "Rain and snow likely. Mostly cloudy, with a high near 40. New snow accumulation of less than half an inch possible."
           }
         ]
       },
@@ -1422,32 +1422,24 @@
         "name": "Ogden Nordic",
         "current_period": {
           "number": 1,
-          "name": "This Afternoon",
-          "startTime": "2026-11-23T16:00:00-07:00",
-          "endTime": "2026-11-23T18:00:00-07:00",
-          "isDaytime": true,
-          "temperature": 40,
+          "name": "Tonight",
+          "startTime": "2026-11-23T18:00:00-07:00",
+          "endTime": "2026-11-24T06:00:00-07:00",
+          "isDaytime": false,
+          "temperature": 21,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "2 mph",
+          "windSpeed": "3 mph",
           "windDirection": "W",
-          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-          "shortForecast": "Sunny",
-          "detailedForecast": "Sunny. High near 40, with temperatures falling to around 34 in the afternoon. West wind around 2 mph."
+          "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+          "shortForecast": "Mostly Clear",
+          "detailedForecast": "Mostly clear, with a low around 21. West wind around 3 mph."
         },
         "upcoming": [
-          {
-            "name": "This Afternoon",
-            "temp": 40,
-            "unit": "F",
-            "wind": "2 mph",
-            "short": "Sunny",
-            "detail": "Sunny. High near 40, with temperatures falling to around 34 in the afternoon. West wind around 2 mph."
-          },
           {
             "name": "Tonight",
             "temp": 21,
@@ -1486,7 +1478,7 @@
             "unit": "F",
             "wind": "1 mph",
             "short": "Partly Cloudy",
-            "detail": "Partly cloudy, with a low around 25."
+            "detail": "Partly cloudy, with a low around 25. East northeast wind around 1 mph."
           },
           {
             "name": "Thanksgiving Day",
@@ -1551,6 +1543,14 @@
             "wind": "5 mph",
             "short": "Rain And Snow Likely",
             "detail": "Rain and snow likely. Mostly cloudy, with a low around 31. New snow accumulation of less than one inch possible."
+          },
+          {
+            "name": "Monday",
+            "temp": 41,
+            "unit": "F",
+            "wind": "5 mph",
+            "short": "Rain And Snow Likely",
+            "detail": "Rain and snow likely. Mostly cloudy, with a high near 41. New snow accumulation of less than half an inch possible."
           }
         ]
       }
@@ -1563,11 +1563,11 @@
       "triplet": "332:UT:SNTL",
       "elevation_ft": 7690,
       "reference_for": "Snowbasin / Nordic Valley",
-      "snow_depth_in": 14,
+      "snow_depth_in": 13,
       "snow_24h_in": 0,
       "swe_in": 3.4,
-      "temp_f": 27.7,
-      "observed_at": "2026-11-23 00:00"
+      "temp_f": 26.1,
+      "observed_at": "2026-11-23 17:00"
     },
     "monte_cristo": {
       "name": "Monte Cristo",
@@ -1576,9 +1576,9 @@
       "reference_for": "Powder Mountain / Upper Valley",
       "snow_depth_in": 17,
       "snow_24h_in": 0,
-      "swe_in": 3.3,
-      "temp_f": 24.1,
-      "observed_at": "2026-11-23 00:00"
+      "swe_in": 3.4,
+      "temp_f": 21.9,
+      "observed_at": "2026-11-23 17:00"
     }
   },
   "snow_reports": {
@@ -1625,26 +1625,26 @@
   },
   "resort_weather": {
     "powder_mountain": {
-      "temp_f": 24,
+      "temp_f": 22,
       "condition": null,
-      "wind": "4.73",
+      "wind": "4.05",
       "source_url": "https://powdermountain.com/api/header-conditions"
     },
     "nordic_valley": {
-      "temp_f": 32,
+      "temp_f": 29,
       "condition": null,
-      "wind": "W 4 MPH",
+      "wind": "WNW 3 MPH",
       "source_url": "https://www.nordicvalley.ski/wp-content/uploads/sites/10/m-json/weather.json"
     }
   },
   "pws": {
     "KUTLIBER14": {
       "station_id": "KUTLIBER14",
-      "temp_f": 33,
-      "wind_mph": 2,
-      "wind_gust_mph": 2,
-      "humidity": 78,
-      "obs_time_local": "2026-11-23 16:39:37"
+      "temp_f": 29,
+      "wind_mph": 0,
+      "wind_gust_mph": 0,
+      "humidity": 82,
+      "obs_time_local": "2026-11-23 18:40:30"
     }
   }
 }
