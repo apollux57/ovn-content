@@ -148,7 +148,8 @@ def fetch_udot(endpoint):
         return []
 
 
-raw_cams = fetch_udot("cameras")
+def get_udot_data():
+    raw_cams = fetch_udot("cameras")
     cameras = []
     for c in raw_cams:
         loc = f"{c.get('Location', '')} {c.get('Roadway', '')}"
