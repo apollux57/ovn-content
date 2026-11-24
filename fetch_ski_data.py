@@ -17,6 +17,15 @@ NWS_HEADERS = {
 # Bounding box covering Ogden Valley, Ogden Canyon, Weber Canyon, and North Ogden Divide
 BBOX = {"min_lat": 41.12, "max_lat": 41.45, "min_lon": -112.02, "max_lon": -111.60}
 
+# UDOT Cameras for rout map
+REQUIRED_CCTV_IDS = {
+    "177630", "178584", "178027", "179250",
+    "179778", "177560", "180009", "178367", "179622",
+    "178202", "179479", "178954", "178920",
+    "179759", "179677",
+    "177583", "179879", "179625", "178351",
+}
+
 # Target corridors and keywords
 CORRIDOR_KEYWORDS = [
     "SR-39", "SR-158", "SR-226", "SR-167", "I-84", "I-15",
