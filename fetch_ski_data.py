@@ -1,3 +1,4 @@
+import html
 import json
 import os
 import re
@@ -55,6 +56,16 @@ RESORT_WEATHER_URLS = {
     "powder_mountain": "https://powdermountain.com/api/header-conditions",
     "nordic_valley": "https://www.nordicvalley.ski/wp-content/uploads/sites/10/m-json/weather.json",
 }
+
+SNOWBASIN_REPORT_URL = "https://www.snowbasin.com/the-mountain/mountain-report/"
+SNOWBASIN_CONDITIONS_RE = re.compile(
+    r"\b("
+    r"Heavy Snow|Light Snow|Snow Showers|Snowing|Snow|Flurries|"
+    r"Partly Cloudy|Mostly Cloudy|Partly Sunny|Mostly Sunny|"
+    r"Mostly Clear|Clear|Sunny|Cloudy|Overcast|Fog|Windy|Rain|Mixed"
+    r")\b",
+    re.IGNORECASE,
+)
 
 # Manual overrides for all 4 resorts.
 # Leave any field as None to use the automatic live feed.
@@ -421,8 +432,74 @@ def _parse_temp(val):
     return None
 
 
+def fetch_snowbasin_weather():
+    """Scrape Snowbasin's live Mid Mountain (or Base) weather from mountain-report/."""
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/131.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+
+    try:
+        resp = requests.get(SNOWBASIN_REPORT_URL, headers=headers, timeout=20)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"Snowbasin weather request error: {e}")
+        return None
+
+    # Strip script/style blocks and HTML tags using stdlib only
+    cleaned = re.sub(
+        r"<(script|style|noscript)\b[^>]*>.*?</\1>",
+        " ",
+        resp.text,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    text = html.unescape(re.sub(r"<[^>]+>", " ", cleaned))
+    text = re.sub(r"\s+", " ", text).strip()
+
+    # Isolate the text window right after "Mid Mountain" (fallback to "Base")
+    anchor = re.search(r"\bMid[\s\-]?Mountain\b", text, re.IGNORECASE)
+    if not anchor:
+        anchor = re.search(r"\bBase(?:\s+Area)?\b", text, re.IGNORECASE)
+
+    window = text[anchor.start() : anchor.start() + 350] if anchor else text[:1500]
+
+    temp_f = None
+    temp_match = re.search(r"(-?\d{1,3})\s*°\s*F?", window)
+    if temp_match:
+        temp_f = int(temp_match.group(1))
+
+    wind = None
+    wind_match = re.search(
+        r"(\d{1,3}(?:\s*-\s*\d{1,3})?\s*mph(?:\s+[NSEW]{1,3})?)",
+        window,
+        re.IGNORECASE,
+    )
+    if wind_match:
+        wind = wind_match.group(1).strip()
+
+    condition = None
+    cond_match = SNOWBASIN_CONDITIONS_RE.search(window)
+    if cond_match:
+        condition = cond_match.group(1).title()
+
+    if temp_f is None:
+        print(f"Snowbasin weather parsed no temp. Sample window: {window[:250]}")
+        return None
+
+    return {
+        "temp_f": temp_f,
+        "condition": condition,
+        "wind": wind,
+        "source_url": SNOWBASIN_REPORT_URL,
+    }
+
+
 def get_resort_current_weather():
-    """Fetch current temp, condition, and wind from resort JSON endpoints."""
+    """Fetch current temp, condition, and wind from resort JSON endpoints and Snowbasin's report."""
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*",
@@ -472,6 +549,10 @@ def get_resort_current_weather():
                 print(f"Resort JSON ({key}) parsed but no temp key matched. Top keys: {top_keys}")
         except Exception as e:
             print(f"Resort weather JSON error ({key}): {e}")
+
+    snowbasin_wx = fetch_snowbasin_weather()
+    if snowbasin_wx:
+        results["snowbasin"] = snowbasin_wx
 
     return results
 
