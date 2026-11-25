@@ -240,23 +240,38 @@ def get_udot_data():
             })
 
     raw_plows = fetch_udot("servicevehicles")
+    print(f"UDOT servicevehicles returned {len(raw_plows)} statewide vehicles.")
     plows = []
     for p in raw_plows:
         lat, lon = p.get("Latitude"), p.get("Longitude")
+        bearing = p.get("Bearing") if p.get("Bearing") is not None else p.get("Heading")
+
+        # Fallback to latest snapshot in States if top-level lat/lon is missing
+        if lat is None or lon is None:
+            states = p.get("States") or []
+            if states:
+                latest = states[-1]
+                lat = latest.get("Latitude") or latest.get("Lat")
+                lon = latest.get("Longitude") or latest.get("Lng") or latest.get("Lon")
+                if bearing is None:
+                    bearing = latest.get("Bearing") or latest.get("Heading")
+
         try:
             f_lat, f_lon = float(lat), float(lon)
         except (TypeError, ValueError):
             continue
-        # Slightly wider box to cover I-80 Echo Canyon, I-84, I-15, and all Ogden Valley canyons
+
+        # Covers I-80 Echo Canyon, I-84, I-15, and all Ogden Valley canyons
         if 40.95 <= f_lat <= 41.45 and -112.05 <= f_lon <= -111.40:
             plows.append({
                 "id": p.get("Id") or p.get("FleetId") or p.get("Name"),
                 "name": p.get("Name") or f"UDOT Plow {p.get('Id', '')}".strip(),
                 "lat": f_lat,
                 "lon": f_lon,
-                "bearing": p.get("Bearing") if p.get("Bearing") is not None else p.get("Heading"),
+                "bearing": bearing,
                 "last_updated": p.get("LastUpdated"),
             })
+    print(f"Matched {len(plows)} active plows in Ogden Valley / approach corridors.")
 
     return {"cameras": cameras, "signs": signs, "rwis": rwis, "roads": roads, "plows": plows}
 
