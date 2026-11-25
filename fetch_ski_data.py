@@ -196,6 +196,8 @@ def get_udot_data():
                     "name": s.get("Name"),
                     "roadway": s.get("Roadway", ""),
                     "messages": messages,
+                    "lat": s.get("Latitude"),
+                    "lon": s.get("Longitude"),
                 })
 
     raw_rwis = fetch_udot("weatherstations")
