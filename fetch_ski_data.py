@@ -17,7 +17,7 @@ NWS_HEADERS = {
 # Bounding box covering Ogden Valley, Ogden Canyon, Weber Canyon, and North Ogden Divide
 BBOX = {"min_lat": 41.12, "max_lat": 41.45, "min_lon": -112.02, "max_lon": -111.60}
 
-# UDOT Cameras for rout map
+# UDOT Cameras for route map
 REQUIRED_CCTV_IDS = {
     "177630", "178584", "178027", "179250",
     "179778", "177560", "180009", "178367", "179622",
