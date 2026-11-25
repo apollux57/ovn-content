@@ -239,6 +239,27 @@ def get_udot_data():
                 "restriction": r.get("Restriction"),
             })
 
+    raw_plows = fetch_udot("servicevehicles")
+    plows = []
+    for p in raw_plows:
+        lat, lon = p.get("Latitude"), p.get("Longitude")
+        try:
+            f_lat, f_lon = float(lat), float(lon)
+        except (TypeError, ValueError):
+            continue
+        # Slightly wider box to cover I-80 Echo Canyon, I-84, I-15, and all Ogden Valley canyons
+        if 40.95 <= f_lat <= 41.45 and -112.05 <= f_lon <= -111.40:
+            plows.append({
+                "id": p.get("Id") or p.get("FleetId") or p.get("Name"),
+                "name": p.get("Name") or f"UDOT Plow {p.get('Id', '')}".strip(),
+                "lat": f_lat,
+                "lon": f_lon,
+                "bearing": p.get("Bearing") if p.get("Bearing") is not None else p.get("Heading"),
+                "last_updated": p.get("LastUpdated"),
+            })
+
+    return {"cameras": cameras, "signs": signs, "rwis": rwis, "roads": roads, "plows": plows}
+    
     return {"cameras": cameras, "signs": signs, "rwis": rwis, "roads": roads}
 
 
