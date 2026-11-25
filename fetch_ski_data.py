@@ -26,6 +26,13 @@ REQUIRED_CCTV_IDS = {
     "177583", "179879", "179625", "178351",
 }
 
+# Required VMS signs (matched by roadway + milepost in Name/Roadway)
+REQUIRED_VMS_SIGNS = [
+    ("I-80", "170.44"),  # I-80 WB @ Echo Canyon / Rest Stop / MP 170.44, SU
+    ("I-15", "348.23"),  # I-15 SB @ 1800 N / Harrisville Rd / MP 348.23, FRW
+    ("I-15", "340.76"),  # I-15 NB @ 4000 S / MP 340.76, RDL
+]
+
 # Target corridors and keywords
 CORRIDOR_KEYWORDS = [
     "SR-39", "SR-158", "SR-226", "SR-167", "I-84", "I-15",
@@ -189,13 +196,16 @@ def get_udot_data():
     signs = []
     for s in raw_signs:
         loc = f"{s.get('Name', '')} {s.get('Roadway', '')}"
-        if in_valley_bbox(s.get("Latitude"), s.get("Longitude")) or matches_corridor(loc):
+        upper_loc = loc.upper()
+        is_required_vms = any(rw in upper_loc and mp in upper_loc for rw, mp in REQUIRED_VMS_SIGNS)
+
+        if is_required_vms or in_valley_bbox(s.get("Latitude"), s.get("Longitude")) or matches_corridor(loc):
             messages = s.get("Messages") or []
-            if messages:
+            if messages or is_required_vms:
                 signs.append({
                     "name": s.get("Name"),
                     "roadway": s.get("Roadway", ""),
-                    "messages": messages,
+                    "messages": messages if messages else ["No active message"],
                     "lat": s.get("Latitude"),
                     "lon": s.get("Longitude"),
                 })
