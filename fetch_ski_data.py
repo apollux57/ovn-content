@@ -259,8 +259,6 @@ def get_udot_data():
             })
 
     return {"cameras": cameras, "signs": signs, "rwis": rwis, "roads": roads, "plows": plows}
-    
-    return {"cameras": cameras, "signs": signs, "rwis": rwis, "roads": roads}
 
 
 def get_nws_resort_weather():
