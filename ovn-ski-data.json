@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-26T15:40:01.874392+00:00",
+  "updated_utc": "2026-11-26T16:12:41.579024+00:00",
   "udot": {
     "cameras": [
       {
@@ -4670,7 +4670,7 @@
         "name": "I-15 NB @ Milepost 14.02, WAS",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nCEDAR CITY\t38min\nZION PARK\t43min"
+          "TIME TO\nCEDAR CITY\t35min\nZION PARK\t45min"
         ],
         "lat": 37.153049,
         "lon": -113.479415
@@ -4689,7 +4689,7 @@
         "name": "I-15 NB @ Milepost 90.05, RN",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nBEAVER\t18min\nRICHFIELD\t1hr 5min"
+          "TIME TO\nBEAVER\t18min\nRICHFIELD\t1hr 3min"
         ],
         "lat": 38.017388,
         "lon": -112.717684
@@ -4762,7 +4762,7 @@
         "name": "I-15 NB @ 200 S / MP 356.43, WIL",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nLOGAN\t33min\nBEAR LAKE\t1hr 22min"
+          "TIME TO\nLOGAN\t33min\nBEAR LAKE\t1hr 23min"
         ],
         "lat": 41.405993,
         "lon": -112.048637
@@ -4969,7 +4969,7 @@
         "name": "I-15 NB @ 2700 S / MP 54.1, RN",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nBEAVER CITY     \t46min\nFILLMORE CTY \t1hr 25min"
+          "TIME TO\nBEAVER CITY     \t48min\nFILLMORE CTY \t1hr 25min"
         ],
         "lat": 37.627782,
         "lon": -113.119951
@@ -5177,7 +5177,7 @@
         "name": "I-15 NB @1100 N / MP 320.42, CVL",
         "roadway": "I-15",
         "messages": [
-          "ANTELOPE DR\nVIA I-15\t25min\nVIA US-89\t11min",
+          "ANTELOPE DR\nVIA I-15\t24min\nVIA US-89\t11min",
           "ANTELOPE DR\n\nVIA SR-177\t15min"
         ],
         "lat": 40.929596,
@@ -5196,7 +5196,7 @@
         "name": "I-15 NB @ Milepost 0.28, STG",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nZION PARK\t56min\nCEDAR CITY\t50min"
+          "TIME TO\nZION PARK\t56min\nCEDAR CITY\t46min"
         ],
         "lat": 37.004178,
         "lon": -113.618146
@@ -5327,88 +5327,88 @@
         "roadway": "",
         "lat": 40.6371,
         "lon": -111.905,
-        "air_temp": "32.67",
-        "surface_temp": "34.5",
+        "air_temp": "33.13",
+        "surface_temp": "35.8",
         "surface_status": "Dry",
-        "wind_speed": "4.37",
-        "wind_gust": "6.36"
+        "wind_speed": "3.77",
+        "wind_gust": "7.89"
       },
       {
         "station": "I-15 @ Alpine Pt of Mtn",
         "roadway": "",
         "lat": 40.4497,
         "lon": -111.9116,
-        "air_temp": "32.63",
-        "surface_temp": "33.6",
+        "air_temp": "34.78",
+        "surface_temp": "35.4",
         "surface_status": "Dry",
-        "wind_speed": "6.51",
-        "wind_gust": "7.89"
+        "wind_speed": "5.46",
+        "wind_gust": "7.01"
       },
       {
         "station": "I-15 @ Dog Valley SB",
         "roadway": "",
         "lat": 38.6358,
         "lon": -112.6101,
-        "air_temp": "29.58",
-        "surface_temp": "30.6",
+        "air_temp": "32.69",
+        "surface_temp": "33.1",
         "surface_status": "Dry",
-        "wind_speed": "3.13",
-        "wind_gust": "4.38"
+        "wind_speed": "1.66",
+        "wind_gust": "3.07"
       },
       {
         "station": "I-15 @ Centerville",
         "roadway": "",
         "lat": 40.9497,
         "lon": -111.8916,
-        "air_temp": "33.59",
+        "air_temp": "36.86",
         "surface_temp": "34.9",
         "surface_status": "Dry",
-        "wind_speed": "3.47",
-        "wind_gust": "4.38"
+        "wind_speed": "0.12",
+        "wind_gust": "3.07"
       },
       {
         "station": "I-15 @ MP 200 Sevier River",
         "roadway": "",
         "lat": 39.4097,
         "lon": -112.0517,
-        "air_temp": "26.19",
-        "surface_temp": "29.3",
+        "air_temp": "27.92",
+        "surface_temp": "30.6",
         "surface_status": "Dry",
-        "wind_speed": "4.48",
-        "wind_gust": "5.70"
+        "wind_speed": "1.27",
+        "wind_gust": "5.48"
       },
       {
         "station": "I-15 @ Plymouth",
         "roadway": "",
         "lat": 41.8861,
         "lon": -112.1692,
-        "air_temp": "29.30",
-        "surface_temp": "30.4",
+        "air_temp": "32.54",
+        "surface_temp": "32",
         "surface_status": "Dry",
-        "wind_speed": "3.11",
-        "wind_gust": "6.80"
+        "wind_speed": "0.72",
+        "wind_gust": "2.63"
       },
       {
         "station": "I-15 @ Tremonton",
         "roadway": "",
         "lat": 41.6904,
         "lon": -112.1629,
-        "air_temp": "30.11",
-        "surface_temp": "31.8",
+        "air_temp": "32.36",
+        "surface_temp": "33.6",
         "surface_status": "Dry",
-        "wind_speed": "6.71",
-        "wind_gust": "8.33"
+        "wind_speed": "0.05",
+        "wind_gust": "3.73"
       },
       {
         "station": "I-15 @ Willard POE",
         "roadway": "",
         "lat": 41.4402,
         "lon": -112.0564,
-        "air_temp": "28.02",
-        "surface_temp": "32.2",
+        "air_temp": "32.50",
+        "surface_temp": "33.6",
         "surface_status": "Dry",
-        "wind_speed": "3.33",
-        "wind_gust": "3.95"
+        "wind_speed": "0.00",
+        "wind_gust": "1.97"
       },
       {
         "station": "I-15 @ Bluffdale",
@@ -5426,250 +5426,250 @@
         "roadway": "",
         "lat": 37.4821,
         "lon": -113.22,
-        "air_temp": "32.77",
-        "surface_temp": "33.3",
+        "air_temp": "31.04",
+        "surface_temp": "34.7",
         "surface_status": "Dry",
-        "wind_speed": "26.78",
-        "wind_gust": "33.10"
+        "wind_speed": "19.21",
+        "wind_gust": "32.22"
       },
       {
         "station": "I-15 @ Scipio Summit",
         "roadway": "",
         "lat": 39.2033,
         "lon": -112.1734,
-        "air_temp": "33.58",
-        "surface_temp": "33.3",
+        "air_temp": "33.86",
+        "surface_temp": "36",
         "surface_status": "Dry",
-        "wind_speed": "4.39",
-        "wind_gust": "7.67"
+        "wind_speed": "7.49",
+        "wind_gust": "11.18"
       },
       {
         "station": "I-84 @ MP 14 Chaulk Hill",
         "roadway": "",
         "lat": 41.9113,
         "lon": -112.6052,
-        "air_temp": "32.36",
-        "surface_temp": "31.8",
+        "air_temp": "34.83",
+        "surface_temp": "34.9",
         "surface_status": "Dry",
-        "wind_speed": "5.72",
-        "wind_gust": "7.67"
+        "wind_speed": "8.49",
+        "wind_gust": "9.64"
       },
       {
         "station": "I-84 @ Weber Canyon",
         "roadway": "",
         "lat": 41.1379,
         "lon": -111.8868,
-        "air_temp": "23.55",
-        "surface_temp": "25.5",
+        "air_temp": "23.76",
+        "surface_temp": "26.2",
         "surface_status": "Damp",
-        "wind_speed": "12.89",
-        "wind_gust": "19.29"
+        "wind_speed": "16.74",
+        "wind_gust": "23.45"
       },
       {
         "station": "I-84 @ MP 112 Devils Slide",
         "roadway": "",
         "lat": 41.06194,
         "lon": -111.5477,
-        "air_temp": "23.29",
-        "surface_temp": "25.5",
+        "air_temp": "24.20",
+        "surface_temp": "26.2",
         "surface_status": "Dry",
-        "wind_speed": "1.11",
-        "wind_gust": "5.48"
+        "wind_speed": "4.90",
+        "wind_gust": "7.45"
       },
       {
         "station": "I-15 @ Beaver Ridge",
         "roadway": "",
         "lat": 38.14989,
         "lon": -112.61045,
-        "air_temp": "28.87",
-        "surface_temp": "28.6",
+        "air_temp": "31.60",
+        "surface_temp": "30.6",
         "surface_status": "Dry",
-        "wind_speed": "8.97",
-        "wind_gust": "11.18"
+        "wind_speed": "4.93",
+        "wind_gust": "8.55"
       },
       {
         "station": "Riverdale Rd",
         "roadway": "",
         "lat": 41.1748,
         "lon": -112.0092,
-        "air_temp": "32.44",
-        "surface_temp": "30.9",
+        "air_temp": "36.12",
+        "surface_temp": "32.7",
         "surface_status": "Dry",
-        "wind_speed": "5.10",
-        "wind_gust": "8.55"
+        "wind_speed": "4.49",
+        "wind_gust": "6.58"
       },
       {
         "station": "I-15 @ Wildcat Ridge",
         "roadway": "",
         "lat": 38.4212,
         "lon": -112.6492,
-        "air_temp": "30.41",
+        "air_temp": "35.59",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "6.75",
-        "wind_gust": "11.40"
+        "wind_speed": "1.72",
+        "wind_gust": "3.95"
       },
       {
         "station": "I-70 @ I-15",
         "roadway": "",
         "lat": 38.5771,
         "lon": -112.6038,
-        "air_temp": "30.12",
-        "surface_temp": "28.2",
+        "air_temp": "31.64",
+        "surface_temp": "30.7",
         "surface_status": "Dry",
-        "wind_speed": "3.62",
-        "wind_gust": "5.70"
+        "wind_speed": "0.55",
+        "wind_gust": "2.41"
       },
       {
         "station": "I-15 @ MP 169",
         "roadway": "",
         "lat": 39.0202,
         "lon": -112.3047,
-        "air_temp": "30.58",
-        "surface_temp": "31.1",
+        "air_temp": "34.32",
+        "surface_temp": "34.5",
         "surface_status": "Dry",
-        "wind_speed": "3.14",
-        "wind_gust": "5.26"
+        "wind_speed": "5.39",
+        "wind_gust": "9.43"
       },
       {
         "station": "I-15 @ Paragonah",
         "roadway": "",
         "lat": 37.9292,
         "lon": -112.7657,
-        "air_temp": "26.96",
-        "surface_temp": "28",
+        "air_temp": "33.44",
+        "surface_temp": "31.6",
         "surface_status": "Dry",
-        "wind_speed": "4.64",
-        "wind_gust": "7.45"
+        "wind_speed": "3.27",
+        "wind_gust": "7.23"
       },
       {
         "station": "I-15 @ MP 398 Portage",
         "roadway": "",
         "lat": 41.9675,
         "lon": -112.1808,
-        "air_temp": "26.66",
-        "surface_temp": "28.8",
+        "air_temp": "28.33",
+        "surface_temp": "32.4",
         "surface_status": "Dry",
-        "wind_speed": "3.66",
-        "wind_gust": "4.60"
+        "wind_speed": "1.16",
+        "wind_gust": "4.38"
       },
       {
         "station": "I-15 @ MP 62.5 North Cedar City",
         "roadway": "",
         "lat": 37.7275,
         "lon": -113.0511,
-        "air_temp": "28.95",
+        "air_temp": "32.66",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "0.49",
-        "wind_gust": "1.53"
+        "wind_speed": "2.89",
+        "wind_gust": "5.48"
       },
       {
         "station": "I-84 @ MP 108 Taggarts WB",
         "roadway": "",
         "lat": 41.0534,
         "lon": -111.599,
-        "air_temp": "26.28",
-        "surface_temp": "27.7",
+        "air_temp": "27.42",
+        "surface_temp": "28.4",
         "surface_status": "Dry",
-        "wind_speed": "10.66",
-        "wind_gust": "16.22"
+        "wind_speed": "11.22",
+        "wind_gust": "17.10"
       },
       {
         "station": "I-15 @ MP 37 Ash Creek",
         "roadway": "",
         "lat": 37.4116,
         "lon": -113.2348,
-        "air_temp": "35.59",
-        "surface_temp": "35.1",
+        "air_temp": "36.39",
+        "surface_temp": "36",
         "surface_status": "Dry",
-        "wind_speed": "5.70",
-        "wind_gust": "11.40"
+        "wind_speed": "5.57",
+        "wind_gust": "12.28"
       },
       {
         "station": "I-15 @ MP 333 Antelope Drive",
         "roadway": "",
         "lat": 41.09,
         "lon": -111.9906,
-        "air_temp": "33.77",
-        "surface_temp": "34.2",
+        "air_temp": "37.30",
+        "surface_temp": "35.8",
         "surface_status": "Dry",
-        "wind_speed": "2.73",
-        "wind_gust": "5.26"
+        "wind_speed": "1.29",
+        "wind_gust": "3.07"
       },
       {
         "station": "I-15 @ MP 140 Baker Canyon NB",
         "roadway": "",
         "lat": 38.682,
         "lon": -112.597,
-        "air_temp": "28.31",
-        "surface_temp": "28.4",
+        "air_temp": "30.81",
+        "surface_temp": "31.3",
         "surface_status": "Dry",
-        "wind_speed": "3.35",
-        "wind_gust": "5.26"
+        "wind_speed": "0.81",
+        "wind_gust": "3.07"
       },
       {
         "station": "SR-39 @ MP 14 Pineview Dam",
         "roadway": "",
         "lat": 41.2537,
         "lon": -111.8413,
-        "air_temp": "26.20",
-        "surface_temp": "25.2",
+        "air_temp": "25.36",
+        "surface_temp": "25.3",
         "surface_status": "Dry",
-        "wind_speed": "7.46",
-        "wind_gust": "10.30"
+        "wind_speed": "9.58",
+        "wind_gust": "12.28"
       },
       {
         "station": "I-15 @ 500 S",
         "roadway": "",
         "lat": 40.7583,
         "lon": -111.9121,
-        "air_temp": "32.66",
-        "surface_temp": "35.4",
+        "air_temp": "34.65",
+        "surface_temp": "37.4",
         "surface_status": "Dry",
-        "wind_speed": "2.81",
-        "wind_gust": "4.38"
+        "wind_speed": "3.15",
+        "wind_gust": "5.04"
       },
       {
         "station": "I-15 @ 2400 S",
         "roadway": "",
         "lat": 40.7152,
         "lon": -111.90485,
-        "air_temp": "31.73",
-        "surface_temp": "34",
+        "air_temp": "35.67",
+        "surface_temp": "35.4",
         "surface_status": "Dry",
-        "wind_speed": "3.89",
-        "wind_gust": "4.82"
+        "wind_speed": "1.94",
+        "wind_gust": "3.73"
       },
       {
         "station": "SR-167 @ Trappers Loop",
         "roadway": "",
         "lat": 41.2058,
         "lon": -111.8166,
-        "air_temp": "25.53",
-        "surface_temp": "25.9",
+        "air_temp": "24.65",
+        "surface_temp": "28.4",
         "surface_status": "Dry",
-        "wind_speed": "3.35",
-        "wind_gust": "4.60"
+        "wind_speed": "3.40",
+        "wind_gust": "5.48"
       },
       {
         "station": "I-15 @ MP 252.5 Beer Creek",
         "roadway": "",
         "lat": 40.073,
         "lon": -111.7151,
-        "air_temp": "27.78",
-        "surface_temp": "30",
+        "air_temp": "31.87",
+        "surface_temp": "31.1",
         "surface_status": "Dry",
-        "wind_speed": "2.43",
-        "wind_gust": "5.26"
+        "wind_speed": "1.83",
+        "wind_gust": "2.19"
       },
       {
         "station": "I-15 @ Beaver",
         "roadway": "",
         "lat": 38.2934,
         "lon": -112.651,
-        "air_temp": "26.26",
-        "surface_temp": "28.4",
+        "air_temp": "28.45",
+        "surface_temp": "29.3",
         "surface_status": "Dry",
         "wind_speed": "0.00",
         "wind_gust": "0.22"
@@ -5679,187 +5679,187 @@
         "roadway": "",
         "lat": 41.58227,
         "lon": -112.07223,
-        "air_temp": "29.58",
-        "surface_temp": "31.6",
+        "air_temp": "31.80",
+        "surface_temp": "33.4",
         "surface_status": "Dry",
-        "wind_speed": "5.43",
-        "wind_gust": "7.45"
+        "wind_speed": "3.61",
+        "wind_gust": "4.82"
       },
       {
         "station": "I-15 @ MP 215 Lampson Canyon",
         "roadway": "",
         "lat": 39.5944,
         "lon": -111.9161,
-        "air_temp": null,
-        "surface_temp": "31.8",
+        "air_temp": "27.32",
+        "surface_temp": "31.5",
         "surface_status": "Dry",
-        "wind_speed": "1.82",
-        "wind_gust": "6.58"
+        "wind_speed": "3.14",
+        "wind_gust": "4.82"
       },
       {
         "station": "I-84 @ MP 108 Taggarts EB",
         "roadway": "",
         "lat": 41.0531,
         "lon": -111.5987,
-        "air_temp": "26.28",
-        "surface_temp": "26.4",
+        "air_temp": "27.42",
+        "surface_temp": "27.1",
         "surface_status": "Dry",
-        "wind_speed": "10.66",
-        "wind_gust": "16.22"
+        "wind_speed": "11.22",
+        "wind_gust": "17.10"
       },
       {
         "station": "I-15 @ MP 29 Browse SB",
         "roadway": "",
         "lat": 37.309,
         "lon": -113.2971,
-        "air_temp": "41.30",
-        "surface_temp": "39.9",
+        "air_temp": "43.07",
+        "surface_temp": "41",
         "surface_status": "Dry",
-        "wind_speed": "13.98",
-        "wind_gust": "22.58"
+        "wind_speed": "15.74",
+        "wind_gust": "27.84"
       },
       {
         "station": "I-15 @ MP 144",
         "roadway": "",
         "lat": 38.7379,
         "lon": -112.5844,
-        "air_temp": "28.02",
+        "air_temp": "31.55",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "6.87",
-        "wind_gust": "7.89"
+        "wind_speed": "4.32",
+        "wind_gust": "7.01"
       },
       {
         "station": "US-89 @ MP 406 Weber River",
         "roadway": "",
         "lat": 41.1351,
         "lon": -111.91205,
-        "air_temp": "32.49",
-        "surface_temp": "31.5",
+        "air_temp": "30.62",
+        "surface_temp": "31.6",
         "surface_status": "Dry",
-        "wind_speed": "33.50",
-        "wind_gust": "40.99"
+        "wind_speed": "27.84",
+        "wind_gust": "35.29"
       },
       {
         "station": "SR-39 @ MP 17.5 Huntsville",
         "roadway": "",
         "lat": 41.24793,
         "lon": -111.77576,
-        "air_temp": "23.52",
-        "surface_temp": "25",
+        "air_temp": "26.80",
+        "surface_temp": "26.8",
         "surface_status": "Dry",
-        "wind_speed": "0.00",
-        "wind_gust": "1.75"
+        "wind_speed": "1.58",
+        "wind_gust": "3.07"
       },
       {
         "station": "North Ogden Divide",
         "roadway": "",
         "lat": 41.3205,
         "lon": -111.8993,
-        "air_temp": "23.41",
-        "surface_temp": "22.4",
+        "air_temp": "24.51",
+        "surface_temp": "24.1",
         "surface_status": null,
-        "wind_speed": "9.69",
-        "wind_gust": "12.93"
+        "wind_speed": "10.58",
+        "wind_gust": "12.28"
       },
       {
         "station": "I-15 @ MP 139 Dog Valley Creek",
         "roadway": "",
         "lat": 38.6727,
         "lon": -112.5891,
-        "air_temp": "25.66",
+        "air_temp": "29.90",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "1.59",
-        "wind_gust": "3.07"
+        "wind_speed": "1.47",
+        "wind_gust": "2.85"
       },
       {
         "station": "I-84 @ MP 30.5 Whites Valley",
         "roadway": "",
         "lat": 41.8101,
         "lon": -112.3394,
-        "air_temp": "29.18",
-        "surface_temp": "29.7",
+        "air_temp": "30.94",
+        "surface_temp": "30.9",
         "surface_status": "Dry",
-        "wind_speed": "0.00",
-        "wind_gust": "2.19"
+        "wind_speed": "1.92",
+        "wind_gust": "3.07"
       },
       {
         "station": "I-15 @ MP 241 Rocky Ridge",
         "roadway": "",
         "lat": 39.9371,
         "lon": -111.8112,
-        "air_temp": "30.56",
-        "surface_temp": "32",
+        "air_temp": "31.64",
+        "surface_temp": "34.5",
         "surface_status": "Dry",
-        "wind_speed": "0.29",
-        "wind_gust": "4.60"
+        "wind_speed": "3.94",
+        "wind_gust": "5.04"
       },
       {
         "station": "I-15 @ Orem",
         "roadway": "",
         "lat": 40.31918,
         "lon": -111.72648,
-        "air_temp": "35.87",
-        "surface_temp": "34.9",
+        "air_temp": "38.47",
+        "surface_temp": "36.7",
         "surface_status": "Dry",
-        "wind_speed": "2.61",
-        "wind_gust": "4.82"
+        "wind_speed": "2.64",
+        "wind_gust": "6.14"
       },
       {
         "station": "I-15 @ Provo",
         "roadway": "",
         "lat": 40.20438,
         "lon": -111.65569,
-        "air_temp": "31.83",
-        "surface_temp": "33.4",
+        "air_temp": "34.80",
+        "surface_temp": "34.5",
         "surface_status": "Dry",
-        "wind_speed": "2.49",
-        "wind_gust": "6.80"
+        "wind_speed": "0.41",
+        "wind_gust": "6.14"
       },
       {
         "station": "I-15 @ MP 125.5 Pine Creek Hill",
         "roadway": "",
         "lat": 38.4809,
         "lon": -112.6166,
-        "air_temp": "32.13",
-        "surface_temp": "31.1",
+        "air_temp": "35.88",
+        "surface_temp": "33.4",
         "surface_status": "Dry",
-        "wind_speed": "2.93",
-        "wind_gust": "5.92"
+        "wind_speed": "4.37",
+        "wind_gust": "6.14"
       },
       {
         "station": "I-15 @ MP 57 Cedar City",
         "roadway": "",
         "lat": 37.655,
         "lon": -113.0829,
-        "air_temp": "30.54",
-        "surface_temp": "31.6",
+        "air_temp": "31.41",
+        "surface_temp": "32.7",
         "surface_status": "Dry",
-        "wind_speed": "3.85",
-        "wind_gust": "5.04"
+        "wind_speed": "1.53",
+        "wind_gust": "4.16"
       },
       {
         "station": "I-15 @ MP 350 Farr West",
         "roadway": "",
         "lat": 41.3204,
         "lon": -112.0267,
-        "air_temp": "29.51",
-        "surface_temp": "32.2",
+        "air_temp": "33.67",
+        "surface_temp": "34",
         "surface_status": "Dry",
-        "wind_speed": "4.05",
-        "wind_gust": "4.82"
+        "wind_speed": "1.92",
+        "wind_gust": "4.16"
       },
       {
         "station": "I-15 @ MP 54 Hamiltons Fort",
         "roadway": "",
         "lat": 37.62836,
         "lon": -113.12063,
-        "air_temp": "28.57",
+        "air_temp": "32.56",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "1.78",
-        "wind_gust": "2.85"
+        "wind_speed": "3.38",
+        "wind_gust": "7.23"
       },
       {
         "station": "I-84 @ MP 91 Devils Gate",
@@ -5867,7 +5867,7 @@
         "lat": 41.1397,
         "lon": -111.8539,
         "air_temp": null,
-        "surface_temp": "25.2",
+        "surface_temp": "27.3",
         "surface_status": "Dry",
         "wind_speed": null,
         "wind_gust": null
@@ -5877,66 +5877,66 @@
         "roadway": "",
         "lat": 38.6357,
         "lon": -112.6093,
-        "air_temp": "29.58",
-        "surface_temp": "29.7",
+        "air_temp": "32.69",
+        "surface_temp": "29.5",
         "surface_status": "Dry",
-        "wind_speed": "3.13",
-        "wind_gust": "4.38"
+        "wind_speed": "1.66",
+        "wind_gust": "3.07"
       },
       {
         "station": "SR-39 @ MP 46 Monte Cristo",
         "roadway": "",
         "lat": 41.4446,
         "lon": -111.5056,
-        "air_temp": "25.13",
+        "air_temp": "28.37",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "7.54",
-        "wind_gust": "10.81"
+        "wind_speed": "10.40",
+        "wind_gust": "13.41"
       },
       {
         "station": "I-15 @ MP 29 Browse NB",
         "roadway": "",
         "lat": 37.3087,
         "lon": -113.2969,
-        "air_temp": "41.30",
-        "surface_temp": "40.3",
+        "air_temp": "43.07",
+        "surface_temp": "41.4",
         "surface_status": "Dry",
-        "wind_speed": "13.98",
-        "wind_gust": "22.58"
+        "wind_speed": "15.74",
+        "wind_gust": "27.84"
       },
       {
         "station": "I-15 @ MP 140 Baker Canyon SB",
         "roadway": "",
         "lat": 38.68175,
         "lon": -112.5975,
-        "air_temp": "28.31",
-        "surface_temp": "29.7",
+        "air_temp": "30.81",
+        "surface_temp": "32.7",
         "surface_status": "Dry",
-        "wind_speed": "3.35",
-        "wind_gust": "5.26"
+        "wind_speed": "0.81",
+        "wind_gust": "3.07"
       },
       {
         "station": "SR-158 @ MP 11.5 Powder Mountain",
         "roadway": "",
         "lat": 41.37884,
         "lon": -111.7841,
-        "air_temp": "31.30",
-        "surface_temp": "26.8",
+        "air_temp": "34.95",
+        "surface_temp": "27.9",
         "surface_status": "Dry",
-        "wind_speed": "0.63",
-        "wind_gust": "4.47"
+        "wind_speed": "0.47",
+        "wind_gust": "2.61"
       },
       {
         "station": "I-84 @ MP 97 Peterson",
         "roadway": "",
         "lat": 41.114,
         "lon": -111.7631,
-        "air_temp": "23.51",
-        "surface_temp": "25.3",
+        "air_temp": "26.04",
+        "surface_temp": "28.2",
         "surface_status": "Dry",
-        "wind_speed": "4.03",
-        "wind_gust": "4.82"
+        "wind_speed": "6.60",
+        "wind_gust": "8.77"
       }
     ],
     "roads": [
@@ -6338,7 +6338,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T07:00:00-07:00",
+          "startTime": "2026-11-26T06:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 30,
@@ -6474,7 +6474,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T08:00:00-07:00",
+          "startTime": "2026-11-26T09:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 43,
@@ -6610,7 +6610,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T06:00:00-07:00",
+          "startTime": "2026-11-26T09:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 43,
@@ -6621,10 +6621,10 @@
             "value": 0
           },
           "windSpeed": "2 mph",
-          "windDirection": "W",
+          "windDirection": "WSW",
           "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
           "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 43, with temperatures falling to around 37 in the afternoon. West wind around 2 mph."
+          "detailedForecast": "Mostly sunny. High near 43, with temperatures falling to around 37 in the afternoon. West southwest wind around 2 mph."
         },
         "upcoming": [
           {
@@ -6633,7 +6633,7 @@
             "unit": "F",
             "wind": "2 mph",
             "short": "Mostly Sunny",
-            "detail": "Mostly sunny. High near 43, with temperatures falling to around 37 in the afternoon. West wind around 2 mph."
+            "detail": "Mostly sunny. High near 43, with temperatures falling to around 37 in the afternoon. West southwest wind around 2 mph."
           },
           {
             "name": "Tonight",
@@ -6812,32 +6812,32 @@
   },
   "resort_weather": {
     "powder_mountain": {
-      "temp_f": 31,
+      "temp_f": 32,
       "condition": null,
-      "wind": "5.96",
+      "wind": "5.98",
       "source_url": "https://powdermountain.com/api/header-conditions"
     },
     "nordic_valley": {
-      "temp_f": 30,
+      "temp_f": 32,
       "condition": null,
       "wind": "WSW 3 MPH",
       "source_url": "https://www.nordicvalley.ski/wp-content/uploads/sites/10/m-json/weather.json"
     },
     "snowbasin": {
-      "temp_f": 33,
+      "temp_f": 34,
       "condition": "Partly Cloudy",
-      "wind": "0 mph",
+      "wind": "1 mph N",
       "source_url": "https://www.snowbasin.com/the-mountain/mountain-report/"
     }
   },
   "pws": {
     "KUTLIBER14": {
       "station_id": "KUTLIBER14",
-      "temp_f": 29,
-      "wind_mph": 1,
-      "wind_gust_mph": 1,
-      "humidity": 87,
-      "obs_time_local": "2026-11-26 08:39:55"
+      "temp_f": 30,
+      "wind_mph": 0,
+      "wind_gust_mph": 0,
+      "humidity": 79,
+      "obs_time_local": "2026-11-26 09:12:36"
     }
   }
 }
