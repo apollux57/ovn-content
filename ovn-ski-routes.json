@@ -10,7 +10,7 @@
         "179250"
       ],
       "destination": {
-        "name": "Snowbasin Resort (Earl's A)",
+        "name": "Snowbasin Resort",
         "lat": 41.217615,
         "lon": -111.857022
       },
@@ -3089,11 +3089,7 @@
       "id": "sb-i15-i84",
       "label": "Snowbasin: I-15 NB to I-84 EB",
       "cams": [
-        "179778",
-        "177560",
-        "180009",
-        "178027",
-        "179250"
+        "179778"
       ],
       "destination": {
         "name": "Snowbasin Resort",
@@ -7087,7 +7083,7 @@
         "179250"
       ],
       "destination": {
-        "name": "Snowbasin Resort (Earl's A)",
+        "name": "Snowbasin Resort",
         "lat": 41.217615,
         "lon": -111.857022
       },
