@@ -9,97 +9,97 @@
     "Follow SR-226 to Snowbasin Resort."
   ],
   "sb-i15-i84": [
-    "Take I-15 N to Exit 340 onto I-84 E toward Weber Canyon / Morgan.",
-    "Drive east through Weber Canyon and take Exit 92 (Mountain Green).",
-    "Turn left (north) onto SR-167 (Trappers Loop Rd).",
-    "Climb Trappers Loop and turn left (west) onto SR-226 (Snowbasin Rd).",
-    "Follow SR-226 to Snowbasin Resort (Earl's A)."
+    "Take <strong>I-15 N</strong> to <strong>Exit 340</strong> onto <strong>I-84 E</strong> toward Weber Canyon / Morgan.",
+    "Drive east through Weber Canyon and take <strong>Exit 92 (Mountain Green)</strong>.",
+    "Turn <strong>left (north)</strong> onto <strong>SR-167 (Trappers Loop Rd)</strong>.",
+    "Climb Trappers Loop and turn <strong>left (west)</strong> onto <strong>SR-226 (Snowbasin Rd)</strong>.",
+    "Follow SR-226 to <strong>Snowbasin Resort (Earl's A)</strong>."
   ],
   "sb-12th": [
-    "Exit I-15 at Exit 344 (12th St) and head east on SR-39 (12th St).",
-    "Continue east through Ogden Canyon (SR-39) past Pineview Dam.",
-    "Stay on SR-39 along the south shore of Pineview Reservoir to SR-167.",
-    "Turn right (south) onto SR-167 (Trappers Loop Rd), then right (west) onto SR-226 (Snowbasin Rd).",
-    "Follow SR-226 to Snowbasin Resort (Earl's A)."
+    "Exit <strong>I-15 at Exit 344 (12th St)</strong> and head <strong>east</strong> on <strong>SR-39 (12th St)</strong>.",
+    "Continue east through <strong>Ogden Canyon (SR-39)</strong> past Pineview Dam.",
+    "Stay on <strong>SR-39</strong> along the south shore of Pineview Reservoir to <strong>SR-167</strong>.",
+    "Turn <strong>right (south)</strong> onto <strong>SR-167 (Trappers Loop Rd)</strong>, then <strong>right (west)</strong> onto <strong>SR-226 (Snowbasin Rd)</strong>.",
+    "Follow SR-226 to <strong>Snowbasin Resort (Earl's A)</strong>."
   ],
   "pm-i84-wb": [
-    "Head west on I-80 W past Echo Canyon to Echo Junction.",
-    "Take Exit 168 onto I-84 W toward Morgan / Ogden.",
-    "Take Exit 92 (Mountain Green) and turn right (north) onto SR-167 (Trappers Loop Rd).",
-    "Follow SR-167 north to SR-39, then continue around Pineview Reservoir onto SR-158 toward Eden.",
-    "Climb SR-158 (Powder Mountain Rd) — AWD/4WD or snow tires recommended — to Powder Mountain."
+    "Head west on <strong>I-80 W</strong> past Echo Canyon to Echo Junction.",
+    "Take <strong>Exit 168</strong> onto <strong>I-84 W</strong> toward Morgan / Ogden.",
+    "Take <strong>Exit 92 (Mountain Green)</strong> and turn <strong>right (north)</strong> onto <strong>SR-167 (Trappers Loop Rd)</strong>.",
+    "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>, then continue around Pineview Reservoir onto <strong>SR-158</strong> toward Eden.",
+    "Climb <strong>SR-158 (Powder Mountain Rd)</strong> — AWD/4WD or snow tires recommended — to <strong>Powder Mountain</strong>."
   ],
   "pm-i15-i84": [
-    "Take I-15 N to Exit 340 onto I-84 E toward Weber Canyon / Morgan.",
-    "Drive east through Weber Canyon and take Exit 92 (Mountain Green).",
-    "Turn left (north) onto SR-167 (Trappers Loop Rd).",
-    "Follow SR-167 north to SR-39, then continue around Pineview Reservoir onto SR-158 toward Eden.",
-    "Climb SR-158 (Powder Mountain Rd) — AWD/4WD or snow tires recommended — to Powder Mountain."
+    "Take <strong>I-15 N</strong> to <strong>Exit 340</strong> onto <strong>I-84 E</strong> toward Weber Canyon / Morgan.",
+    "Drive east through Weber Canyon and take <strong>Exit 92 (Mountain Green)</strong>.",
+    "Turn <strong>left (north)</strong> onto <strong>SR-167 (Trappers Loop Rd)</strong>.",
+    "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>, then continue around Pineview Reservoir onto <strong>SR-158</strong> toward Eden.",
+    "Climb <strong>SR-158 (Powder Mountain Rd)</strong> — AWD/4WD or snow tires recommended — to <strong>Powder Mountain</strong>."
   ],
   "pm-12th": [
-    "Exit I-15 at Exit 344 (12th St) and head east on SR-39 (12th St).",
-    "Continue east through Ogden Canyon (SR-39) past Pineview Dam.",
-    "At the north end of the dam, turn left (north) onto SR-158 toward Eden.",
-    "Continue through Eden and climb SR-158 (Powder Mountain Rd) — AWD/4WD or snow tires recommended.",
-    "Arrive at Powder Mountain."
+    "Exit <strong>I-15 at Exit 344 (12th St)</strong> and head <strong>east</strong> on <strong>SR-39 (12th St)</strong>.",
+    "Continue east through <strong>Ogden Canyon (SR-39)</strong> past Pineview Dam.",
+    "At the north end of the dam, turn <strong>left (north)</strong> onto <strong>SR-158</strong> toward Eden.",
+    "Continue through Eden and climb <strong>SR-158 (Powder Mountain Rd)</strong> — AWD/4WD or snow tires recommended.",
+    "Arrive at <strong>Powder Mountain</strong>."
   ],
   "pm-2700n": [
-    "Exit I-15 at Exit 349 (2700 N) and head east through North Ogden.",
-    "Turn left (north) onto Washington Blvd (400 E), then right (east) onto North Ogden Divide Rd.",
-    "Climb over North Ogden Divide and descend into Liberty / Eden.",
-    "Continue east on SR-162 into Eden, then turn left (north) onto SR-158 (Powder Mountain Rd).",
-    "Climb SR-158 to Powder Mountain."
+    "Exit <strong>I-15 at Exit 349 (2700 N)</strong> and head <strong>east</strong> through North Ogden.",
+    "Turn <strong>left (north)</strong> onto <strong>Washington Blvd (400 E)</strong>, then <strong>right (east)</strong> onto <strong>North Ogden Divide Rd</strong>.",
+    "Climb over <strong>North Ogden Divide</strong> and descend into Liberty / Eden.",
+    "Continue east on <strong>SR-162</strong> into Eden, then turn <strong>left (north)</strong> onto <strong>SR-158 (Powder Mountain Rd)</strong>.",
+    "Climb <strong>SR-158</strong> to <strong>Powder Mountain</strong>."
   ],
   "nv-i84-wb": [
-    "Head west on I-80 W past Echo Canyon to Echo Junction.",
-    "Take Exit 168 onto I-84 W toward Morgan / Ogden.",
-    "Take Exit 92 (Mountain Green) and turn right (north) onto SR-167 (Trappers Loop Rd).",
-    "Follow SR-167 north to SR-39, then continue around Pineview Reservoir onto SR-158 and SR-162 toward Eden.",
-    "Turn left (west) onto Nordic Valley Way and follow it to Nordic Valley."
+    "Head west on <strong>I-80 W</strong> past Echo Canyon to Echo Junction.",
+    "Take <strong>Exit 168</strong> onto <strong>I-84 W</strong> toward Morgan / Ogden.",
+    "Take <strong>Exit 92 (Mountain Green)</strong> and turn <strong>right (north)</strong> onto <strong>SR-167 (Trappers Loop Rd)</strong>.",
+    "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>, then continue around Pineview Reservoir onto <strong>SR-158</strong> and <strong>SR-162</strong> toward Eden.",
+    "Turn <strong>left (west)</strong> onto <strong>Nordic Valley Way</strong> and follow it to <strong>Nordic Valley</strong>."
   ],
   "nv-i15-i84": [
-    "Take I-15 N to Exit 340 onto I-84 E toward Weber Canyon / Morgan.",
-    "Drive east through Weber Canyon and take Exit 92 (Mountain Green).",
-    "Turn left (north) onto SR-167 (Trappers Loop Rd).",
-    "Follow SR-167 north to SR-39, then continue around Pineview Reservoir onto SR-158 and SR-162 toward Eden.",
-    "Turn left (west) onto Nordic Valley Way and follow it to Nordic Valley."
+    "Take <strong>I-15 N</strong> to <strong>Exit 340</strong> onto <strong>I-84 E</strong> toward Weber Canyon / Morgan.",
+    "Drive east through Weber Canyon and take <strong>Exit 92 (Mountain Green)</strong>.",
+    "Turn <strong>left (north)</strong> onto <strong>SR-167 (Trappers Loop Rd)</strong>.",
+    "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>, then continue around Pineview Reservoir onto <strong>SR-158</strong> and <strong>SR-162</strong> toward Eden.",
+    "Turn <strong>left (west)</strong> onto <strong>Nordic Valley Way</strong> and follow it to <strong>Nordic Valley</strong>."
   ],
   "nv-12th": [
-    "Exit I-15 at Exit 344 (12th St) and head east on SR-39 (12th St).",
-    "Continue east through Ogden Canyon (SR-39) past Pineview Dam.",
-    "Turn left (north) onto SR-158 toward Eden, then left (west) onto SR-162.",
-    "Turn left (west) onto Nordic Valley Way and follow it to Nordic Valley."
+    "Exit <strong>I-15 at Exit 344 (12th St)</strong> and head <strong>east</strong> on <strong>SR-39 (12th St)</strong>.",
+    "Continue east through <strong>Ogden Canyon (SR-39)</strong> past Pineview Dam.",
+    "Turn <strong>left (north)</strong> onto <strong>SR-158</strong> toward Eden, then <strong>left (west)</strong> onto <strong>SR-162</strong>.",
+    "Turn <strong>left (west)</strong> onto <strong>Nordic Valley Way</strong> and follow it to <strong>Nordic Valley</strong>."
   ],
   "nv-2700n": [
-    "Exit I-15 at Exit 349 (2700 N) and head east through North Ogden.",
-    "Take North Ogden Divide Rd over the pass into Liberty / Eden.",
-    "Continue down SR-162 toward Eden and turn right (west) onto Nordic Valley Way.",
-    "Follow Nordic Valley Way directly to Nordic Valley."
+    "Exit <strong>I-15 at Exit 349 (2700 N)</strong> and head <strong>east</strong> through North Ogden.",
+    "Take <strong>North Ogden Divide Rd</strong> over the pass into Liberty / Eden.",
+    "Continue down <strong>SR-162</strong> toward Eden and turn <strong>right (west)</strong> onto <strong>Nordic Valley Way</strong>.",
+    "Follow <strong>Nordic Valley Way</strong> directly to <strong>Nordic Valley</strong>."
   ],
   "on-i84-wb": [
-    "Head west on I-80 W past Echo Canyon to Echo Junction.",
-    "Take Exit 168 onto I-84 W toward Morgan / Ogden.",
-    "Take Exit 92 (Mountain Green) and turn right (north) onto SR-167 (Trappers Loop Rd).",
-    "Follow SR-167 north to SR-39, then continue around Pineview Reservoir onto SR-158 and SR-162 toward Liberty.",
-    "In Liberty, turn right (north) onto North Fork Rd (4150 E) to North Fork Park / Ogden Nordic."
+    "Head west on <strong>I-80 W</strong> past Echo Canyon to Echo Junction.",
+    "Take <strong>Exit 168</strong> onto <strong>I-84 W</strong> toward Morgan / Ogden.",
+    "Take <strong>Exit 92 (Mountain Green)</strong> and turn <strong>right (north)</strong> onto <strong>SR-167 (Trappers Loop Rd)</strong>.",
+    "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>, then continue around Pineview Reservoir onto <strong>SR-158</strong> and <strong>SR-162</strong> toward Liberty.",
+    "In Liberty, turn <strong>right (north)</strong> onto <strong>North Fork Rd (4150 E)</strong> to <strong>North Fork Park / Ogden Nordic</strong>."
   ],
   "on-i15-i84": [
-    "Take I-15 N to Exit 340 onto I-84 E toward Weber Canyon / Morgan.",
-    "Drive east through Weber Canyon and take Exit 92 (Mountain Green).",
-    "Turn left (north) onto SR-167 (Trappers Loop Rd).",
-    "Follow SR-167 north to SR-39, then continue around Pineview Reservoir onto SR-158 and SR-162 toward Liberty.",
-    "In Liberty, turn right (north) onto North Fork Rd (4150 E) to North Fork Park / Ogden Nordic."
+    "Take <strong>I-15 N</strong> to <strong>Exit 340</strong> onto <strong>I-84 E</strong> toward Weber Canyon / Morgan.",
+    "Drive east through Weber Canyon and take <strong>Exit 92 (Mountain Green)</strong>.",
+    "Turn <strong>left (north)</strong> onto <strong>SR-167 (Trappers Loop Rd)</strong>.",
+    "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>, then continue around Pineview Reservoir onto <strong>SR-158</strong> and <strong>SR-162</strong> toward Liberty.",
+    "In Liberty, turn <strong>right (north)</strong> onto <strong>North Fork Rd (4150 E)</strong> to <strong>North Fork Park / Ogden Nordic</strong>."
   ],
   "on-12th": [
-    "Exit I-15 at Exit 344 (12th St) and head east on SR-39 (12th St).",
-    "Continue east through Ogden Canyon (SR-39) past Pineview Dam.",
-    "Turn left (north) onto SR-158 toward Eden, then left (west) onto SR-162 toward Liberty.",
-    "In Liberty, turn right (north) onto North Fork Rd (4150 E) to North Fork Park / Ogden Nordic."
+    "Exit <strong>I-15 at Exit 344 (12th St)</strong> and head <strong>east</strong> on <strong>SR-39 (12th St)</strong>.",
+    "Continue east through <strong>Ogden Canyon (SR-39)</strong> past Pineview Dam.",
+    "Turn <strong>left (north)</strong> onto <strong>SR-158</strong> toward Eden, then <strong>left (west)</strong> onto <strong>SR-162</strong> toward Liberty.",
+    "In Liberty, turn <strong>right (north)</strong> onto <strong>North Fork Rd (4150 E)</strong> to <strong>North Fork Park / Ogden Nordic</strong>."
   ],
   "on-2700n": [
-    "Exit I-15 at Exit 349 (2700 N) and head east through North Ogden.",
-    "Take North Ogden Divide Rd over the pass into Liberty.",
-    "At the bottom of the Divide, turn left (north) onto North Fork Rd (3300 E / 4150 E).",
-    "Follow North Fork Rd north to North Fork Park / Ogden Nordic."
+    "Exit <strong>I-15 at Exit 349 (2700 N)</strong> and head <strong>east</strong> through North Ogden.",
+    "Take <strong>North Ogden Divide Rd</strong> over the pass into <strong>Liberty</strong>.",
+    "At the bottom of the Divide, turn <strong>left (north)</strong> onto <strong>North Fork Rd (3300 E / 4150 E)</strong>.",
+    "Follow <strong>North Fork Rd</strong> north to <strong>North Fork Park / Ogden Nordic</strong>."
   ]
 }
