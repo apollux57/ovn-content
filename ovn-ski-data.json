@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-26T13:49:46.777727+00:00",
+  "updated_utc": "2026-11-26T13:57:04.654998+00:00",
   "udot": {
     "cameras": [
       {
@@ -4762,7 +4762,7 @@
         "name": "I-15 NB @ 200 S / MP 356.43, WIL",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nLOGAN\t36min\nBEAR LAKE\t1hr 30min"
+          "TIME TO\nLOGAN\t33min\nBEAR LAKE\t1hr 20min"
         ],
         "lat": 41.405993,
         "lon": -112.048637
@@ -6835,9 +6835,9 @@
       "station_id": "KUTLIBER14",
       "temp_f": 24,
       "wind_mph": 0,
-      "wind_gust_mph": 2,
+      "wind_gust_mph": 0,
       "humidity": 89,
-      "obs_time_local": "2026-11-26 06:49:43"
+      "obs_time_local": "2026-11-26 06:56:53"
     }
   }
 }
