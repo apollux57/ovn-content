@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-26T14:19:45.255991+00:00",
+  "updated_utc": "2026-11-26T14:26:55.734510+00:00",
   "udot": {
     "cameras": [
       {
@@ -4906,7 +4906,7 @@
         "name": "I-15 NB @ Beaver / MP 106, BV",
         "roadway": "I-15",
         "messages": [
-          "I-70\n19min"
+          "I-70\n20min"
         ],
         "lat": 38.209103,
         "lon": -112.646606
@@ -6202,7 +6202,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T07:00:00-07:00",
+          "startTime": "2026-11-26T06:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 38,
@@ -6338,7 +6338,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T07:00:00-07:00",
+          "startTime": "2026-11-26T06:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 30,
@@ -6474,7 +6474,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T07:00:00-07:00",
+          "startTime": "2026-11-26T06:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 43,
@@ -6610,7 +6610,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T07:00:00-07:00",
+          "startTime": "2026-11-26T06:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 43,
@@ -6814,7 +6814,7 @@
     "powder_mountain": {
       "temp_f": 30,
       "condition": null,
-      "wind": "5.42",
+      "wind": "5.5",
       "source_url": "https://powdermountain.com/api/header-conditions"
     },
     "nordic_valley": {
@@ -6834,10 +6834,10 @@
     "KUTLIBER14": {
       "station_id": "KUTLIBER14",
       "temp_f": 25,
-      "wind_mph": 0,
-      "wind_gust_mph": 2,
-      "humidity": 89,
-      "obs_time_local": "2026-11-26 07:19:34"
+      "wind_mph": 1,
+      "wind_gust_mph": 1,
+      "humidity": 88,
+      "obs_time_local": "2026-11-26 07:26:44"
     }
   }
 }
