@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-26T14:57:51.319011+00:00",
+  "updated_utc": "2026-11-26T15:06:32.548269+00:00",
   "udot": {
     "cameras": [
       {
@@ -5041,7 +5041,7 @@
         "name": "I-15 NB @ Fillmore / MP 161.43, MD",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nNEPHI\t49min\nPROVO\t1hr 20min"
+          "TIME TO\nNEPHI\t48min\nPROVO\t1hr 20min"
         ],
         "lat": 38.931807,
         "lon": -112.365068
@@ -6202,7 +6202,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T07:00:00-07:00",
+          "startTime": "2026-11-26T06:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 38,
@@ -6338,7 +6338,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T07:00:00-07:00",
+          "startTime": "2026-11-26T06:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 30,
@@ -6474,7 +6474,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T07:00:00-07:00",
+          "startTime": "2026-11-26T06:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 43,
@@ -6814,7 +6814,7 @@
     "powder_mountain": {
       "temp_f": 30,
       "condition": null,
-      "wind": "5.74",
+      "wind": "5.97",
       "source_url": "https://powdermountain.com/api/header-conditions"
     },
     "nordic_valley": {
@@ -6824,20 +6824,20 @@
       "source_url": "https://www.nordicvalley.ski/wp-content/uploads/sites/10/m-json/weather.json"
     },
     "snowbasin": {
-      "temp_f": 32,
+      "temp_f": 35,
       "condition": "Partly Cloudy",
-      "wind": "3 mph SW",
+      "wind": "3 mph S",
       "source_url": "https://www.snowbasin.com/the-mountain/mountain-report/"
     }
   },
   "pws": {
     "KUTLIBER14": {
       "station_id": "KUTLIBER14",
-      "temp_f": 23,
-      "wind_mph": 0,
-      "wind_gust_mph": 0,
-      "humidity": 89,
-      "obs_time_local": "2026-11-26 07:57:44"
+      "temp_f": 24,
+      "wind_mph": 1,
+      "wind_gust_mph": 2,
+      "humidity": 90,
+      "obs_time_local": "2026-11-26 08:06:25"
     }
   }
 }
