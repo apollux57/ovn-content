@@ -75,9 +75,11 @@ RESORT_WEATHER_URLS = {
     "powder_mountain": "https://powdermountain.com/api/header-conditions",
     "nordic_valley": "https://www.nordicvalley.ski/wp-content/uploads/sites/10/m-json/weather.json",
 }
+
 POWDER_MOUNTAIN_CONDITIONS_URL = "https://powdermountain.com/conditions"
 
 SNOWBASIN_REPORT_URL = "https://www.snowbasin.com/the-mountain/mountain-report/"
+
 SNOWBASIN_CONDITIONS_RE = re.compile(
     r"\b("
     r"Heavy Snow|Light Snow|Snow Showers|Snowing|Snow|Flurries|"
@@ -460,6 +462,7 @@ def fetch_snowbasin_direct_report():
     text = html.unescape(re.sub(r"<[^>]+>", " ", cleaned))
     text = re.sub(r"\s+", " ", text).strip()
 
+    
     def grab(pattern):
         m = re.search(pattern, text, re.IGNORECASE)
         return m.group(1).strip() if m else None
@@ -496,6 +499,7 @@ def fetch_snowbasin_direct_report():
         "source_url": SNOWBASIN_REPORT_URL,
     }
 
+
 def fetch_powder_mountain_direct_report():
     """Scrape snow totals, lifts, and opening date directly from powdermountain.com/conditions."""
     headers = {
@@ -522,6 +526,7 @@ def fetch_powder_mountain_direct_report():
     text = html.unescape(re.sub(r"<[^>]+>", " ", cleaned))
     text = re.sub(r"\s+", " ", text).strip()
 
+    
     def grab(pattern):
         m = re.search(pattern, text, re.IGNORECASE)
         return m.group(1).strip() if m else None
@@ -568,6 +573,8 @@ def fetch_powder_mountain_direct_report():
         "runs_open": runs.replace(" ", "") if runs else None,
         "source_url": POWDER_MOUNTAIN_CONDITIONS_URL,
     }
+
+
 def get_resort_snow_reports():
     """Fetch snow stats, open/closed status, and projected opening dates from Ski Utah, then apply direct & manual overrides."""
     reports = {}
