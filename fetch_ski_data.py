@@ -5,6 +5,8 @@ import re
 import time
 from datetime import datetime, timedelta, timezone
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 UDOT_API_KEY = os.environ.get("UDOT_API_KEY", "").strip()
 UDOT_BASE = "https://www.udottraffic.utah.gov/api/v2/get"
@@ -127,6 +129,34 @@ MANUAL_RESORT_OVERRIDES = {
 }
 
 
+def _build_session():
+    """Create a shared requests session with automatic retries for transient API errors."""
+    s = requests.Session()
+    retry = Retry(
+        total=2,
+        backoff_factor=1.5,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET"],
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    s.mount("https://", adapter)
+    s.mount("http://", adapter)
+    return s
+
+
+SESSION = _build_session()
+
+
+def load_previous_data(path="ovn-ski-data.json"):
+    """Load the existing JSON payload so transient API failures don't blank out the dashboard."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
 def in_valley_bbox(lat, lon):
     try:
         lat, lon = float(lat), float(lon)
@@ -146,13 +176,18 @@ def fetch_udot(endpoint):
         return []
     url = f"{UDOT_BASE}/{endpoint}"
     try:
-        resp = requests.get(url, params={"key": UDOT_API_KEY, "format": "json"}, timeout=20)
+        resp = SESSION.get(url, params={"key": UDOT_API_KEY, "format": "json"}, timeout=20)
         resp.raise_for_status()
-        time.sleep(1)  # Respect UDOT 10 calls / 60s throttle
-        return resp.json()
+        data = resp.json()
+        if not isinstance(data, list):
+            print(f"UDOT {endpoint} unexpected payload type: {type(data).__name__}")
+            return []
+        return data
     except Exception as e:
         print(f"UDOT {endpoint} error: {e}")
         return []
+    finally:
+        time.sleep(1)  # Respect UDOT 10 calls / 60s throttle
 
 
 def get_udot_data():
@@ -281,11 +316,11 @@ def get_nws_resort_weather():
     for key, info in RESORTS.items():
         try:
             pt_url = f"https://api.weather.gov/points/{info['lat']},{info['lon']}"
-            pt_resp = requests.get(pt_url, headers=NWS_HEADERS, timeout=15)
+            pt_resp = SESSION.get(pt_url, headers=NWS_HEADERS, timeout=15)
             pt_resp.raise_for_status()
             forecast_url = pt_resp.json()["properties"]["forecast"]
 
-            fc_resp = requests.get(forecast_url, headers=NWS_HEADERS, timeout=15)
+            fc_resp = SESSION.get(forecast_url, headers=NWS_HEADERS, timeout=15)
             fc_resp.raise_for_status()
             periods = fc_resp.json()["properties"]["periods"][:14]
 
@@ -310,7 +345,7 @@ def get_nws_resort_weather():
 
     alerts = []
     try:
-        al_resp = requests.get(
+        al_resp = SESSION.get(
             "https://api.weather.gov/alerts/active",
             params={"point": "41.3005,-111.8124"},
             headers=NWS_HEADERS,
@@ -347,7 +382,7 @@ def get_snotel_data():
             "beginDate": begin_date,
             "endDate": end_date,
         }
-        resp = requests.get(SNOTEL_BASE, params=params, timeout=25)
+        resp = SESSION.get(SNOTEL_BASE, params=params, timeout=25)
         resp.raise_for_status()
         return resp.json()
 
@@ -407,7 +442,7 @@ def get_resort_snow_reports():
         report_url = f"https://www.skiutah.com/members/{slug}/snowreport"
         info_url = f"https://www.skiutah.com/members/{slug}/"
         try:
-            resp = requests.get(report_url, headers=headers, timeout=20)
+            resp = SESSION.get(report_url, headers=headers, timeout=20)
             resp.raise_for_status()
             text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", resp.text))
 
@@ -423,7 +458,7 @@ def get_resort_snow_reports():
 
             projected_opening = None
             try:
-                info_resp = requests.get(info_url, headers=headers, timeout=15)
+                info_resp = SESSION.get(info_url, headers=headers, timeout=15)
                 if info_resp.ok:
                     info_text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", info_resp.text))
                     projected_opening = (
@@ -522,7 +557,7 @@ def fetch_snowbasin_weather():
     }
 
     try:
-        resp = requests.get(SNOWBASIN_REPORT_URL, headers=headers, timeout=20)
+        resp = SESSION.get(SNOWBASIN_REPORT_URL, headers=headers, timeout=20)
         resp.raise_for_status()
     except Exception as e:
         print(f"Snowbasin weather request error: {e}")
@@ -586,7 +621,7 @@ def get_resort_current_weather():
 
     for key, url in RESORT_WEATHER_URLS.items():
         try:
-            resp = requests.get(url, params={"nocache": int(time.time())}, headers=headers, timeout=20)
+            resp = SESSION.get(url, params={"nocache": int(time.time())}, headers=headers, timeout=20)
             resp.raise_for_status()
             data = resp.json()
 
@@ -647,7 +682,7 @@ def fetch_pws_station(station_id):
         f"?stationId={station_id}&format=json&units=e&apiKey={api_key}"
     )
     try:
-        resp = requests.get(url, timeout=15)
+        resp = SESSION.get(url, timeout=15)
         resp.raise_for_status()
         obs_list = resp.json().get("observations") or []
         if not obs_list:
@@ -668,16 +703,64 @@ def fetch_pws_station(station_id):
 
 
 def main():
+    prev = load_previous_data()
+
+    # UDOT: preserve previous cameras, signs, rwis, and roads if a transient error returns empty
+    udot = get_udot_data()
+    prev_udot = prev.get("udot") or {}
+    for key in ("cameras", "signs", "rwis", "roads"):
+        if not udot.get(key) and prev_udot.get(key):
+            print(f"UDOT {key} returned empty; retaining previous data.")
+            udot[key] = prev_udot[key]
+
+    # NWS: preserve individual resort forecasts if a lookup errors out
+    nws = get_nws_resort_weather()
+    prev_nws_resorts = (prev.get("nws") or {}).get("resorts") or {}
+    for key, val in nws.get("resorts", {}).items():
+        if val.get("error") and key in prev_nws_resorts and not prev_nws_resorts[key].get("error"):
+            print(f"NWS {key} failed; retaining previous forecast.")
+            nws["resorts"][key] = prev_nws_resorts[key]
+
+    # SNOTEL: preserve previous readings if the USDA API fails
+    snotel = get_snotel_data()
+    prev_snotel = prev.get("snotel") or {}
+    if snotel.get("error") and prev_snotel and not prev_snotel.get("error"):
+        print("SNOTEL fetch failed; retaining previous data.")
+        snotel = prev_snotel
+
+    # Resort snow reports: preserve previous report per resort on scrape error
+    snow_reports = get_resort_snow_reports()
+    prev_reports = prev.get("snow_reports") or {}
+    for key, val in snow_reports.items():
+        if val.get("error") and key in prev_reports and not prev_reports[key].get("error"):
+            print(f"Snow report for {key} failed; retaining previous data.")
+            snow_reports[key] = prev_reports[key]
+
+    # Resort live weather: preserve previous per-resort reading if a fetch misses
+    resort_weather = get_resort_current_weather()
+    prev_resort_wx = prev.get("resort_weather") or {}
+    for key, val in prev_resort_wx.items():
+        if key not in resort_weather:
+            resort_weather[key] = val
+
+    # PWS: preserve previous KUTLIBER14 observation if Weather Underground hiccups
     pws_kutliber14 = fetch_pws_station("KUTLIBER14")
-    pws_data = {"KUTLIBER14": pws_kutliber14} if pws_kutliber14 else {}
+    prev_pws = prev.get("pws") or {}
+    if pws_kutliber14:
+        pws_data = {"KUTLIBER14": pws_kutliber14}
+    elif "KUTLIBER14" in prev_pws:
+        print("PWS KUTLIBER14 failed; retaining previous observation.")
+        pws_data = {"KUTLIBER14": prev_pws["KUTLIBER14"]}
+    else:
+        pws_data = {}
 
     payload = {
         "updated_utc": datetime.now(timezone.utc).isoformat(),
-        "udot": get_udot_data(),
-        "nws": get_nws_resort_weather(),
-        "snotel": get_snotel_data(),
-        "snow_reports": get_resort_snow_reports(),
-        "resort_weather": get_resort_current_weather(),
+        "udot": udot,
+        "nws": nws,
+        "snotel": snotel,
+        "snow_reports": snow_reports,
+        "resort_weather": resort_weather,
         "pws": pws_data,
     }
     with open("ovn-ski-data.json", "w", encoding="utf-8") as f:
