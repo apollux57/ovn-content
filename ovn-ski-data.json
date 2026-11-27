@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-27T21:12:21.009445+00:00",
+  "updated_utc": "2026-11-27T21:16:16.569668+00:00",
   "udot": {
     "cameras": [
       {
@@ -6203,7 +6203,7 @@
         "current_period": {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-27T12:00:00-07:00",
+          "startTime": "2026-11-27T14:00:00-07:00",
           "endTime": "2026-11-27T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 40,
@@ -6475,7 +6475,7 @@
         "current_period": {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-27T12:00:00-07:00",
+          "startTime": "2026-11-27T14:00:00-07:00",
           "endTime": "2026-11-27T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 44,
@@ -6611,7 +6611,7 @@
         "current_period": {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-27T14:00:00-07:00",
+          "startTime": "2026-11-27T12:00:00-07:00",
           "endTime": "2026-11-27T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 44,
@@ -6801,21 +6801,21 @@
       "source_url": "https://www.nordicvalley.ski/nordic-valley-weather-conditions-webcams/"
     },
     "ogden_nordic": {
-      "status": "Closed",
+      "status": "Open",
       "projected_opening": null,
       "snow_24h": null,
       "base_depth": null,
       "season_total": null,
-      "lifts_open": null,
+      "lifts_open": "30.5 km",
       "runs_open": null,
-      "source_url": "https://www.ogdennordic.com/"
+      "source_url": "https://nordic-pulse.com/ski-areas/US/UT/Ogden-Nordic"
     }
   },
   "resort_weather": {
     "powder_mountain": {
       "temp_f": 35,
       "condition": null,
-      "wind": "15",
+      "wind": "14.89",
       "source_url": "https://powdermountain.com/api/header-conditions"
     },
     "nordic_valley": {
@@ -6838,7 +6838,7 @@
       "wind_mph": 6,
       "wind_gust_mph": 9,
       "humidity": 50,
-      "obs_time_local": "2026-11-27 14:12:18"
+      "obs_time_local": "2026-11-27 14:16:08"
     }
   }
 }
