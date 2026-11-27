@@ -76,9 +76,9 @@ RESORT_WEATHER_URLS = {
     "nordic_valley": "https://www.nordicvalley.ski/wp-content/uploads/sites/10/m-json/weather.json",
 }
 
-POWDER_MOUNTAIN_CONDITIONS_URL = "https://powdermountain.com/conditions"
-
 SNOWBASIN_REPORT_URL = "https://www.snowbasin.com/the-mountain/mountain-report/"
+POWDER_MOUNTAIN_CONDITIONS_URL = "https://powdermountain.com/conditions"
+NORDIC_VALLEY_REPORT_URL = "https://www.nordicvalley.ski/nordic-valley-weather-conditions-webcams/"
 
 SNOWBASIN_CONDITIONS_RE = re.compile(
     r"\b("
@@ -462,7 +462,6 @@ def fetch_snowbasin_direct_report():
     text = html.unescape(re.sub(r"<[^>]+>", " ", cleaned))
     text = re.sub(r"\s+", " ", text).strip()
 
-    
     def grab(pattern):
         m = re.search(pattern, text, re.IGNORECASE)
         return m.group(1).strip() if m else None
@@ -526,7 +525,6 @@ def fetch_powder_mountain_direct_report():
     text = html.unescape(re.sub(r"<[^>]+>", " ", cleaned))
     text = re.sub(r"\s+", " ", text).strip()
 
-    
     def grab(pattern):
         m = re.search(pattern, text, re.IGNORECASE)
         return m.group(1).strip() if m else None
@@ -545,8 +543,8 @@ def fetch_powder_mountain_direct_report():
         or grab(r"Past\s*24\s*HR[\s:\-]*(\d+)\s*[\"”']?")
     )
     base_depth = grab(r"Base\s*Depth[\s:\-]*(\d+)\s*[\"”']?")
-    season_total = (
-        grab(r"(?:Current\s*Season|Season\s*Total|Year\s*to\s*Date)[\s:\-]*(\d+)\s*[\"”']?")
+    season_total = grab(
+        r"(?:Current\s*Season|Season\s*Total|Year\s*to\s*Date)[\s:\-]*(\d+)\s*[\"”']?"
     )
     projected_opening = (
         grab(r"(?:opens\s+to\s+everyone\s+for\s+the\s+season\s+on|opening\s+day\s*(?:is|:)?)\s*([A-Za-z]+\s+\d{1,2}(?:,\s*\d{4})?)")
@@ -572,6 +570,85 @@ def fetch_powder_mountain_direct_report():
         "lifts_open": lifts.replace(" ", "") if lifts else None,
         "runs_open": runs.replace(" ", "") if runs else None,
         "source_url": POWDER_MOUNTAIN_CONDITIONS_URL,
+    }
+
+
+def fetch_nordic_valley_direct_report():
+    """Scrape snow totals, lifts, trails, and opening date directly from nordicvalley.ski."""
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/131.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    try:
+        resp = SESSION.get(NORDIC_VALLEY_REPORT_URL, headers=headers, timeout=20)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"Nordic Valley direct report error: {e}")
+        return None
+
+    cleaned = re.sub(
+        r"<(script|style|noscript)\b[^>]*>.*?</\1>",
+        " ",
+        resp.text,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    text = html.unescape(re.sub(r"<[^>]+>", " ", cleaned))
+    text = re.sub(r"\s+", " ", text).strip()
+
+    def grab(pattern):
+        m = re.search(pattern, text, re.IGNORECASE)
+        return m.group(1).strip() if m else None
+
+    snow_24h = grab(r"(\d+(?:\.\d+)?)\s*[\"”″']\s*24\s*Hr")
+    base_depth = grab(r"(\d+(?:\.\d+)?)\s*[\"”″']\s*Base\s*Depth")
+    season_total = grab(r"(\d+(?:\.\d+)?)\s*[\"”″']\s*Season\s*Total")
+
+    lifts_raw = (
+        grab(r"(\d+\s*/\s*\d+)\s*Lifts?\s*Open")
+        or grab(r"(\d+)\s*Lifts?\s*Open")
+    )
+    runs_raw = (
+        grab(r"(\d+\s*/\s*\d+)\s*Trails?\s*Open")
+        or grab(r"(\d+)\s*Trails?\s*Open")
+    )
+    projected_opening = grab(
+        r"scheduled\s+opening\s+day\s+is\s+(?:[A-Za-z]+,\s*)?([A-Za-z]+\s+\d{1,2}(?:,\s*\d{4})?)"
+    )
+
+    if not any([lifts_raw, base_depth, season_total, projected_opening]):
+        return None
+
+    lifts_open = None
+    open_count = 0
+    if lifts_raw:
+        clean_lifts = lifts_raw.replace(" ", "")
+        if "/" in clean_lifts:
+            lifts_open = clean_lifts
+            open_count = int(clean_lifts.split("/")[0])
+        else:
+            open_count = int(clean_lifts)
+            lifts_open = f"{open_count}/5"
+
+    if re.search(r"currently\s+closed", text, re.IGNORECASE):
+        status = "Closed"
+    elif open_count > 0:
+        status = "Open"
+    else:
+        status = "Closed"
+
+    return {
+        "status": status,
+        "projected_opening": projected_opening,
+        "snow_24h": snow_24h,
+        "base_depth": base_depth,
+        "season_total": season_total,
+        "lifts_open": lifts_open if status == "Open" else None,
+        "runs_open": runs_raw.replace(" ", "") if runs_raw else None,
+        "source_url": NORDIC_VALLEY_REPORT_URL,
     }
 
 
@@ -631,7 +708,7 @@ def get_resort_snow_reports():
             print(f"Ski Utah report error for {key}: {e}")
             reports[key] = {"status": "Closed", "error": str(e), "source_url": report_url}
 
-    # Prefer Snowbasin's direct Mountain Report over Ski Utah when available
+    # Prefer direct resort reports over Ski Utah when available
     sb_direct = fetch_snowbasin_direct_report()
     if sb_direct:
         reports["snowbasin"] = sb_direct
@@ -639,7 +716,11 @@ def get_resort_snow_reports():
     pm_direct = fetch_powder_mountain_direct_report()
     if pm_direct:
         reports["powder_mountain"] = pm_direct
-    
+
+    nv_direct = fetch_nordic_valley_direct_report()
+    if nv_direct:
+        reports["nordic_valley"] = nv_direct
+
     # Apply manual overrides for all 4 resorts
     for key, overrides in MANUAL_RESORT_OVERRIDES.items():
         base = reports.get(key, {
