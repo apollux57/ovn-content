@@ -433,8 +433,64 @@ def get_snotel_data():
     return results
 
 
+def fetch_snowbasin_direct_report():
+    """Scrape live lifts, trails, and snow totals directly from Snowbasin's Mountain Report."""
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/131.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    try:
+        resp = SESSION.get(SNOWBASIN_REPORT_URL, headers=headers, timeout=20)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"Snowbasin direct report error: {e}")
+        return None
+
+    cleaned = re.sub(
+        r"<(script|style|noscript)\b[^>]*>.*?</\1>",
+        " ",
+        resp.text,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    text = html.unescape(re.sub(r"<[^>]+>", " ", cleaned))
+    text = re.sub(r"\s+", " ", text).strip()
+
+    def grab(pattern):
+        m = re.search(pattern, text, re.IGNORECASE)
+        return m.group(1).strip() if m else None
+
+    lifts = grab(r"(\d+\s*/\s*\d+)\s*Lifts\s*Open")
+    runs = grab(r"Trails\s*Open\s*(\d+\s*/\s*\d+)") or grab(r"(\d+\s*/\s*\d+)\s*Trails\s*Open")
+    snow_24h = grab(r"24\s*hours?\s*(\d+)\s*[\"”']") or grab(r"(\d+)\s*[\"”']\s*24\s*hours?")
+    base_depth = grab(r"Base\s*(\d+)\s*[\"”']") or grab(r"(\d+)\s*[\"”']\s*Base")
+    season_total = grab(r"Season\s*(\d+)\s*[\"”']") or grab(r"(\d+)\s*[\"”']\s*Season")
+
+    if not any([lifts, base_depth, season_total]):
+        return None
+
+    status = "Closed"
+    if lifts:
+        open_count = int(lifts.split("/")[0].strip())
+        status = "Open" if open_count > 0 else "Closed"
+
+    return {
+        "status": status,
+        "projected_opening": None,
+        "snow_24h": snow_24h,
+        "base_depth": base_depth,
+        "season_total": season_total,
+        "lifts_open": lifts.replace(" ", "") if lifts else None,
+        "runs_open": runs.replace(" ", "") if runs else None,
+        "source_url": SNOWBASIN_REPORT_URL,
+    }
+
+
 def get_resort_snow_reports():
-    """Fetch snow stats, open/closed status, and projected opening dates from Ski Utah, then apply manual overrides."""
+    """Fetch snow stats, open/closed status, and projected opening dates from Ski Utah, then apply direct & manual overrides."""
     reports = {}
     headers = {"User-Agent": "Mozilla/5.0 (compatible; OgdenValleyNewsBot/1.0)"}
 
@@ -488,6 +544,11 @@ def get_resort_snow_reports():
         except Exception as e:
             print(f"Ski Utah report error for {key}: {e}")
             reports[key] = {"status": "Closed", "error": str(e), "source_url": report_url}
+
+    # Prefer Snowbasin's direct Mountain Report over Ski Utah when available
+    sb_direct = fetch_snowbasin_direct_report()
+    if sb_direct:
+        reports["snowbasin"] = sb_direct
 
     # Apply manual overrides for all 4 resorts
     for key, overrides in MANUAL_RESORT_OVERRIDES.items():
@@ -632,10 +693,11 @@ def get_resort_current_weather():
             temp_f = _parse_temp(raw_temp)
 
             condition = _find_first_key(data, {
-                "current_weather", "day_forecast", "condition", "conditions", "weather", "weather_condition",
-                "weather_text", "weathertext", "current_condition", "currentcondition",
-                "sky", "sky_condition", "sky_text", "short_forecast", "shortforecast",
-                "phrase", "forecast", "description", "summary", "text"
+                "current_weather", "day_forecast", "condition", "conditions",
+                "weather", "weather_condition", "weather_text", "weathertext",
+                "current_condition", "currentcondition", "sky", "sky_condition",
+                "sky_text", "short_forecast", "shortforecast", "phrase",
+                "forecast", "description", "summary", "text"
             })
             if condition:
                 cond_str = str(condition).strip()
