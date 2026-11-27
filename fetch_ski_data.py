@@ -549,8 +549,8 @@ def fetch_powder_mountain_direct_report():
         grab(r"(?:Current\s*Season|Season\s*Total|Year\s*to\s*Date)[\s:\-]*(\d+)\s*[\"”']?")
     )
     projected_opening = (
-        grab(r"(?:opens\s+to\s+everyone\s+for\s+the\s+season\s+on|opening\s+day\s*(?:is|:)?)\s*([A-Za-z]+\s+\d{1,2}(?:,\s*\d{4})?)", text)
-        or grab(r"On\s+([A-Za-z]+\s+\d{1,2},\s*\d{4}),\s*Powder\s+Mountain\s+opens", text)
+        grab(r"(?:opens\s+to\s+everyone\s+for\s+the\s+season\s+on|opening\s+day\s*(?:is|:)?)\s*([A-Za-z]+\s+\d{1,2}(?:,\s*\d{4})?)")
+        or grab(r"On\s+([A-Za-z]+\s+\d{1,2},\s*\d{4}),\s*Powder\s+Mountain\s+opens")
     )
 
     if not any([lifts, base_depth, season_total, projected_opening]):
