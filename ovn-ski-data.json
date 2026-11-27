@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-26T16:12:41.579024+00:00",
+  "updated_utc": "2026-11-27T00:00:40.260373+00:00",
   "udot": {
     "cameras": [
       {
@@ -4661,7 +4661,7 @@
         "name": "I-15 NB @ 5000 S / MP 300.98, MUR",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\n600 S\t7min\nAIRPORT\t12min"
+          "TIME TO\n600 S\t6min\nAIRPORT\t10min"
         ],
         "lat": 40.662215,
         "lon": -111.898744
@@ -4670,7 +4670,7 @@
         "name": "I-15 NB @ Milepost 14.02, WAS",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nCEDAR CITY\t35min\nZION PARK\t45min"
+          "TIME TO\nCEDAR CITY\t35min\nZION PARK\t43min"
         ],
         "lat": 37.153049,
         "lon": -113.479415
@@ -4689,7 +4689,7 @@
         "name": "I-15 NB @ Milepost 90.05, RN",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nBEAVER\t18min\nRICHFIELD\t1hr 3min"
+          "TIME TO\nBEAVER\t17min\nRICHFIELD\t1hr 2min"
         ],
         "lat": 38.017388,
         "lon": -112.717684
@@ -4698,7 +4698,7 @@
         "name": "I-15 NB @ 15400 S / MP 287.23, DPR",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nBANGERTER\t3min\n10600 S\t6min"
+          "SILVER ALERT\nSALT LAKE COUNTY"
         ],
         "lat": 40.471452,
         "lon": -111.908017
@@ -4753,7 +4753,7 @@
         "name": "I-15 SB @ 600 S / MP 307.49, SLC",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\n9000 S\t28min\nBANGERTER\t34min"
+          "SILVER ALERT\nSALT LAKE COUNTY"
         ],
         "lat": 40.756425,
         "lon": -111.913377
@@ -4762,7 +4762,7 @@
         "name": "I-15 NB @ 200 S / MP 356.43, WIL",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nLOGAN\t33min\nBEAR LAKE\t1hr 23min"
+          "TIME TO\nLOGAN\t35min\nBEAR LAKE\t1hr 25min"
         ],
         "lat": 41.405993,
         "lon": -112.048637
@@ -4861,7 +4861,7 @@
         "name": "I-15 SB @ 800 N / MP 364.92, BRC",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nOGDEN 12 ST\t22min\nSLC\t55min"
+          "TIME TO\nOGDEN 12 ST\t16min\nSLC\t43min"
         ],
         "lat": 41.520313,
         "lon": -112.065365
@@ -4870,7 +4870,7 @@
         "name": "I-15 SB @ 300 S / MP 356.28, WIL",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\n12TH ST\t15min\nANTELOPE DR\t32min"
+          "TIME TO\n12TH ST\t10min\nANTELOPE DR\t20min"
         ],
         "lat": 41.403692,
         "lon": -112.048316
@@ -4933,7 +4933,7 @@
         "name": "I-15 SB @ 2000 N / MP 61.27, CDC",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nST GEORGE\t42min\nLAS VEGAS\t2hr 12min"
+          "TIME TO\nST GEORGE\t41min\nLAS VEGAS\t2hr 12min"
         ],
         "lat": 37.712759,
         "lon": -113.067513
@@ -4969,7 +4969,7 @@
         "name": "I-15 NB @ 2700 S / MP 54.1, RN",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nBEAVER CITY     \t48min\nFILLMORE CTY \t1hr 25min"
+          "TIME TO\nBEAVER CITY     \t45min\nFILLMORE CTY \t1hr 24min"
         ],
         "lat": 37.627782,
         "lon": -113.119951
@@ -4987,7 +4987,7 @@
         "name": "I-15 NB @ 4000 S / MP 302.45, SL",
         "roadway": "I-15",
         "messages": [
-          "AIRPORT\nVIA I-80\t11min\nVIA SR-201\t13min"
+          "SILVER ALERT\nSALT LAKE COUNTY"
         ],
         "lat": 40.685031,
         "lon": -111.902124
@@ -4996,7 +4996,7 @@
         "name": "I-15 NB @ 8050 S / MP 296.85, MDV",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nI-80 EAST\t8min\nAIRPORT\t16min"
+          "TIME TO\nI-80 EAST\t8min\nAIRPORT\t14min"
         ],
         "lat": 40.603771,
         "lon": -111.904463
@@ -5005,7 +5005,7 @@
         "name": "I-70 WB @ I-15 / Cove Fort / MP 2.4, MD",
         "roadway": "I-70",
         "messages": [
-          "TIME TO\nFILLMORE\t27min\nBEAVER\t20min"
+          "TIME TO\nFILLMORE\t27min\nBEAVER\t19min"
         ],
         "lat": 38.591336,
         "lon": -112.583242
@@ -5014,7 +5014,7 @@
         "name": "I-15 NB @ Milepost 246.48, STQ",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nPROVO\t17min\nSLC\t59min"
+          "TIME TO\nPROVO\t17min\nSLC\t55min"
         ],
         "lat": 39.997945,
         "lon": -111.762672
@@ -5032,7 +5032,7 @@
         "name": "I-15 NB @ 11450 S / MP 292.46, DPR",
         "roadway": "I-15",
         "messages": [
-          "AIRPORT\nVIA I-215\t18min\nVIA I-15\t20min"
+          "AIRPORT\nVIA I-215\t18min\nVIA I-15\t18min"
         ],
         "lat": 40.542126,
         "lon": -111.893833
@@ -5041,7 +5041,7 @@
         "name": "I-15 NB @ Fillmore / MP 161.43, MD",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nNEPHI\t49min\nPROVO\t1hr 20min"
+          "TIME TO\nNEPHI\t50min\nPROVO\t1hr 20min"
         ],
         "lat": 38.931807,
         "lon": -112.365068
@@ -5050,7 +5050,8 @@
         "name": "State St / SR-9 EB @ Milepost 1.42, HRC",
         "roadway": "SR-9",
         "messages": [
-          "ZION PARK\n43min"
+          "ZION NP\nVEH SIZE\nLIMITS",
+          "ZION NP\nWEBSITE\nFOR INFO"
         ],
         "lat": 37.161076,
         "lon": -113.429994
@@ -5059,7 +5060,7 @@
         "name": "I-15 SB @ Milepost 246.48, STQ",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nNEPHI\t17min\nST GEORGE\t3hr 6min"
+          "TIME TO\nNEPHI\t17min\nST GEORGE\t3hr 1min"
         ],
         "lat": 39.997945,
         "lon": -111.763864
@@ -5196,7 +5197,7 @@
         "name": "I-15 NB @ Milepost 0.28, STG",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nZION PARK\t56min\nCEDAR CITY\t46min"
+          "SILVER ALERT\nWASHINGTON\nCOUNTY"
         ],
         "lat": 37.004178,
         "lon": -113.618146
@@ -5305,8 +5306,7 @@
         "name": "I-15 SB @ Milepost 29.45, TOQ",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nZION PARK\n36min",
-          "TIME TO\nLAS VEGAS\n1hr 48min"
+          "SILVER ALERT\nWASHINGTON\nCOUNTY"
         ],
         "lat": 37.309749,
         "lon": -113.297295
@@ -5327,88 +5327,88 @@
         "roadway": "",
         "lat": 40.6371,
         "lon": -111.905,
-        "air_temp": "33.13",
-        "surface_temp": "35.8",
+        "air_temp": "49.09",
+        "surface_temp": "49.3",
         "surface_status": "Dry",
-        "wind_speed": "3.77",
-        "wind_gust": "7.89"
+        "wind_speed": "3.08",
+        "wind_gust": "5.26"
       },
       {
         "station": "I-15 @ Alpine Pt of Mtn",
         "roadway": "",
         "lat": 40.4497,
         "lon": -111.9116,
-        "air_temp": "34.78",
-        "surface_temp": "35.4",
+        "air_temp": "43.70",
+        "surface_temp": "45.1",
         "surface_status": "Dry",
-        "wind_speed": "5.46",
-        "wind_gust": "7.01"
+        "wind_speed": "6.00",
+        "wind_gust": "7.67"
       },
       {
         "station": "I-15 @ Dog Valley SB",
         "roadway": "",
         "lat": 38.6358,
         "lon": -112.6101,
-        "air_temp": "32.69",
-        "surface_temp": "33.1",
+        "air_temp": "44.18",
+        "surface_temp": "46.9",
         "surface_status": "Dry",
-        "wind_speed": "1.66",
-        "wind_gust": "3.07"
+        "wind_speed": "3.35",
+        "wind_gust": "4.38"
       },
       {
         "station": "I-15 @ Centerville",
         "roadway": "",
         "lat": 40.9497,
         "lon": -111.8916,
-        "air_temp": "36.86",
-        "surface_temp": "34.9",
+        "air_temp": "45.30",
+        "surface_temp": "46.2",
         "surface_status": "Dry",
-        "wind_speed": "0.12",
-        "wind_gust": "3.07"
+        "wind_speed": "0.99",
+        "wind_gust": "4.38"
       },
       {
         "station": "I-15 @ MP 200 Sevier River",
         "roadway": "",
         "lat": 39.4097,
         "lon": -112.0517,
-        "air_temp": "27.92",
-        "surface_temp": "30.6",
+        "air_temp": "45.65",
+        "surface_temp": "46.6",
         "surface_status": "Dry",
-        "wind_speed": "1.27",
-        "wind_gust": "5.48"
+        "wind_speed": "2.81",
+        "wind_gust": "5.70"
       },
       {
         "station": "I-15 @ Plymouth",
         "roadway": "",
         "lat": 41.8861,
         "lon": -112.1692,
-        "air_temp": "32.54",
-        "surface_temp": "32",
+        "air_temp": "40.28",
+        "surface_temp": "41.5",
         "surface_status": "Dry",
-        "wind_speed": "0.72",
-        "wind_gust": "2.63"
+        "wind_speed": "1.65",
+        "wind_gust": "5.26"
       },
       {
         "station": "I-15 @ Tremonton",
         "roadway": "",
         "lat": 41.6904,
         "lon": -112.1629,
-        "air_temp": "32.36",
-        "surface_temp": "33.6",
+        "air_temp": "40.87",
+        "surface_temp": "41.4",
         "surface_status": "Dry",
-        "wind_speed": "0.05",
-        "wind_gust": "3.73"
+        "wind_speed": "1.64",
+        "wind_gust": "5.04"
       },
       {
         "station": "I-15 @ Willard POE",
         "roadway": "",
         "lat": 41.4402,
         "lon": -112.0564,
-        "air_temp": "32.50",
-        "surface_temp": "33.6",
+        "air_temp": "40.89",
+        "surface_temp": "42.8",
         "surface_status": "Dry",
-        "wind_speed": "0.00",
-        "wind_gust": "1.97"
+        "wind_speed": "5.04",
+        "wind_gust": "6.80"
       },
       {
         "station": "I-15 @ Bluffdale",
@@ -5426,329 +5426,329 @@
         "roadway": "",
         "lat": 37.4821,
         "lon": -113.22,
-        "air_temp": "31.04",
-        "surface_temp": "34.7",
+        "air_temp": "52.06",
+        "surface_temp": "54.7",
         "surface_status": "Dry",
-        "wind_speed": "19.21",
-        "wind_gust": "32.22"
+        "wind_speed": "12.21",
+        "wind_gust": "17.76"
       },
       {
         "station": "I-15 @ Scipio Summit",
         "roadway": "",
         "lat": 39.2033,
         "lon": -112.1734,
-        "air_temp": "33.86",
-        "surface_temp": "36",
+        "air_temp": "42.13",
+        "surface_temp": "45.7",
         "surface_status": "Dry",
-        "wind_speed": "7.49",
-        "wind_gust": "11.18"
+        "wind_speed": "8.44",
+        "wind_gust": "10.52"
       },
       {
         "station": "I-84 @ MP 14 Chaulk Hill",
         "roadway": "",
         "lat": 41.9113,
         "lon": -112.6052,
-        "air_temp": "34.83",
-        "surface_temp": "34.9",
+        "air_temp": "35.42",
+        "surface_temp": "39.4",
         "surface_status": "Dry",
-        "wind_speed": "8.49",
-        "wind_gust": "9.64"
+        "wind_speed": "3.79",
+        "wind_gust": "5.48"
       },
       {
         "station": "I-84 @ Weber Canyon",
         "roadway": "",
         "lat": 41.1379,
         "lon": -111.8868,
-        "air_temp": "23.76",
-        "surface_temp": "26.2",
+        "air_temp": "39.58",
+        "surface_temp": "39.6",
         "surface_status": "Damp",
-        "wind_speed": "16.74",
-        "wind_gust": "23.45"
+        "wind_speed": "3.21",
+        "wind_gust": "6.14"
       },
       {
         "station": "I-84 @ MP 112 Devils Slide",
         "roadway": "",
         "lat": 41.06194,
         "lon": -111.5477,
-        "air_temp": "24.20",
-        "surface_temp": "26.2",
+        "air_temp": "40.03",
+        "surface_temp": "39.6",
         "surface_status": "Dry",
-        "wind_speed": "4.90",
-        "wind_gust": "7.45"
+        "wind_speed": "1.47",
+        "wind_gust": "3.51"
       },
       {
         "station": "I-15 @ Beaver Ridge",
         "roadway": "",
         "lat": 38.14989,
         "lon": -112.61045,
-        "air_temp": "31.60",
-        "surface_temp": "30.6",
+        "air_temp": "48.44",
+        "surface_temp": "51.3",
         "surface_status": "Dry",
-        "wind_speed": "4.93",
-        "wind_gust": "8.55"
+        "wind_speed": "6.10",
+        "wind_gust": "9.21"
       },
       {
         "station": "Riverdale Rd",
         "roadway": "",
         "lat": 41.1748,
         "lon": -112.0092,
-        "air_temp": "36.12",
-        "surface_temp": "32.7",
+        "air_temp": "42.05",
+        "surface_temp": "43",
         "surface_status": "Dry",
-        "wind_speed": "4.49",
-        "wind_gust": "6.58"
+        "wind_speed": "4.26",
+        "wind_gust": "7.45"
       },
       {
         "station": "I-15 @ Wildcat Ridge",
         "roadway": "",
         "lat": 38.4212,
         "lon": -112.6492,
-        "air_temp": "35.59",
+        "air_temp": "45.06",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "1.72",
-        "wind_gust": "3.95"
+        "wind_speed": "3.76",
+        "wind_gust": "7.45"
       },
       {
         "station": "I-70 @ I-15",
         "roadway": "",
         "lat": 38.5771,
         "lon": -112.6038,
-        "air_temp": "31.64",
-        "surface_temp": "30.7",
+        "air_temp": "44.05",
+        "surface_temp": "45.9",
         "surface_status": "Dry",
-        "wind_speed": "0.55",
-        "wind_gust": "2.41"
+        "wind_speed": "3.93",
+        "wind_gust": "4.60"
       },
       {
         "station": "I-15 @ MP 169",
         "roadway": "",
         "lat": 39.0202,
         "lon": -112.3047,
-        "air_temp": "34.32",
-        "surface_temp": "34.5",
+        "air_temp": "42.65",
+        "surface_temp": "46.2",
         "surface_status": "Dry",
-        "wind_speed": "5.39",
-        "wind_gust": "9.43"
+        "wind_speed": "7.80",
+        "wind_gust": "8.99"
       },
       {
         "station": "I-15 @ Paragonah",
         "roadway": "",
         "lat": 37.9292,
         "lon": -112.7657,
-        "air_temp": "33.44",
-        "surface_temp": "31.6",
+        "air_temp": "50.54",
+        "surface_temp": "50.7",
         "surface_status": "Dry",
-        "wind_speed": "3.27",
-        "wind_gust": "7.23"
+        "wind_speed": "6.75",
+        "wind_gust": "8.99"
       },
       {
         "station": "I-15 @ MP 398 Portage",
         "roadway": "",
         "lat": 41.9675,
         "lon": -112.1808,
-        "air_temp": "28.33",
-        "surface_temp": "32.4",
+        "air_temp": "41.05",
+        "surface_temp": "41.5",
         "surface_status": "Dry",
-        "wind_speed": "1.16",
-        "wind_gust": "4.38"
+        "wind_speed": "2.62",
+        "wind_gust": "4.60"
       },
       {
         "station": "I-15 @ MP 62.5 North Cedar City",
         "roadway": "",
         "lat": 37.7275,
         "lon": -113.0511,
-        "air_temp": "32.66",
+        "air_temp": "49.34",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "2.89",
-        "wind_gust": "5.48"
+        "wind_speed": "1.67",
+        "wind_gust": "2.41"
       },
       {
         "station": "I-84 @ MP 108 Taggarts WB",
         "roadway": "",
         "lat": 41.0534,
         "lon": -111.599,
-        "air_temp": "27.42",
-        "surface_temp": "28.4",
+        "air_temp": "40.65",
+        "surface_temp": "41.7",
         "surface_status": "Dry",
-        "wind_speed": "11.22",
-        "wind_gust": "17.10"
+        "wind_speed": "1.96",
+        "wind_gust": "4.16"
       },
       {
         "station": "I-15 @ MP 37 Ash Creek",
         "roadway": "",
         "lat": 37.4116,
         "lon": -113.2348,
-        "air_temp": "36.39",
-        "surface_temp": "36",
+        "air_temp": "55.29",
+        "surface_temp": "53.8",
         "surface_status": "Dry",
-        "wind_speed": "5.57",
-        "wind_gust": "12.28"
+        "wind_speed": "12.08",
+        "wind_gust": "19.07"
       },
       {
         "station": "I-15 @ MP 333 Antelope Drive",
         "roadway": "",
         "lat": 41.09,
         "lon": -111.9906,
-        "air_temp": "37.30",
-        "surface_temp": "35.8",
+        "air_temp": "45.24",
+        "surface_temp": "45.5",
         "surface_status": "Dry",
-        "wind_speed": "1.29",
-        "wind_gust": "3.07"
+        "wind_speed": "1.54",
+        "wind_gust": "2.85"
       },
       {
         "station": "I-15 @ MP 140 Baker Canyon NB",
         "roadway": "",
         "lat": 38.682,
         "lon": -112.597,
-        "air_temp": "30.81",
-        "surface_temp": "31.3",
+        "air_temp": "44.65",
+        "surface_temp": "46.6",
         "surface_status": "Dry",
-        "wind_speed": "0.81",
-        "wind_gust": "3.07"
+        "wind_speed": "3.84",
+        "wind_gust": "5.26"
       },
       {
         "station": "SR-39 @ MP 14 Pineview Dam",
         "roadway": "",
         "lat": 41.2537,
         "lon": -111.8413,
-        "air_temp": "25.36",
-        "surface_temp": "25.3",
+        "air_temp": "37.07",
+        "surface_temp": "34.7",
         "surface_status": "Dry",
-        "wind_speed": "9.58",
-        "wind_gust": "12.28"
+        "wind_speed": "0.45",
+        "wind_gust": "2.85"
       },
       {
         "station": "I-15 @ 500 S",
         "roadway": "",
         "lat": 40.7583,
         "lon": -111.9121,
-        "air_temp": "34.65",
-        "surface_temp": "37.4",
+        "air_temp": "48.27",
+        "surface_temp": "49.6",
         "surface_status": "Dry",
-        "wind_speed": "3.15",
-        "wind_gust": "5.04"
+        "wind_speed": "0.57",
+        "wind_gust": "1.53"
       },
       {
         "station": "I-15 @ 2400 S",
         "roadway": "",
         "lat": 40.7152,
         "lon": -111.90485,
-        "air_temp": "35.67",
-        "surface_temp": "35.4",
+        "air_temp": "48.11",
+        "surface_temp": "49.5",
         "surface_status": "Dry",
-        "wind_speed": "1.94",
-        "wind_gust": "3.73"
+        "wind_speed": "1.52",
+        "wind_gust": "4.38"
       },
       {
         "station": "SR-167 @ Trappers Loop",
         "roadway": "",
         "lat": 41.2058,
         "lon": -111.8166,
-        "air_temp": "24.65",
-        "surface_temp": "28.4",
+        "air_temp": "34.46",
+        "surface_temp": "37.9",
         "surface_status": "Dry",
-        "wind_speed": "3.40",
-        "wind_gust": "5.48"
+        "wind_speed": "4.30",
+        "wind_gust": "6.80"
       },
       {
         "station": "I-15 @ MP 252.5 Beer Creek",
         "roadway": "",
         "lat": 40.073,
         "lon": -111.7151,
-        "air_temp": "31.87",
-        "surface_temp": "31.1",
+        "air_temp": "43.41",
+        "surface_temp": "45.9",
         "surface_status": "Dry",
-        "wind_speed": "1.83",
-        "wind_gust": "2.19"
+        "wind_speed": "3.95",
+        "wind_gust": "5.48"
       },
       {
         "station": "I-15 @ Beaver",
         "roadway": "",
         "lat": 38.2934,
         "lon": -112.651,
-        "air_temp": "28.45",
-        "surface_temp": "29.3",
+        "air_temp": "49.74",
+        "surface_temp": "50",
         "surface_status": "Dry",
-        "wind_speed": "0.00",
-        "wind_gust": "0.22"
+        "wind_speed": "0.01",
+        "wind_gust": "0.88"
       },
       {
         "station": "I-15 @ MP 369 North Brigham City",
         "roadway": "",
         "lat": 41.58227,
         "lon": -112.07223,
-        "air_temp": "31.80",
-        "surface_temp": "33.4",
+        "air_temp": "41.66",
+        "surface_temp": "43.5",
         "surface_status": "Dry",
-        "wind_speed": "3.61",
-        "wind_gust": "4.82"
+        "wind_speed": "2.37",
+        "wind_gust": "4.60"
       },
       {
         "station": "I-15 @ MP 215 Lampson Canyon",
         "roadway": "",
         "lat": 39.5944,
         "lon": -111.9161,
-        "air_temp": "27.32",
-        "surface_temp": "31.5",
+        "air_temp": "44.24",
+        "surface_temp": "45.7",
         "surface_status": "Dry",
-        "wind_speed": "3.14",
-        "wind_gust": "4.82"
+        "wind_speed": "4.49",
+        "wind_gust": "6.80"
       },
       {
         "station": "I-84 @ MP 108 Taggarts EB",
         "roadway": "",
         "lat": 41.0531,
         "lon": -111.5987,
-        "air_temp": "27.42",
-        "surface_temp": "27.1",
+        "air_temp": "40.65",
+        "surface_temp": "39.6",
         "surface_status": "Dry",
-        "wind_speed": "11.22",
-        "wind_gust": "17.10"
+        "wind_speed": "1.96",
+        "wind_gust": "4.16"
       },
       {
         "station": "I-15 @ MP 29 Browse SB",
         "roadway": "",
         "lat": 37.309,
         "lon": -113.2971,
-        "air_temp": "43.07",
-        "surface_temp": "41",
+        "air_temp": "59.62",
+        "surface_temp": "59.7",
         "surface_status": "Dry",
-        "wind_speed": "15.74",
-        "wind_gust": "27.84"
+        "wind_speed": "17.54",
+        "wind_gust": "23.02"
       },
       {
         "station": "I-15 @ MP 144",
         "roadway": "",
         "lat": 38.7379,
         "lon": -112.5844,
-        "air_temp": "31.55",
+        "air_temp": "43.39",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "4.32",
-        "wind_gust": "7.01"
+        "wind_speed": "2.08",
+        "wind_gust": "3.51"
       },
       {
         "station": "US-89 @ MP 406 Weber River",
         "roadway": "",
         "lat": 41.1351,
         "lon": -111.91205,
-        "air_temp": "30.62",
-        "surface_temp": "31.6",
+        "air_temp": "45.35",
+        "surface_temp": "45",
         "surface_status": "Dry",
-        "wind_speed": "27.84",
-        "wind_gust": "35.29"
+        "wind_speed": "1.97",
+        "wind_gust": "3.07"
       },
       {
         "station": "SR-39 @ MP 17.5 Huntsville",
         "roadway": "",
         "lat": 41.24793,
         "lon": -111.77576,
-        "air_temp": "26.80",
-        "surface_temp": "26.8",
+        "air_temp": "37.90",
+        "surface_temp": "39",
         "surface_status": "Dry",
-        "wind_speed": "1.58",
+        "wind_speed": "0.00",
         "wind_gust": "3.07"
       },
       {
@@ -5756,110 +5756,110 @@
         "roadway": "",
         "lat": 41.3205,
         "lon": -111.8993,
-        "air_temp": "24.51",
-        "surface_temp": "24.1",
+        "air_temp": "36.26",
+        "surface_temp": "37",
         "surface_status": null,
-        "wind_speed": "10.58",
-        "wind_gust": "12.28"
+        "wind_speed": "0.00",
+        "wind_gust": "1.53"
       },
       {
         "station": "I-15 @ MP 139 Dog Valley Creek",
         "roadway": "",
         "lat": 38.6727,
         "lon": -112.5891,
-        "air_temp": "29.90",
+        "air_temp": "43.83",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "1.47",
-        "wind_gust": "2.85"
+        "wind_speed": "3.73",
+        "wind_gust": "6.36"
       },
       {
         "station": "I-84 @ MP 30.5 Whites Valley",
         "roadway": "",
         "lat": 41.8101,
         "lon": -112.3394,
-        "air_temp": "30.94",
-        "surface_temp": "30.9",
+        "air_temp": "36.13",
+        "surface_temp": "39.6",
         "surface_status": "Dry",
-        "wind_speed": "1.92",
-        "wind_gust": "3.07"
+        "wind_speed": "3.95",
+        "wind_gust": "5.48"
       },
       {
         "station": "I-15 @ MP 241 Rocky Ridge",
         "roadway": "",
         "lat": 39.9371,
         "lon": -111.8112,
-        "air_temp": "31.64",
-        "surface_temp": "34.5",
+        "air_temp": "43.16",
+        "surface_temp": "45.3",
         "surface_status": "Dry",
-        "wind_speed": "3.94",
-        "wind_gust": "5.04"
+        "wind_speed": "5.66",
+        "wind_gust": "8.33"
       },
       {
         "station": "I-15 @ Orem",
         "roadway": "",
         "lat": 40.31918,
         "lon": -111.72648,
-        "air_temp": "38.47",
-        "surface_temp": "36.7",
+        "air_temp": "46.25",
+        "surface_temp": "46.2",
         "surface_status": "Dry",
-        "wind_speed": "2.64",
-        "wind_gust": "6.14"
+        "wind_speed": "2.90",
+        "wind_gust": "3.95"
       },
       {
         "station": "I-15 @ Provo",
         "roadway": "",
         "lat": 40.20438,
         "lon": -111.65569,
-        "air_temp": "34.80",
-        "surface_temp": "34.5",
+        "air_temp": "44.20",
+        "surface_temp": "45.5",
         "surface_status": "Dry",
-        "wind_speed": "0.41",
-        "wind_gust": "6.14"
+        "wind_speed": "4.28",
+        "wind_gust": "8.77"
       },
       {
         "station": "I-15 @ MP 125.5 Pine Creek Hill",
         "roadway": "",
         "lat": 38.4809,
         "lon": -112.6166,
-        "air_temp": "35.88",
-        "surface_temp": "33.4",
+        "air_temp": "41.99",
+        "surface_temp": "45.5",
         "surface_status": "Dry",
-        "wind_speed": "4.37",
-        "wind_gust": "6.14"
+        "wind_speed": "1.87",
+        "wind_gust": "3.29"
       },
       {
         "station": "I-15 @ MP 57 Cedar City",
         "roadway": "",
         "lat": 37.655,
         "lon": -113.0829,
-        "air_temp": "31.41",
-        "surface_temp": "32.7",
+        "air_temp": "49.05",
+        "surface_temp": "48.4",
         "surface_status": "Dry",
-        "wind_speed": "1.53",
-        "wind_gust": "4.16"
+        "wind_speed": "3.01",
+        "wind_gust": "4.38"
       },
       {
         "station": "I-15 @ MP 350 Farr West",
         "roadway": "",
         "lat": 41.3204,
         "lon": -112.0267,
-        "air_temp": "33.67",
-        "surface_temp": "34",
+        "air_temp": "42.02",
+        "surface_temp": "44.2",
         "surface_status": "Dry",
-        "wind_speed": "1.92",
-        "wind_gust": "4.16"
+        "wind_speed": "5.59",
+        "wind_gust": "8.11"
       },
       {
         "station": "I-15 @ MP 54 Hamiltons Fort",
         "roadway": "",
         "lat": 37.62836,
         "lon": -113.12063,
-        "air_temp": "32.56",
+        "air_temp": "50.70",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "3.38",
-        "wind_gust": "7.23"
+        "wind_speed": "3.27",
+        "wind_gust": "4.82"
       },
       {
         "station": "I-84 @ MP 91 Devils Gate",
@@ -5867,7 +5867,7 @@
         "lat": 41.1397,
         "lon": -111.8539,
         "air_temp": null,
-        "surface_temp": "27.3",
+        "surface_temp": "40.8",
         "surface_status": "Dry",
         "wind_speed": null,
         "wind_gust": null
@@ -5877,71 +5877,71 @@
         "roadway": "",
         "lat": 38.6357,
         "lon": -112.6093,
-        "air_temp": "32.69",
-        "surface_temp": "29.5",
+        "air_temp": "44.18",
+        "surface_temp": "47.1",
         "surface_status": "Dry",
-        "wind_speed": "1.66",
-        "wind_gust": "3.07"
+        "wind_speed": "3.35",
+        "wind_gust": "4.38"
       },
       {
         "station": "SR-39 @ MP 46 Monte Cristo",
         "roadway": "",
         "lat": 41.4446,
         "lon": -111.5056,
-        "air_temp": "28.37",
+        "air_temp": "31.40",
         "surface_temp": null,
         "surface_status": null,
-        "wind_speed": "10.40",
-        "wind_gust": "13.41"
+        "wind_speed": "11.98",
+        "wind_gust": "15.65"
       },
       {
         "station": "I-15 @ MP 29 Browse NB",
         "roadway": "",
         "lat": 37.3087,
         "lon": -113.2969,
-        "air_temp": "43.07",
-        "surface_temp": "41.4",
+        "air_temp": "59.62",
+        "surface_temp": "60.1",
         "surface_status": "Dry",
-        "wind_speed": "15.74",
-        "wind_gust": "27.84"
+        "wind_speed": "17.54",
+        "wind_gust": "23.02"
       },
       {
         "station": "I-15 @ MP 140 Baker Canyon SB",
         "roadway": "",
         "lat": 38.68175,
         "lon": -112.5975,
-        "air_temp": "30.81",
-        "surface_temp": "32.7",
+        "air_temp": "44.65",
+        "surface_temp": "46.6",
         "surface_status": "Dry",
-        "wind_speed": "0.81",
-        "wind_gust": "3.07"
+        "wind_speed": "3.84",
+        "wind_gust": "5.26"
       },
       {
         "station": "SR-158 @ MP 11.5 Powder Mountain",
         "roadway": "",
         "lat": 41.37884,
         "lon": -111.7841,
-        "air_temp": "34.95",
-        "surface_temp": "27.9",
+        "air_temp": "34.42",
+        "surface_temp": "39",
         "surface_status": "Dry",
-        "wind_speed": "0.47",
-        "wind_gust": "2.61"
+        "wind_speed": "3.25",
+        "wind_gust": "6.71"
       },
       {
         "station": "I-84 @ MP 97 Peterson",
         "roadway": "",
         "lat": 41.114,
         "lon": -111.7631,
-        "air_temp": "26.04",
-        "surface_temp": "28.2",
+        "air_temp": "41.42",
+        "surface_temp": "41.7",
         "surface_status": "Dry",
-        "wind_speed": "6.60",
-        "wind_gust": "8.77"
+        "wind_speed": "0.80",
+        "wind_gust": "3.95"
       }
     ],
     "roads": [
       {
-        "roadway": "US-89 I-84 Jct Ogden to Box Elder/Weber Co Ln",
+        "roadway": "I-15 Box Elder/Weber Co Ln to Roy",
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
@@ -5971,31 +5971,7 @@
         "restriction": "none"
       },
       {
-        "roadway": "SR-39 Jct. SR-167 Trappers Loop to Monte Cristo Gate",
-        "condition": "Dry",
-        "weather": "Fair",
-        "restriction": "none"
-      },
-      {
-        "roadway": "SR-167 Trappers Loop I-84 to Huntsville",
-        "condition": "Dry",
-        "weather": "Fair",
-        "restriction": "none"
-      },
-      {
-        "roadway": "I-84 Idaho Stateline to Blue Creek Summit",
-        "condition": "Dry",
-        "weather": "Fair",
-        "restriction": "none"
-      },
-      {
         "roadway": "I-84 Uintah Jct to Jct SR-167 at Mountain Green",
-        "condition": "Dry",
-        "weather": "Fair",
-        "restriction": "none"
-      },
-      {
-        "roadway": "I-15 Idaho Stateline to Tremonton",
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
@@ -6031,6 +6007,12 @@
         "restriction": "none"
       },
       {
+        "roadway": "I-80 Lake Point Jct to I-15 at Salt Lake",
+        "condition": "Dry",
+        "weather": "Fair",
+        "restriction": "none"
+      },
+      {
         "roadway": "I-15 Juab Co Through Nephi",
         "condition": "Dry",
         "weather": "Fair",
@@ -6043,13 +6025,13 @@
         "restriction": "none"
       },
       {
-        "roadway": "I-15 Spanish Fork to Payson",
+        "roadway": "I-15 Payson to Juab Co Ln",
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
       },
       {
-        "roadway": "I-15 Provo to Spanish Fork",
+        "roadway": "I-15 Roy to Farmington",
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
@@ -6091,19 +6073,7 @@
         "restriction": "none"
       },
       {
-        "roadway": "I-15 Through Parowan",
-        "condition": "Dry",
-        "weather": "Fair",
-        "restriction": "none"
-      },
-      {
         "roadway": "SR-20 I-15 to Top of Bear Valley",
-        "condition": "Dry",
-        "weather": "Fair",
-        "restriction": "none"
-      },
-      {
-        "roadway": "I-15 Exit 120 through Beaver to Exit 95",
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
@@ -6133,7 +6103,7 @@
         "restriction": "none"
       },
       {
-        "roadway": "I-15 Box Elder/Weber Co Ln to Roy",
+        "roadway": "US-89 I-84 Jct Ogden to Box Elder/Weber Co Ln",
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
@@ -6145,7 +6115,19 @@
         "restriction": "none"
       },
       {
+        "roadway": "SR-39 Jct. SR-167 Trappers Loop to Monte Cristo Gate",
+        "condition": "Dry",
+        "weather": "Fair",
+        "restriction": "none"
+      },
+      {
         "roadway": "US-89 From Jct. SR-193 to I-84",
+        "condition": "Dry",
+        "weather": "Fair",
+        "restriction": "none"
+      },
+      {
+        "roadway": "SR-167 Trappers Loop I-84 to Huntsville",
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
@@ -6157,7 +6139,13 @@
         "restriction": "none"
       },
       {
-        "roadway": "I-80 Lake Point Jct to I-15 at Salt Lake",
+        "roadway": "I-84 Idaho Stateline to Blue Creek Summit",
+        "condition": "Dry",
+        "weather": "Fair",
+        "restriction": "none"
+      },
+      {
+        "roadway": "I-15 Idaho Stateline to Tremonton",
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
@@ -6169,19 +6157,31 @@
         "restriction": "none"
       },
       {
-        "roadway": "I-15 Payson to Juab Co Ln",
+        "roadway": "I-15 Provo to Spanish Fork",
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
       },
       {
-        "roadway": "I-15 Roy to Farmington",
+        "roadway": "I-15 Spanish Fork to Payson",
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
       },
       {
         "roadway": "I-15 Through Cedar City",
+        "condition": "Dry",
+        "weather": "Fair",
+        "restriction": "none"
+      },
+      {
+        "roadway": "I-15 Through Parowan",
+        "condition": "Dry",
+        "weather": "Fair",
+        "restriction": "none"
+      },
+      {
+        "roadway": "I-15 Exit 120 through Beaver to Exit 95",
         "condition": "Dry",
         "weather": "Fair",
         "restriction": "none"
@@ -6202,7 +6202,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T06:00:00-07:00",
+          "startTime": "2026-11-26T17:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 38,
@@ -6213,10 +6213,10 @@
             "value": 0
           },
           "windSpeed": "2 mph",
-          "windDirection": "W",
-          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-          "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 38, with temperatures falling to around 34 in the afternoon. West wind around 2 mph."
+          "windDirection": "SW",
+          "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+          "shortForecast": "Partly Sunny",
+          "detailedForecast": "Partly sunny. High near 38, with temperatures falling to around 34 in the afternoon. Southwest wind around 2 mph."
         },
         "upcoming": [
           {
@@ -6224,112 +6224,112 @@
             "temp": 38,
             "unit": "F",
             "wind": "2 mph",
-            "short": "Mostly Sunny",
-            "detail": "Mostly sunny. High near 38, with temperatures falling to around 34 in the afternoon. West wind around 2 mph."
+            "short": "Partly Sunny",
+            "detail": "Partly sunny. High near 38, with temperatures falling to around 34 in the afternoon. Southwest wind around 2 mph."
           },
           {
             "name": "Tonight",
-            "temp": 28,
+            "temp": 30,
             "unit": "F",
             "wind": "2 mph",
             "short": "Mostly Cloudy",
-            "detail": "Mostly cloudy, with a low around 28. West southwest wind around 2 mph."
+            "detail": "Mostly cloudy, with a low around 30. West southwest wind around 2 mph."
           },
           {
             "name": "Friday",
             "temp": 40,
             "unit": "F",
             "wind": "2 mph",
-            "short": "Mostly Cloudy then Chance Light Rain",
-            "detail": "A chance of rain after 5pm. Mostly cloudy. High near 40, with temperatures falling to around 38 in the afternoon. Southwest wind around 2 mph. Chance of precipitation is 30%."
+            "short": "Mostly Cloudy",
+            "detail": "Mostly cloudy. High near 40, with temperatures falling to around 38 in the afternoon. West southwest wind around 2 mph."
           },
           {
             "name": "Friday Night",
             "temp": 34,
             "unit": "F",
-            "wind": "2 to 7 mph",
-            "short": "Light Rain",
-            "detail": "Rain before 2am, then rain and snow. Cloudy, with a low around 34. South wind 2 to 7 mph. Chance of precipitation is 80%."
+            "wind": "2 to 6 mph",
+            "short": "Rain And Snow Likely",
+            "detail": "A chance of rain between 8pm and 2am, then rain and snow likely between 2am and 5am, then rain and snow. Cloudy, with a low around 34. South southwest wind 2 to 6 mph. Chance of precipitation is 80%."
           },
           {
             "name": "Saturday",
             "temp": 37,
             "unit": "F",
-            "wind": "2 to 7 mph",
-            "short": "Chance Rain And Snow",
-            "detail": "A chance of rain and snow before 8am, then a chance of rain and snow between 8am and 5pm. Mostly cloudy, with a high near 37. West wind 2 to 7 mph. Chance of precipitation is 50%."
+            "wind": "2 to 6 mph",
+            "short": "Rain And Snow",
+            "detail": "Rain and snow before 5pm. Partly sunny, with a high near 37. West wind 2 to 6 mph. Chance of precipitation is 80%."
           },
           {
             "name": "Saturday Night",
             "temp": 25,
             "unit": "F",
             "wind": "5 mph",
-            "short": "Mostly Cloudy",
-            "detail": "Mostly cloudy, with a low around 25."
+            "short": "Partly Cloudy",
+            "detail": "Partly cloudy, with a low around 25."
           },
           {
             "name": "Sunday",
-            "temp": 40,
+            "temp": 41,
             "unit": "F",
             "wind": "0 to 5 mph",
             "short": "Partly Sunny",
-            "detail": "Partly sunny, with a high near 40."
+            "detail": "Partly sunny, with a high near 41."
           },
           {
             "name": "Sunday Night",
-            "temp": 32,
+            "temp": 33,
             "unit": "F",
             "wind": "3 mph",
-            "short": "Rain And Snow",
-            "detail": "Rain and snow after 11pm. Mostly cloudy, with a low around 32. Little or no snow accumulation expected."
+            "short": "Chance Rain And Snow",
+            "detail": "A chance of rain and snow between 11pm and 5am, then rain and snow likely. Mostly cloudy, with a low around 33."
           },
           {
             "name": "Monday",
             "temp": 39,
             "unit": "F",
-            "wind": "2 mph",
-            "short": "Rain And Snow then Chance Rain And Snow",
-            "detail": "Rain and snow before 11am, then a chance of rain and snow. Mostly cloudy, with a high near 39. Little or no snow accumulation expected."
+            "wind": "3 mph",
+            "short": "Rain And Snow Likely",
+            "detail": "Rain and snow likely. Mostly cloudy, with a high near 39."
           },
           {
             "name": "Monday Night",
             "temp": 32,
             "unit": "F",
-            "wind": "2 to 6 mph",
+            "wind": "3 to 7 mph",
             "short": "Chance Rain And Snow",
-            "detail": "A chance of rain before 11pm, then a chance of rain and snow. Mostly cloudy, with a low around 32."
+            "detail": "A slight chance of rain before 11pm, then a chance of rain and snow. Mostly cloudy, with a low around 32."
           },
           {
             "name": "Tuesday",
             "temp": 40,
             "unit": "F",
-            "wind": "2 to 6 mph",
-            "short": "Chance Rain And Snow",
-            "detail": "A chance of rain and snow. Mostly cloudy, with a high near 40."
+            "wind": "3 to 7 mph",
+            "short": "Rain And Snow Likely",
+            "detail": "Rain and snow likely. Mostly cloudy, with a high near 40."
           },
           {
             "name": "Tuesday Night",
             "temp": 32,
             "unit": "F",
             "wind": "5 mph",
-            "short": "Rain And Snow",
-            "detail": "A chance of rain before 8pm, then rain and snow between 8pm and 5am, then rain and snow. Cloudy, with a low around 32. New snow accumulation of less than one inch possible."
+            "short": "Rain And Snow Likely",
+            "detail": "Rain likely before 11pm, then rain and snow likely. Mostly cloudy, with a low around 32."
           },
           {
             "name": "Wednesday",
-            "temp": 36,
+            "temp": 37,
             "unit": "F",
             "wind": "3 mph",
-            "short": "Rain And Snow",
-            "detail": "Rain and snow. Mostly cloudy, with a high near 36. New snow accumulation of less than one inch possible."
+            "short": "Chance Rain And Snow",
+            "detail": "A chance of rain and snow before 8am, then a chance of rain and snow between 8am and 11am, then a chance of rain and snow between 11am and 2pm, then a chance of rain and snow. Mostly cloudy, with a high near 37."
           },
           {
             "name": "Wednesday Night",
             "temp": 29,
             "unit": "F",
             "wind": "2 mph",
-            "short": "Rain And Snow Likely",
-            "detail": "Rain and snow likely. Mostly cloudy, with a low around 29. New snow accumulation of less than half an inch possible."
+            "short": "Chance Rain And Snow",
+            "detail": "A chance of rain and snow. Mostly cloudy, with a low around 29."
           }
         ]
       },
@@ -6338,7 +6338,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T06:00:00-07:00",
+          "startTime": "2026-11-26T17:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 30,
@@ -6348,60 +6348,60 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "6 mph",
+          "windSpeed": "5 mph",
           "windDirection": "WSW",
-          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-          "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 30, with temperatures falling to around 28 in the afternoon. West southwest wind around 6 mph."
+          "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+          "shortForecast": "Partly Sunny",
+          "detailedForecast": "Partly sunny. High near 30, with temperatures falling to around 27 in the afternoon. West southwest wind around 5 mph."
         },
         "upcoming": [
           {
             "name": "Thanksgiving Day",
             "temp": 30,
             "unit": "F",
-            "wind": "6 mph",
-            "short": "Mostly Sunny",
-            "detail": "Mostly sunny. High near 30, with temperatures falling to around 28 in the afternoon. West southwest wind around 6 mph."
+            "wind": "5 mph",
+            "short": "Partly Sunny",
+            "detail": "Partly sunny. High near 30, with temperatures falling to around 27 in the afternoon. West southwest wind around 5 mph."
           },
           {
             "name": "Tonight",
-            "temp": 23,
+            "temp": 25,
             "unit": "F",
             "wind": "6 mph",
             "short": "Mostly Cloudy",
-            "detail": "Mostly cloudy. Low around 23, with temperatures rising to around 25 overnight. West southwest wind around 6 mph."
+            "detail": "Mostly cloudy. Low around 25, with temperatures rising to around 28 overnight. West southwest wind around 6 mph."
           },
           {
             "name": "Friday",
-            "temp": 35,
+            "temp": 34,
             "unit": "F",
             "wind": "7 mph",
-            "short": "Mostly Cloudy then Chance Light Snow",
-            "detail": "A chance of snow after 5pm. Mostly cloudy. High near 35, with temperatures falling to around 31 in the afternoon. West southwest wind around 7 mph. Chance of precipitation is 30%."
+            "short": "Mostly Cloudy",
+            "detail": "Mostly cloudy. High near 34, with temperatures falling to around 30 in the afternoon. Southwest wind around 7 mph."
           },
           {
             "name": "Friday Night",
-            "temp": 25,
+            "temp": 27,
             "unit": "F",
-            "wind": "6 to 18 mph",
+            "wind": "7 to 17 mph",
             "short": "Light Snow",
-            "detail": "Snow. Cloudy, with a low around 25. Southwest wind 6 to 18 mph, with gusts as high as 32 mph. Chance of precipitation is 90%. New snow accumulation of less than one inch possible."
+            "detail": "Snow after 8pm. Cloudy, with a low around 27. South southwest wind 7 to 17 mph, with gusts as high as 31 mph. Chance of precipitation is 80%. New snow accumulation of around one inch possible."
           },
           {
             "name": "Saturday",
-            "temp": 31,
+            "temp": 33,
             "unit": "F",
-            "wind": "3 to 18 mph",
-            "short": "Light Snow Likely",
-            "detail": "Snow likely before 5pm. Mostly cloudy, with a high near 31. West wind 3 to 18 mph, with gusts as high as 32 mph. Chance of precipitation is 60%. New snow accumulation of less than half an inch possible."
+            "wind": "5 to 17 mph",
+            "short": "Light Snow",
+            "detail": "Snow before 5pm. Mostly cloudy, with a high near 33. West wind 5 to 17 mph, with gusts as high as 31 mph. Chance of precipitation is 80%. New snow accumulation of less than one inch possible."
           },
           {
             "name": "Saturday Night",
-            "temp": 17,
+            "temp": 18,
             "unit": "F",
-            "wind": "3 to 7 mph",
-            "short": "Mostly Cloudy",
-            "detail": "Mostly cloudy, with a low around 17."
+            "wind": "7 mph",
+            "short": "Partly Cloudy",
+            "detail": "Partly cloudy, with a low around 18."
           },
           {
             "name": "Sunday",
@@ -6413,51 +6413,51 @@
           },
           {
             "name": "Sunday Night",
-            "temp": 28,
+            "temp": 29,
             "unit": "F",
             "wind": "3 to 7 mph",
-            "short": "Light Snow",
-            "detail": "Snow after 11pm. Mostly cloudy, with a low around 28. New snow accumulation of around one inch possible."
+            "short": "Light Snow Likely",
+            "detail": "Snow likely after 11pm. Mostly cloudy, with a low around 29. New snow accumulation of less than half an inch possible."
           },
           {
             "name": "Monday",
-            "temp": 32,
+            "temp": 33,
             "unit": "F",
-            "wind": "7 mph",
-            "short": "Light Snow",
-            "detail": "Snow. Mostly cloudy, with a high near 32. New snow accumulation of 1 to 3 inches possible."
+            "wind": "5 to 8 mph",
+            "short": "Light Snow Likely",
+            "detail": "Snow likely. Mostly cloudy, with a high near 33. New snow accumulation of less than one inch possible."
           },
           {
             "name": "Monday Night",
-            "temp": 26,
+            "temp": 28,
             "unit": "F",
-            "wind": "5 to 8 mph",
+            "wind": "6 to 10 mph",
             "short": "Chance Light Snow",
-            "detail": "A chance of snow. Mostly cloudy, with a low around 26. New snow accumulation of less than one inch possible."
+            "detail": "A chance of snow. Mostly cloudy, with a low around 28. Little or no snow accumulation expected."
           },
           {
             "name": "Tuesday",
             "temp": 33,
             "unit": "F",
-            "wind": "8 mph",
-            "short": "Light Snow Likely",
-            "detail": "Snow likely. Mostly cloudy, with a high near 33. New snow accumulation of less than half an inch possible."
+            "wind": "6 to 10 mph",
+            "short": "Light Snow",
+            "detail": "Snow. Mostly cloudy, with a high near 33. New snow accumulation of 1 to 2 inches possible."
           },
           {
             "name": "Tuesday Night",
-            "temp": 27,
+            "temp": 28,
             "unit": "F",
             "wind": "8 mph",
             "short": "Light Snow",
-            "detail": "Snow. Cloudy, with a low around 27. New snow accumulation of 3 to 5 inches possible."
+            "detail": "Snow. Mostly cloudy, with a low around 28. New snow accumulation of 1 to 2 inches possible."
           },
           {
             "name": "Wednesday",
-            "temp": 30,
+            "temp": 31,
             "unit": "F",
             "wind": "3 to 7 mph",
-            "short": "Light Snow",
-            "detail": "Snow. Mostly cloudy, with a high near 30. New snow accumulation of 2 to 4 inches possible."
+            "short": "Chance Light Snow",
+            "detail": "A chance of snow. Mostly cloudy, with a high near 31. New snow accumulation of less than one inch possible."
           },
           {
             "name": "Wednesday Night",
@@ -6465,7 +6465,7 @@
             "unit": "F",
             "wind": "3 mph",
             "short": "Chance Light Snow",
-            "detail": "A chance of snow. Mostly cloudy, with a low around 24. New snow accumulation of less than half an inch possible."
+            "detail": "A chance of snow. Mostly cloudy, with a low around 24. Little or no snow accumulation expected."
           }
         ]
       },
@@ -6474,7 +6474,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T09:00:00-07:00",
+          "startTime": "2026-11-26T17:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 43,
@@ -6484,116 +6484,116 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "2 mph",
-          "windDirection": "SW",
-          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-          "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 43, with temperatures falling to around 38 in the afternoon. Southwest wind around 2 mph."
+          "windSpeed": "1 mph",
+          "windDirection": "WSW",
+          "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+          "shortForecast": "Partly Sunny",
+          "detailedForecast": "Partly sunny. High near 43, with temperatures falling to around 38 in the afternoon. West southwest wind around 1 mph."
         },
         "upcoming": [
           {
             "name": "Thanksgiving Day",
             "temp": 43,
             "unit": "F",
-            "wind": "2 mph",
-            "short": "Mostly Sunny",
-            "detail": "Mostly sunny. High near 43, with temperatures falling to around 38 in the afternoon. Southwest wind around 2 mph."
+            "wind": "1 mph",
+            "short": "Partly Sunny",
+            "detail": "Partly sunny. High near 43, with temperatures falling to around 38 in the afternoon. West southwest wind around 1 mph."
           },
           {
             "name": "Tonight",
-            "temp": 29,
+            "temp": 31,
             "unit": "F",
             "wind": "2 mph",
             "short": "Mostly Cloudy",
-            "detail": "Mostly cloudy, with a low around 29. Southwest wind around 2 mph."
+            "detail": "Mostly cloudy, with a low around 31. West southwest wind around 2 mph."
           },
           {
             "name": "Friday",
             "temp": 44,
             "unit": "F",
             "wind": "2 mph",
-            "short": "Mostly Cloudy then Chance Light Rain",
-            "detail": "A chance of rain after 5pm. Mostly cloudy. High near 44, with temperatures falling to around 41 in the afternoon. South southwest wind around 2 mph. Chance of precipitation is 30%."
+            "short": "Mostly Cloudy",
+            "detail": "Mostly cloudy. High near 44, with temperatures falling to around 41 in the afternoon. West southwest wind around 2 mph."
           },
           {
             "name": "Friday Night",
-            "temp": 34,
+            "temp": 35,
             "unit": "F",
             "wind": "2 to 7 mph",
-            "short": "Light Rain",
-            "detail": "Rain before 2am, then rain and snow. Cloudy, with a low around 34. South wind 2 to 7 mph. Chance of precipitation is 90%."
+            "short": "Chance Light Rain then Rain And Snow Likely",
+            "detail": "A chance of rain between 8pm and 2am, then rain and snow likely. Cloudy, with a low around 35. South southwest wind 2 to 7 mph. Chance of precipitation is 70%."
           },
           {
             "name": "Saturday",
-            "temp": 41,
+            "temp": 42,
             "unit": "F",
-            "wind": "2 to 8 mph",
-            "short": "Chance Light Snow",
-            "detail": "A chance of snow before 5pm. Mostly cloudy, with a high near 41. West wind 2 to 8 mph. Chance of precipitation is 50%."
+            "wind": "2 to 7 mph",
+            "short": "Light Snow Likely",
+            "detail": "Snow likely before 5pm. Mostly cloudy, with a high near 42. West wind 2 to 7 mph. Chance of precipitation is 70%."
           },
           {
             "name": "Saturday Night",
             "temp": 25,
             "unit": "F",
             "wind": "5 mph",
-            "short": "Mostly Cloudy",
-            "detail": "Mostly cloudy, with a low around 25."
+            "short": "Partly Cloudy",
+            "detail": "Partly cloudy, with a low around 25."
           },
           {
             "name": "Sunday",
-            "temp": 44,
+            "temp": 45,
             "unit": "F",
             "wind": "0 to 5 mph",
             "short": "Partly Sunny",
-            "detail": "Partly sunny, with a high near 44."
+            "detail": "Partly sunny, with a high near 45."
           },
           {
             "name": "Sunday Night",
-            "temp": 33,
+            "temp": 34,
             "unit": "F",
             "wind": "3 mph",
-            "short": "Rain And Snow",
-            "detail": "Rain and snow after 11pm. Mostly cloudy, with a low around 33."
+            "short": "Rain And Snow Likely",
+            "detail": "Rain and snow likely after 11pm. Mostly cloudy, with a low around 34."
           },
           {
             "name": "Monday",
-            "temp": 43,
+            "temp": 44,
             "unit": "F",
-            "wind": "3 mph",
-            "short": "Rain And Snow then Chance Rain And Snow",
-            "detail": "Rain and snow before 11am, then a chance of rain and snow. Mostly cloudy, with a high near 43."
+            "wind": "5 mph",
+            "short": "Rain And Snow Likely",
+            "detail": "Rain and snow likely before 8am, then rain and snow likely. Mostly cloudy, with a high near 44."
           },
           {
             "name": "Monday Night",
-            "temp": 32,
+            "temp": 33,
             "unit": "F",
-            "wind": "5 mph",
+            "wind": "6 mph",
             "short": "Chance Rain And Snow",
-            "detail": "A chance of rain before 11pm, then a chance of rain and snow. Mostly cloudy, with a low around 32."
+            "detail": "A slight chance of rain before 11pm, then a chance of rain and snow. Mostly cloudy, with a low around 33."
           },
           {
             "name": "Tuesday",
             "temp": 45,
             "unit": "F",
-            "wind": "5 mph",
-            "short": "Chance Rain And Snow",
-            "detail": "A chance of rain and snow. Mostly cloudy, with a high near 45."
+            "wind": "3 to 7 mph",
+            "short": "Rain And Snow",
+            "detail": "Rain and snow. Mostly cloudy, with a high near 45."
           },
           {
             "name": "Tuesday Night",
-            "temp": 33,
+            "temp": 34,
             "unit": "F",
             "wind": "5 mph",
-            "short": "Rain And Snow",
-            "detail": "A chance of rain before 8pm, then rain and snow between 8pm and 5am, then rain and snow. Cloudy, with a low around 33. Little or no snow accumulation expected."
+            "short": "Light Rain",
+            "detail": "Rain before 2am, then rain and snow likely. Mostly cloudy, with a low around 34."
           },
           {
             "name": "Wednesday",
-            "temp": 40,
+            "temp": 42,
             "unit": "F",
-            "wind": "3 mph",
-            "short": "Rain And Snow",
-            "detail": "Rain and snow. Mostly cloudy, with a high near 40. Little or no snow accumulation expected."
+            "wind": "1 to 5 mph",
+            "short": "Chance Rain And Snow",
+            "detail": "A chance of rain and snow before 2pm, then a chance of rain and snow. Mostly cloudy, with a high near 42."
           },
           {
             "name": "Wednesday Night",
@@ -6610,7 +6610,7 @@
         "current_period": {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T09:00:00-07:00",
+          "startTime": "2026-11-26T17:00:00-07:00",
           "endTime": "2026-11-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 43,
@@ -6621,10 +6621,10 @@
             "value": 0
           },
           "windSpeed": "2 mph",
-          "windDirection": "WSW",
-          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-          "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 43, with temperatures falling to around 37 in the afternoon. West southwest wind around 2 mph."
+          "windDirection": "W",
+          "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+          "shortForecast": "Partly Sunny",
+          "detailedForecast": "Partly sunny. High near 43, with temperatures falling to around 37 in the afternoon. West wind around 2 mph."
         },
         "upcoming": [
           {
@@ -6632,104 +6632,104 @@
             "temp": 43,
             "unit": "F",
             "wind": "2 mph",
-            "short": "Mostly Sunny",
-            "detail": "Mostly sunny. High near 43, with temperatures falling to around 37 in the afternoon. West southwest wind around 2 mph."
+            "short": "Partly Sunny",
+            "detail": "Partly sunny. High near 43, with temperatures falling to around 37 in the afternoon. West wind around 2 mph."
           },
           {
             "name": "Tonight",
-            "temp": 28,
+            "temp": 30,
             "unit": "F",
             "wind": "2 mph",
             "short": "Mostly Cloudy",
-            "detail": "Mostly cloudy, with a low around 28. West southwest wind around 2 mph."
+            "detail": "Mostly cloudy, with a low around 30. West wind around 2 mph."
           },
           {
             "name": "Friday",
             "temp": 44,
             "unit": "F",
             "wind": "3 mph",
-            "short": "Mostly Cloudy then Chance Light Rain",
-            "detail": "A chance of rain after 5pm. Mostly cloudy. High near 44, with temperatures falling to around 41 in the afternoon. South southwest wind around 3 mph. Chance of precipitation is 30%."
+            "short": "Mostly Cloudy",
+            "detail": "Mostly cloudy. High near 44, with temperatures falling to around 40 in the afternoon. Southwest wind around 3 mph."
           },
           {
             "name": "Friday Night",
-            "temp": 32,
-            "unit": "F",
-            "wind": "3 to 7 mph",
-            "short": "Light Rain",
-            "detail": "Rain before 5am, then a chance of rain and snow. Cloudy, with a low around 32. South wind 3 to 7 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible."
-          },
-          {
-            "name": "Saturday",
-            "temp": 41,
-            "unit": "F",
-            "wind": "2 to 7 mph",
-            "short": "Chance Rain And Snow then Mostly Cloudy",
-            "detail": "A chance of rain and snow before 8am, then a chance of rain and snow between 8am and 11am. Mostly cloudy, with a high near 41. West wind 2 to 7 mph. Chance of precipitation is 50%."
-          },
-          {
-            "name": "Saturday Night",
-            "temp": 25,
-            "unit": "F",
-            "wind": "3 mph",
-            "short": "Mostly Cloudy",
-            "detail": "Mostly cloudy, with a low around 25."
-          },
-          {
-            "name": "Sunday",
-            "temp": 45,
-            "unit": "F",
-            "wind": "5 mph",
-            "short": "Partly Sunny",
-            "detail": "Partly sunny, with a high near 45."
-          },
-          {
-            "name": "Sunday Night",
-            "temp": 32,
-            "unit": "F",
-            "wind": "5 mph",
-            "short": "Rain And Snow",
-            "detail": "A chance of rain between 11pm and 5am, then rain and snow. Mostly cloudy, with a low around 32."
-          },
-          {
-            "name": "Monday",
-            "temp": 43,
-            "unit": "F",
-            "wind": "3 to 7 mph",
-            "short": "Rain And Snow",
-            "detail": "Rain and snow. Mostly cloudy, with a high near 43."
-          },
-          {
-            "name": "Monday Night",
-            "temp": 31,
-            "unit": "F",
-            "wind": "3 to 7 mph",
-            "short": "Chance Light Rain then Chance Rain And Snow",
-            "detail": "A chance of rain before 2am, then a chance of rain and snow. Mostly cloudy, with a low around 31."
-          },
-          {
-            "name": "Tuesday",
-            "temp": 45,
+            "temp": 34,
             "unit": "F",
             "wind": "3 to 7 mph",
             "short": "Rain And Snow Likely",
-            "detail": "Rain and snow likely. Mostly cloudy, with a high near 45."
+            "detail": "A chance of rain between 8pm and 2am, then rain and snow likely. Cloudy, with a low around 34. South wind 3 to 7 mph. Chance of precipitation is 70%."
+          },
+          {
+            "name": "Saturday",
+            "temp": 42,
+            "unit": "F",
+            "wind": "2 to 7 mph",
+            "short": "Rain And Snow Likely then Slight Chance Rain And Snow",
+            "detail": "Rain likely before 8am, then rain and snow likely between 8am and 11am, then a slight chance of rain and snow between 11am and 5pm. Partly sunny, with a high near 42. West wind 2 to 7 mph. Chance of precipitation is 70%."
+          },
+          {
+            "name": "Saturday Night",
+            "temp": 23,
+            "unit": "F",
+            "wind": "3 mph",
+            "short": "Partly Cloudy",
+            "detail": "Partly cloudy, with a low around 23."
+          },
+          {
+            "name": "Sunday",
+            "temp": 46,
+            "unit": "F",
+            "wind": "1 to 6 mph",
+            "short": "Partly Sunny",
+            "detail": "Partly sunny, with a high near 46."
+          },
+          {
+            "name": "Sunday Night",
+            "temp": 33,
+            "unit": "F",
+            "wind": "2 to 6 mph",
+            "short": "Chance Rain And Snow",
+            "detail": "A chance of rain and snow between 11pm and 2am, then rain and snow likely. Mostly cloudy, with a low around 33."
+          },
+          {
+            "name": "Monday",
+            "temp": 44,
+            "unit": "F",
+            "wind": "3 to 8 mph",
+            "short": "Rain And Snow Likely",
+            "detail": "Rain and snow likely. Mostly cloudy, with a high near 44."
+          },
+          {
+            "name": "Monday Night",
+            "temp": 32,
+            "unit": "F",
+            "wind": "5 to 8 mph",
+            "short": "Chance Light Rain",
+            "detail": "A chance of rain. Mostly cloudy, with a low around 32."
+          },
+          {
+            "name": "Tuesday",
+            "temp": 46,
+            "unit": "F",
+            "wind": "6 to 9 mph",
+            "short": "Light Rain",
+            "detail": "Rain. Mostly cloudy, with a high near 46."
           },
           {
             "name": "Tuesday Night",
-            "temp": 32,
+            "temp": 33,
             "unit": "F",
             "wind": "7 mph",
-            "short": "Rain And Snow",
-            "detail": "Rain likely before 11pm, then rain and snow. Cloudy, with a low around 32. New snow accumulation of less than half an inch possible."
+            "short": "Light Rain",
+            "detail": "Rain before 5am, then a chance of rain and snow. Mostly cloudy, with a low around 33."
           },
           {
             "name": "Wednesday",
-            "temp": 41,
+            "temp": 42,
             "unit": "F",
             "wind": "2 to 6 mph",
-            "short": "Rain And Snow",
-            "detail": "Rain and snow before 8am, then rain and snow. Mostly cloudy, with a high near 41. New snow accumulation of less than half an inch possible."
+            "short": "Chance Rain And Snow",
+            "detail": "A chance of rain and snow before 8am, then a chance of rain and snow. Mostly cloudy, with a high near 42."
           },
           {
             "name": "Wednesday Night",
@@ -6752,9 +6752,9 @@
       "reference_for": "Snowbasin / Nordic Valley",
       "snow_depth_in": 12,
       "snow_24h_in": 0,
-      "swe_in": 3.3,
-      "temp_f": 32.4,
-      "observed_at": "2026-11-26 00:00"
+      "swe_in": 3.4,
+      "temp_f": 36.7,
+      "observed_at": "2026-11-26 15:00"
     },
     "monte_cristo": {
       "name": "Monte Cristo",
@@ -6764,8 +6764,8 @@
       "snow_depth_in": 15,
       "snow_24h_in": 0,
       "swe_in": 3.4,
-      "temp_f": 30.4,
-      "observed_at": "2026-11-26 00:00"
+      "temp_f": 34.5,
+      "observed_at": "2026-11-26 15:00"
     }
   },
   "snow_reports": {
@@ -6812,32 +6812,32 @@
   },
   "resort_weather": {
     "powder_mountain": {
-      "temp_f": 32,
+      "temp_f": 34,
       "condition": null,
-      "wind": "5.98",
+      "wind": "8.02",
       "source_url": "https://powdermountain.com/api/header-conditions"
     },
     "nordic_valley": {
-      "temp_f": 32,
+      "temp_f": 37,
       "condition": null,
-      "wind": "WSW 3 MPH",
+      "wind": "W 4 MPH",
       "source_url": "https://www.nordicvalley.ski/wp-content/uploads/sites/10/m-json/weather.json"
     },
     "snowbasin": {
-      "temp_f": 34,
-      "condition": "Partly Cloudy",
-      "wind": "1 mph N",
+      "temp_f": 37,
+      "condition": "Mostly Cloudy",
+      "wind": "0 mph",
       "source_url": "https://www.snowbasin.com/the-mountain/mountain-report/"
     }
   },
   "pws": {
     "KUTLIBER14": {
       "station_id": "KUTLIBER14",
-      "temp_f": 30,
-      "wind_mph": 0,
-      "wind_gust_mph": 0,
-      "humidity": 79,
-      "obs_time_local": "2026-11-26 09:12:36"
+      "temp_f": 35,
+      "wind_mph": 1,
+      "wind_gust_mph": 1,
+      "humidity": 73,
+      "obs_time_local": "2026-11-26 17:00:34"
     }
   }
 }
