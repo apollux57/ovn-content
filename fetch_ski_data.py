@@ -507,10 +507,14 @@ def get_resort_snow_reports():
                 return m.group(1).strip() if m else None
 
             lifts = (
-                grab(r"(\d+\s*/\s*\d+)\s+lifts\s*open")
-                or grab(r"lifts\s*open\s*[:\-]?\s*(\d+\s*/\s*\d+)")
-                or grab(r"(\d+\s*of\s*\d+)\s+lifts")
-            )
+                    grab(r"(\d+\s*/\s*[1-9]\d*)\s*Lifts\s*Open")
+                    or grab(r"Lifts\s*Open\s*(\d+\s*/\s*[1-9]\d*)")
+                    or grab(r"(\d+\s*/\s*13)\b")
+                )
+                runs = (
+                    grab(r"(\d+\s*/\s*[1-9]\d*)\s*Trails\s*Open")
+                    or grab(r"Trails\s*Open\s*(\d+\s*/\s*[1-9]\d*)")
+                )
 
             projected_opening = None
             try:
