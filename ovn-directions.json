@@ -1,6 +1,6 @@
 {
   "sb-i84-wb": [
-    "Head west on <strong>I-80 W</strong> to <strong>exit 96 (W 4300 N)</strong>.",
+    "Head <strong>west</strong> on <strong>I-80 W</strong> to <strong>exit 96 (W 4300 N)</strong>.",
     "Take <strong>exit 96</strong> toward <strong>Peterson/Mtn.Green</strong>.",
     "Turn <strong>right</strong> onto <strong>W 4300 N</strong>.",
     "Turn <strong>left</strong> onto <strong>W Old Hwy Rd</strong>.",
@@ -23,9 +23,11 @@
     "Follow SR-226 to <strong>Snowbasin Resort (Earl's A)</strong>."
   ],
   "pm-i84-wb": [
-    "Head west on <strong>I-80 W</strong> past Echo Canyon to Echo Junction.",
-    "Take <strong>Exit 168</strong> onto <strong>I-84 W</strong> toward Morgan / Ogden.",
-    "Take <strong>Exit 92 (Mountain Green)</strong> and turn <strong>right (north)</strong> onto <strong>SR-167 (Trappers Loop Rd)</strong>.",
+    "Head <strong>west</strong> on <strong>I-80 W</strong> to <strong>exit 96 (W 4300 N)</strong>.",
+    "Take <strong>exit 96</strong> toward <strong>Peterson/Mtn.Green</strong>.",
+    "Turn <strong>right</strong> onto <strong>W 4300 N</strong>.",
+    "Turn <strong>left</strong> onto <strong>W Old Hwy Rd</strong>.",
+    "Turn <strong>right</strong> onto <strong>UT-167 N (Trappers Loop Rd)</strong>.",
     "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>, then continue around Pineview Reservoir onto <strong>SR-158</strong> toward Eden.",
     "Climb <strong>SR-158 (Powder Mountain Rd)</strong> — AWD/4WD or snow tires recommended — to <strong>Powder Mountain</strong>."
   ],
@@ -51,9 +53,11 @@
     "Climb <strong>SR-158</strong> to <strong>Powder Mountain</strong>."
   ],
   "nv-i84-wb": [
-    "Head west on <strong>I-80 W</strong> past Echo Canyon to Echo Junction.",
-    "Take <strong>Exit 168</strong> onto <strong>I-84 W</strong> toward Morgan / Ogden.",
-    "Take <strong>Exit 92 (Mountain Green)</strong> and turn <strong>right (north)</strong> onto <strong>SR-167 (Trappers Loop Rd)</strong>.",
+    "Head <strong>west</strong> on <strong>I-80 W</strong> to <strong>exit 96 (W 4300 N)</strong>.",
+    "Take <strong>exit 96</strong> toward <strong>Peterson/Mtn.Green</strong>.",
+    "Turn <strong>right</strong> onto <strong>W 4300 N</strong>.",
+    "Turn <strong>left</strong> onto <strong>W Old Hwy Rd</strong>.",
+    "Turn <strong>right</strong> onto <strong>UT-167 N (Trappers Loop Rd)</strong>.",
     "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>, then continue around Pineview Reservoir onto <strong>SR-158</strong> and <strong>SR-162</strong> toward Eden.",
     "Turn <strong>left (west)</strong> onto <strong>Nordic Valley Way</strong> and follow it to <strong>Nordic Valley</strong>."
   ],
@@ -77,9 +81,11 @@
     "Follow <strong>Nordic Valley Way</strong> directly to <strong>Nordic Valley</strong>."
   ],
   "on-i84-wb": [
-    "Head west on <strong>I-80 W</strong> past Echo Canyon to Echo Junction.",
-    "Take <strong>Exit 168</strong> onto <strong>I-84 W</strong> toward Morgan / Ogden.",
-    "Take <strong>Exit 92 (Mountain Green)</strong> and turn <strong>right (north)</strong> onto <strong>SR-167 (Trappers Loop Rd)</strong>.",
+    "Head <strong>west</strong> on <strong>I-80 W</strong> to <strong>exit 96 (W 4300 N)</strong>.",
+    "Take <strong>exit 96</strong> toward <strong>Peterson/Mtn.Green</strong>.",
+    "Turn <strong>right</strong> onto <strong>W 4300 N</strong>.",
+    "Turn <strong>left</strong> onto <strong>W Old Hwy Rd</strong>.",
+    "Turn <strong>right</strong> onto <strong>UT-167 N (Trappers Loop Rd)</strong>.",
     "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>, then continue around Pineview Reservoir onto <strong>SR-158</strong> and <strong>SR-162</strong> toward Liberty.",
     "In Liberty, turn <strong>right (north)</strong> onto <strong>North Fork Rd (4150 E)</strong> to <strong>North Fork Park / Ogden Nordic</strong>."
   ],
