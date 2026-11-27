@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-27T17:40:29.176710+00:00",
+  "updated_utc": "2026-11-27T17:47:14.261598+00:00",
   "udot": {
     "cameras": [
       {
@@ -4670,7 +4670,7 @@
         "name": "I-15 NB @ Milepost 14.02, WAS",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nCEDAR CITY\t35min\nZION PARK\t45min"
+          "TIME TO\nCEDAR CITY\t35min\nZION PARK\t47min"
         ],
         "lat": 37.153049,
         "lon": -113.479415
@@ -5179,7 +5179,7 @@
         "name": "I-15 NB @1100 N / MP 320.42, CVL",
         "roadway": "I-15",
         "messages": [
-          "ANTELOPE DR\nVIA I-15\t25min\nVIA US-89\t11min",
+          "ANTELOPE DR\nVIA I-15\t24min\nVIA US-89\t11min",
           "ANTELOPE DR\n\nVIA SR-177\t15min"
         ],
         "lat": 40.929596,
@@ -5198,7 +5198,7 @@
         "name": "I-15 NB @ Milepost 0.28, STG",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nZION PARK\t57min\nCEDAR CITY\t46min"
+          "TIME TO\nZION PARK\t59min\nCEDAR CITY\t46min"
         ],
         "lat": 37.004178,
         "lon": -113.618146
@@ -6339,7 +6339,7 @@
         "current_period": {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-27T06:00:00-07:00",
+          "startTime": "2026-11-27T08:00:00-07:00",
           "endTime": "2026-11-27T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 35,
@@ -6815,12 +6815,12 @@
     "powder_mountain": {
       "temp_f": 34,
       "condition": null,
-      "wind": "14.49",
+      "wind": "14.56",
       "source_url": "https://powdermountain.com/api/header-conditions"
     },
     "nordic_valley": {
       "temp_f": 40,
-      "condition": null,
+      "condition": "Cloudy",
       "wind": "W 7 MPH",
       "source_url": "https://www.nordicvalley.ski/wp-content/uploads/sites/10/m-json/weather.json"
     },
@@ -6834,11 +6834,11 @@
   "pws": {
     "KUTLIBER14": {
       "station_id": "KUTLIBER14",
-      "temp_f": 38,
-      "wind_mph": 1,
-      "wind_gust_mph": 4,
-      "humidity": 69,
-      "obs_time_local": "2026-11-27 10:40:24"
+      "temp_f": 41,
+      "wind_mph": 0,
+      "wind_gust_mph": 0,
+      "humidity": 67,
+      "obs_time_local": "2026-11-27 10:47:04"
     }
   }
 }
