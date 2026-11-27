@@ -463,8 +463,15 @@ def fetch_snowbasin_direct_report():
         m = re.search(pattern, text, re.IGNORECASE)
         return m.group(1).strip() if m else None
 
-    lifts = grab(r"(\d+\s*/\s*\d+)\s*Lifts\s*Open")
-    runs = grab(r"Trails\s*Open\s*(\d+\s*/\s*\d+)") or grab(r"(\d+\s*/\s*\d+)\s*Trails\s*Open")
+    lifts = (
+        grab(r"(\d+\s*/\s*[1-9]\d*)\s*Lifts\s*Open")
+        or grab(r"Lifts\s*Open\s*(\d+\s*/\s*[1-9]\d*)")
+        or grab(r"(\d+\s*/\s*13)\b")
+    )
+    runs = (
+        grab(r"(\d+\s*/\s*[1-9]\d*)\s*Trails\s*Open")
+        or grab(r"Trails\s*Open\s*(\d+\s*/\s*[1-9]\d*)")
+    )
     snow_24h = grab(r"24\s*hours?\s*(\d+)\s*[\"”']") or grab(r"(\d+)\s*[\"”']\s*24\s*hours?")
     base_depth = grab(r"Base\s*(\d+)\s*[\"”']") or grab(r"(\d+)\s*[\"”']\s*Base")
     season_total = grab(r"Season\s*(\d+)\s*[\"”']") or grab(r"(\d+)\s*[\"”']\s*Season")
@@ -507,14 +514,10 @@ def get_resort_snow_reports():
                 return m.group(1).strip() if m else None
 
             lifts = (
-                    grab(r"(\d+\s*/\s*[1-9]\d*)\s*Lifts\s*Open")
-                    or grab(r"Lifts\s*Open\s*(\d+\s*/\s*[1-9]\d*)")
-                    or grab(r"(\d+\s*/\s*13)\b")
-                )
-                runs = (
-                    grab(r"(\d+\s*/\s*[1-9]\d*)\s*Trails\s*Open")
-                    or grab(r"Trails\s*Open\s*(\d+\s*/\s*[1-9]\d*)")
-                )
+                grab(r"(\d+\s*/\s*\d+)\s+lifts\s*open")
+                or grab(r"lifts\s*open\s*[:\-]?\s*(\d+\s*/\s*\d+)")
+                or grab(r"(\d+\s*of\s*\d+)\s+lifts")
+            )
 
             projected_opening = None
             try:
