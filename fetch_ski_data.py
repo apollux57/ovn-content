@@ -75,6 +75,7 @@ RESORT_WEATHER_URLS = {
     "powder_mountain": "https://powdermountain.com/api/header-conditions",
     "nordic_valley": "https://www.nordicvalley.ski/wp-content/uploads/sites/10/m-json/weather.json",
 }
+POWDER_MOUNTAIN_CONDITIONS_URL = "https://powdermountain.com/conditions"
 
 SNOWBASIN_REPORT_URL = "https://www.snowbasin.com/the-mountain/mountain-report/"
 SNOWBASIN_CONDITIONS_RE = re.compile(
@@ -495,7 +496,78 @@ def fetch_snowbasin_direct_report():
         "source_url": SNOWBASIN_REPORT_URL,
     }
 
+def fetch_powder_mountain_direct_report():
+    """Scrape snow totals, lifts, and opening date directly from powdermountain.com/conditions."""
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/131.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    try:
+        resp = SESSION.get(POWDER_MOUNTAIN_CONDITIONS_URL, headers=headers, timeout=20)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"Powder Mountain direct report error: {e}")
+        return None
 
+    cleaned = re.sub(
+        r"<(script|style|noscript)\b[^>]*>.*?</\1>",
+        " ",
+        resp.text,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    text = html.unescape(re.sub(r"<[^>]+>", " ", cleaned))
+    text = re.sub(r"\s+", " ", text).strip()
+
+    def grab(pattern):
+        m = re.search(pattern, text, re.IGNORECASE)
+        return m.group(1).strip() if m else None
+
+    lifts = (
+        grab(r"Lifts\s*Open[\s:\-]*(\d+\s*/\s*\d+)")
+        or grab(r"(\d+\s*/\s*\d+)\s*Lifts\s*Open")
+    )
+    runs = (
+        grab(r"Trails\s*Open[\s:\-]*(\d+\s*/\s*\d+)")
+        or grab(r"(\d+\s*/\s*\d+)\s*Trails\s*Open")
+    )
+    snow_24h = (
+        grab(r"24\s*HR\s*Snowfall[\s:\-]*(\d+)\s*[\"”']?")
+        or grab(r"24\s*hours?\s*Snowfall[\s:\-]*(\d+)\s*[\"”']?")
+        or grab(r"Past\s*24\s*HR[\s:\-]*(\d+)\s*[\"”']?")
+    )
+    base_depth = grab(r"Base\s*Depth[\s:\-]*(\d+)\s*[\"”']?")
+    season_total = (
+        grab(r"(?:Current\s*Season|Season\s*Total|Year\s*to\s*Date)[\s:\-]*(\d+)\s*[\"”']?")
+    )
+    projected_opening = (
+        grab(r"(?:opens\s+to\s+everyone\s+for\s+the\s+season\s+on|opening\s+day\s*(?:is|:)?)\s*([A-Za-z]+\s+\d{1,2}(?:,\s*\d{4})?)", text)
+        or grab(r"On\s+([A-Za-z]+\s+\d{1,2},\s*\d{4}),\s*Powder\s+Mountain\s+opens", text)
+    )
+
+    if not any([lifts, base_depth, season_total, projected_opening]):
+        return None
+
+    status = "Closed"
+    if lifts:
+        open_count = int(lifts.split("/")[0].strip())
+        status = "Open" if open_count > 0 else "Closed"
+    elif re.search(r"\b(now\s+open|open\s+daily)\b", text, re.IGNORECASE):
+        status = "Open"
+
+    return {
+        "status": status,
+        "projected_opening": projected_opening,
+        "snow_24h": snow_24h,
+        "base_depth": base_depth,
+        "season_total": season_total,
+        "lifts_open": lifts.replace(" ", "") if lifts else None,
+        "runs_open": runs.replace(" ", "") if runs else None,
+        "source_url": POWDER_MOUNTAIN_CONDITIONS_URL,
+    }
 def get_resort_snow_reports():
     """Fetch snow stats, open/closed status, and projected opening dates from Ski Utah, then apply direct & manual overrides."""
     reports = {}
@@ -557,6 +629,10 @@ def get_resort_snow_reports():
     if sb_direct:
         reports["snowbasin"] = sb_direct
 
+    pm_direct = fetch_powder_mountain_direct_report()
+    if pm_direct:
+        reports["powder_mountain"] = pm_direct
+    
     # Apply manual overrides for all 4 resorts
     for key, overrides in MANUAL_RESORT_OVERRIDES.items():
         base = reports.get(key, {
