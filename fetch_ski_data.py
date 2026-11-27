@@ -79,6 +79,7 @@ RESORT_WEATHER_URLS = {
 SNOWBASIN_REPORT_URL = "https://www.snowbasin.com/the-mountain/mountain-report/"
 POWDER_MOUNTAIN_CONDITIONS_URL = "https://powdermountain.com/conditions"
 NORDIC_VALLEY_REPORT_URL = "https://www.nordicvalley.ski/nordic-valley-weather-conditions-webcams/"
+OGDEN_NORDIC_REPORT_URL = "https://nordic-pulse.com/ski-areas/US/UT/Ogden-Nordic"
 
 SNOWBASIN_CONDITIONS_RE = re.compile(
     r"\b("
@@ -652,6 +653,64 @@ def fetch_nordic_valley_direct_report():
     }
 
 
+def fetch_ogden_nordic_direct_report():
+    """Scrape trail status and groomed count/km directly from Ogden Nordic's Nordic Pulse page."""
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/131.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    try:
+        resp = SESSION.get(OGDEN_NORDIC_REPORT_URL, headers=headers, timeout=20)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"Ogden Nordic direct report error: {e}")
+        return None
+
+    cleaned = re.sub(
+        r"<(script|style|noscript)\b[^>]*>.*?</\1>",
+        " ",
+        resp.text,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    text = html.unescape(re.sub(r"<[^>]+>", " ", cleaned))
+    text = re.sub(r"\s+", " ", text).strip()
+
+    # Count trail lengths (e.g. "0.87km", "1.9km") and status keywords on the Nordic Pulse report
+    km_matches = [float(x) for x in re.findall(r"\b(\d+(?:\.\d+)?)\s*km\b", text, re.IGNORECASE)]
+    groomed_hits = len(re.findall(r"\b(?:Groomed|Trackset|Packed)\b", text, re.IGNORECASE))
+    open_hits = len(re.findall(r"\bOpen\b", text, re.IGNORECASE))
+    closed_all = bool(re.search(r"\b(?:Closed\s+for\s+the\s+season|All\s+trails\s+closed)\b", text, re.IGNORECASE))
+
+    # Extract groomed km if Nordic Pulse displays a summary like "18.5 km Groomed"
+    km_summary = re.search(r"(\d+(?:\.\d+)?)\s*km\s*(?:Groomed|Open)", text, re.IGNORECASE)
+
+    if not km_matches and not km_summary and not groomed_hits:
+        return None
+
+    status = "Open" if (not closed_all and (km_summary or open_hits > 0 or groomed_hits > 2)) else "Closed"
+
+    trails_display = None
+    if km_summary:
+        trails_display = f"{km_summary.group(1)} km"
+    elif status == "Open" and km_matches:
+        trails_display = f"{round(sum(km_matches), 1)} km"
+
+    return {
+        "status": status,
+        "projected_opening": None,
+        "snow_24h": None,
+        "base_depth": None,
+        "season_total": None,
+        "lifts_open": trails_display,  # Displays under "Trails" for ogden_nordic
+        "runs_open": None,
+        "source_url": OGDEN_NORDIC_REPORT_URL,
+    }
+
+
 def get_resort_snow_reports():
     """Fetch snow stats, open/closed status, and projected opening dates from Ski Utah, then apply direct & manual overrides."""
     reports = {}
@@ -720,6 +779,10 @@ def get_resort_snow_reports():
     nv_direct = fetch_nordic_valley_direct_report()
     if nv_direct:
         reports["nordic_valley"] = nv_direct
+
+    on_direct = fetch_ogden_nordic_direct_report()
+    if on_direct:
+        reports["ogden_nordic"] = on_direct
 
     # Apply manual overrides for all 4 resorts
     for key, overrides in MANUAL_RESORT_OVERRIDES.items():
