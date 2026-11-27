@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-27T17:07:58.599482+00:00",
+  "updated_utc": "2026-11-27T17:11:53.300282+00:00",
   "udot": {
     "cameras": [
       {
@@ -4670,7 +4670,7 @@
         "name": "I-15 NB @ Milepost 14.02, WAS",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nCEDAR CITY\t35min\nZION PARK\t43min"
+          "TIME TO\nCEDAR CITY\t35min\nZION PARK\t46min"
         ],
         "lat": 37.153049,
         "lon": -113.479415
@@ -4816,7 +4816,7 @@
         "name": "I-15 NB @ 3200 N / MP 350.3, PLV",
         "roadway": "I-15",
         "messages": [
-          "TIME TO\nTREMONTON\t23min\nBRIGHAM CY\t10min"
+          "TIME TO\nTREMONTON\t24min\nBRIGHAM CY\t10min"
         ],
         "lat": 41.320558,
         "lon": -112.026625
@@ -6203,7 +6203,7 @@
         "current_period": {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-27T07:00:00-07:00",
+          "startTime": "2026-11-27T10:00:00-07:00",
           "endTime": "2026-11-27T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 40,
@@ -6339,7 +6339,7 @@
         "current_period": {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-27T08:00:00-07:00",
+          "startTime": "2026-11-27T10:00:00-07:00",
           "endTime": "2026-11-27T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 35,
@@ -6837,8 +6837,8 @@
       "temp_f": 38,
       "wind_mph": 0,
       "wind_gust_mph": 0,
-      "humidity": 71,
-      "obs_time_local": "2026-11-27 10:07:53"
+      "humidity": 69,
+      "obs_time_local": "2026-11-27 10:11:43"
     }
   }
 }
