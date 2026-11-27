@@ -48,7 +48,7 @@
   ],
   "pm-12th": [
     "Exit <strong>I-15 at Exit 344 (12th St)</strong> and head <strong>east</strong> on <strong>SR-39 (12th St)</strong>.",
-    "Continue east through <strong>Ogden Canyon (SR-39)</strong> past Pineview Dam.",
+    "Continue east through <strong>Ogden Canyon (SR-39)</strong> to Pineview Dam.",
     "At the north end of the dam, turn <strong>left (north)</strong> onto <strong>SR-158</strong> toward Eden.",
     "Continue straight at the 4-way stop and climb <strong>SR-158 (Powder Mountain Rd)</strong> to <strong>Powder Mountain</strong>."
   ],
@@ -87,16 +87,18 @@
   ],
   "nv-12th": [
     "Exit <strong>I-15 at Exit 344 (12th St)</strong> and head <strong>east</strong> on <strong>SR-39 (12th St)</strong>.",
-    "Continue east through <strong>Ogden Canyon (SR-39)</strong> past Pineview Dam.",
-    "Turn <strong>left (north)</strong> onto <strong>SR-158</strong> toward Eden, then <strong>left (west)</strong> onto <strong>SR-162</strong>.",
-    "Turn <strong>left (west)</strong> onto <strong>Nordic Valley Way</strong> and follow it to <strong>Nordic Valley</strong>."
+    "Continue east through <strong>Ogden Canyon (SR-39)</strong> to Pineview Dam.",
+    "At the north end of the dam, turn <strong>left (north)</strong> onto <strong>SR-158</strong> toward Eden.",
+    "At the <strong>4-way</strong> stop turn <strong>left</strong> onto <strong>SR-162</strong>.",
+    "Turn <strong>left</strong> onto <strong>E 3300 N</strong>.",
+    "Turn <strong>left</strong> at <strong>N 3850 E</strong> and and follow it to <strong>Nordic Valley</strong>."
   ],
   "nv-2700n": [
     "Exit <strong>I-15</strong> at <strong>Exit 349</strong> for <strong>UT-134/2700 N</strong> and head <strong>east</strong> through North Ogden (<strong>W 2700 N</strong> becomes <strong>E 2600 N</strong>).",
     "Turn <strong>left (north)</strong> onto <strong>N 1050 E</strong>, then <strong>right (east)</strong> onto <strong>E 3100 N</strong> which becomes <strong>North Ogden Divide Rd</strong>.",
     "Climb over <strong>North Ogden Divide</strong> and descend into Liberty / Eden (<strong>North Ogden Divide Rd</strong> becomes <strong>E 4100 N</strong>).",
-    "Continue down <strong>SR-162</strong> toward Eden and turn <strong>right (west)</strong> onto <strong>Nordic Valley Way</strong>.",
-    "Follow <strong>Nordic Valley Way</strong> directly to <strong>Nordic Valley</strong>."
+    "Continue down <strong>SR-162</strong> toward Eden and take a <strong>slight right (west)</strong> onto <strong>N 3500 E</strong>.",
+    "Climb <strong>N 3500 E</strong> directly to <strong>Nordic Valley</strong>."
   ],
   "on-i84-wb": [
     "Head <strong>west</strong> on <strong>I-80 W</strong> to <strong>exit 96 (W 4300 N)</strong>.",
@@ -130,9 +132,13 @@
   ],
   "on-12th": [
     "Exit <strong>I-15 at Exit 344 (12th St)</strong> and head <strong>east</strong> on <strong>SR-39 (12th St)</strong>.",
-    "Continue east through <strong>Ogden Canyon (SR-39)</strong> past Pineview Dam.",
-    "Turn <strong>left (north)</strong> onto <strong>SR-158</strong> toward Eden, then <strong>left (west)</strong> onto <strong>SR-162</strong> toward Liberty.",
-    "In Liberty, turn <strong>right (north)</strong> onto <strong>North Fork Rd (4150 E)</strong> to <strong>North Fork Park / Ogden Nordic</strong>."
+    "Continue east through <strong>Ogden Canyon (SR-39)</strong> to Pineview Dam.",
+    "At the north end of the dam, turn <strong>left (north)</strong> onto <strong>SR-158</strong> toward Eden.",
+    "At the <strong>4-way</strong> stop turn <strong>left</strong> onto <strong>SR-162</strong>.",
+    "At the <strong>3-way stop</strong> turn <strong>left</strong> onto <strong>E 4100 N</strong> then turn <strong>right</strong> onto <strong>N 3300 E</strong>.",
+    "Turn <strong>slight left</strong> onto <strong>North Fork Rd</strong> and follow it to <strong>E 5950 N</strong>.",
+    "Turn <strong>left</strong> onto <strong>E 5950 N</strong>.",
+    "<strong>E 5950 N</strong> turns slightly left and becomes <strong>E 6225 N</strong>, follow it to <strong>North Fork Park / Ogden Nordic</strong>."
   ],
   "on-2700n": [
     "Exit <strong>I-15</strong> at <strong>Exit 349</strong> for <strong>UT-134/2700 N</strong> and head <strong>east</strong> through North Ogden (<strong>W 2700 N</strong> becomes <strong>E 2600 N</strong>).",
