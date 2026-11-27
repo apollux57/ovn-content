@@ -2,15 +2,21 @@ name: Update Ogden Valley Ski Data
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # Runs every 15 min at :07, :22, :37, :52 to avoid GitHub's top-of-hour queue spikes
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: ski-data-update
+  cancel-in-progress: false
+
 jobs:
   fetch-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -34,5 +40,8 @@ jobs:
           git config user.name "OVN Ski Bot"
           git config user.email "actions@github.com"
           git add ovn-ski-data.json
-          git diff --staged --quiet || git commit -m "Update live UDOT & NWS ski data"
-          git push
+          if ! git diff --staged --quiet; then
+            git commit -m "Update live UDOT & NWS ski data"
+            git pull --rebase
+            git push
+          fi
