@@ -92,8 +92,9 @@
     "Turn <strong>left (west)</strong> onto <strong>Nordic Valley Way</strong> and follow it to <strong>Nordic Valley</strong>."
   ],
   "nv-2700n": [
-    "Exit <strong>I-15 at Exit 349 (2700 N)</strong> and head <strong>east</strong> through North Ogden.",
-    "Take <strong>North Ogden Divide Rd</strong> over the pass into Liberty / Eden.",
+    "Exit <strong>I-15</strong> at <strong>Exit 349</strong> for <strong>UT-134/2700 N</strong> and head <strong>east</strong> through North Ogden (<strong>W 2700 N</strong> becomes <strong>E 2600 N</strong>).",
+    "Turn <strong>left (north)</strong> onto <strong>N 1050 E</strong>, then <strong>right (east)</strong> onto <strong>E 3100 N</strong> which becomes <strong>North Ogden Divide Rd</strong>.",
+    "Climb over <strong>North Ogden Divide</strong> and descend into Liberty / Eden (<strong>North Ogden Divide Rd</strong> becomes <strong>E 4100 N</strong>).",
     "Continue down <strong>SR-162</strong> toward Eden and turn <strong>right (west)</strong> onto <strong>Nordic Valley Way</strong>.",
     "Follow <strong>Nordic Valley Way</strong> directly to <strong>Nordic Valley</strong>."
   ],
@@ -134,8 +135,9 @@
     "In Liberty, turn <strong>right (north)</strong> onto <strong>North Fork Rd (4150 E)</strong> to <strong>North Fork Park / Ogden Nordic</strong>."
   ],
   "on-2700n": [
-    "Exit <strong>I-15 at Exit 349 (2700 N)</strong> and head <strong>east</strong> through North Ogden.",
-    "Take <strong>North Ogden Divide Rd</strong> over the pass into <strong>Liberty</strong>.",
+    "Exit <strong>I-15</strong> at <strong>Exit 349</strong> for <strong>UT-134/2700 N</strong> and head <strong>east</strong> through North Ogden (<strong>W 2700 N</strong> becomes <strong>E 2600 N</strong>).",
+    "Turn <strong>left (north)</strong> onto <strong>N 1050 E</strong>, then <strong>right (east)</strong> onto <strong>E 3100 N</strong> which becomes <strong>North Ogden Divide Rd</strong>.",
+    "Climb over <strong>North Ogden Divide</strong> and descend into Liberty / Eden (<strong>North Ogden Divide Rd</strong> becomes <strong>E 4100 N</strong>).",
     "At the bottom of the Divide, turn <strong>left (north)</strong> onto <strong>North Fork Rd (3300 E / 4150 E)</strong>.",
     "Follow <strong>North Fork Rd</strong> north to <strong>North Fork Park / Ogden Nordic</strong>."
   ]
