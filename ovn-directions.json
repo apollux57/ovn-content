@@ -28,8 +28,10 @@
     "Turn <strong>right</strong> onto <strong>W 4300 N</strong>.",
     "Turn <strong>left</strong> onto <strong>W Old Hwy Rd</strong>.",
     "Turn <strong>right</strong> onto <strong>UT-167 N (Trappers Loop Rd)</strong>.",
-    "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>, then continue around Pineview Reservoir onto <strong>SR-158</strong> toward Eden.",
-    "Climb <strong>SR-158 (Powder Mountain Rd)</strong> — AWD/4WD or snow tires recommended — to <strong>Powder Mountain</strong>."
+    "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>.",
+    "Turn <strong>left (west)</strong> on to <strong>SR-39</strong> and continue around Pineview Reservoir to <strong>SR-158</strong>.",
+    "Turn <strong>right</strong> at the dam onto <strong>SR-158</strong> toward Eden.  
+    "Continue straight at the 4-way stop and climb <strong>SR-158 (Powder Mountain Rd)</strong> to <strong>Powder Mountain</strong>."
   ],
   "pm-i15-i84": [
     "Take <strong>I-15 N</strong> to <strong>Exit 340</strong> onto <strong>I-84 E</strong> toward Weber Canyon / Morgan.",
@@ -58,8 +60,12 @@
     "Turn <strong>right</strong> onto <strong>W 4300 N</strong>.",
     "Turn <strong>left</strong> onto <strong>W Old Hwy Rd</strong>.",
     "Turn <strong>right</strong> onto <strong>UT-167 N (Trappers Loop Rd)</strong>.",
-    "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>, then continue around Pineview Reservoir onto <strong>SR-158</strong> and <strong>SR-162</strong> toward Eden.",
-    "Turn <strong>left (west)</strong> onto <strong>Nordic Valley Way</strong> and follow it to <strong>Nordic Valley</strong>."
+    "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>.",
+    "Turn <strong>left (west)</strong> on to <strong>SR-39</strong> and continue around Pineview Reservoir to <strong>SR-158</strong>.",
+    "Turn <strong>right</strong> at the dam onto <strong>SR-158</strong> toward Eden.
+    "At the 4-way stop turn <strong>left</strong> onto <strong>SR-162</strong>.",
+    "Turn <strong>left</strong> onto <strong>E 3300 N</strong>.",
+    "Turn <strong>left</strong> at <strong>N 3850 E</strong> and and follow it to <strong>Nordic Valley</strong>."
   ],
   "nv-i15-i84": [
     "Take <strong>I-15 N</strong> to <strong>Exit 340</strong> onto <strong>I-84 E</strong> toward Weber Canyon / Morgan.",
@@ -86,7 +92,10 @@
     "Turn <strong>right</strong> onto <strong>W 4300 N</strong>.",
     "Turn <strong>left</strong> onto <strong>W Old Hwy Rd</strong>.",
     "Turn <strong>right</strong> onto <strong>UT-167 N (Trappers Loop Rd)</strong>.",
-    "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>, then continue around Pineview Reservoir onto <strong>SR-158</strong> and <strong>SR-162</strong> toward Liberty.",
+    "Follow <strong>SR-167</strong> north to <strong>SR-39</strong>.",
+    "Turn <strong>left (west)</strong> on to <strong>SR-39</strong> and continue around Pineview Reservoir to <strong>SR-158</strong>.",
+    "Turn <strong>right</strong> at the dam onto <strong>SR-158</strong> toward Eden.
+    "At the 4-way stop turn <strong>left</strong> onto <strong>SR-162</strong>.",
     "In Liberty, turn <strong>right (north)</strong> onto <strong>North Fork Rd (4150 E)</strong> to <strong>North Fork Park / Ogden Nordic</strong>."
   ],
   "on-i15-i84": [
