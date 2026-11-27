@@ -632,7 +632,7 @@ def get_resort_current_weather():
             temp_f = _parse_temp(raw_temp)
 
             condition = _find_first_key(data, {
-                "condition", "conditions", "weather", "weather_condition",
+                "current_weather", "day_forecast", "condition", "conditions", "weather", "weather_condition",
                 "weather_text", "weathertext", "current_condition", "currentcondition",
                 "sky", "sky_condition", "sky_text", "short_forecast", "shortforecast",
                 "phrase", "forecast", "description", "summary", "text"
